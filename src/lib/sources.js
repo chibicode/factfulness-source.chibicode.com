@@ -1,8 +1,8 @@
-const process = ({enPage, enTitle}) => ({
-  enPage,
+const process = ({jpPage, enTitle}) => ({
+  jpPage,
   enTitle,
   permalink: [
-    Array.isArray(enPage) ? enPage.join('-') : enPage,
+    Array.isArray(jpPage) ? jpPage.join('-') : jpPage,
     enTitle
       .replace(/\W/g, '-')
       .replace(/-+/g, '-')
@@ -42,7 +42,7 @@ const pagedSources = [
   {jpPage: 13, enPage: 5, enTitle: `Fact Question 13: Climate Change`},
   {jpPage: 14, enPage: 7, enTitle: `Fact questions online`},
   {
-    jpPage: [14, 15, 'Appendix'],
+    jpPage: [14, 15],
     enPage: [7, 8, 'Appendix'],
     enTitle: `Poll results`
   },
@@ -158,47 +158,47 @@ const pagedSources = [
   {jpPage: 84, enPage: 66, enTitle: `Historic child murders`},
   {jpPage: 88, enPage: 70, enTitle: `Educating girls`},
   {jpPage: 93, enPage: 73, enTitle: `Drownings`},
-  {jpPage: 0, enPage: 75, enTitle: `Ebola`},
-  {jpPage: 0, enPage: 76, enTitle: `Lord Krishna's chessboard`},
+  {jpPage: 98, enPage: 75, enTitle: `Ebola`},
+  {jpPage: [98, 99], enPage: 76, enTitle: `Lord Krishna's chessboard`},
   {
-    jpPage: 0,
+    jpPage: 100,
     enPage: 77,
     enTitle: `The world population is not just increasing`
   },
-  {jpPage: 0, enPage: 78, enTitle: `Graph: Future number of children`},
-  {jpPage: 0, enPage: 79, enTitle: `Teacher's conference in Norway`},
-  {jpPage: 0, enPage: 79, enTitle: `Experts at the World Economic Forum`},
-  {jpPage: 0, enPage: 79, enTitle: `The accuracy of UN Population forecasts`},
+  {jpPage: 102, enPage: 78, enTitle: `Graph: Future number of children`},
+  {jpPage: 102, enPage: 79, enTitle: `Teacher's conference in Norway`},
+  {jpPage: 102, enPage: 79, enTitle: `Experts at the World Economic Forum`},
+  {jpPage: 103, enPage: 79, enTitle: `The accuracy of UN Population forecasts`},
   {
-    jpPage: 0,
+    jpPage: 103,
     enPage: 80,
     enTitle: `Historic world population and three big cities`
   },
   {
-    jpPage: 0,
+    jpPage: 103,
     enPage: 80,
     enTitle: `Graph: World population from 8000 BC to today`
   },
   {
-    jpPage: 0,
+    jpPage: 108,
     enPage: 84,
     enTitle: `Graph: Babies per woman from 1800 to today`
   },
-  {jpPage: 0, enPage: 85, enTitle: `Fertility transitions`},
-  {jpPage: 0, enPage: 86, enTitle: `The inevitable fill-up`},
-  {jpPage: 0, enPage: [87, 88], enTitle: `The Old Balance`},
-  {jpPage: 0, enPage: 87, enTitle: `The new balance`},
-  {jpPage: 0, enPage: 90, enTitle: `Graph: Average family size by income`},
-  {jpPage: 0, enPage: 92, enTitle: `Two public health miracles`},
-  {jpPage: 0, enPage: 92, enTitle: `Child survival`},
+  {jpPage: 109, enPage: 85, enTitle: `Fertility transitions`},
+  {jpPage: 110, enPage: 86, enTitle: `The inevitable fill-up`},
+  {jpPage: 112, enPage: [87, 88], enTitle: `The Old Balance`},
+  {jpPage: 112, enPage: 87, enTitle: `The new balance`},
+  {jpPage: 115, enPage: 90, enTitle: `Graph: Average family size by income`},
+  {jpPage: 117, enPage: 92, enTitle: `Two public health miracles`},
+  {jpPage: 117, enPage: 92, enTitle: `Child survival`},
   {
-    jpPage: 0,
+    jpPage: [119, 124],
     enPage: [93, 97],
     enTitle: `Graphs: 14 Straight lines, S-bends, slides, and humps`
   },
-  {jpPage: 0, enPage: 97, enTitle: `E.coli Bacteria`},
-  {jpPage: 0, enPage: [98, 99], enTitle: `CO2 emissions from transportation`},
-  {jpPage: 0, enPage: 99, enTitle: `What part of the line are you seeing?`},
+  {jpPage: 123, enPage: 97, enTitle: `E.coli Bacteria`},
+  {jpPage: 124, enPage: [98, 99], enTitle: `CO2 emissions from transportation`},
+  {jpPage: 126, enPage: 99, enTitle: `What part of the line are you seeing?`},
   {jpPage: 0, enPage: 105, enTitle: `Fear in polls`},
   {jpPage: 0, enPage: 107, enTitle: `Disaster data`},
   {jpPage: 0, enPage: 110, enTitle: `ReliefWeb`},
