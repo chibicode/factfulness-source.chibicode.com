@@ -1,0 +1,4 @@
+# xo can format
+*.js
+# Doesn't work well w/ Japanese https://qiita.com/the_red/items/e121cbb659c52a60bca6
+*.mdx
