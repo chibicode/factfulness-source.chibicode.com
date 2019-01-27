@@ -2,7 +2,7 @@ import React from 'react'
 import NextHead from 'next/head'
 import {titleArray, description} from '../lib/meta'
 
-export const title = titleArray.join()
+export const title = titleArray.join('')
 export const imageUrl =
   'https://factfulness-source.chibicode.com/static/images/og.png'
 
