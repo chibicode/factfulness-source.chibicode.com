@@ -1,4 +1,17 @@
-export const pagedSources = [
+const process = ({enPage, enTitle}) => ({
+  enPage,
+  enTitle,
+  permalink: [
+    Array.isArray(enPage) ? enPage.join('-') : enPage,
+    enTitle
+      .replace(/\W/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/(^-|-$)/g, '')
+      .toLowerCase()
+  ].join('-')
+})
+
+const pagedSources = [
   {enPage: 'ix', enTitle: `Gapminder`},
   {enPage: 1, enTitle: `X-ray`},
   {enPage: 2, enTitle: `Hans's sword swallowing`},
@@ -74,7 +87,7 @@ export const pagedSources = [
   {enPage: 53, enTitle: `Life expectancy and data doubt`},
   {enPage: 53, enTitle: `Fact Question 4: Life Expectancy`},
   {enPage: 54, enTitle: `Historic child mortality`},
-  {enPage: 54, enTitle: -`55. Deaths from starvation in Ethiopia`},
+  {enPage: [54, 55], enTitle: `Deaths from starvation in Ethiopia`},
   {enPage: 55, enTitle: `Graph: Average life expectancy from 1800 to today`},
   {enPage: 56, enTitle: `World Food Programme.`},
   {enPage: 56, enTitle: `Swedes living on Level 4`},
@@ -159,14 +172,14 @@ export const pagedSources = [
     enPage: 122,
     enTitle: `"How Many Deaths Make a Natural Disaster Newsworthy?"`
   },
-  {enPage: 124, enTitle: -`125. Nacala child mortality calculation`},
+  {enPage: [124, 125], enTitle: `Nacala child mortality calculation`},
   {enPage: 127, enTitle: `Saving lives`},
   {enPage: 128, enTitle: `Wrong proportions: Perils of Perception`},
   {enPage: 129, enTitle: `Educated mothers and child survival`},
   {enPage: 130, enTitle: `4.2 million`},
   {enPage: 131, enTitle: `Bach Mai Hospital`},
   {enPage: 132, enTitle: `The Vietnam War`},
-  {enPage: 132, enTitle: -`133. Bears and axes`},
+  {enPage: [132, 133], enTitle: `Bears and axes`},
   {enPage: 133, enTitle: `The Spanish flu`},
   {enPage: 133, enTitle: `Tuberculosis (TB) and the swine flu`},
   {enPage: 134, enTitle: `Energy sources`},
@@ -201,7 +214,7 @@ export const pagedSources = [
   {enPage: 172, enTitle: `IMF forecasts`},
   {enPage: 172, enTitle: `80 years ago in Sweden and US`},
   {enPage: 174, enTitle: `Fertility in Iran`},
-  {enPage: 175, enTitle: -`176. Graphs: Three groups based on religion`},
+  {enPage: [175, 176], enTitle: `Graphs: Three groups based on religion`},
   {enPage: 175, enTitle: `Classifying major religions`},
   {enPage: 175, enTitle: `High income means low fertility`},
   {enPage: 176, enTitle: `Swedish values and RFSU`},
@@ -267,4 +280,4 @@ export const pagedSources = [
   {enPage: 252, enTitle: `Speling miskates`},
   {enPage: 252, enTitle: `Constructive news`},
   {enPage: 253, enTitle: `Local ignorance and data`}
-]
+].map(process)
