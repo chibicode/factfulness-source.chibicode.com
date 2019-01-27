@@ -1,9 +1,12 @@
 import React from 'react'
 import Card from './card'
+import Intro from './intro'
 
 const Main = () => (
   <>
-    <Card>Test</Card>
+    <Card>
+      <Intro />
+    </Card>
   </>
 )
 
