@@ -61,7 +61,7 @@ const Head = () => (
     />
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-32987822-21"
+      src="https://www.googletagmanager.com/gtag/js?id=UA-32987822-22"
     />
     <script
       dangerouslySetInnerHTML={{
@@ -69,7 +69,7 @@ const Head = () => (
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-32987822-21', { 'anonymize_ip': true });`
+        gtag('config', 'UA-32987822-22', { 'anonymize_ip': true });`
       }}
     />
   </NextHead>
