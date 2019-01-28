@@ -11,7 +11,7 @@ const process = ({jpPage, enTitle}) => ({
   ].join('-')
 })
 
-const pagedSources = [
+export const pagedSources = [
   {jpPage: 2, enPage: 'ix', enTitle: `Gapminder`},
   {jpPage: [6, 7], enPage: 1, enTitle: `X-ray`},
   {jpPage: 8, enPage: 2, enTitle: `Hans's sword swallowing`},
@@ -318,51 +318,59 @@ const pagedSources = [
   {jpPage: 256, enPage: [198, 199], enTitle: `Chart: US Health Spendings`},
   {jpPage: 258, enPage: 201, enTitle: `Democracy Is Not the Single Solution`},
   {jpPage: 258, enPage: 201, enTitle: `Democracy and progress`},
-  {jpPage: 0, enPage: 204, enTitle: `Neglected diseases`},
-  {jpPage: 0, enPage: 207, enTitle: `Systems thinking`},
-  {jpPage: 0, enPage: 208, enTitle: `How UNICEF gets the lowest prices`},
-  {jpPage: 0, enPage: 210, enTitle: `Gapminder's Ignorance Project`},
-  {jpPage: 0, enPage: 211, enTitle: `Poll results`},
-  {jpPage: 0, enPage: 212, enTitle: `Why refugees don't fly`},
-  {jpPage: 0, enPage: 214, enTitle: `CO2 emissions by income`},
-  {jpPage: 0, enPage: 216, enTitle: `Syphilis`},
-  {jpPage: 0, enPage: 216, enTitle: `1 billion people and Mao`},
-  {jpPage: 0, enPage: 216, enTitle: `Falling birth rates and powerful leaders`},
+  {jpPage: 262, enPage: 204, enTitle: `Neglected diseases`},
+  {jpPage: 265, enPage: 207, enTitle: `Systems thinking`},
+  {jpPage: 266, enPage: 208, enTitle: `How UNICEF gets the lowest prices`},
+  {jpPage: 268, enPage: 210, enTitle: `Gapminder's Ignorance Project`},
+  {jpPage: 269, enPage: 211, enTitle: `Poll results`},
+  {jpPage: [271, 272], enPage: 212, enTitle: `Why refugees don't fly`},
+  {jpPage: 274, enPage: 214, enTitle: `CO2 emissions by income`},
+  {jpPage: 275, enPage: 216, enTitle: `Syphilis`},
+  {jpPage: 276, enPage: 216, enTitle: `1 billion people and Mao`},
   {
-    jpPage: 0,
+    jpPage: 276,
+    enPage: 216,
+    enTitle: `Falling birth rates and powerful leaders`
+  },
+  {
+    jpPage: 276,
     enPage: 217,
     enTitle: `Family planning: Contraceptive usage by Catholics`
   },
-  {jpPage: 0, enPage: 218, enTitle: `Access to safe abortion`},
-  {jpPage: 0, enPage: 218, enTitle: `Institutions`},
+  {jpPage: 278, enPage: 218, enTitle: `Access to safe abortion`},
+  {jpPage: 279, enPage: 218, enTitle: `Institutions`},
   {
-    jpPage: 0,
+    jpPage: 279,
     enPage: 219,
     enTitle: `The governmental employees who saved the world from Ebola`
   },
-  {jpPage: 0, enPage: 219, enTitle: `Thank you, industrial Revolution`},
-  {jpPage: 0, enPage: 227, enTitle: `The Urgency Instinct in other books`},
-  {jpPage: 0, enPage: 225, enTitle: `Roadblocks`},
-  {jpPage: 0, enPage: 223, enTitle: `Konzo`},
-  {jpPage: 0, enPage: 227, enTitle: `Now or never`},
-  {jpPage: 0, enPage: 232, enTitle: `The melting ice cap`},
-  {jpPage: 0, enPage: 232, enTitle: `Fresh numbers for GDP and CO2`},
-  {jpPage: 0, enPage: 233, enTitle: `Climate refugees`},
-  {jpPage: 0, enPage: 233, enTitle: `Climate reductionism and catastrophizing`},
-  {jpPage: 0, enPage: 234, enTitle: `Ebola`},
-  {jpPage: 0, enPage: 237, enTitle: `The risk of global pandemic`},
-  {jpPage: 0, enPage: 238, enTitle: `The risk of financial collapse`},
-  {jpPage: 0, enPage: 239, enTitle: `The risk of World War III`},
+  {jpPage: 280, enPage: 219, enTitle: `Thank you, industrial Revolution`},
+  {jpPage: 286, enPage: 223, enTitle: `Konzo`},
+  {jpPage: 288, enPage: 225, enTitle: `Roadblocks`},
+  {jpPage: 290, enPage: 227, enTitle: `The Urgency Instinct in other books`},
+  {jpPage: 290, enPage: 227, enTitle: `Now or never`},
+  {jpPage: 295, enPage: 232, enTitle: `The melting ice cap`},
+  {jpPage: 296, enPage: 232, enTitle: `Fresh numbers for GDP and CO2`},
+  {jpPage: 297, enPage: 233, enTitle: `Climate refugees`},
   {
-    jpPage: 0,
+    jpPage: 297,
+    enPage: 233,
+    enTitle: `Climate reductionism and catastrophizing`
+  },
+  {jpPage: 298, enPage: 234, enTitle: `Ebola`},
+  {jpPage: 302, enPage: 237, enTitle: `The risk of global pandemic`},
+  {jpPage: 303, enPage: 238, enTitle: `The risk of financial collapse`},
+  {jpPage: 303, enPage: 239, enTitle: `The risk of World War III`},
+  {
+    jpPage: 304,
     enPage: 239,
     enTitle: `The risk of climate change and plundering of natural resources`
   },
-  {jpPage: 0, enPage: 240, enTitle: `The risk of extreme poverty`},
-  {jpPage: 0, enPage: 247, enTitle: `Teachers`},
-  {jpPage: 0, enPage: 250, enTitle: `Business`},
-  {jpPage: 0, enPage: 251, enTitle: `Diversified economies`},
-  {jpPage: 0, enPage: 252, enTitle: `Speling miskates`},
-  {jpPage: 0, enPage: 252, enTitle: `Constructive news`},
-  {jpPage: 0, enPage: 253, enTitle: `Local ignorance and data`}
+  {jpPage: [305, 307], enPage: 240, enTitle: `The risk of extreme poverty`},
+  {jpPage: 315, enPage: 247, enTitle: `Teachers`},
+  {jpPage: 318, enPage: 250, enTitle: `Business`},
+  {jpPage: 319, enPage: 251, enTitle: `Diversified economies`},
+  {jpPage: 320, enPage: 252, enTitle: `Speling miskates`},
+  {jpPage: 321, enPage: 252, enTitle: `Constructive news`},
+  {jpPage: 322, enPage: 253, enTitle: `Local ignorance and data`}
 ].map(process)
