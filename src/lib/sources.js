@@ -2,7 +2,7 @@ const process = ({jpPage, enTitle}) => ({
   jpPage,
   enTitle,
   permalink: [
-    Array.isArray(jpPage) ? jpPage.join('-') : jpPage,
+    Array.isArray(jpPage) ? jpPage[0] : jpPage,
     enTitle
       .replace(/\W/g, '-')
       .replace(/-+/g, '-')
