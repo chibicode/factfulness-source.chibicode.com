@@ -29,7 +29,11 @@ const Intro = () => (
     >
       {description}
     </p>
-    <p>
+    <p
+      css={css`
+        text-align: center;
+      `}
+    >
       <Book />
     </p>
   </>

@@ -1,6 +1,7 @@
-const process = ({jpPage, enTitle}) => ({
+const process = ({jpPage, enTitle, ...rest}) => ({
   jpPage,
   enTitle,
+  ...rest,
   permalink: [
     Array.isArray(jpPage) ? jpPage[0] : jpPage,
     enTitle
