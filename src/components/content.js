@@ -1,16 +1,9 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import dynamic from 'next/dynamic'
+import contentBundles from '../lib/content-bundles'
 
 const Content = ({permalink, jpTitle}) => {
-  const Component = dynamic(
-    () =>
-      import(`../contents/${permalink}.mdx`).catch(() => {
-        console.error(`Missing '${permalink}'`)
-        return <p>…</p>
-      }),
-    {loading: () => <p>…</p>}
-  )
+  const Component = contentBundles[permalink]
   return (
     <>
       <h3

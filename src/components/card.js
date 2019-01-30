@@ -9,6 +9,7 @@ const Card = ({children, isLast}) => (
         background: #fff;
         border-radius: 0.5rem;
         padding: 1.25rem 0.875rem 0.25rem;
+        word-wrap: break-word;
         ${ns} {
           padding: 2rem 2rem 1rem;
         }
