@@ -1,6 +1,7 @@
 import React from 'react'
 import NextHead from 'next/head'
 import {titleArray, description} from '../lib/meta'
+import {GA_TRACKING_ID} from '../lib/gtag'
 
 export const title = titleArray.join('')
 export const imageUrl =
@@ -61,7 +62,7 @@ const Head = () => (
     />
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-32987822-22"
+      src="https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}"
     />
     <script
       dangerouslySetInnerHTML={{
@@ -69,7 +70,7 @@ const Head = () => (
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-32987822-22', { 'anonymize_ip': true });`
+        gtag('config', '${GA_TRACKING_ID}', { 'anonymize_ip': true });`
       }}
     />
   </NextHead>
