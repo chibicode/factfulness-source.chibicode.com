@@ -9,9 +9,9 @@ const Main = () => (
     <Card>
       <Intro />
     </Card>
-    {pagedSources.map(({permalink, jpTitle}) => (
+    {pagedSources.map(({jpPage, permalink, jpTitle}) => (
       <Card key={permalink}>
-        <Content permalink={permalink} jpTitle={jpTitle} />
+        <Content permalink={permalink} jpTitle={jpTitle} jpPage={jpPage} />
       </Card>
     ))}
   </>

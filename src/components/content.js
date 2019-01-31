@@ -2,7 +2,7 @@
 import {jsx, css} from '@emotion/core'
 import contentBundles from '../lib/content-bundles'
 
-const Content = ({permalink, jpTitle}) => {
+const Content = ({jpPage, permalink, jpTitle}) => {
   const Component = contentBundles[permalink]
   return (
     <>
@@ -13,7 +13,14 @@ const Content = ({permalink, jpTitle}) => {
           margin-bottom: 1rem;
         `}
       >
-        {jpTitle}
+        <span
+          css={css`
+            color: #777;
+          `}
+        >
+          P{Array.isArray(jpPage) ? jpPage.join('〜') : jpPage}
+        </span>
+        . {jpTitle}
       </h3>
       <Component />
     </>
