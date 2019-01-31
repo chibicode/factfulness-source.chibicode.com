@@ -21,7 +21,6 @@ export const pagedSources = [
     jpTitle: `ギャップマインダー財団`
   },
   {
-    inBook: true,
     chapter: 'intro',
     jpPage: [6, 7],
     enPage: 1,
