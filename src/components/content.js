@@ -9,7 +9,7 @@ const Content = ({jpPage, permalink, jpTitle, inBook}) => {
       <h3
         css={css`
           margin-top: 0;
-          font-size: 1rem;
+          font-size: 1.25rem;
           margin-bottom: 1rem;
         `}
       >
