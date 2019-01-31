@@ -31,7 +31,7 @@ const GlobalStyles = () => (
         }
 
         html {
-          font-size: 18px;
+          font-size: 16px;
           color: #333;
           line-height: 1.8;
           background-color: ${colors.green100};
@@ -54,7 +54,7 @@ const GlobalStyles = () => (
 
         ${ns} {
           html {
-            font-size: 21px;
+            font-size: 18px;
           }
         }
 

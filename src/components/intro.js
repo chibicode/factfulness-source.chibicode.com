@@ -9,7 +9,7 @@ const Intro = () => (
       css={css`
         margin: 0 0 0.5rem;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         line-height: 1.35;
         letter-spacing: -1.5px;
       `}
