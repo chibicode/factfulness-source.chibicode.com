@@ -2,7 +2,7 @@
 import {jsx, css} from '@emotion/core'
 import contentBundles from '../lib/content-bundles'
 
-const Content = ({jpPage, permalink, jpTitle}) => {
+const Content = ({jpPage, permalink, jpTitle, inBook}) => {
   const Component = contentBundles[permalink]
   return (
     <>
@@ -22,6 +22,7 @@ const Content = ({jpPage, permalink, jpTitle}) => {
         </span>
         . {jpTitle}
       </h3>
+      <p>{inBook ? 'ある' : ''}</p>
       <Component />
     </>
   )

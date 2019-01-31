@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
+import colors from '../lib/colors'
 import {ns} from './global-styles'
 
 const Card = ({children, isLast}) => (
@@ -26,7 +27,7 @@ const Card = ({children, isLast}) => (
             height: 1.75rem;
           }
           margin: 0 auto;
-          background: #a7b5c7;
+          background: ${colors.green200};
         `}
       />
     )}

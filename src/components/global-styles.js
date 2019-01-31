@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import {jsx, css, Global} from '@emotion/core'
 import 'modern-normalize'
+import colors from '../lib/colors'
 
 const NOT_SMALL = '48em'
 export const ns = `@media screen and (min-width: ${NOT_SMALL})`
@@ -33,7 +34,7 @@ const GlobalStyles = () => (
           font-size: 18px;
           color: #333;
           line-height: 1.8;
-          background-color: #c9dbf0;
+          background-color: ${colors.green100};
         }
 
         button {

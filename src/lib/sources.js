@@ -14,7 +14,6 @@ const process = ({jpPage, enTitle, ...rest}) => ({
 
 export const pagedSources = [
   {
-    inBook: false,
     chapter: 'authors-note',
     jpPage: 2,
     enPage: 'ix',
@@ -22,23 +21,21 @@ export const pagedSources = [
     jpTitle: `ギャップマインダー財団`
   },
   {
-    inBook: false,
+    inBook: true,
     chapter: 'intro',
     jpPage: [6, 7],
     enPage: 1,
     enTitle: `X-ray`,
-    jpTitle: `X-ray`
+    jpTitle: `レントゲン`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 8,
     enPage: 2,
     enTitle: `Hans's sword swallowing`,
-    jpTitle: `Hans's sword swallowing`
+    jpTitle: `ハンスの剣飲みの芸`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 9,
     enPage: 3,
@@ -46,7 +43,6 @@ export const pagedSources = [
     jpTitle: `Fact question 1: Girls in school in low-income countries`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 9,
     enPage: 3,
@@ -54,7 +50,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 2: Where the Majority Lives`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 9,
     enPage: 3,
@@ -62,7 +57,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 3: Extreme Poverty`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 10,
     enPage: 3,
@@ -70,7 +64,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 4: Life Expectancy`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 10,
     enPage: 4,
@@ -78,7 +71,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 5: Future Number of Children`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 10,
     enPage: 4,
@@ -86,7 +78,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 6: Why is the Population Increasing?`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 11,
     enPage: 4,
@@ -94,7 +85,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 7: Natural Disasters`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 11,
     enPage: 4,
@@ -102,7 +92,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 8: Where People Live`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 11,
     enPage: 4,
@@ -110,7 +99,6 @@ export const pagedSources = [
     jpTitle: `Fact question 9: Vaccination`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 12,
     enPage: 5,
@@ -118,7 +106,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 10: Women's Education`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 12,
     enPage: 5,
@@ -126,7 +113,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 11: Endangered Species`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 12,
     enPage: 5,
@@ -134,7 +120,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 12: Electricity`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 13,
     enPage: 5,
@@ -142,7 +127,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 13: Climate Change`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 14,
     enPage: 7,
@@ -150,7 +134,6 @@ export const pagedSources = [
     jpTitle: `Fact questions online`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: [14, 15],
     enPage: [7, 8, 'Appendix'],
@@ -158,7 +141,6 @@ export const pagedSources = [
     jpTitle: `Poll results`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 15,
     enPage: [7, 8],
@@ -166,7 +148,6 @@ export const pagedSources = [
     jpTitle: `Vaccination`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 15,
     enPage: 8,
@@ -174,7 +155,6 @@ export const pagedSources = [
     jpTitle: `Public awareness of climate change`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 17,
     enPage: 10,
@@ -182,7 +162,6 @@ export const pagedSources = [
     jpTitle: `Hans testing students`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: [19, 20],
     enPage: 12,
@@ -190,7 +169,6 @@ export const pagedSources = [
     jpTitle: `World Economic Forum lecture`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 21,
     enPage: 13,
@@ -198,7 +176,6 @@ export const pagedSources = [
     jpTitle: `The Ten Instincts in Cognitive Science`
   },
   {
-    inBook: false,
     chapter: 'intro',
     jpPage: 22,
     enPage: 14,
@@ -206,7 +183,6 @@ export const pagedSources = [
     jpTitle: `Cognitive biases`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 28,
     enPage: 19,
@@ -214,7 +190,6 @@ export const pagedSources = [
     jpTitle: `Child mortality in 1995 and 2017`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 30,
     enPage: 21,
@@ -222,7 +197,6 @@ export const pagedSources = [
     jpTitle: `Improvements in Sweden and Saudi Arabia`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 35,
     enPage: 25,
@@ -230,7 +204,6 @@ export const pagedSources = [
     jpTitle: `Graph: The world in 1965`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 37,
     enPage: 26,
@@ -238,7 +211,6 @@ export const pagedSources = [
     jpTitle: `Graph: The world in 2017`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: [38, 39],
     enPage: 28,
@@ -246,7 +218,6 @@ export const pagedSources = [
     jpTitle: `Danish TV interview`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 40,
     enPage: 29,
@@ -254,7 +225,6 @@ export const pagedSources = [
     jpTitle: `Primary school completion rate`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 41,
     enPage: 30,
@@ -262,7 +232,6 @@ export const pagedSources = [
     jpTitle: `Polls: Imagining the worst`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 42,
     enPage: 31,
@@ -270,7 +239,6 @@ export const pagedSources = [
     jpTitle: `How many live in low-income countries?`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 42,
     enPage: 32,
@@ -278,7 +246,6 @@ export const pagedSources = [
     jpTitle: `Where 75% of humanity lives`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 45,
     enPage: 32,
@@ -286,7 +253,6 @@ export const pagedSources = [
     jpTitle: `Graph: Four income levels`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 45,
     enPage: 33,
@@ -294,7 +260,6 @@ export const pagedSources = [
     jpTitle: `Doubling scales`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 46,
     enPage: 34,
@@ -302,7 +267,6 @@ export const pagedSources = [
     jpTitle: `People on Level 1`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 46,
     enPage: 34,
@@ -310,7 +274,6 @@ export const pagedSources = [
     jpTitle: `Average family size on Level 1`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 46,
     enPage: 34,
@@ -318,7 +281,6 @@ export const pagedSources = [
     jpTitle: `Children working in the household`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 46,
     enPage: 34,
@@ -326,7 +288,6 @@ export const pagedSources = [
     jpTitle: `Air pollution`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 47,
     enPage: 35,
@@ -334,7 +295,6 @@ export const pagedSources = [
     jpTitle: `Cost of illness on Level 2`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 47,
     enPage: 35,
@@ -342,7 +302,6 @@ export const pagedSources = [
     jpTitle: `Work in a garment factory`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 47,
     enPage: 36,
@@ -350,7 +309,6 @@ export const pagedSources = [
     jpTitle: `Fridges and food on Level 2`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 48,
     enPage: 36,
@@ -358,7 +316,6 @@ export const pagedSources = [
     jpTitle: `Traffic accidents on Level 3`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 49,
     enPage: 37,
@@ -366,7 +323,6 @@ export const pagedSources = [
     jpTitle: `Education on Level 4`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 49,
     enPage: 37,
@@ -374,7 +330,6 @@ export const pagedSources = [
     jpTitle: `Travel and vacation on Level 4`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 49,
     enPage: 37,
@@ -382,7 +337,6 @@ export const pagedSources = [
     jpTitle: `Books on Level 4`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 50,
     enPage: 38,
@@ -390,7 +344,6 @@ export const pagedSources = [
     jpTitle: `Historic poverty rate`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 50,
     enPage: 38,
@@ -398,7 +351,6 @@ export const pagedSources = [
     jpTitle: `Incomes in Western Europe and the US in the 1950s`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 50,
     enPage: 38,
@@ -406,7 +358,6 @@ export const pagedSources = [
     jpTitle: `Outdated terminology and the World Bank`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 50,
     enPage: 38,
@@ -414,7 +365,6 @@ export const pagedSources = [
     jpTitle: `"Developing countries" in other organizations`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 52,
     enPage: 40,
@@ -422,7 +372,6 @@ export const pagedSources = [
     jpTitle: `Overlapping spreads`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: [52, 53],
     enPage: [40, 41],
@@ -430,7 +379,6 @@ export const pagedSources = [
     jpTitle: `Math scores`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: [52, 53],
     enPage: 41,
@@ -438,7 +386,6 @@ export const pagedSources = [
     jpTitle: `Graphs: Incomes in Mexico & US`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 54,
     enPage: 42,
@@ -446,7 +393,6 @@ export const pagedSources = [
     jpTitle: `In apartheid South Africa`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: [55, 56],
     enPage: 43,
@@ -454,7 +400,6 @@ export const pagedSources = [
     jpTitle: `Brazilian income inequality`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 57,
     enPage: 44,
@@ -462,7 +407,6 @@ export const pagedSources = [
     jpTitle: `Poverty and extreme poverty`
   },
   {
-    inBook: false,
     chapter: 1,
     jpPage: 58,
     enPage: 45,
@@ -470,7 +414,6 @@ export const pagedSources = [
     jpTitle: `Levels of poverty`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 62,
     enPage: 48,
@@ -478,7 +421,6 @@ export const pagedSources = [
     jpTitle: `Living conditions in 1950s Sweden`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 63,
     enPage: 49,
@@ -486,7 +428,6 @@ export const pagedSources = [
     jpTitle: `Terrorism on the rise`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 63,
     enPage: 49,
@@ -494,7 +435,6 @@ export const pagedSources = [
     jpTitle: `The State of World Fisheries`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 63,
     enPage: 49,
@@ -502,7 +442,6 @@ export const pagedSources = [
     jpTitle: `Sea levels`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 64,
     enPage: 50,
@@ -510,7 +449,6 @@ export const pagedSources = [
     jpTitle: `Graph: Better, worse, or about the same?`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 64,
     enPage: 50,
@@ -518,7 +456,6 @@ export const pagedSources = [
     jpTitle: `When to trust the data`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 67,
     enPage: 52,
@@ -526,7 +463,6 @@ export const pagedSources = [
     jpTitle: `19th century living conditions`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 67,
     enPage: 53,
@@ -534,7 +470,6 @@ export const pagedSources = [
     jpTitle: `Dip in extreme poverty: China, India and Latin America`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 68,
     enPage: 52,
@@ -542,7 +477,6 @@ export const pagedSources = [
     jpTitle: `Graph: Extreme poverty rate`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 69,
     enPage: 53,
@@ -550,7 +484,6 @@ export const pagedSources = [
     jpTitle: `Life expectancy and data doubt`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 69,
     enPage: 53,
@@ -558,7 +491,6 @@ export const pagedSources = [
     jpTitle: `Fact Question 4: Life Expectancy`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 69,
     enPage: 54,
@@ -566,7 +498,6 @@ export const pagedSources = [
     jpTitle: `Historic child mortality`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 70,
     enPage: [54, 55],
@@ -574,7 +505,6 @@ export const pagedSources = [
     jpTitle: `Deaths from starvation in Ethiopia`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 71,
     enPage: 55,
@@ -582,7 +512,6 @@ export const pagedSources = [
     jpTitle: `Graph: Average life expectancy from 1800 to today`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 72,
     enPage: 56,
@@ -590,7 +519,6 @@ export const pagedSources = [
     jpTitle: `World Food Programme.`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 72,
     enPage: 56,
@@ -598,7 +526,6 @@ export const pagedSources = [
     jpTitle: `Swedes living on Level 4`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 73,
     enPage: 75,
@@ -606,7 +533,6 @@ export const pagedSources = [
     jpTitle: `Graph: Catching up with Sweden`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 74,
     enPage: 58,
@@ -614,7 +540,6 @@ export const pagedSources = [
     jpTitle: `Not uncommon for children to drown`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 75,
     enPage: 58,
@@ -622,7 +547,6 @@ export const pagedSources = [
     jpTitle: `Citizens of Lesotho`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 75,
     enPage: 58,
@@ -630,7 +554,6 @@ export const pagedSources = [
     jpTitle: `Life expectancy in Lesotho and uncertainty of data`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 75,
     enPage: 58,
@@ -638,7 +561,6 @@ export const pagedSources = [
     jpTitle: `Literacy in Sweden and India`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 76,
     enPage: 59,
@@ -646,7 +568,6 @@ export const pagedSources = [
     jpTitle: `Vaccination on Level 1`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 78,
     enPage: 60,
@@ -654,7 +575,6 @@ export const pagedSources = [
     jpTitle: `Graph: Legal slavery`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 78,
     enPage: 60,
@@ -662,7 +582,6 @@ export const pagedSources = [
     jpTitle: `Graph: Oil spills`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 78,
     enPage: 60,
@@ -670,7 +589,6 @@ export const pagedSources = [
     jpTitle: `Graph: Child mortality`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 78,
     enPage: 60,
@@ -678,7 +596,6 @@ export const pagedSources = [
     jpTitle: `Graph: Death penalty`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 78,
     enPage: 60,
@@ -686,7 +603,6 @@ export const pagedSources = [
     jpTitle: `Graph: Leaded gasoline`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 79,
     enPage: 61,
@@ -694,7 +610,6 @@ export const pagedSources = [
     jpTitle: `Graph: Child labor`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 79,
     enPage: 61,
@@ -702,7 +617,6 @@ export const pagedSources = [
     jpTitle: `Graph: Deaths from disaster`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 79,
     enPage: 61,
@@ -710,7 +624,6 @@ export const pagedSources = [
     jpTitle: `Graph: Nuclear arms`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 79,
     enPage: 61,
@@ -718,7 +631,6 @@ export const pagedSources = [
     jpTitle: `Graph: Smallpox`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 79,
     enPage: 61,
@@ -726,7 +638,6 @@ export const pagedSources = [
     jpTitle: `Graph: Ozone depletion`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -734,7 +645,6 @@ export const pagedSources = [
     jpTitle: `Graph: New movies`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -742,7 +652,6 @@ export const pagedSources = [
     jpTitle: `Graph: Protected nature`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -750,7 +659,6 @@ export const pagedSources = [
     jpTitle: `Graph: Women's right to vote`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -758,7 +666,6 @@ export const pagedSources = [
     jpTitle: `Graph: New music`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -766,7 +673,6 @@ export const pagedSources = [
     jpTitle: `Graph: Science`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -774,7 +680,6 @@ export const pagedSources = [
     jpTitle: `Graph: Harvest`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -782,7 +687,6 @@ export const pagedSources = [
     jpTitle: `Graph: Democracy`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 80,
     enPage: 62,
@@ -790,7 +694,6 @@ export const pagedSources = [
     jpTitle: `Graph: Literacy`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 81,
     enPage: 63,
@@ -798,7 +701,6 @@ export const pagedSources = [
     jpTitle: `Graph: Child cancer survival`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 81,
     enPage: 63,
@@ -806,7 +708,6 @@ export const pagedSources = [
     jpTitle: `Graph: Girls in school`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 81,
     enPage: 63,
@@ -814,7 +715,6 @@ export const pagedSources = [
     jpTitle: `Graph: Monitored species`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 81,
     enPage: 63,
@@ -822,7 +722,6 @@ export const pagedSources = [
     jpTitle: `Graph: Electricity coverage`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 81,
     enPage: 63,
@@ -830,7 +729,6 @@ export const pagedSources = [
     jpTitle: `Graph: Mobile phones`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 81,
     enPage: 63,
@@ -838,7 +736,6 @@ export const pagedSources = [
     jpTitle: `Graph: Internet`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 81,
     enPage: 63,
@@ -846,7 +743,6 @@ export const pagedSources = [
     jpTitle: `Graph: Immunization`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 82,
     enPage: 64,
@@ -854,7 +750,6 @@ export const pagedSources = [
     jpTitle: `Graph: Guitars per capita`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 84,
     enPage: 66,
@@ -862,7 +757,6 @@ export const pagedSources = [
     jpTitle: `Causes of death in human history`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 84,
     enPage: 66,
@@ -870,7 +764,6 @@ export const pagedSources = [
     jpTitle: `Ancient graveyards and burial sites`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 84,
     enPage: 66,
@@ -878,7 +771,6 @@ export const pagedSources = [
     jpTitle: `Historic child murders`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 88,
     enPage: 70,
@@ -886,7 +778,6 @@ export const pagedSources = [
     jpTitle: `Educating girls`
   },
   {
-    inBook: false,
     chapter: 2,
     jpPage: 93,
     enPage: 73,
@@ -894,7 +785,6 @@ export const pagedSources = [
     jpTitle: `Drownings`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 98,
     enPage: 75,
@@ -902,7 +792,6 @@ export const pagedSources = [
     jpTitle: `Ebola`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: [98, 99],
     enPage: 76,
@@ -910,7 +799,6 @@ export const pagedSources = [
     jpTitle: `Lord Krishna's chessboard`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 100,
     enPage: 77,
@@ -918,7 +806,6 @@ export const pagedSources = [
     jpTitle: `The world population is not just increasing`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 102,
     enPage: 78,
@@ -926,7 +813,6 @@ export const pagedSources = [
     jpTitle: `Graph: Future number of children`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 102,
     enPage: 79,
@@ -934,7 +820,6 @@ export const pagedSources = [
     jpTitle: `Teacher's conference in Norway`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 102,
     enPage: 79,
@@ -942,7 +827,6 @@ export const pagedSources = [
     jpTitle: `Experts at the World Economic Forum`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 103,
     enPage: 79,
@@ -950,7 +834,6 @@ export const pagedSources = [
     jpTitle: `The accuracy of UN Population forecasts`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 103,
     enPage: 80,
@@ -958,7 +841,6 @@ export const pagedSources = [
     jpTitle: `Historic world population and three big cities`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 103,
     enPage: 80,
@@ -966,7 +848,6 @@ export const pagedSources = [
     jpTitle: `Graph: World population from 8000 BC to today`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 108,
     enPage: 84,
@@ -974,7 +855,6 @@ export const pagedSources = [
     jpTitle: `Graph: Babies per woman from 1800 to today`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 109,
     enPage: 85,
@@ -982,7 +862,6 @@ export const pagedSources = [
     jpTitle: `Fertility transitions`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 110,
     enPage: 86,
@@ -990,7 +869,6 @@ export const pagedSources = [
     jpTitle: `The inevitable fill-up`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 112,
     enPage: [87, 88],
@@ -998,7 +876,6 @@ export const pagedSources = [
     jpTitle: `The Old Balance`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 112,
     enPage: 87,
@@ -1006,7 +883,6 @@ export const pagedSources = [
     jpTitle: `The new balance`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 115,
     enPage: 90,
@@ -1014,7 +890,6 @@ export const pagedSources = [
     jpTitle: `Graph: Average family size by income`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 117,
     enPage: 92,
@@ -1022,7 +897,6 @@ export const pagedSources = [
     jpTitle: `Two public health miracles`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 117,
     enPage: 92,
@@ -1030,7 +904,6 @@ export const pagedSources = [
     jpTitle: `Child survival`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: [119, 124],
     enPage: [93, 97],
@@ -1038,7 +911,6 @@ export const pagedSources = [
     jpTitle: `Graphs: 14 Straight lines, S-bends, slides, and humps`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 123,
     enPage: 97,
@@ -1046,7 +918,6 @@ export const pagedSources = [
     jpTitle: `E.coli Bacteria`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 124,
     enPage: [98, 99],
@@ -1054,7 +925,6 @@ export const pagedSources = [
     jpTitle: `CO2 emissions from transportation`
   },
   {
-    inBook: false,
     chapter: 3,
     jpPage: 126,
     enPage: 99,
@@ -1062,7 +932,6 @@ export const pagedSources = [
     jpTitle: `What part of the line are you seeing?`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 134,
     enPage: 105,
@@ -1070,7 +939,6 @@ export const pagedSources = [
     jpTitle: `Fear in polls`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 138,
     enPage: 107,
@@ -1078,7 +946,6 @@ export const pagedSources = [
     jpTitle: `Disaster data`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 141,
     enPage: 110,
@@ -1086,7 +953,6 @@ export const pagedSources = [
     jpTitle: `ReliefWeb`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 143,
     enPage: 111,
@@ -1094,7 +960,6 @@ export const pagedSources = [
     jpTitle: `Child deaths from diarrhea`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 144,
     enPage: 112,
@@ -1102,7 +967,6 @@ export const pagedSources = [
     jpTitle: `Plane accidents`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 146,
     enPage: 113,
@@ -1110,7 +974,6 @@ export const pagedSources = [
     jpTitle: `Deaths in wars`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 146,
     enPage: 114,
@@ -1118,7 +981,6 @@ export const pagedSources = [
     jpTitle: `Graph: Battle deaths`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 148,
     enPage: 114,
@@ -1126,7 +988,6 @@ export const pagedSources = [
     jpTitle: `Fukushima`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: [148, 149],
     enPage: 114,
@@ -1134,7 +995,6 @@ export const pagedSources = [
     jpTitle: `Chernobyl`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 149,
     enPage: 115,
@@ -1142,7 +1002,6 @@ export const pagedSources = [
     jpTitle: `DDT`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 150,
     enPage: 116,
@@ -1150,7 +1009,6 @@ export const pagedSources = [
     jpTitle: `Chemophobia`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 150,
     enPage: 116,
@@ -1158,7 +1016,6 @@ export const pagedSources = [
     jpTitle: `Refusing vaccination`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 150,
     enPage: 116,
@@ -1166,7 +1023,6 @@ export const pagedSources = [
     jpTitle: `The environmental movement`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 153,
     enPage: 118,
@@ -1174,7 +1030,6 @@ export const pagedSources = [
     jpTitle: `Terrorism`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 157,
     enPage: 121,
@@ -1182,7 +1037,6 @@ export const pagedSources = [
     jpTitle: `Alcohol deaths`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 158,
     enPage: 122,
@@ -1190,7 +1044,6 @@ export const pagedSources = [
     jpTitle: `Risks of dying`
   },
   {
-    inBook: false,
     chapter: 4,
     jpPage: 158,
     enPage: 122,
@@ -1198,7 +1051,6 @@ export const pagedSources = [
     jpTitle: `"How Many Deaths Make a Natural Disaster Newsworthy?"`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 162,
     enPage: [124, 125],
@@ -1206,7 +1058,6 @@ export const pagedSources = [
     jpTitle: `Nacala child mortality calculation`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 166,
     enPage: 127,
@@ -1214,7 +1065,6 @@ export const pagedSources = [
     jpTitle: `Saving lives`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: [167, 168],
     enPage: 128,
@@ -1222,7 +1072,6 @@ export const pagedSources = [
     jpTitle: `Wrong proportions: Perils of Perception`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 168,
     enPage: 129,
@@ -1230,7 +1079,6 @@ export const pagedSources = [
     jpTitle: `Educated mothers and child survival`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 169,
     enPage: 130,
@@ -1238,7 +1086,6 @@ export const pagedSources = [
     jpTitle: `4.2 million`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 171,
     enPage: 131,
@@ -1246,7 +1093,6 @@ export const pagedSources = [
     jpTitle: `Bach Mai Hospital`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 172,
     enPage: 132,
@@ -1254,7 +1100,6 @@ export const pagedSources = [
     jpTitle: `The Vietnam War`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 173,
     enPage: [132, 133],
@@ -1262,7 +1107,6 @@ export const pagedSources = [
     jpTitle: `Bears and axes`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 174,
     enPage: 133,
@@ -1270,7 +1114,6 @@ export const pagedSources = [
     jpTitle: `The Spanish flu`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 174,
     enPage: 133,
@@ -1278,7 +1121,6 @@ export const pagedSources = [
     jpTitle: `Tuberculosis (TB) and the swine flu`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: [175, 176],
     enPage: 134,
@@ -1286,7 +1128,6 @@ export const pagedSources = [
     jpTitle: `Energy sources`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 178,
     enPage: 136,
@@ -1294,7 +1135,6 @@ export const pagedSources = [
     jpTitle: `The world's PIN Code`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 179,
     enPage: 138,
@@ -1302,7 +1142,6 @@ export const pagedSources = [
     jpTitle: `Graphs: West and Rest`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 179,
     enPage: 138,
@@ -1310,7 +1149,6 @@ export const pagedSources = [
     jpTitle: `Future consumers`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: [180, 181],
     enPage: 139,
@@ -1318,7 +1156,6 @@ export const pagedSources = [
     jpTitle: `Child mortality rate`
   },
   {
-    inBook: false,
     chapter: 5,
     jpPage: 182,
     enPage: 139,
@@ -1326,7 +1163,6 @@ export const pagedSources = [
     jpTitle: `CO2 per capita`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 196,
     enPage: 151,
@@ -1334,7 +1170,6 @@ export const pagedSources = [
     jpTitle: `The cost of diabetes`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 203,
     enPage: 155,
@@ -1342,7 +1177,6 @@ export const pagedSources = [
     jpTitle: `Comparing stoves`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 205,
     enPage: 159,
@@ -1350,7 +1184,6 @@ export const pagedSources = [
     jpTitle: `Graph: Differences within Africa`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 206,
     enPage: 160,
@@ -1358,7 +1191,6 @@ export const pagedSources = [
     jpTitle: `Contraceptives in Sweden`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 206,
     enPage: 160,
@@ -1366,7 +1198,6 @@ export const pagedSources = [
     jpTitle: `Family planning: Needs met and unmet needs`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 207,
     enPage: 160,
@@ -1374,7 +1205,6 @@ export const pagedSources = [
     jpTitle: `Everything is made from chemicals`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 208,
     enPage: 161,
@@ -1382,7 +1212,6 @@ export const pagedSources = [
     jpTitle: `The Salhi family on Dollar Street`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 210,
     enPage: 163,
@@ -1390,7 +1219,6 @@ export const pagedSources = [
     jpTitle: `The recovery position`
   },
   {
-    inBook: false,
     chapter: 6,
     jpPage: 211,
     enPage: 163,
@@ -1398,7 +1226,6 @@ export const pagedSources = [
     jpTitle: `Hong Kong report on SIDS`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 219,
     enPage: 169,
@@ -1406,7 +1233,6 @@ export const pagedSources = [
     jpTitle: `The sense of superiority`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 220,
     enPage: 170,
@@ -1414,7 +1240,6 @@ export const pagedSources = [
     jpTitle: `World Health Chart over 200 years`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 220,
     enPage: 170,
@@ -1422,7 +1247,6 @@ export const pagedSources = [
     jpTitle: `Life expectancy 1970--2016: North Africa and Western Europe`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 221,
     enPage: 170,
@@ -1430,7 +1254,6 @@ export const pagedSources = [
     jpTitle: `Speed of improvement over the decades`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 221,
     enPage: 170,
@@ -1438,7 +1261,6 @@ export const pagedSources = [
     jpTitle: `Child mortality rates for Sub-Saharan Africa and Sweden`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 221,
     enPage: 171,
@@ -1446,7 +1268,6 @@ export const pagedSources = [
     jpTitle: `Progress in China, Bangladesh, and Vietnam`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 221,
     enPage: 171,
@@ -1454,7 +1275,6 @@ export const pagedSources = [
     jpTitle: `80 years ago in Sweden and US`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 222,
     enPage: 171,
@@ -1462,7 +1282,6 @@ export const pagedSources = [
     jpTitle: `Mozambique and India`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 222,
     enPage: 171,
@@ -1470,7 +1289,6 @@ export const pagedSources = [
     jpTitle: `Estimates of extreme poverty`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 223,
     enPage: 172,
@@ -1478,7 +1296,6 @@ export const pagedSources = [
     jpTitle: `IMF forecasts`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 224,
     enPage: 174,
@@ -1486,7 +1303,6 @@ export const pagedSources = [
     jpTitle: `Fertility in Iran`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 226,
     enPage: 175,
@@ -1494,7 +1310,6 @@ export const pagedSources = [
     jpTitle: `Classifying major religions`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 227,
     enPage: [175, 176],
@@ -1502,7 +1317,6 @@ export const pagedSources = [
     jpTitle: `Graphs: Three groups based on religion`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 226,
     enPage: 175,
@@ -1510,7 +1324,6 @@ export const pagedSources = [
     jpTitle: `High income means low fertility`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: [227, 228],
     enPage: 176,
@@ -1518,7 +1331,6 @@ export const pagedSources = [
     jpTitle: `Swedish values and RFSU`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 228,
     enPage: 177,
@@ -1526,7 +1338,6 @@ export const pagedSources = [
     jpTitle: `Asian values`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: [229, 230],
     enPage: 177,
@@ -1534,7 +1345,6 @@ export const pagedSources = [
     jpTitle: `Asian University for Women in Bangladesh`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 231,
     enPage: 179,
@@ -1542,7 +1352,6 @@ export const pagedSources = [
     jpTitle: `Nature reserves`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 231,
     enPage: 179,
@@ -1550,7 +1359,6 @@ export const pagedSources = [
     jpTitle: `Sri Lanka's earliest protected forest`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 232,
     enPage: 180,
@@ -1558,7 +1366,6 @@ export const pagedSources = [
     jpTitle: `Outdated chimpanzee questions`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 233,
     enPage: 180,
@@ -1566,7 +1373,6 @@ export const pagedSources = [
     jpTitle: `Swedish school system`
   },
   {
-    inBook: false,
     chapter: 7,
     jpPage: 233,
     enPage: 181,
@@ -1574,7 +1380,6 @@ export const pagedSources = [
     jpTitle: `Attitudes toward same-sex marriage`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 242,
     enPage: 187,
@@ -1582,7 +1387,6 @@ export const pagedSources = [
     jpTitle: `Expert forecasts: The single perspective in other books`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 243,
     enPage: 188,
@@ -1590,7 +1394,6 @@ export const pagedSources = [
     jpTitle: `Lindau Nobel laureate meeting`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 243,
     enPage: 188,
@@ -1598,7 +1401,6 @@ export const pagedSources = [
     jpTitle: `Poll results from groups of professionals`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 245,
     enPage: 189,
@@ -1606,7 +1408,6 @@ export const pagedSources = [
     jpTitle: `Plundered natural resources`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 248,
     enPage: 192,
@@ -1614,7 +1415,6 @@ export const pagedSources = [
     jpTitle: `Eradicating one disease at a time`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 249,
     enPage: 193,
@@ -1622,7 +1422,6 @@ export const pagedSources = [
     jpTitle: `Falling profits of Big Pharma`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 249,
     enPage: 193,
@@ -1630,7 +1429,6 @@ export const pagedSources = [
     jpTitle: `Education needs electricity`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 254,
     enPage: 197,
@@ -1638,7 +1436,6 @@ export const pagedSources = [
     jpTitle: `Chart: Cuba`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 256,
     enPage: [198, 199],
@@ -1646,7 +1443,6 @@ export const pagedSources = [
     jpTitle: `Chart: US Health Spendings`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 258,
     enPage: 201,
@@ -1654,7 +1450,6 @@ export const pagedSources = [
     jpTitle: `Democracy Is Not the Single Solution`
   },
   {
-    inBook: false,
     chapter: 8,
     jpPage: 258,
     enPage: 201,
@@ -1662,7 +1457,6 @@ export const pagedSources = [
     jpTitle: `Democracy and progress`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 262,
     enPage: 204,
@@ -1670,7 +1464,6 @@ export const pagedSources = [
     jpTitle: `Neglected diseases`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 265,
     enPage: 207,
@@ -1678,7 +1471,6 @@ export const pagedSources = [
     jpTitle: `Systems thinking`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 266,
     enPage: 208,
@@ -1686,7 +1478,6 @@ export const pagedSources = [
     jpTitle: `How UNICEF gets the lowest prices`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 268,
     enPage: 210,
@@ -1694,7 +1485,6 @@ export const pagedSources = [
     jpTitle: `Gapminder's Ignorance Project`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 269,
     enPage: 211,
@@ -1702,7 +1492,6 @@ export const pagedSources = [
     jpTitle: `Poll results`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: [271, 272],
     enPage: 212,
@@ -1710,7 +1499,6 @@ export const pagedSources = [
     jpTitle: `Why refugees don't fly`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 274,
     enPage: 214,
@@ -1718,7 +1506,6 @@ export const pagedSources = [
     jpTitle: `CO2 emissions by income`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 275,
     enPage: 216,
@@ -1726,7 +1513,6 @@ export const pagedSources = [
     jpTitle: `Syphilis`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 276,
     enPage: 216,
@@ -1734,7 +1520,6 @@ export const pagedSources = [
     jpTitle: `1 billion people and Mao`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 276,
     enPage: 216,
@@ -1742,7 +1527,6 @@ export const pagedSources = [
     jpTitle: `Falling birth rates and powerful leaders`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 276,
     enPage: 217,
@@ -1750,7 +1534,6 @@ export const pagedSources = [
     jpTitle: `Family planning: Contraceptive usage by Catholics`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 278,
     enPage: 218,
@@ -1758,7 +1541,6 @@ export const pagedSources = [
     jpTitle: `Access to safe abortion`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 279,
     enPage: 218,
@@ -1766,7 +1548,6 @@ export const pagedSources = [
     jpTitle: `Institutions`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 279,
     enPage: 219,
@@ -1774,7 +1555,6 @@ export const pagedSources = [
     jpTitle: `The governmental employees who saved the world from Ebola`
   },
   {
-    inBook: false,
     chapter: 9,
     jpPage: 280,
     enPage: 219,
@@ -1782,7 +1562,6 @@ export const pagedSources = [
     jpTitle: `Thank you, industrial Revolution`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 286,
     enPage: 223,
@@ -1790,7 +1569,6 @@ export const pagedSources = [
     jpTitle: `Konzo`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 288,
     enPage: 225,
@@ -1798,7 +1576,6 @@ export const pagedSources = [
     jpTitle: `Roadblocks`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 290,
     enPage: 227,
@@ -1806,7 +1583,6 @@ export const pagedSources = [
     jpTitle: `The Urgency Instinct in other books`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 290,
     enPage: 227,
@@ -1814,7 +1590,6 @@ export const pagedSources = [
     jpTitle: `Now or never`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 295,
     enPage: 232,
@@ -1822,7 +1597,6 @@ export const pagedSources = [
     jpTitle: `The melting ice cap`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 296,
     enPage: 232,
@@ -1830,7 +1604,6 @@ export const pagedSources = [
     jpTitle: `Fresh numbers for GDP and CO2`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 297,
     enPage: 233,
@@ -1838,7 +1611,6 @@ export const pagedSources = [
     jpTitle: `Climate refugees`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 297,
     enPage: 233,
@@ -1846,7 +1618,6 @@ export const pagedSources = [
     jpTitle: `Climate reductionism and catastrophizing`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 298,
     enPage: 234,
@@ -1854,7 +1625,6 @@ export const pagedSources = [
     jpTitle: `Ebola`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 302,
     enPage: 237,
@@ -1862,7 +1632,6 @@ export const pagedSources = [
     jpTitle: `The risk of global pandemic`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 303,
     enPage: 238,
@@ -1870,7 +1639,6 @@ export const pagedSources = [
     jpTitle: `The risk of financial collapse`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 303,
     enPage: 239,
@@ -1878,7 +1646,6 @@ export const pagedSources = [
     jpTitle: `The risk of World War III`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: 304,
     enPage: 239,
@@ -1886,7 +1653,6 @@ export const pagedSources = [
     jpTitle: `The risk of climate change and plundering of natural resources`
   },
   {
-    inBook: false,
     chapter: 10,
     jpPage: [305, 307],
     enPage: 240,
@@ -1894,7 +1660,6 @@ export const pagedSources = [
     jpTitle: `The risk of extreme poverty`
   },
   {
-    inBook: false,
     chapter: 11,
     jpPage: 315,
     enPage: 247,
@@ -1902,7 +1667,6 @@ export const pagedSources = [
     jpTitle: `Teachers`
   },
   {
-    inBook: false,
     chapter: 11,
     jpPage: 318,
     enPage: 250,
@@ -1910,7 +1674,6 @@ export const pagedSources = [
     jpTitle: `Business`
   },
   {
-    inBook: false,
     chapter: 11,
     jpPage: 319,
     enPage: 251,
@@ -1918,7 +1681,6 @@ export const pagedSources = [
     jpTitle: `Diversified economies`
   },
   {
-    inBook: false,
     chapter: 11,
     jpPage: 320,
     enPage: 252,
@@ -1926,7 +1688,6 @@ export const pagedSources = [
     jpTitle: `Speling miskates`
   },
   {
-    inBook: false,
     chapter: 11,
     jpPage: 321,
     enPage: 252,
@@ -1934,7 +1695,6 @@ export const pagedSources = [
     jpTitle: `Constructive news`
   },
   {
-    inBook: false,
     chapter: 11,
     jpPage: 322,
     enPage: 253,
