@@ -1,3 +1,5 @@
+import problems from './problems'
+
 const process = ({jpPage, enTitle, ...rest}) => ({
   jpPage,
   enTitle,
@@ -39,91 +41,91 @@ export const pagedSources = [
     jpPage: 9,
     enPage: 3,
     enTitle: `Fact question 1: Girls in school in low-income countries`,
-    jpTitle: `Fact question 1: Girls in school in low-income countries`
+    jpTitle: `質問1: ${problems[0].short}`
   },
   {
     chapter: 'intro',
     jpPage: 9,
     enPage: 3,
     enTitle: `Fact Question 2: Where the Majority Lives`,
-    jpTitle: `Fact Question 2: Where the Majority Lives`
+    jpTitle: `質問2: ${problems[1].short}`
   },
   {
     chapter: 'intro',
     jpPage: 9,
     enPage: 3,
     enTitle: `Fact Question 3: Extreme Poverty`,
-    jpTitle: `Fact Question 3: Extreme Poverty`
+    jpTitle: `質問3: ${problems[2].short}`
   },
   {
     chapter: 'intro',
     jpPage: 10,
     enPage: 3,
     enTitle: `Fact Question 4: Life Expectancy`,
-    jpTitle: `Fact Question 4: Life Expectancy`
+    jpTitle: `質問4: ${problems[3].short}`
   },
   {
     chapter: 'intro',
     jpPage: 10,
     enPage: 4,
     enTitle: `Fact Question 5: Future Number of Children`,
-    jpTitle: `Fact Question 5: Future Number of Children`
+    jpTitle: `質問5: ${problems[4].short}`
   },
   {
     chapter: 'intro',
     jpPage: 10,
     enPage: 4,
     enTitle: `Fact Question 6: Why is the Population Increasing?`,
-    jpTitle: `Fact Question 6: Why is the Population Increasing?`
+    jpTitle: `質問6: ${problems[5].short}`
   },
   {
     chapter: 'intro',
     jpPage: 11,
     enPage: 4,
     enTitle: `Fact Question 7: Natural Disasters`,
-    jpTitle: `Fact Question 7: Natural Disasters`
+    jpTitle: `質問7: ${problems[6].short}`
   },
   {
     chapter: 'intro',
     jpPage: 11,
     enPage: 4,
     enTitle: `Fact Question 8: Where People Live`,
-    jpTitle: `Fact Question 8: Where People Live`
+    jpTitle: `質問8: ${problems[7].short}`
   },
   {
     chapter: 'intro',
     jpPage: 11,
     enPage: 4,
     enTitle: `Fact question 9: Vaccination`,
-    jpTitle: `Fact question 9: Vaccination`
+    jpTitle: `質問9: ${problems[8].short}`
   },
   {
     chapter: 'intro',
     jpPage: 12,
     enPage: 5,
     enTitle: `Fact Question 10: Women's Education`,
-    jpTitle: `Fact Question 10: Women's Education`
+    jpTitle: `質問10: ${problems[9].short}`
   },
   {
     chapter: 'intro',
     jpPage: 12,
     enPage: 5,
     enTitle: `Fact Question 11: Endangered Species`,
-    jpTitle: `Fact Question 11: Endangered Species`
+    jpTitle: `質問11: ${problems[10].short}`
   },
   {
     chapter: 'intro',
     jpPage: 12,
     enPage: 5,
     enTitle: `Fact Question 12: Electricity`,
-    jpTitle: `Fact Question 12: Electricity`
+    jpTitle: `質問12: ${problems[11].short}`
   },
   {
     chapter: 'intro',
     jpPage: 13,
     enPage: 5,
     enTitle: `Fact Question 13: Climate Change`,
-    jpTitle: `Fact Question 13: Climate Change`
+    jpTitle: `質問13: ${problems[12].short}`
   },
   {
     chapter: 'intro',
@@ -487,7 +489,7 @@ export const pagedSources = [
     jpPage: 69,
     enPage: 53,
     enTitle: `Fact Question 4: Life Expectancy`,
-    jpTitle: `Fact Question 4: Life Expectancy`
+    jpTitle: `質問4: Life Expectancy`
   },
   {
     chapter: 2,
