@@ -32,7 +32,7 @@ const GlobalStyles = () => (
 
         html {
           font-size: 16px;
-          color: #333;
+          color: ${colors.grey900};
           line-height: 1.8;
           background-color: ${colors.green100};
         }
@@ -67,6 +67,11 @@ const GlobalStyles = () => (
           &:hover {
             background-color: #bbdefb;
           }
+        }
+
+        ul,
+        ol {
+          padding-left: 1.5rem;
         }
       `
     ]}

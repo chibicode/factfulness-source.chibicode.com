@@ -1,5 +1,15 @@
 import FromBook from '../components/from-book'
 import ExternalLink from '../components/external-link.js'
+import BookQuote from '../components/book-quote'
+
+<BookQuote pageNumber={9}>{x => <>
+  <p><strong>質問１</strong> 現在、低所得国に暮らす女子の何割が、初等教育を修了するでしょう？{x}</p>
+  <ul>
+    <li>A 50歳</li>
+    <li>B 60歳</li>
+    <li>C 70歳</li>
+  </ul>
+</>}</BookQuote>
 
 <p><FromBook>正解はC。低所得国の女子の60%は初等教育を受けることができる。厳密には63.2%だが(2015年のデータ。詳しくは<ExternalLink href="http://www.gapm.io/xwb173">World Bank[3]</ExternalLink>を参照)、誇張を避けるため60%に切り捨てた。</FromBook></p>
 

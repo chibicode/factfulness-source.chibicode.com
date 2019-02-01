@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import contentBundles from '../lib/content-bundles'
+import colors from '../lib/colors'
 
 const Content = ({jpPage, permalink, jpTitle, inBook}) => {
   const Component = contentBundles[permalink]
@@ -15,7 +16,7 @@ const Content = ({jpPage, permalink, jpTitle, inBook}) => {
       >
         <span
           css={css`
-            color: #777;
+            color: ${colors.grey500};
           `}
         >
           P{Array.isArray(jpPage) ? jpPage.join('〜') : jpPage}

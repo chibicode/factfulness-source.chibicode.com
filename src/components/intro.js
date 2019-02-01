@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import {titleArray, description} from '../lib/meta'
+import colors from '../lib/colors'
 import Book from './book'
 
 const Intro = () => (
@@ -24,7 +25,7 @@ const Intro = () => (
       css={css`
         text-align: center;
         font-size: 0.825rem;
-        color: #777;
+        color: ${colors.grey500};
       `}
     >
       {description}
