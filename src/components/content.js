@@ -12,6 +12,7 @@ const Content = ({jpPage, permalink, jpTitle, inBook}) => {
           margin-top: 0;
           font-size: 1.25rem;
           margin-bottom: 1rem;
+          line-height: 1.5;
         `}
       >
         <span
