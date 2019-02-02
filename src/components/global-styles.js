@@ -74,6 +74,7 @@ const GlobalStyles = () => (
           padding-left: 1.5rem;
         }
 
+        /* Nested lists in markdown  */
         li > p + ul {
           margin-top: -1rem;
         }
