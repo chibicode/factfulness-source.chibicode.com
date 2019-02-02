@@ -73,6 +73,10 @@ const GlobalStyles = () => (
         ol {
           padding-left: 1.5rem;
         }
+
+        li > p + ul {
+          margin-top: -1rem;
+        }
       `
     ]}
   />
