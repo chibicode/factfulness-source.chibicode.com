@@ -2,14 +2,16 @@
 import {jsx, css} from '@emotion/core'
 import colors from '../lib/colors'
 
-const Addition = ({children, ...props}) => (
+const Addition = ({children, hideParens, ...props}) => (
   <span
     css={css`
       background: ${colors.pink50};
     `}
     {...props}
   >
-    (訳注: {children})
+    {!hideParens && '(訳注: '}
+    {children}
+    {!hideParens && ')'}
   </span>
 )
 
