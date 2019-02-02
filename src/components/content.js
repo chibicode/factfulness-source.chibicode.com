@@ -66,9 +66,9 @@ const Content = ({jpPage, permalink, jpTitle, isModal}) => {
             color: ${colors.grey500};
           `}
         >
-          P{Array.isArray(jpPage) ? jpPage.join('〜') : jpPage}
-        </span>
-        . {jpTitle}
+          P{Array.isArray(jpPage) ? jpPage.join('〜') : jpPage}.
+        </span>{' '}
+        {jpTitle}
       </h3>
       <Component />
       {isModal ? (
