@@ -2,8 +2,9 @@
 import {jsx, css} from '@emotion/core'
 import {ns} from './global-styles'
 
-const Container = ({children}) => (
+const Container = ({children, ...props}) => (
   <main
+    {...props}
     css={css`
       max-width: 700px;
       padding: 1rem 0.5rem 3rem;

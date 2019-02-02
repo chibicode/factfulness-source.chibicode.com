@@ -1703,3 +1703,8 @@ export const pagedSources = [
     jpTitle: `Local ignorance and data`
   }
 ].map(process)
+
+export const pagedSourcesObject = pagedSources.reduce((obj, item) => {
+  obj[item.permalink] = item
+  return obj
+}, {})
