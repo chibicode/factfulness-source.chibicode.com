@@ -8,13 +8,15 @@ import Container from './container'
 import Main from './main'
 import ExternalLink from './external-link'
 import PermalinkModal from './permalink-modal'
+import Block from './block'
 
 Router.events.on('routeChangeComplete', url => pageview(url))
 
 const Page = ({router}) => (
   <MDXProvider
     components={{
-      a: ExternalLink
+      a: ExternalLink,
+      div: Block
     }}
   >
     <>

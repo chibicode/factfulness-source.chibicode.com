@@ -1,10 +1,8 @@
-import FromBook from '../components/from-book'
-import ExternalLink from '../components/external-link.js'
-import QuizQuote from '../components/quiz-quote'
+import * as H from '../components/h'
 
-<QuizQuote quizNumber={1} />
+<H.QuizQuote quizNumber={1} />
 
-<FromBook>正解はC。低所得国の女子の60%は初等教育を受けることができる。厳密には63.2%だが(2015年のデータ。詳しくは<ExternalLink href="http://www.gapm.io/xwb173">World Bank[3]</ExternalLink>を参照)、誇張を避けるため60%に切り捨てた。</FromBook>
+<H.Block><H.FromBook>正解はC。低所得国の女子の60%は初等教育を受けることができる。厳密には63.2%だが(2015年のデータ。詳しくは<H.ExternalLink href="http://www.gapm.io/xwb173">World Bank[3]</H.ExternalLink>を参照)、誇張を避けるため60%に切り捨てた。</H.FromBook></H.Block>
 
 ここでは意図的に「低所得国」を定義していない。
 
