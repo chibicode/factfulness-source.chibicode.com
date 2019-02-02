@@ -1,18 +1,10 @@
 /** @jsx jsx */
-import {jsx, css} from '@emotion/core'
-import Router from 'next/router'
+import {jsx, css, Global} from '@emotion/core'
 import colors from '../lib/colors'
 import {pagedSourcesObject} from '../lib/sources'
 import Container from './container'
 import Content from './content'
 import Card from './card'
-
-const clickHandler = event => {
-  event.preventDefault()
-  if (event.target === event.currentTarget) {
-    Router.push('/')
-  }
-}
 
 const Modal = ({permalink}) => (
   <section
@@ -23,10 +15,19 @@ const Modal = ({permalink}) => (
       width: 100%;
       height: 100%;
       background: ${colors.grey900alpha};
-      z-index: 2;
+      z-index: 1;
+      overflow-y: auto;
     `}
-    onClick={clickHandler}
   >
+    <Global
+      styles={[
+        css`
+          body {
+            overflow: hidden;
+          }
+        `
+      ]}
+    />
     <Container>
       <Card isLast>
         <Content isModal {...pagedSourcesObject[permalink]} />

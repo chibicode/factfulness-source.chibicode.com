@@ -1,7 +1,6 @@
 import React from 'react'
-import Router from 'next/router'
 import {MDXProvider} from '@mdx-js/tag'
-import {withRouter} from 'next/router'
+import Router, {withRouter} from 'next/router'
 import {pageview} from '../lib/gtag'
 import GlobalStyles from './global-styles'
 import Head from './head'
@@ -18,14 +17,14 @@ const Page = ({router}) => (
       a: ExternalLink
     }}
   >
-    <GlobalStyles />
-    <Head />
-    {router.query.permalink && (
-      <PermalinkModal permalink={router.query.permalink} />
-    )}
-    <Container>
-      <Main />
-    </Container>
+    <>
+      <GlobalStyles />
+      <Head />
+      {router.query.p && <PermalinkModal permalink={router.query.p} />}
+      <Container>
+        <Main />
+      </Container>
+    </>
   </MDXProvider>
 )
 

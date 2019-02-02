@@ -26,7 +26,7 @@ const Content = ({jpPage, permalink, jpTitle, isModal}) => {
           >
             『ファクトフルネス』脚注
           </h1>
-          <Link href="/" scroll={false}>
+          <Link passHref href="/" scroll={false}>
             <a
               css={css`
                 position: absolute;
@@ -72,16 +72,34 @@ const Content = ({jpPage, permalink, jpTitle, isModal}) => {
       </h3>
       <Component />
       {isModal ? (
-        <p
+        <div
           css={css`
-            color: ${colors.grey500};
-            font-size: 0.85rem;
+            padding: 2rem 0 1rem;
+            text-align: center;
           `}
         >
-          <Link href="/" scroll={false}>
-            <a>全ての脚注を見る</a>
+          <Link passHref href="/" scroll={false}>
+            <a
+              css={css`
+                display: inline-block;
+                background: ${colors.grey100};
+                text-decoration: none;
+                border: 2px solid ${colors.grey300};
+                color: ${colors.grey700};
+                font-weight: bold;
+                font-size: 0.85rem;
+                padding: 0.5rem 1rem;
+                border-radius: 0.25rem;
+
+                &:hover {
+                  background: ${colors.grey200};
+                }
+              `}
+            >
+              全ての脚注を見る
+            </a>
           </Link>
-        </p>
+        </div>
       ) : (
         <p
           css={css`
@@ -89,7 +107,7 @@ const Content = ({jpPage, permalink, jpTitle, isModal}) => {
             font-size: 0.85rem;
           `}
         >
-          <Link href={`?permalink=${permalink}`} scroll={false}>
+          <Link passHref href={`?p=${permalink}`} scroll={false}>
             <a>固定リンク</a>
           </Link>
         </p>
