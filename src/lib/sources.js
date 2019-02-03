@@ -14,6 +14,10 @@ const process = ({jpPage, enTitle, ...rest}) => ({
   ].join('-')
 })
 
+// For debugging
+const pagedSourcesSliceBegin = 0
+const pagedSourcesSliceEnd = 50
+
 export const pagedSources = [
   {
     chapter: 'authors-note',
@@ -1702,7 +1706,9 @@ export const pagedSources = [
     enTitle: `Local ignorance and data`,
     jpTitle: `Local ignorance and data`
   }
-].map(process)
+]
+  .map(process)
+  .slice(pagedSourcesSliceBegin, pagedSourcesSliceEnd)
 
 export const pagedSourcesObject = pagedSources.reduce((obj, item) => {
   obj[item.permalink] = item
