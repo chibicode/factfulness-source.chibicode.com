@@ -5,7 +5,7 @@ import colors from '../lib/colors'
 
 const FromBook = ({pageNumber, ...props}) => (
   <Tooltip
-    title={`本の脚注${pageNumber && `(${pageNumber}ページ)`}からの引用`}
+    title={`本の脚注${pageNumber ? `(${pageNumber}ページ)` : ''}からの引用`}
     enterDelay={600}
     placement="top"
   >
