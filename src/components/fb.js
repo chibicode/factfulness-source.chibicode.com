@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import Tooltip from '@material-ui/core/Tooltip'
+import PropTypes from 'prop-types'
 import colors from '../lib/colors'
 
 // FB = From Book
@@ -18,5 +19,9 @@ const FB = ({pageNumber, ...props}) => (
     />
   </Tooltip>
 )
+
+FB.proptypes = {
+  pageNumber: PropTypes.number.isRequired
+}
 
 export default FB
