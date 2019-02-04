@@ -3,6 +3,7 @@ import Color from 'color'
 
 export default {
   pink50: pink[50],
+  green50: green[50],
   green100: green[100],
   green200: green[200],
   green400: green[400],

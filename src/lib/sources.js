@@ -20,168 +20,168 @@ const pagedSourcesSliceEnd = 50
 
 export const pagedSources = [
   {
-    chapter: 'authors-note',
+    chapter: 'はじめに',
     jpPage: 2,
     enPage: 'ix',
     enTitle: `Gapminder`,
     jpTitle: `ギャップマインダー財団`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: [6, 7],
     enPage: 1,
     enTitle: `X-ray`,
     jpTitle: `レントゲン`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 8,
     enPage: 2,
     enTitle: `Hans's sword swallowing`,
     jpTitle: `ハンスの剣飲みの芸`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 9,
     enPage: 3,
     enTitle: `Fact question 1: Girls in school in low-income countries`,
     jpTitle: `質問1: ${problems[0].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 9,
     enPage: 3,
     enTitle: `Fact Question 2: Where the Majority Lives`,
     jpTitle: `質問2: ${problems[1].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 9,
     enPage: 3,
     enTitle: `Fact Question 3: Extreme Poverty`,
     jpTitle: `質問3: ${problems[2].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 10,
     enPage: 3,
     enTitle: `Fact Question 4: Life Expectancy`,
     jpTitle: `質問4: ${problems[3].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 10,
     enPage: 4,
     enTitle: `Fact Question 5: Future Number of Children`,
     jpTitle: `質問5: ${problems[4].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 10,
     enPage: 4,
     enTitle: `Fact Question 6: Why is the Population Increasing?`,
     jpTitle: `質問6: ${problems[5].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 11,
     enPage: 4,
     enTitle: `Fact Question 7: Natural Disasters`,
     jpTitle: `質問7: ${problems[6].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 11,
     enPage: 4,
     enTitle: `Fact Question 8: Where People Live`,
     jpTitle: `質問8: ${problems[7].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 11,
     enPage: 4,
     enTitle: `Fact question 9: Vaccination`,
     jpTitle: `質問9: ${problems[8].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 12,
     enPage: 5,
     enTitle: `Fact Question 10: Women's Education`,
     jpTitle: `質問10: ${problems[9].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 12,
     enPage: 5,
     enTitle: `Fact Question 11: Endangered Species`,
     jpTitle: `質問11: ${problems[10].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 12,
     enPage: 5,
     enTitle: `Fact Question 12: Electricity`,
     jpTitle: `質問12: ${problems[11].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 13,
     enPage: 5,
     enTitle: `Fact Question 13: Climate Change`,
     jpTitle: `質問13: ${problems[12].short}`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 14,
     enPage: 7,
     enTitle: `Fact questions online`,
     jpTitle: `チンパンジークイズ`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: [14, 15],
     enPage: [7, 8, 'Appendix'],
     enTitle: `Poll results`,
     jpTitle: `調査結果`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 15,
     enPage: [7, 8],
     enTitle: `Vaccination`,
     jpTitle: `予防接種`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 15,
     enPage: 8,
     enTitle: `Public awareness of climate change`,
     jpTitle: `Public awareness of climate change`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 17,
     enPage: 10,
     enTitle: `Hans testing students`,
     jpTitle: `Hans testing students`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: [19, 20],
     enPage: 12,
     enTitle: `World Economic Forum lecture`,
     jpTitle: `World Economic Forum lecture`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 21,
     enPage: 13,
     enTitle: `The Ten Instincts in Cognitive Science`,
     jpTitle: `10種類の本能と認知心理学`
   },
   {
-    chapter: 'intro',
+    chapter: 'イントロダクション',
     jpPage: 22,
     enPage: 14,
     enTitle: `Cognitive biases`,

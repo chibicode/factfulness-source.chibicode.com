@@ -4,7 +4,7 @@ import Link from 'next/link'
 import contentBundles from '../lib/content-bundles'
 import colors from '../lib/colors'
 
-const Content = ({jpPage, permalink, jpTitle, isModal}) => {
+const Content = ({jpPage, permalink, chapter, jpTitle, isModal}) => {
   const Component = contentBundles[permalink]
   return (
     <>
@@ -20,7 +20,7 @@ const Content = ({jpPage, permalink, jpTitle, isModal}) => {
               font-size: 1rem;
               margin-right: 3rem;
               margin-bottom: 1rem;
-              color: ${colors.grey500};
+              color: ${colors.green400};
               flex: 1;
             `}
           >
@@ -53,23 +53,28 @@ const Content = ({jpPage, permalink, jpTitle, isModal}) => {
           </Link>
         </div>
       )}
+
       <h3
         css={css`
           margin-top: 0;
           font-size: ${isModal ? '1.5rem' : '1.25rem'};
-          margin-bottom: 1rem;
+          margin-bottom: 0.125rem;
           line-height: 1.5;
         `}
       >
-        <span
-          css={css`
-            color: ${colors.grey500};
-          `}
-        >
-          P{Array.isArray(jpPage) ? jpPage.join('〜') : jpPage}.
-        </span>{' '}
-        {jpTitle}
+        {jpTitle}{' '}
       </h3>
+      <p
+        css={css`
+          color: ${colors.grey500};
+          font-weight: normal;
+          margin-bottom: 1rem;
+          font-size: 0.85rem;
+        `}
+      >
+        {typeof chapter === 'number' ? `第${chapter}章` : chapter} (P
+        {Array.isArray(jpPage) ? jpPage.join('〜') : jpPage})
+      </p>
       <Component />
       {isModal ? (
         <div
