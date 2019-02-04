@@ -20,7 +20,7 @@ const FB = ({pageNumber, ...props}) => (
   </Tooltip>
 )
 
-FB.proptypes = {
+FB.propTypes = {
   pageNumber: PropTypes.number.isRequired
 }
 
