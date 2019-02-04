@@ -136,21 +136,21 @@ export const pagedSources = [
     jpPage: 14,
     enPage: 7,
     enTitle: `Fact questions online`,
-    jpTitle: `Fact questions online`
+    jpTitle: `チンパンジークイズ`
   },
   {
     chapter: 'intro',
     jpPage: [14, 15],
     enPage: [7, 8, 'Appendix'],
     enTitle: `Poll results`,
-    jpTitle: `Poll results`
+    jpTitle: `調査結果`
   },
   {
     chapter: 'intro',
     jpPage: 15,
     enPage: [7, 8],
     enTitle: `Vaccination`,
-    jpTitle: `Vaccination`
+    jpTitle: `予防接種`
   },
   {
     chapter: 'intro',
@@ -178,14 +178,14 @@ export const pagedSources = [
     jpPage: 21,
     enPage: 13,
     enTitle: `The Ten Instincts in Cognitive Science`,
-    jpTitle: `The Ten Instincts in Cognitive Science`
+    jpTitle: `10種類の本能と認知心理学`
   },
   {
     chapter: 'intro',
     jpPage: 22,
     enPage: 14,
     enTitle: `Cognitive biases`,
-    jpTitle: `Cognitive biases`
+    jpTitle: `認知バイアス`
   },
   {
     chapter: 1,
