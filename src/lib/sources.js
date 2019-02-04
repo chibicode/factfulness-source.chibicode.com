@@ -171,7 +171,7 @@ export const pagedSources = [
     jpPage: [19, 20],
     enPage: 12,
     enTitle: `World Economic Forum lecture`,
-    jpTitle: `World Economic Forum lecture`
+    jpTitle: `世界経済フォーラムでの基調講演`
   },
   {
     chapter: 'イントロダクション',
