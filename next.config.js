@@ -1,10 +1,5 @@
-const withMdx = require('@zeit/next-mdx')({
-  extension: /\.mdx?$/
-})
 const withCSS = require('@zeit/next-css')
 
-const config = withCSS(
-  withMdx()
-)
+const config = withCSS()
 
 module.exports = config
