@@ -46,7 +46,7 @@ export const pagedSources = [
     enPage: 3,
     enTitle: `Fact question 1: Girls in school in low-income countries`,
     jpTitle: `質問1: ${problems[0].short}`,
-    seeMoreId: 'q1'
+    constructionId: 'q1'
   },
   {
     chapter: 'イントロダクション',
@@ -54,7 +54,7 @@ export const pagedSources = [
     enPage: 3,
     enTitle: `Fact Question 2: Where the Majority Lives`,
     jpTitle: `質問2: ${problems[1].short}`,
-    seeMoreId: 'q2'
+    constructionId: 'q2'
   },
   {
     chapter: 'イントロダクション',
@@ -62,7 +62,7 @@ export const pagedSources = [
     enPage: 3,
     enTitle: `Fact Question 3: Extreme Poverty`,
     jpTitle: `質問3: ${problems[2].short}`,
-    seeMoreId: 'q3'
+    constructionId: 'q3'
   },
   {
     chapter: 'イントロダクション',
@@ -70,7 +70,7 @@ export const pagedSources = [
     enPage: 3,
     enTitle: `Fact Question 4: Life Expectancy`,
     jpTitle: `質問4: ${problems[3].short}`,
-    seeMoreId: 'q4'
+    constructionId: 'q4'
   },
   {
     chapter: 'イントロダクション',
@@ -78,7 +78,7 @@ export const pagedSources = [
     enPage: 4,
     enTitle: `Fact Question 5: Future Number of Children`,
     jpTitle: `質問5: ${problems[4].short}`,
-    seeMoreId: 'q5'
+    constructionId: 'q5'
   },
   {
     chapter: 'イントロダクション',
@@ -86,7 +86,7 @@ export const pagedSources = [
     enPage: 4,
     enTitle: `Fact Question 6: Why is the Population Increasing?`,
     jpTitle: `質問6: ${problems[5].short}`,
-    seeMoreId: 'q6'
+    constructionId: 'q6'
   },
   {
     chapter: 'イントロダクション',
@@ -94,7 +94,7 @@ export const pagedSources = [
     enPage: 4,
     enTitle: `Fact Question 7: Natural Disasters`,
     jpTitle: `質問7: ${problems[6].short}`,
-    seeMoreId: 'q7'
+    constructionId: 'q7'
   },
   {
     chapter: 'イントロダクション',
@@ -102,7 +102,7 @@ export const pagedSources = [
     enPage: 4,
     enTitle: `Fact Question 8: Where People Live`,
     jpTitle: `質問8: ${problems[7].short}`,
-    seeMoreId: 'q8'
+    constructionId: 'q8'
   },
   {
     chapter: 'イントロダクション',
@@ -110,7 +110,7 @@ export const pagedSources = [
     enPage: 4,
     enTitle: `Fact question 9: Vaccination`,
     jpTitle: `質問9: ${problems[8].short}`,
-    seeMoreId: 'q9'
+    constructionId: 'q9'
   },
   {
     chapter: 'イントロダクション',
@@ -118,7 +118,7 @@ export const pagedSources = [
     enPage: 5,
     enTitle: `Fact Question 10: Women's Education`,
     jpTitle: `質問10: ${problems[9].short}`,
-    seeMoreId: 'q10'
+    constructionId: 'q10'
   },
   {
     chapter: 'イントロダクション',
@@ -126,7 +126,7 @@ export const pagedSources = [
     enPage: 5,
     enTitle: `Fact Question 11: Endangered Species`,
     jpTitle: `質問11: ${problems[10].short}`,
-    seeMoreId: 'q11'
+    constructionId: 'q11'
   },
   {
     chapter: 'イントロダクション',
@@ -134,7 +134,7 @@ export const pagedSources = [
     enPage: 5,
     enTitle: `Fact Question 12: Electricity`,
     jpTitle: `質問12: ${problems[11].short}`,
-    seeMoreId: 'q12'
+    constructionId: 'q12'
   },
   {
     chapter: 'イントロダクション',
@@ -142,7 +142,7 @@ export const pagedSources = [
     enPage: 5,
     enTitle: `Fact Question 13: Climate Change`,
     jpTitle: `質問13: ${problems[12].short}`,
-    seeMoreId: 'q13'
+    constructionId: 'q13'
   },
   {
     chapter: 'イントロダクション',
@@ -164,7 +164,7 @@ export const pagedSources = [
     enPage: [7, 8],
     enTitle: `Vaccination`,
     jpTitle: `予防接種`,
-    seeMoreId: 'tvac'
+    constructionId: 'tvac'
   },
   {
     chapter: 'イントロダクション',
@@ -178,8 +178,7 @@ export const pagedSources = [
     jpPage: 17,
     enPage: 10,
     enTitle: `Hans testing students`,
-    jpTitle: `Hans testing students`,
-    seeMoreId: 'xtedros'
+    jpTitle: `Hans testing students`
   },
   {
     chapter: 'イントロダクション',
@@ -214,8 +213,7 @@ export const pagedSources = [
     jpPage: 30,
     enPage: 21,
     enTitle: `Improvements in Sweden and Saudi Arabia`,
-    jpTitle: `Improvements in Sweden and Saudi Arabia`,
-    seeMoreId: 'itfr'
+    jpTitle: `Improvements in Sweden and Saudi Arabia`
   },
   {
     chapter: 1,
@@ -244,7 +242,7 @@ export const pagedSources = [
     enPage: 29,
     enTitle: `Primary school completion rate`,
     jpTitle: `初等教育修了率`,
-    seeMoreId: 'twmedu'
+    constructionId: 'twmedu'
   },
   {
     chapter: 1,
@@ -252,7 +250,7 @@ export const pagedSources = [
     enPage: 30,
     enTitle: `Polls: Imagining the worst`,
     jpTitle: `低所得国、途上国の生活はどんなものだと思うか？`,
-    seeMoreId: 'rdev'
+    constructionId: 'rdev'
   },
   {
     chapter: 1,
@@ -267,7 +265,7 @@ export const pagedSources = [
     enPage: 32,
     enTitle: `Where 75% of humanity lives`,
     jpTitle: `Where 75% of humanity lives`,
-    seeMoreId: 'fwlevels'
+    constructionId: 'fwlevels'
   },
   {
     chapter: 1,
@@ -275,7 +273,7 @@ export const pagedSources = [
     enPage: 32,
     enTitle: `Graph: Four income levels`,
     jpTitle: `Graph: Four income levels`,
-    seeMoreId: 'fwlevels'
+    constructionId: 'fwlevels'
   },
   {
     chapter: 1,
@@ -283,7 +281,7 @@ export const pagedSources = [
     enPage: 33,
     enTitle: `Doubling scales`,
     jpTitle: `Doubling scales`,
-    seeMoreId: 'esca'
+    constructionId: 'esca'
   },
   {
     chapter: 1,
@@ -409,8 +407,7 @@ export const pagedSources = [
     jpPage: [52, 53],
     enPage: 41,
     enTitle: `Graphs: Incomes in Mexico & US`,
-    jpTitle: `Graphs: Incomes in Mexico & US`,
-    seeMoreId: 'fbincmlinlog'
+    jpTitle: `Graphs: Incomes in Mexico & US`
   },
   {
     chapter: 1,
@@ -432,7 +429,7 @@ export const pagedSources = [
     enPage: 44,
     enTitle: `Poverty and extreme poverty`,
     jpTitle: `Poverty and extreme poverty`,
-    seeMoreId: 'tepov'
+    constructionId: 'tepov'
   },
   {
     chapter: 1,
@@ -454,7 +451,7 @@ export const pagedSources = [
     enPage: 49,
     enTitle: `Terrorism on the rise`,
     jpTitle: `Terrorism on the rise`,
-    seeMoreId: 'tter'
+    constructionId: 'tter'
   },
   {
     chapter: 2,
@@ -462,7 +459,7 @@ export const pagedSources = [
     enPage: 49,
     enTitle: `The State of World Fisheries`,
     jpTitle: `The State of World Fisheries`,
-    seeMoreId: 'tnplu'
+    constructionId: 'tnplu'
   },
   {
     chapter: 2,
@@ -477,7 +474,7 @@ export const pagedSources = [
     enPage: 50,
     enTitle: `Graph: Better, worse, or about the same?`,
     jpTitle: `Graph: Better, worse, or about the same?`,
-    seeMoreId: 'rbetter'
+    constructionId: 'rbetter'
   },
   {
     chapter: 2,
@@ -485,7 +482,7 @@ export const pagedSources = [
     enPage: 50,
     enTitle: `When to trust the data`,
     jpTitle: `When to trust the data`,
-    seeMoreId: 'doubt'
+    constructionId: 'doubt'
   },
   {
     chapter: 2,
@@ -500,7 +497,7 @@ export const pagedSources = [
     enPage: 53,
     enTitle: `Dip in extreme poverty: China, India and Latin America`,
     jpTitle: `Dip in extreme poverty: China, India and Latin America`,
-    seeMoreId: 'vepovt'
+    constructionId: 'vepovt'
   },
   {
     chapter: 2,
@@ -515,7 +512,7 @@ export const pagedSources = [
     enPage: 53,
     enTitle: `Life expectancy and data doubt`,
     jpTitle: `Life expectancy and data doubt`,
-    seeMoreId: 'blexd'
+    constructionId: 'blexd'
   },
   {
     chapter: 2,
@@ -529,8 +526,7 @@ export const pagedSources = [
     jpPage: 69,
     enPage: 54,
     enTitle: `Historic child mortality`,
-    jpTitle: `Historic child mortality`,
-    seeMoreId: 'du5mr'
+    jpTitle: `Historic child mortality`
   },
   {
     chapter: 2,
@@ -887,8 +883,7 @@ export const pagedSources = [
     jpPage: 108,
     enPage: 84,
     enTitle: `Graph: Babies per woman from 1800 to today`,
-    jpTitle: `Graph: Babies per woman from 1800 to today`,
-    seeMoreId: 'tbab'
+    jpTitle: `Graph: Babies per woman from 1800 to today`
   },
   {
     chapter: 3,
@@ -903,7 +898,7 @@ export const pagedSources = [
     enPage: 86,
     enTitle: `The inevitable fill-up`,
     jpTitle: `The inevitable fill-up`,
-    seeMoreId: 'efill'
+    constructionId: 'efill'
   },
   {
     chapter: 3,
@@ -918,7 +913,7 @@ export const pagedSources = [
     enPage: 87,
     enTitle: `The new balance`,
     jpTitle: `The new balance`,
-    seeMoreId: 'eonb'
+    constructionId: 'eonb'
   },
   {
     chapter: 3,
@@ -968,7 +963,7 @@ export const pagedSources = [
     enPage: 99,
     enTitle: `What part of the line are you seeing?`,
     jpTitle: `What part of the line are you seeing?`,
-    seeMoreId: 'fline'
+    constructionId: 'fline'
   },
   {
     chapter: 4,
@@ -983,7 +978,7 @@ export const pagedSources = [
     enPage: 107,
     enTitle: `Disaster data`,
     jpTitle: `Disaster data`,
-    seeMoreId: 'tdis'
+    constructionId: 'tdis'
   },
   {
     chapter: 4,
@@ -998,7 +993,7 @@ export const pagedSources = [
     enPage: 111,
     enTitle: `Child deaths from diarrhea`,
     jpTitle: `Child deaths from diarrhea`,
-    seeMoreId: 'tsan'
+    constructionId: 'tsan'
   },
   {
     chapter: 4,
@@ -1020,7 +1015,7 @@ export const pagedSources = [
     enPage: 114,
     enTitle: `Graph: Battle deaths`,
     jpTitle: `Graph: Battle deaths`,
-    seeMoreId: 'twar'
+    constructionId: 'twar'
   },
   {
     chapter: 4,
@@ -1035,7 +1030,7 @@ export const pagedSources = [
     enPage: 114,
     enTitle: `Chernobyl`,
     jpTitle: `Chernobyl`,
-    seeMoreId: 'tnuc'
+    constructionId: 'tnuc'
   },
   {
     chapter: 4,
@@ -1050,7 +1045,7 @@ export const pagedSources = [
     enPage: 116,
     enTitle: `Chemophobia`,
     jpTitle: `Chemophobia`,
-    seeMoreId: 'ffea'
+    constructionId: 'ffea'
   },
   {
     chapter: 4,
@@ -1058,7 +1053,7 @@ export const pagedSources = [
     enPage: 116,
     enTitle: `Refusing vaccination`,
     jpTitle: `Refusing vaccination`,
-    seeMoreId: 'tvac'
+    constructionId: 'tvac'
   },
   {
     chapter: 4,
@@ -1073,7 +1068,7 @@ export const pagedSources = [
     enPage: 118,
     enTitle: `Terrorism`,
     jpTitle: `Terrorism`,
-    seeMoreId: 'tter'
+    constructionId: 'tter'
   },
   {
     chapter: 4,
@@ -1081,7 +1076,7 @@ export const pagedSources = [
     enPage: 121,
     enTitle: `Alcohol deaths`,
     jpTitle: `Alcohol deaths`,
-    seeMoreId: 'alcterex'
+    constructionId: 'alcterex'
   },
   {
     chapter: 4,
@@ -1089,7 +1084,7 @@ export const pagedSources = [
     enPage: 122,
     enTitle: `Risks of dying`,
     jpTitle: `Risks of dying`,
-    seeMoreId: 'ffear'
+    constructionId: 'ffear'
   },
   {
     chapter: 4,
@@ -1118,7 +1113,7 @@ export const pagedSources = [
     enPage: 128,
     enTitle: `Wrong proportions: Perils of Perception`,
     jpTitle: `Wrong proportions: Perils of Perception`,
-    seeMoreId: 'fsize'
+    constructionId: 'fsize'
   },
   {
     chapter: 5,
@@ -1126,7 +1121,7 @@ export const pagedSources = [
     enPage: 129,
     enTitle: `Educated mothers and child survival`,
     jpTitle: `Educated mothers and child survival`,
-    seeMoreId: 'tcare'
+    constructionId: 'tcare'
   },
   {
     chapter: 5,
@@ -1169,7 +1164,7 @@ export const pagedSources = [
     enPage: 133,
     enTitle: `Tuberculosis (TB) and the swine flu`,
     jpTitle: `Tuberculosis (TB) and the swine flu`,
-    seeMoreId: 'bswin'
+    constructionId: 'bswin'
   },
   {
     chapter: 5,
@@ -1177,7 +1172,7 @@ export const pagedSources = [
     enPage: 134,
     enTitle: `Energy sources`,
     jpTitle: `Energy sources`,
-    seeMoreId: 'tene'
+    constructionId: 'tene'
   },
   {
     chapter: 5,
@@ -1213,7 +1208,7 @@ export const pagedSources = [
     enPage: 139,
     enTitle: `CO2 per capita`,
     jpTitle: `CO2 per capita`,
-    seeMoreId: 'tco2'
+    constructionId: 'tco2'
   },
   {
     chapter: 6,
@@ -1235,7 +1230,7 @@ export const pagedSources = [
     enPage: 159,
     enTitle: `Graph: Differences within Africa`,
     jpTitle: `Graph: Differences within Africa`,
-    seeMoreId: 'edafr'
+    constructionId: 'edafr'
   },
   {
     chapter: 6,
@@ -1250,7 +1245,7 @@ export const pagedSources = [
     enPage: 160,
     enTitle: `Family planning: Needs met and unmet needs`,
     jpTitle: `Family planning: Needs met and unmet needs`,
-    seeMoreId: 'twmc'
+    constructionId: 'twmc'
   },
   {
     chapter: 6,
@@ -1258,7 +1253,7 @@ export const pagedSources = [
     enPage: 160,
     enTitle: `Everything is made from chemicals`,
     jpTitle: `Everything is made from chemicals`,
-    seeMoreId: 'tind'
+    constructionId: 'tind'
   },
   {
     chapter: 6,
@@ -1287,7 +1282,7 @@ export const pagedSources = [
     enPage: 169,
     enTitle: `The sense of superiority`,
     jpTitle: `The sense of superiority`,
-    seeMoreId: 'fdes'
+    constructionId: 'fdes'
   },
   {
     chapter: 7,
@@ -1365,7 +1360,7 @@ export const pagedSources = [
     enPage: 175,
     enTitle: `Classifying major religions`,
     jpTitle: `Classifying major religions`,
-    seeMoreId: 'ereltfr'
+    constructionId: 'ereltfr'
   },
   {
     chapter: 7,
@@ -1394,7 +1389,7 @@ export const pagedSources = [
     enPage: 177,
     enTitle: `Asian values`,
     jpTitle: `Asian values`,
-    seeMoreId: 'twmi'
+    constructionId: 'twmi'
   },
   {
     chapter: 7,
@@ -1528,7 +1523,7 @@ export const pagedSources = [
     enPage: 207,
     enTitle: `Systems thinking`,
     jpTitle: `Systems thinking`,
-    seeMoreId: 'fblame'
+    constructionId: 'fblame'
   },
   {
     chapter: 9,
@@ -1606,7 +1601,7 @@ export const pagedSources = [
     enPage: 218,
     enTitle: `Institutions`,
     jpTitle: `Institutions`,
-    seeMoreId: 'tgovin'
+    constructionId: 'tgovin'
   },
   {
     chapter: 9,
@@ -1691,7 +1686,7 @@ export const pagedSources = [
     enPage: 237,
     enTitle: `The risk of global pandemic`,
     jpTitle: `The risk of global pandemic`,
-    seeMoreId: 'tgerm'
+    constructionId: 'tgerm'
   },
   {
     chapter: 10,
@@ -1699,7 +1694,7 @@ export const pagedSources = [
     enPage: 238,
     enTitle: `The risk of financial collapse`,
     jpTitle: `The risk of financial collapse`,
-    seeMoreId: 'dysec'
+    constructionId: 'dysec'
   },
   {
     chapter: 10,
@@ -1707,7 +1702,7 @@ export const pagedSources = [
     enPage: 239,
     enTitle: `The risk of World War III`,
     jpTitle: `The risk of World War III`,
-    seeMoreId: 'dysso'
+    constructionId: 'dysso'
   },
   {
     chapter: 10,
@@ -1722,7 +1717,7 @@ export const pagedSources = [
     enPage: 240,
     enTitle: `The risk of extreme poverty`,
     jpTitle: `The risk of extreme poverty`,
-    seeMoreId: 'furgr'
+    constructionId: 'furgr'
   },
   {
     chapter: 11,

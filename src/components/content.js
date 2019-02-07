@@ -3,8 +3,16 @@ import {jsx, css} from '@emotion/core'
 import Link from 'next/link'
 import contentBundles from '../lib/content-bundles'
 import colors from '../lib/colors'
+import ExternalLink from './external-link'
 
-const Content = ({jpPage, permalink, chapter, jpTitle, isModal}) => {
+const Content = ({
+  jpPage,
+  permalink,
+  chapter,
+  jpTitle,
+  isModal,
+  constructionId
+}) => {
   const Component = contentBundles[permalink]
   return (
     <>
@@ -110,11 +118,20 @@ const Content = ({jpPage, permalink, chapter, jpTitle, isModal}) => {
           css={css`
             color: ${colors.grey500};
             font-size: 0.85rem;
+            display: flex;
+            justify-content: space-between;
           `}
         >
           <Link passHref href={`?p=${permalink}`} scroll={false}>
             <a>固定リンク</a>
           </Link>
+          {constructionId && (
+            <>
+              <ExternalLink href={`https://gapm.io/${constructionId}`}>
+                詳細ページ(準備中)
+              </ExternalLink>
+            </>
+          )}
         </p>
       )}
     </>
