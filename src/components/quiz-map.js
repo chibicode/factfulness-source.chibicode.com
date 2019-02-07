@@ -1,16 +1,15 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import P from './p'
 
 const QuizMap = () => (
-  <P>
+  <p>
     <img
       src="/static/images/quiz/map-a.png"
       css={css`
         height: 180px;
       `}
     />
-  </P>
+  </p>
 )
 
 export default QuizMap
