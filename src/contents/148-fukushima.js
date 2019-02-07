@@ -19,11 +19,11 @@ export default () => (
     <p>
       According to Pew[1], in 2012, 76 percent of people in Japan believed that
       food from Fukushima was dangerous. The contamination of the very word
-      Fukushima is discussed in the book 
+      Fukushima is discussed in the book
       <a href="https://www.elsevier.com/books/hazards-risks-and-disasters-in-society/shroder/978-0-12-396451-9">
         &quot;Hazards, Risks, and Disasters in Society&quot;
       </a>
-       by John Shroder (2014).
+       by John Shroder (2014).
     </p>
   </>
 )

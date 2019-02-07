@@ -3,6 +3,6 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    See <a href="http://www.auw.edu.bd/">www.auw.edu.bd</a>.
+    See <a href="http://www.auw.edu.bd/">www.auw.edu.bd</a>.
   </p>
 )

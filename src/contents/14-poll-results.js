@@ -14,7 +14,7 @@ export default () => (
 
     <p>
       The results of the online polls by question and country are set out in the
-      appendix (p. 267, Factfulness). The results are also presented here: 
+      appendix (p. 267, Factfulness). The results are also presented here:
       <a href="http://gapm.io/gms17">Gapminder Misconception Study 2017</a>.
     </p>
   </>

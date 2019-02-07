@@ -10,7 +10,7 @@ export default () => (
     to Gribble, &quot;Regulatory authorities should focus not on pesticides,
     antibiotics and dioxins, but rather on pathogens, bacteria and fungi, which
     cause millions of cases of food-borne infections that result in
-    hospitalization or death each year.&quot; See 
+    hospitalization or death each year.&quot; See
     <a href="http://www.gapm.io/ffea">www.gapm.io/ffea</a>.
   </p>
 )

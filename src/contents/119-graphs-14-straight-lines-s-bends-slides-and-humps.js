@@ -8,7 +8,7 @@ export default () => (
     middle---just like the World Health Chart you see in the beginning of the
     book. We removed the background bubbles in the small images, because it got
     too cluttered. Most of these charts use national averages, aggregated by the
-    national income level; see <a href="http://gapm.io/elev">Gapminder[3]</a>. A
+    national income level; see <a href="http://gapm.io/elev">Gapminder[3]</a>. A
     few (the straight line on recreational spending, the S-bend on vaccinations
     and fridges, and the slide on fertility) use household data. Our estimates
     of typical families on different income levels are not based on country
@@ -17,7 +17,7 @@ export default () => (
     Very few countries follow these lines exactly, but the lines show the
     general pattern of all countries over several decades. In each example,
     there are huge differences between countries on every level. You can explore
-    the actual plotted bubbles behind these lines here: 
+    the actual plotted bubbles behind these lines here:
     <a href="http://www.gapm.io/flinex">www.gapm.io/flinex</a>.
   </p>
 )

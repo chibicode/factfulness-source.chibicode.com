@@ -23,7 +23,7 @@ export default () => (
       to warm and acidify, and global mean sea level to rise.
     </p>
     <p>
-      See <a href="http://www.gapm.io/q13">www.gapm.io/q13</a>.
+      See <a href="http://www.gapm.io/q13">www.gapm.io/q13</a>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
@@ -31,13 +31,13 @@ export default () => (
     <ul>
       <li>
         <a href="http://www.gapm.io/xipcca">
-          IPCC[1] (Intergovernmental Panel on Climate Change) Fifth Assessment
+          IPCC[1] (Intergovernmental Panel on Climate Change) Fifth Assessment
           Report (AR5) Authors and Review Editors. May 2014.
         </a>
       </li>
       <li>
         <a href="http://www.gapm.io/xipcc">
-          IPCC[2] Climate Change 2014---Synthesis Report Summary for
+          IPCC[2] Climate Change 2014---Synthesis Report Summary for
           Policymakers. &quot;SPM 2.2 Projected changes in the climate
           system.&quot; p. 10 2018/8/18閲覧。
         </a>

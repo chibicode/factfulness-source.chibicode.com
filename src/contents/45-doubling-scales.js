@@ -15,8 +15,8 @@ export default () => (
     not size of the pay rise that matters, but the size of the pay rise in
     relation to what you had before. Logarithmic scales are based on the theory
     of diminishing marginal value, first proposed by Daniel Bernoulli in 1738,
-    as Kahneman (2011) describes in his book Thinking, Fast and Slow (p. 274).
+    as Kahneman (2011) describes in his book Thinking, Fast and Slow (p. 274).
     Doubling scales are explained with more examples in Factfulness on page 98.
-    See <a href="http://www.gapm.io/esca">www.gapm.io/esca</a>.
+    See <a href="http://www.gapm.io/esca">www.gapm.io/esca</a>.
   </p>
 )

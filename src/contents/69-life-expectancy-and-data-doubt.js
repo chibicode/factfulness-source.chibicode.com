@@ -3,11 +3,11 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Life expectancy data is from <a href="http://gapm.io/xihlex">IHME[1]</a>
-     (Institute for Health Metrics and Evaluation). In 2016, only the Central
+    Life expectancy data is from <a href="http://gapm.io/xihlex">IHME[1]</a>
+     (Institute for Health Metrics and Evaluation). In 2016, only the Central
     African Republic and Lesotho had a life expectancy as low as 50 years. But
     uncertainties are huge, especially on Level 1 and 2. Learn how much data
-    doubt you should have at 
+    doubt you should have at
     <a href="http://www.gapm.io/blexd">www.gapm.io/blexd</a>.
   </p>
 )

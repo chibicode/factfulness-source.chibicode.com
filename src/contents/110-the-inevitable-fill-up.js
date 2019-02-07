@@ -22,9 +22,9 @@ export default () => (
     <p>
       If you find it hard to understand the fill-up in the text and graphs in
       this book, we find it easier to explain with animations or with our own
-      hands---see<a href="http://www.gapm.io/vidfu"> www.gapm.io/vidfu</a>. For
+      hands---see<a href="http://www.gapm.io/vidfu"> www.gapm.io/vidfu</a>. For
       more technical descriptions, see from UN-Pop[6, 7]. See also
-      <a href="http://www.gapm.io/efill"> www.gapm.io/efill</a>.
+      <a href="http://www.gapm.io/efill"> www.gapm.io/efill</a>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
@@ -32,7 +32,7 @@ export default () => (
     <ul>
       <li>
         <a href="http://www.gapm.io/xpopfut2">
-          UN-Pop[7] Andreev, K., V. Kantorová, and J. Bongaarts.
+          UN-Pop[7] Andreev, K., V. Kantorová, and J. Bongaarts.
           &quot;Demographic components of future population growth.&quot;
           Technical paper no. 2013/3. United Nations DESA Population Division,
           2013.

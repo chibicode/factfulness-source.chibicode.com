@@ -17,7 +17,7 @@ export default () => (
       The strength of cultural differences is easily overstated though. Gender
       roles change quite fast in all cultures as people get richer and their way
       of living is modernized. In cultures with an emphasis on extended
-      families, values may change a bit more slowly. See 
+      families, values may change a bit more slowly. See
       <a href="http://www.gapm.io/twmi">www.gapm.io/twmi</a>.
     </p>
   </>

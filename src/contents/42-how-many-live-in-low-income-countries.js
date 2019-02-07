@@ -8,7 +8,7 @@ export default () => (
       so respondents were not limited by our three predefined alternatives. In
       the US, 61 percent of respondents entered a value above 50 percent,
       guessing that a majority of people live in low-income countries. The
-      average guesses were 57 percent in the US and 61 percent in Sweden, see 
+      average guesses were 57 percent in the US and 61 percent in Sweden, see
       <a href="http://gapm.io/pollnov17bnovus-17b">Novus[3]</a>. Gapminder also
       asked the same question but with &quot;low-income countries&quot; replaced
       by &quot;developing countries&quot;. The results were the same, as if the

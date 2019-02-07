@@ -12,16 +12,16 @@ export default () => (
     <p>
       Data about the population of China is derived from UN-Pop[1] and Sheng Luo
       (1988), which reconstructed population trends in China by year. The study
-      is available 
+      is available
       <a href="https://repository.upenn.edu/dissertations/AAI8816201/">here</a>.
-      To see the population of China move over time, click 
-      <a href="http://www.gapm.io/vchtfr79">here</a> and press play.
+      To see the population of China move over time, click
+      <a href="http://www.gapm.io/vchtfr79">here</a> and press play.
     </p>
     <p>
       This interactive chart shows how all countries' birth rates have fallen
-      since 1800: <a href="http://www.gapm.io/vm4">www.gapm.io/vm4</a>. To see
-      the population of China move over time, click 
-      <a href="http://www.gapm.io/vchtfr79">here</a> and press play.
+      since 1800: <a href="http://www.gapm.io/vm4">www.gapm.io/vm4</a>. To see
+      the population of China move over time, click
+      <a href="http://www.gapm.io/vchtfr79">here</a> and press play.
     </p>
   </>
 )

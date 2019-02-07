@@ -8,8 +8,8 @@ export default () => (
       https://atlas.media.mit.edu/en/
     </a>
     ) to help countries work out how best to diversify, given its existing
-    industries and skills; see 
-    <a href="http://www.gapm.io/x4">www.gapm.io/x4</a> or read Hausmann et al.
+    industries and skills; see
+    <a href="http://www.gapm.io/x4">www.gapm.io/x4</a> or read Hausmann et al.
     (2013).
   </p>
 )

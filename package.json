@@ -40,7 +40,8 @@
     "rules": {
       "react/prop-types": false,
       "react/no-danger": false,
-      "import/no-unassigned-import": false
+      "import/no-unassigned-import": false,
+      "react/no-unescaped-entities": false
     }
   }
 }

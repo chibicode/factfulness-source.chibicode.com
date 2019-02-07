@@ -7,14 +7,14 @@ export default () => (
     <a href="http://www.correlatesofwar.org/data-sets/COW-war.">
       Correlates of War Project
     </a>
-    , <a href="http://gapm.io/xnpgfred">Gleditsch</a>, 
-    <a href="http://ucdp.uu.se/downloads">UCDP[1]</a> and 
+    , <a href="http://gapm.io/xnpgfred">Gleditsch</a>,
+    <a href="http://ucdp.uu.se/downloads">UCDP[1]</a> and
     <a href="http://gapm.io/xpriod">PRIO</a>---include reported deaths of
     civilians and soldiers during battle, but not indirect deaths like those
     from starvation. We strongly recommend watching this interactive data-driven
-    documentary, which puts all known wars in perspective---at 
+    documentary, which puts all known wars in perspective---at
     <a href="http://www.fallen.io/">www.fallen.io</a>. To interactively compare
-    fatalities in wars since 1990, go to 
+    fatalities in wars since 1990, go to
     <a href="http://ucdp.uu.se/">http://ucdp.uu.se</a>. Measuring battle deaths
     is not trivial, as a war zone is no place for careful data collection. These
     studies publish numbers estimated by combining official sources and media
@@ -32,7 +32,7 @@ export default () => (
     As there is little chance that new primary data will show up about past
     conflicts, the chances of new reliable estimates from other sources are
     small. The methodological discussion seems to have ended with a response in
-    2012 by Lacina &amp; Gleditsch (see 
+    2012 by Lacina &amp; Gleditsch (see
     <a href="http://www.gapm.io/xgledwar12">www.gapm.io/xgledwar12</a>), making
     the case that their data-sources are indeed bias in an unknown way and that
     the bias may not be the same over the decades. Maybe the tendency is to
@@ -42,6 +42,6 @@ export default () => (
     hardest to generate an increasing impression of fatalities, by drawing a
     trendline from the lowest estimates of past conflicts to the highest
     estimates of the recent conflicts, even such line would be steadily falling.
-    See <a href="http://www.gapm.io/twar">www.gapm.io/twar</a>.
+    See <a href="http://www.gapm.io/twar">www.gapm.io/twar</a>.
   </p>
 )

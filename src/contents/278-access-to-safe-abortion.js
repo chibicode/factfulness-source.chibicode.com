@@ -16,8 +16,8 @@ export default () => (
       to pay can access physicians or travel abroad to procure abortion.&quot;
     </p>
     <p>
-      The WHO guidelines on 
-      <a href="http://www.gapm.io/xabor">Access to Safe Abortion</a> say:
+      The WHO guidelines on
+      <a href="http://www.gapm.io/xabor">Access to Safe Abortion</a> say:
       &quot;Restriction in access to safe abortion services results in both
       unsafe abortions and unwanted births. Almost all deaths and morbidity from
       unsafe abortion occur in countries where abortion is severely restricted

@@ -22,7 +22,7 @@ export default () => (
       children per woman.&quot; (2007, p. 347)
     </p>
     <p>
-      Age specific mortality rates of the first millennials of human history are
+      Age specific mortality rates of the first millennials of human history are
       equally uncertain, but we can assume that over these huge time-horizons,
       mortality rate was high enough to keep population sizes down; see
       Livi-Bacci (1989). Mortality was unpredictable. Sudden catastrophes,

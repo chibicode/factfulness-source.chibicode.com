@@ -12,7 +12,7 @@ export default () => (
       return of a third-country national whose entry is refused to find means of
       onward transportation immediately and to bear the cost thereof &quot;which
       recognizes the right of persons to seek asylum from persecution in other
-      countries&quot;. See 
+      countries&quot;. See
       <a href="https://www.gapminder.org/topics/people/refugees">
         www.gapminder.org/topics/people/refugees
       </a>
@@ -20,7 +20,7 @@ export default () => (
     <p>
       Sweden didn't confiscate the boats belonging to those who smuggled
       refugees from Denmark during the Second World War---see the BBC
-      documentary &quot;How the Danish Jews Escaped the Holocaust&quot; at 
+      documentary &quot;How the Danish Jews Escaped the Holocaust&quot; at
       <a href="http://www.gapm.io/xbbcesc17">www.gapm.io/xbbcesc17</a>.
       According to Goldberger (1987) 7,220 Danish Jews were saved by these
       boats. Today, the EU Council[1] Directive 2002/90/EC defines
@@ -28,7 +28,7 @@ export default () => (
       EU Council[2] framework decision allows &quot;confiscation of the means of
       transport used to commit the offence.&quot; The Geneva Conventions,
       however, state that many of these refugees have the right to asylum; see
-      UNHCR. See <a href="http://www.gapm.io/p16">www.gapm.io/p16</a> and 
+      UNHCR. See <a href="http://www.gapm.io/p16">www.gapm.io/p16</a> and
       <a href="http://www.gapm.io/tpref">www.gapm.io/tpref</a>.
     </p>
   </>

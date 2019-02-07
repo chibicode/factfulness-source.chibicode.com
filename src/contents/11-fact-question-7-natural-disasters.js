@@ -31,10 +31,10 @@ export default () => (
       worldwide since 1900. All known emergency events have been categorized as
       follows: Animal accident, Complex disasters, Drought, Earthquake,
       Epidemic, Extreme temperature, Flood, Fog, Impact, Insect infestation,
-      Landslide, Mass movement (dry), Storm, Volcanic activity, Wildfire. See 
+      Landslide, Mass movement (dry), Storm, Volcanic activity, Wildfire. See
       <a href="http://www.gapm.io/q7">www.gapm.io/q7</a>.
     </p>
-    <H.SmallHeading>出典</H.SmallHeading>- [EM-DAT Centre for Research on the
+    <H.SmallHeading>出典</H.SmallHeading>- [EM-DAT Centre for Research on the
     Epidemiology of Disasters (CRED). The International Disaster Database.
     Debarati Guha-Sapir, Université catholique de Louvain.
     2017/11/5閲覧。](http://www.emdat.be/)

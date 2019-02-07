@@ -9,11 +9,11 @@ export default () => (
     organic and synthetic chemicals and their properties. It shows that toxicity
     is not related to who produces the compound. Cobratoxin (CAS registry number
     12584-83-7), for example, which is produced by nature, paralyzes your
-    nervous system until you can't breathe; see 
+    nervous system until you can't breathe; see
     <a href="https://en.wikipedia.org/wiki/Cobratoxin#cite_note-pmid21999367-8">
       Del Brutto (2012)
     </a>
-     retrieved via Wikipedia[8]. See 
+     retrieved via Wikipedia[8]. See
     <a href="http://www.gapm.io/tind">www.gapm.io/tind</a>.
   </p>
 )

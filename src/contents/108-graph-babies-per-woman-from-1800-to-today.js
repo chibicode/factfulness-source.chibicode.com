@@ -16,26 +16,26 @@ export default () => (
     <p>
       The long trend displayed on the graph shows Mattias Lindgren's work that
       compiled multiple historical sources for the years before 1950. It is
-      aligned with UN-Pop[3] estimates for post-1950; see 
+      aligned with UN-Pop[3] estimates for post-1950; see
       <a href="http://gapm.io/dtfr">Gapminder[7]</a>. The dashed line after 2017
       shows the UN-Pop[1] medium fertility projection, which is expected to
       reach 1.96 in 2099.
     </p>
     <p>
-      For more about famines before 1965, see, for example, the 
+      For more about famines before 1965, see, for example, the
       <a href="https://en.wikipedia.org/wiki/Great_Chinese_Famine">
         Great Chinese Famine
       </a>
       , &quot;the single biggest famine event in history in terms of absolute
       numbers of death&quot; on Wikipedia. The most accurate number is probably
-      estimated at 40 million people who died during the Chinese famine; see 
-      <a href="http://www.necrometrics.com/20c5m.htm#Mao">necrometrics</a> for a
+      estimated at 40 million people who died during the Chinese famine; see
+      <a href="http://www.necrometrics.com/20c5m.htm#Mao">necrometrics</a> for a
       documentation of sources. The age structure of the Chinese population
-      still bear marks of 
+      still bear marks of
       <a href="https://www.gapminder.org/geo/china">
         fewer number of children born during the famine
       </a>
-      . See <a href="http://www.gapm.io/tbab">www.gapm.io/tbab</a>.
+      . See <a href="http://www.gapm.io/tbab">www.gapm.io/tbab</a>.
     </p>
   </>
 )

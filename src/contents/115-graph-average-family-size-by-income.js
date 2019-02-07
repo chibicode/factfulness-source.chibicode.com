@@ -6,8 +6,8 @@ export default () => (
     <p>
       The graph presenting family size by income uses the most recent available
       data from World Bank[5] estimating that 10.7 percent of the population
-      lived in extreme poverty in 2013. 
-      <a href="http://gapm.io/depov">Gapminder[9]</a> has extended the data to
+      lived in extreme poverty in 2013.
+      <a href="http://gapm.io/depov">Gapminder[9]</a> has extended the data to
       2017, using IMF's GDP per capita growth, and estimates that 0.75 billion
       people of the world population live on less than $2 a day; that is 10
       percent of 7.55 billion people in the world. UN and the World Bank has set
@@ -24,7 +24,7 @@ export default () => (
       datasets are estimated from their material assets, for instance by the
       number of people per sleeping room, floor-material and means of transport.
       For more about the data and methods behind Gapminder's four income levels,
-      see <a href="http://www.gapm.io/elev">gapm.io/elev</a>.
+      see <a href="http://www.gapm.io/elev">gapm.io/elev</a>.
     </p>
   </>
 )

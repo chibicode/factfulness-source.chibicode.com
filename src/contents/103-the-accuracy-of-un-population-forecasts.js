@@ -16,18 +16,18 @@ export default () => (
     </p>
     <p>
       <a href="http://www.gapm.io/xbonpop">The Accuracy of Past Projections</a>
-       is a study from Bongaarts and Bulato (2000) that measure past
+       is a study from Bongaarts and Bulato (2000) that measure past
       projections, and find that the average error of UN world population
       forecasts are modest, at 2.8%, for an average length of projection of 17
       years (see, for example, p. 50). Also Keilman (2001) studied the quality
       of UN population projections, and analyzed forecasts prepared by the UN
       between 1950 to 1993. For a video of Hans Rosling comparing these historic
-      forecast based on Keilman's study, see: 
+      forecast based on Keilman's study, see:
       <a href="http://www.gapm.io/mmpopfut">
         How Reliable is the World Population Forecast?
       </a>
-       The projections are available at the 
-      <a href="http://www.esa.un.org/unpd/wpp">UN website</a>, as well as the 
+       The projections are available at the
+      <a href="http://www.esa.un.org/unpd/wpp">UN website</a>, as well as the
       <a href="about:blank">uncertainty intervals of their medium forecasts</a>.
     </p>
 
@@ -35,7 +35,7 @@ export default () => (
 
     <ul>
       <li>
-        UN-Pop[1] UN Population Division. World Population Prospects 2017.
+        UN-Pop[1] UN Population Division. World Population Prospects 2017.
         United Nations, Department of Economic and Social Affairs.
         <ul>
           <li>
@@ -47,7 +47,7 @@ export default () => (
         </ul>
       </li>
       <li>
-        UN-Pop[2] UN Population Division. World Population Prospects 2017
+        UN-Pop[2] UN Population Division. World Population Prospects 2017
         <ul>
           <li>
             <a href="https://esa.un.org/unpd/wpp">
@@ -59,7 +59,7 @@ export default () => (
         </ul>
       </li>
       <li>
-        UN-Pop[5] UN Population Division. World Population Prospects 2017
+        UN-Pop[5] UN Population Division. World Population Prospects 2017
         <ul>
           <li>
             <a href="http://www.gapm.io/xpopproj">
@@ -75,14 +75,14 @@ export default () => (
     <ul>
       <li>
         <a href="http://www.gapm.io/xbonpop">
-          Bongaarts and Bulato (2000) Beyond Six Billion: Forecasting the
+          Bongaarts and Bulato (2000) Beyond Six Billion: Forecasting the
           World's Population(2000) &quot;Chapter 4: The Accuracy of Past
           Projections.&quot; 37--52.
         </a>
       </li>
       <li>
         <a href="http://www.gapm.io/xpaccur">
-          Keilman (2001) Keilman, Nico. &quot;Data quality and accuracy of
+          Keilman (2001) Keilman, Nico. &quot;Data quality and accuracy of
           United Nations population projections, 1950--95.&quot; Population
           Studies 55, no. 2 (2001): 149--64. 2010/12/9更新。
         </a>

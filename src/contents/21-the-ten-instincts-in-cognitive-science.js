@@ -37,7 +37,7 @@ export default () => (
       </li>
     </ul>
     <p>
-      Many of these authors study cognitive biases. At the moment of writing, 
+      Many of these authors study cognitive biases. At the moment of writing,
       <a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">
         English Wikipedia lists 186 studied biases
       </a>
@@ -47,7 +47,7 @@ export default () => (
       describe our hypothesis on how the common ways of wrong thinking may work.
     </p>
     <p>
-      The instinct to generalize appear in The Stuff of Thought (2007) by Steven
+      The instinct to generalize appear in The Stuff of Thought (2007) by Steven
       Pinker. In his book on language and the human mind, Pinker explains how we
       generalize to make sense of the world. With metaphors and other linguistic
       tools, we use language to best accommodate our minds, for example by

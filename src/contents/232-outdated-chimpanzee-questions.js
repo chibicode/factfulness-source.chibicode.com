@@ -9,6 +9,6 @@ export default () => (
     Thirteen years later, when we wanted to check whether people's knowledge had
     improved, we could no longer use the original questions since the European
     countries had managed to caught up. This is shown in the animated graph
-    here---at <a href="http://www.gapm.io/vm3">www.gapm.io/vm3</a>.
+    here---at <a href="http://www.gapm.io/vm3">www.gapm.io/vm3</a>.
   </p>
 )

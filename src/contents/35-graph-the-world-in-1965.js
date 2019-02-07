@@ -5,9 +5,9 @@ export default () => (
   <>
     <p>
       Each circle, or bubble, represents a country. The area of the circle is
-      proportional to the population of the country, using data from 
+      proportional to the population of the country, using data from
       <a href="https://esa.un.org/unpd/wpp">UN-POP[1]</a>. On the x-axis is the
-      total fertility rate, using data from 
+      total fertility rate, using data from
       <a href="https://esa.un.org/unpd/wpp">UN-POP[3]</a>. The scale is reversed
       putting large families to the left and small to the right. This is to show
       progress as a movement from left to right, which is more intuitive. The
@@ -17,7 +17,7 @@ export default () => (
       changed the rate to percent (deaths per 100) because it is more broadly
       understood, and we also show survival instead of mortality so that the
       positive direction is upward, which intuitively is more positive. Data
-      comes from <a href="http://www.childmortality.org/">UN-IGME</a>.
+      comes from <a href="http://www.childmortality.org/">UN-IGME</a>.
     </p>
     <p>
       The two boxes are not showing any official thresholds. They are there to
@@ -25,7 +25,7 @@ export default () => (
       countries with 68 percent of the world's population were in the
       &quot;developing&quot; box. Only 44 countries, with 30 percent of the
       world's population, were in the &quot;developed&quot; box. An interactive
-      version of the chart will soon be freely available at 
+      version of the chart will soon be freely available at
       <a href="http://www.gapm.io/voutdwv">www.gapm.io/voutdwv</a>.
     </p>
   </>

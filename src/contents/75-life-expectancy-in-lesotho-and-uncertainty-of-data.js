@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <p>
     In 2016, only two countries had a life expectancy as low as 50 years
-    according to <a href="http://gapm.io/xihlex">IHME[1]</a>--- The Central
+    according to <a href="http://gapm.io/xihlex">IHME[1]</a>--- The Central
     African Republic at 50.2 years and Lesotho at 50.3 years. The uncertainties
     are huge for all health estimates on Level 1. According to the IHME models,
     the confidence interval for these numbers are ±2.5 years. That is only
@@ -18,7 +18,7 @@ export default () => (
     2013 was adjusted downwards by 5.7 years, down to 56.9. This was mainly due
     to an improved modelling of the HIV pandemic. This is just one example of
     the actual size of uncertainty of health estimates on Level 1 and 2. There
-    are no examples of such large  adjustments for estimates when it comes to
+    are no examples of such large  adjustments for estimates when it comes to
     countries on Level 3 and 4, where data is more certain.
   </p>
 )

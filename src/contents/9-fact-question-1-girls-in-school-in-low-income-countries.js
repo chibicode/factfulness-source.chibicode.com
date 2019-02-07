@@ -24,7 +24,7 @@ export default () => (
     </H.P>
 
     <p>
-      世界銀行(<a href="http://gapm.io/xwb172">World Bank[2] </a>
+      世界銀行(<a href="http://gapm.io/xwb172">World Bank[2] </a>
       )によると、2017年に「低所得国」と分類されたのは31カ国。データは米国国際開発庁(
       <a href="https://dhsprogram.com/">USAID-DHS[1]</a>)とユニセフ(
       <a href="http://mics.unicef.org/">UNICEF-MICS</a>
@@ -48,26 +48,26 @@ export default () => (
       </li>
       <li>
         <a href="http://www.gapm.io/xwb173">
-          World Bank[3] &quot;Primary completion rate, female (% of relevant age
+          World Bank[3] &quot;Primary completion rate, female (% of relevant age
           group).&quot;
         </a>
       </li>
       <li>
         <a href="http://www.gapm.io/xuisoutsf">
-          UNESCO[3] (United Nations Educational, Scientific and Cultural
+          UNESCO[3] (United Nations Educational, Scientific and Cultural
           Organization) &quot;Education: Out-of-school rate for children of
           primary school age, female.&quot;
         </a>
       </li>
       <li>
         <a href="http://www.mics.unicef.org/">
-          UNICEF-MICS Multiple Indicator Cluster Surveys. Funded by the United
+          UNICEF-MICS Multiple Indicator Cluster Surveys. Funded by the United
           Nations Children's Fund.
         </a>
       </li>
       <li>
         <a href="http://www.dhsprogram.com/">
-          USAID-DHS[1] Demographic and Health Surveys (DHS), funded by USAID.
+          USAID-DHS[1] Demographic and Health Surveys (DHS), funded by USAID.
         </a>
       </li>
     </ul>

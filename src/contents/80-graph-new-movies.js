@@ -10,7 +10,7 @@ export default () => (
     years of the 19th century, but they dare often experimental and short we
     don't consider them feature films. We have chosen 1906 as the year of the
     first feature, referring to &quot;The Story of the Kelly Gang&quot;, a 70
-    minute long narrative film; see 
+    minute long narrative film; see
     <a href="https://en.wikipedia.org/wiki/Feature_film#History">
       Wikipedia[3]
     </a>

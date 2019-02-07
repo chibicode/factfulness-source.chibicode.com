@@ -19,7 +19,7 @@ export default () => (
     taken from a report issued by UNHCR where &quot;developing countries&quot;
     refers to the outdated list of the UN Statistics Division. In the second and
     third, &quot;developing countries&quot; and &quot;developing world&quot;
-    actually refer to the 
+    actually refer to the
     <a href="https://www.un.org/development/desa/dpad/least-developed-country-category.html">
       UN list of Least Developed Countries
     </a>

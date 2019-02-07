@@ -3,8 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Statistics showing the global increase of mobile penetration often uses 
-    <a href="http://gapm.io/xitumob">data from ITU</a> from the 
+    Statistics showing the global increase of mobile penetration often uses
+    <a href="http://gapm.io/xitumob">data from ITU</a> from the
     <a href="https://www.itu.int/en/Pages/default.aspx">
       International Telecommunication Union
     </a>
@@ -17,7 +17,7 @@ export default () => (
     subscriber for the overlapping year 2010, and then assume that the same rate
     is applicable from the beginning of the ITU[1] subscription series in 1980
     (when ITU reports 23,482 subscriptions worldwide). The ITU series beginning
-    in 1980 is retrieved from 
+    in 1980 is retrieved from
     <a href="http://gapm.io/xwb1718">the World Bank[18]</a>.
   </p>
 )

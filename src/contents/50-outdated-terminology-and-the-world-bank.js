@@ -3,7 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    For one of these lectures, filmed June 8, 2015, see 
+    For one of these lectures, filmed June 8, 2015, see
     <a href="http://gapm.io/xwb1714">World Bank[14]</a>. The outdated
     terminology of a divided worldview is specifically challenged beginning at
     01:30:31. Five months later, the World Bank announced in a public blog post

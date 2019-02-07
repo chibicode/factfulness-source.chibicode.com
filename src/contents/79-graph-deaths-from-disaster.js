@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <p>
     Annual deaths from natural disasters have decreased by 75 percent over the
-    past 100 years, according to the International Disaster Database; see 
+    past 100 years, according to the International Disaster Database; see
     <a href="http://www.emdat.be/">EM-DAT</a>. Since disasters vary from year to
     year, here we compare ten-year averages. In chapter four where we further
     discuss the decline, we also use 25-year averages. In the last ten years

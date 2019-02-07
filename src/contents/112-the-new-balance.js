@@ -12,6 +12,6 @@ export default () => (
     population. For a country to achieve fertility at replacement-level, it
     requires that no more than 5% of children die. If four out of six people die
     before reaching childbearing age, replacement fertility would be 6 children
-    per woman. See <a href="http://www.gapm.io/eonb">www.gapm.io/eonb</a>.
+    per woman. See <a href="http://www.gapm.io/eonb">www.gapm.io/eonb</a>.
   </p>
 )

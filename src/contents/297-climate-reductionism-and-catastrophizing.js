@@ -15,7 +15,7 @@ export default () => (
     </p>
     <p>
       The idea of climate change as a single scenario is refuted by Smil (2008).
-      In his book Global Catastrophes and Trends, Smil uses global warming as a
+      In his book Global Catastrophes and Trends, Smil uses global warming as a
       good example of a process that is too complex to happen as a single event.
       An assumption that is questioned by Johan Rockström and others who insist
       that this line of thinking may be a case of the straight line instinct.
@@ -24,7 +24,7 @@ export default () => (
       transition that we won't notice. The future effects of climate change will
       have aspect of both fast and gradual transition. Fascinating examples of
       pivotal moments in human history, in regards to food and energy
-      consumption, is also given by Ruth DeFries (2014). In The Big Ratchet,
+      consumption, is also given by Ruth DeFries (2014). In The Big Ratchet,
       DeFries convincingly shows how the current human-produced system is
       unsustainable, with fertilizers and depletion of natural resources,
       without claiming that this must necessarily lead to a sudden catastrophic

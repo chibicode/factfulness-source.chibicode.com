@@ -7,6 +7,6 @@ export default () => (
     dropped from an average of 24.5 per year in the 1970s to 1.7 per year
     between 2010 to 2016. The oil spill statistics comes from ITOPF
     (International Tanker Owners Pollution Federation); the publication can be
-    downloaded via <a href="http://www.gapm.io/xitopf">www.gapm.io/xitopf</a>.
+    downloaded via <a href="http://www.gapm.io/xitopf">www.gapm.io/xitopf</a>.
   </p>
 )

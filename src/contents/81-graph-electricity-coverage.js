@@ -9,7 +9,7 @@ export default () => (
     In some extreme cases, households may experience an average of 60 power
     outages per week and still be listed as &quot;having access to
     electricity.&quot; The graph, accordingly, shows people with
-    &quot;some&quot; access. For the GTF measures of electricity access, see 
+    &quot;some&quot; access. For the GTF measures of electricity access, see
     <a href="http://gtf.esmap.org/results">http://gtf.esmap.org/results</a>. See
     also the note to Fact question 12: Electricity.
   </p>

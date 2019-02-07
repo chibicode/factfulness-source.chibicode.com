@@ -4,12 +4,12 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The passage draws on World Bank[26], ODI, PRIO, Paul Collier's The Bottom
-      Billion (2007), and the BBC documentary 
+      The passage draws on World Bank[26], ODI, PRIO, Paul Collier's The Bottom
+      Billion (2007), and the BBC documentary
       <a href="https://www.gapminder.org/videos/dont-panic-end-poverty/">
         &quot;Don't Panic---End Poverty&quot;
       </a>
-       from Gapminder[11].
+       from Gapminder[11].
     </p>
     <p>
       While extreme poverty has fallen, the number of extremely poor people
@@ -19,16 +19,16 @@ export default () => (
       challenge to the international aid community. The International Dialogue
       on Peacebuilding and Statebuilding had its fifth global meeting in
       Stockholm, 2016. The meeting, following the Stockholm Declaration against
-      war and conflict, discussed how the aid community is now 
+      war and conflict, discussed how the aid community is now
       <a href="https://www.pbsbdialogue.org/en">
         preparing for the risk of extreme poverty in conflict prone countries
       </a>
-      . See <a href="http://www.gapm.io/tepov">www.gapm.io/tepov</a>.
+      . See <a href="http://www.gapm.io/tepov">www.gapm.io/tepov</a>.
     </p>
     <p>
       The other risks are not ongoing. Extreme poverty is. 78% are small scale
       farmers in extremely poor areas. In extreme poverty, every second person
-      is a child, see <a href="http://econ.worldbank.org/">World Bank[26]</a>,
+      is a child, see <a href="http://econ.worldbank.org/">World Bank[26]</a>,
       they are from ethnic minorities; see ODI. While the global rate of poor
       has fallen, the number of poor in conflict has been stable or even
       increased, based on preliminary data from PRIO. One can only speculate
@@ -65,10 +65,10 @@ export default () => (
       </li>
     </ul>
     <p>
-      For a longer list of major risks, see Global Catastrophes and Trends: The
-      Next Fifty Years by Smil (2008). For those who find numbers calming, this
+      For a longer list of major risks, see Global Catastrophes and Trends: The
+      Next Fifty Years by Smil (2008). For those who find numbers calming, this
       is where you will find the big picture of the proportional risks and
-      uncertainties of all kinds of possible fatal discontinuities. See 
+      uncertainties of all kinds of possible fatal discontinuities. See
       <a href="http://www.gapm.io/furgr">www.gapm.io/furgr</a>.
     </p>
 

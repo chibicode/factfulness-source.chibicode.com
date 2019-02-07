@@ -10,7 +10,7 @@ export default () => (
     spiders and insects; needles; ice; flying; and dogs. In the poll from
     YouGov[2], the leading fears in the United Kingdom were heights; snakes; and
     public speaking; followed by spiders; entrapment; mice; needles; and
-    airplanes. Read more about the fear instinct at 
+    airplanes. Read more about the fear instinct at
     <a href="https://www.gapminder.org/factfulness.org/fear">
       www.gapminder.org/factfulness.org/fear
     </a>

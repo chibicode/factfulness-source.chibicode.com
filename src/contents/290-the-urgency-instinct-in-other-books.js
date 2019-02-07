@@ -12,7 +12,7 @@ export default () => (
     benefit our survival. A evolutionary remnant that once saved our lives,
     black-and-white-thinking nowadays blocks us from weighting the good and bad,
     yes and no, and select something more useful, such as a &quot;maybe&quot;.
-    See Superforecasting by Tetlock and Gardner (2015) for more about our
+    See Superforecasting by Tetlock and Gardner (2015) for more about our
     tendency toward urgent decision-making.
   </p>
 )

@@ -10,7 +10,7 @@ export default () => (
     social welfare or the official statistical measure of poverty in that
     country. In Scandinavia, the official poverty lines are 20 times higher than
     the poverty lines in the poorest countries, like Malawi, even after
-    adjusting for the large differences in purchasing power; see 
+    adjusting for the large differences in purchasing power; see
     <a href="http://gapm.io/xwb1717">World Bank[17]</a>. The latest US census
     estimates that 13 percent of the population lives below its poverty line,
     putting it at approximately $20/day. In Sweden, the official numbers of
@@ -19,8 +19,8 @@ export default () => (
     income. The social and economic challenges of being among the poorest in a
     rich country should not be neglected, but it is not the same thing as being
     in extreme poverty. In extreme poverty, you can't even afford a daily meal
-    of staple grain porridge. You can't get poorer without dying. See 
-    <a href="http://gapm.io/xwb175">World Bank[5]</a>. See 
+    of staple grain porridge. You can't get poorer without dying. See
+    <a href="http://gapm.io/xwb175">World Bank[5]</a>. See
     <a href="http://www.gapm.io/tepov">www.gapm.io/tepov</a>.
   </p>
 )

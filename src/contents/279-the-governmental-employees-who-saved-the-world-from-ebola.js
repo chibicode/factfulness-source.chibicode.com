@@ -7,7 +7,7 @@ export default () => (
     in Monrovia. Listen to Dr. Fallah's own words about the government's
     employees and their commitment to their society when it needed them most,
     and watch him describe how to maintain trust within the community while
-    hunting the infection, 
+    hunting the infection,
     <a href="http://www.gapm.io/x1">in his TEDx Monrovia talk</a>.
   </p>
 )

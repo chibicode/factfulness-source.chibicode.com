@@ -16,17 +16,17 @@ export default () => (
       Today, the number is 966 out of 1,000 which means that 96.6 percent of
       children in Bangladesh survive. The child mortality rate was 313 children
       per 1,000 live births in Egypt 1960. Child mortality rates in Egypt and
-      Bangladesh are based on data from 
-      <a href="http://www.gapm.io/xu5mr">UN-IGME</a>. At 
-      <a href="http://www.gapm.io/du5mr">www.gapm.io/du5mr</a> we describe in
+      Bangladesh are based on data from
+      <a href="http://www.gapm.io/xu5mr">UN-IGME</a>. At
+      <a href="http://www.gapm.io/du5mr">www.gapm.io/du5mr</a> we describe in
       full how we have combined child mortality data from multiple sources.
     </p>
     <p>
       The construction of the High Aswan Dam began in 1960 to control flooding
-      along the Nile. The dam was completed in 1970 and installed 1971; see 
+      along the Nile. The dam was completed in 1970 and installed 1971; see
       <a href="http://www.gapm.io/xdam">gapm.io/xdam</a>. In our animated World
       Health Chart you can see the progress of Egypt, Bangladesh, or most other
-      countries---search by country and click Play at 
+      countries---search by country and click Play at
       <a href="https://www.gapminder.org/whc">www.gapminder.org/whc</a>.
     </p>
   </>

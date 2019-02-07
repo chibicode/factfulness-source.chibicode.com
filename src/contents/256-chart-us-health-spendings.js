@@ -6,7 +6,7 @@ export default () => (
     <p>
       The United States spends much more on health care than other capitalist
       countries on Level 4---the European Union, Japan, and South Korea. The
-      health spending data comes from WHO's 
+      health spending data comes from WHO's
       <a href="http://apps.who.int/nha/database">
         Global Health Expenditure Database
       </a>
@@ -26,7 +26,7 @@ export default () => (
     </p>
     <p>
       The study continues to ask: Is the US providing too much health care? In
-      some common practices, the answer is clearly yes---when comparing the cost
+      some common practices, the answer is clearly yes---when comparing the cost
       of regular health delivery in US and France, the US health costs are 50
       percent higher, which is in large part due to unnecessary doctor's
       appointments, along with costly diagnostic equipment and over-testing.
@@ -38,7 +38,7 @@ export default () => (
       content and cancer rates, as can be seen in the 32 improvements charts,
       where the outcomes have been marvelous for those who got treatment. But
       the US health system do not provide incentives for doctors to spend time
-      with the patients most in need of care. See 
+      with the patients most in need of care. See
       <a href="http://www.gapm.io/theasp">www.gapm.io/theasp</a>.
     </p>
     <p>
@@ -54,7 +54,7 @@ export default () => (
     <ul>
       <li>
         <a href="http://www.gapm.io/x-ushealth">
-          OECD[1] (Organisation for Economic Co-operation and Development).
+          OECD[1] (Organisation for Economic Co-operation and Development).
           &quot;Why is Health Spending in the United States so High?&quot; Chart
           4: Health spending per capita by category of care, US and selected
           OECD countries, 2009. Health at a Glance 2011: OECD Indicators.
@@ -63,7 +63,7 @@ export default () => (
       </li>
       <li>
         <a href="http://www.gapm.io/xwb1724">
-          World Bank[24] &quot;Health expenditure, total (% of GDP).&quot; World
+          World Bank[24] &quot;Health expenditure, total (% of GDP).&quot; World
           Health Organization Global Health Expenditure Database, 2017.
         </a>
       </li>

@@ -5,8 +5,8 @@ export default () => (
   <>
     <p>
       The numbers are rounded to billion people to make it easier to remember.
-      Incomes are in price adjusted PPP 2011 dollars by ICP. 
-      <a href="http://gapm.io/incm">Gapminder[8]</a> estimates that the number
+      Incomes are in price adjusted PPP 2011 dollars by ICP.
+      <a href="http://gapm.io/incm">Gapminder[8]</a> estimates that the number
       of people on each income level in 2017 are as follows:
     </p>
     <ul>
@@ -20,8 +20,8 @@ export default () => (
     </ul>
     <p>
       The detailed estimates are based on the World Bank's PovcalNet for 2013
-      and forecasts from <a href="http://gapm.io/ximfw">IMF[1]</a>. 
-      <a href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</a> is the
+      and forecasts from <a href="http://gapm.io/ximfw">IMF[1]</a>.
+      <a href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</a> is the
       dataset that the World Bank uses to estimate the official rate of extreme
       poverty worldwide. Data was collected through household income surveys
       from across the world. National currencies are converted to comparable
@@ -29,7 +29,7 @@ export default () => (
       threshold of $2 per day is almost identical to the World Bank's $1.9 per
       day. Gapminder rounded that up to $2 per day to make it easier to
       remember, and to avoid the false precision in poverty estimates that are
-      very rough. See 
+      very rough. See
       <a href="http://www.gapm.io/fwlevels">www.gapm.io/fwlevels</a>
     </p>
   </>

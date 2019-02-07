@@ -91,7 +91,7 @@ export default () => (
       low fertility in historical Europe was achieved reduced access to sex by
       late or no marriage and strong repression on sex outside marriage.&quot;
       The last caveat is that on the higher incomes on Level 4, fertility begins
-      to increase again. See, for example, this study in Nature, &quot;Advances
+      to increase again. See, for example, this study in Nature, &quot;Advances
       in development reverse fertility declines,&quot; from Myrskylä M, et al.
       (2008).
     </p>

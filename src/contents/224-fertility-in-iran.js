@@ -19,7 +19,7 @@ export default () => (
     </p>
     <p>
       These improvements in Iran, especially for women, also reflect
-      achievements in regards to health and education. Women in Iran today have
+      achievements in regards to health and education. Women in Iran today have
       an average 10 years of school, compared to 2 years in 1970, according to
       HME[2]. During the same years, life expectancy increased from 56 years to
       76 during the same period, based on HME[2]. Comparing these numbers back
@@ -28,10 +28,10 @@ export default () => (
       Iran's level in 1970. At present, Iran has a lower fertility rate than the
       US and Sweden. As of 2017, the total fertility rate is estimated to be at
       1.636 in Iran; 1.876 in the US; and 1.909 in Sweden, based on total
-      fertility (TFR) data from UN's 
+      fertility (TFR) data from UN's
       <a href="https://esa.un.org/unpd/wpp/">World Population Prospects 2017</a>
-      .  To compare Iran---the world champion in family planning---against other
-      countries over time, see 
+      .  To compare Iran---the world champion in family planning---against other
+      countries over time, see
       <a href="http://www.gapm.io/vm2">www.gapm.io/vm2</a>.
     </p>
   </>

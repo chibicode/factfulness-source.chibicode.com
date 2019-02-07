@@ -21,7 +21,7 @@ export default () => (
     <p>
       In violent communities, children are not spared. Members of
       hunter-gatherer groups generally experienced lots of violence, as
-      described in Gurven and Kaplan (2007), Diamond (2012), Pinker (2011), and 
+      described in Gurven and Kaplan (2007), Diamond (2012), Pinker (2011), and
       <a href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">
         OurWorldInData[5]
       </a>

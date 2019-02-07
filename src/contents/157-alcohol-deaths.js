@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Our calculations on deaths involving alcohol draw on 
+      Our calculations on deaths involving alcohol draw on
       <a href="http://ihmeuw.org/49pa">IHME[9]</a>, NHTSA (2017), FBI, and BJS.
       Data on traffic fatalities come from NHTSA (2017). In 2016, drunk drivers
       in the United States killed 948 pedestrians and cyclists, 1,550 passengers
@@ -31,7 +31,7 @@ export default () => (
       terrorism and alcoholism figures are is similar comparable across most
       European countries on Level 4, which all have quite terrible drinking
       habits: the risk that your loved one will be killed by a drunk person is
-      50 48 times higher than the risk they will be killed by a terrorist. See 
+      50 48 times higher than the risk they will be killed by a terrorist. See
       <a href="http://www.gapm.io/alcterex">www.gapm.io/alcterex</a>.
     </p>
   </>

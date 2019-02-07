@@ -6,16 +6,16 @@ export default () => (
     <p>
       Our comments on the IMF's forecasting track record are based on the World
       Economic Outlook; see IMF[2]. IMF forecasts are used for speculations
-      about future growth in the stock and finance industry, as 
-      <a href="https://www.bbc.com/news/business-22228223">BBC News</a> points
-      out. 
+      about future growth in the stock and finance industry, as
+      <a href="https://www.bbc.com/news/business-22228223">BBC News</a> points
+      out.
       <a href="https://seekingalpha.com/article/4117923-2017-q4-stock-market-outlook-u-s-economy-reaching-peak">
         Here
       </a>
-       is one example of such speculations.
+       is one example of such speculations.
     </p>
     <p>
-      See <a href="http://www.gapm.io/eecof">www.gapm.io/eecof</a>. The
+      See <a href="http://www.gapm.io/eecof">www.gapm.io/eecof</a>. The
       following graphs are from IMF forecast track record, based on the World
       Economic Outlook from previous years IMF[2-10]:
     </p>
@@ -31,7 +31,7 @@ export default () => (
           IHME[1] (Institute for Health Metrics and Evaluation) Global Burden of
           Disease Study 2016 (GBD 2016) All-cause Under-5 Mortality, Adult
           Mortality, and Life Expectancy 1970-2016. Table 13A.
-          Select Lancet article tables (2017).
+          Select Lancet article tables (2017).
         </a>
       </li>
       <li>

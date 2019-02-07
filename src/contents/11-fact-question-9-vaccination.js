@@ -31,10 +31,10 @@ export default () => (
     </ul>
     <p>
       The estimate for immunization coverage of the vaccine against TB is based
-      on 
+      on
       <a href="http://www.who.int/gho/tb/en/">Global Health Observatory data</a>
-       from WHO[10]. For vaccination data by category, see
-      <a href="http://www.gapm.io/xwhoim"> WHO[1]</a>. See 
+       from WHO[10]. For vaccination data by category, see
+      <a href="http://www.gapm.io/xwhoim"> WHO[1]</a>. See
       <a href="http://www.gapm.io/q9">www.gapm.io/q9</a>.
     </p>
   </>
