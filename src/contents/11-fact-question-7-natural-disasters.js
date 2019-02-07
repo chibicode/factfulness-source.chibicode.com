@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <>
     <H.QuizQuote quizNumber={7} />
-    <H.P>
+    <p>
       <H.FB pageNumber={371}>
         正解はC。国際災害データベースによれば、自然災害による年間死者数は過去100年間で75%減少した(
         <H.A href="http://www.emdat.be/">EM-DAT</H.A>
@@ -14,7 +14,7 @@ export default () => (
       <H.FB pageNumber={371}>
         過去10年間に(2007年から2016年)、毎年平均8万386人が自然災害で亡くなった。1100年前(1907年から1916年)の32万5742人と比べると、25%になっている。
       </H.FB>
-    </H.P>
+    </p>
     <p>
       The huge decline in disaster deaths would be even more striking if two
       other major global changes were also taken into account. First, the number
@@ -38,12 +38,12 @@ export default () => (
     Epidemiology of Disasters (CRED). The International Disaster Database.
     Debarati Guha-Sapir, Université catholique de Louvain.
     2017/11/5閲覧。](http://www.emdat.be/)
-    <H.P>
+    <p>
       <H.FB pageNumber={371}>
         正解はC。国際災害データベースによれば、自然災害による年間死者数は過去100年間で75%減少した(
         <H.A href="http://www.emdat.be/">EM-DAT</H.A>
         )。自然災害は年によってばらつきがあるので、それぞれの年ごとに過去10年間の平均を比べている。
       </H.FB>
-    </H.P>
+    </p>
   </>
 )

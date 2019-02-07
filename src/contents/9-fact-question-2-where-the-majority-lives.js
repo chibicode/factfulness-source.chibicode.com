@@ -5,21 +5,21 @@ export default () => (
   <>
     <H.QuizQuote quizNumber={2} />
 
-    <H.P>
+    <p>
       <H.FB pageNumber={372}>
         正解はB。世界の大半の人は中所得国に住んでいる。
       </H.FB>
       質問1と同じく、それぞれの所得グループの定義は意図的に省いている。「低所得国」という言葉を人々がどのように受け取るかを調べるためだ。
-    </H.P>
+    </p>
 
-    <H.P>
+    <p>
       <H.FB pageNumber={372}>
         世界銀行は(<H.A href="(http://gapm.io/xwb172)">World Bank[2]</H.A>
         )、ひとりあたりの国民総生産(現在のUSドル)をもとに国々をいくつかのグループに分けている。低所得国に暮らすのは世界の人口の9%。中所得国に暮らすのは世界の人口の76%。残りの16%は高所得国に暮らしている(
         <H.A href="http://gapm.io/xwb174">World Bank[4]</H.A>)。
       </H.FB>
       分類方法は以下の通り。
-    </H.P>
+    </p>
     <ul>
       <li>
         <strong>低所得国:</strong>

@@ -9,7 +9,7 @@ export default () => (
 
     <H.QuizMap />
 
-    <H.P>
+    <p>
       <H.FB pageNumber={371}>
         国連によれば、2017年の人口は75億5000万人だった(
         <H.A href="https://esa.un.org/unpd/wpp">UN-Pop[1]</H.A>
@@ -18,6 +18,6 @@ export default () => (
         の人口を国連の国ごとのデータ(UN-Pop[1])を基に次のように推定している。アメリカ大陸は10億人、ヨーロッパは8億4000万人、アフリカは13億人、アジアは44億人。
         <H.A href="http://www.gapm.io/q8">詳しくはこちら</H.A>。
       </H.FB>
-    </H.P>
+    </p>
   </>
 )

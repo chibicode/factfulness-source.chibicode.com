@@ -5,13 +5,13 @@ export default () => (
   <>
     <H.QuizQuote quizNumber={9} />
 
-    <H.P>
+    <p>
       <H.FB pageNumber={371}>
         正解はC。世界中の1歳児の88%がなんらかの病気に対して予防接種を受けている(
         <H.A href="http://gapm.io/xwhoim">WHO[1]</H.A>
         )。誇張を避けるため80%に切り捨てた。
       </H.FB>
-    </H.P>
+    </p>
 
     <p>
       The common vaccines that reached most 1-year-olds worldwide in 2016,

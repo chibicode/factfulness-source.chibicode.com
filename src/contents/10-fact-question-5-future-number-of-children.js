@@ -5,7 +5,7 @@ export default () => (
   <>
     <H.QuizQuote quizNumber={5} />
 
-    <H.P>
+    <p>
       正解はC。The UN experts (i.e. the demographers of the UN Population
       Division) publish new official population forecasts every second year in
       their publication World Population Prospect. They work with multiple
@@ -22,6 +22,6 @@ export default () => (
       <H.A href="http://www.esa.un.org/unpd/wpp">UN-Pop[2]</H.A>. Nobody can
       know for sure, but the question is only asking which forecast is the most
       likely. <H.A href="http://www.gapm.io/q5">詳しくはこちら</H.A>。
-    </H.P>
+    </p>
   </>
 )

@@ -5,11 +5,11 @@ export default () => (
   <>
     <H.QuizQuote quizNumber={11} />
 
-    <H.P>
+    <p>
       <H.FB pageNumber={371}>
         正解はC。国際自然保護連合が作成したレッドリストによれば、3つの動物のうち、1996年よりさらに絶滅の危機に瀕している動物はひとつもない。
       </H.FB>
-    </H.P>
+    </p>
 
     <p>
       The data is based on the IUCN Red List of Threatened Species; see IUCN Red

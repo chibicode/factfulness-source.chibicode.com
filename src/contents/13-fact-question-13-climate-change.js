@@ -5,11 +5,11 @@ export default () => (
   <>
     <H.QuizQuote quizNumber={13} />
 
-    <H.P>
+    <p>
       <H.FB pageNumber={370}>
         正解はA。「気候の専門家」とは、2014年に気候変動に関する政府間パネルが公表した「第5次評価報告書(AR5)」の著者274人のことを指す(IPCC[1])。
       </H.FB>
-    </H.P>
+    </p>
 
     <p>
       Here is what they predict about the changes in the climate system, as
