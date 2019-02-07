@@ -192,7 +192,7 @@ export const pagedSources = [
     jpPage: 28,
     enPage: 19,
     enTitle: `Child mortality in 1995 and 2017`,
-    jpTitle: `Child mortality in 1995 and 2017`
+    jpTitle: `1995年と2017年の乳幼児死亡率`
   },
   {
     chapter: 1,
@@ -234,7 +234,7 @@ export const pagedSources = [
     jpPage: 41,
     enPage: 30,
     enTitle: `Polls: Imagining the worst`,
-    jpTitle: `Polls: Imagining the worst`
+    jpTitle: `低所得国、途上国の生活はどんなものだと思うか？`
   },
   {
     chapter: 1,
