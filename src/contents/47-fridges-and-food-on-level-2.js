@@ -9,6 +9,6 @@ export default () => (
     <a href="https://www.gapminder.org/dollar-street/matrix?thing=Refrigerators">
       refrigerators of people on different incomes
     </a>
-     on Dollar Street.
+    on Dollar Street.
   </p>
 )

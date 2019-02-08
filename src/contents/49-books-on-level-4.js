@@ -10,7 +10,7 @@ export default () => (
       <a href="https://en.wikipedia.org/wiki/Books_published_per_country_per_year#cite_note-publishingtechnology.com-2">
         Wikipedia[1]
       </a>
-       divided by UN-POP[1].
+      divided by UN-POP[1].
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

@@ -249,7 +249,7 @@ export const pagedSources = [
     jpPage: 41,
     enPage: 30,
     enTitle: `Polls: Imagining the worst`,
-    jpTitle: `低所得国、途上国の生活はどんなものだと思うか？`,
+    jpTitle: `低所得国、途上国の生活はどんなもの？`,
     constructionId: 'rdev'
   },
   {
@@ -257,7 +257,7 @@ export const pagedSources = [
     jpPage: 42,
     enPage: 31,
     enTitle: `How many live in low-income countries?`,
-    jpTitle: `How many live in low-income countries?`
+    jpTitle: `低所得国に暮らす人の数はどのくらい？`
   },
   {
     chapter: 1,
@@ -272,7 +272,7 @@ export const pagedSources = [
     jpPage: 45,
     enPage: 32,
     enTitle: `Graph: Four income levels`,
-    jpTitle: `Graph: Four income levels`,
+    jpTitle: `4つの所得レベル`,
     constructionId: 'fwlevels'
   },
   {
@@ -280,7 +280,7 @@ export const pagedSources = [
     jpPage: 45,
     enPage: 33,
     enTitle: `Doubling scales`,
-    jpTitle: `Doubling scales`,
+    jpTitle: `倍増するグラフ`,
     constructionId: 'esca'
   },
   {
@@ -288,7 +288,7 @@ export const pagedSources = [
     jpPage: 46,
     enPage: 34,
     enTitle: `People on Level 1`,
-    jpTitle: `People on Level 1`
+    jpTitle: `レベル1の暮らしをする人々`
   },
   {
     chapter: 1,
@@ -309,7 +309,7 @@ export const pagedSources = [
     jpPage: 46,
     enPage: 34,
     enTitle: `Air pollution`,
-    jpTitle: `Air pollution`
+    jpTitle: `大気汚染`
   },
   {
     chapter: 1,
@@ -330,35 +330,35 @@ export const pagedSources = [
     jpPage: 47,
     enPage: 36,
     enTitle: `Fridges and food on Level 2`,
-    jpTitle: `Fridges and food on Level 2`
+    jpTitle: `レベル2における冷蔵庫`
   },
   {
     chapter: 1,
     jpPage: 48,
     enPage: 36,
     enTitle: `Traffic accidents on Level 3`,
-    jpTitle: `Traffic accidents on Level 3`
+    jpTitle: `レベル3における交通事故`
   },
   {
     chapter: 1,
     jpPage: 49,
     enPage: 37,
     enTitle: `Education on Level 4`,
-    jpTitle: `Education on Level 4`
+    jpTitle: `レベル4における教育`
   },
   {
     chapter: 1,
     jpPage: 49,
     enPage: 37,
     enTitle: `Travel and vacation on Level 4`,
-    jpTitle: `Travel and vacation on Level 4`
+    jpTitle: `レベル4における観光`
   },
   {
     chapter: 1,
     jpPage: 49,
     enPage: 37,
     enTitle: `Books on Level 4`,
-    jpTitle: `Books on Level 4`
+    jpTitle: `レベル4における出版業`
   },
   {
     chapter: 1,
@@ -386,7 +386,7 @@ export const pagedSources = [
     jpPage: 50,
     enPage: 38,
     enTitle: `"Developing countries" in other organizations`,
-    jpTitle: `"Developing countries" in other organizations`
+    jpTitle: `「途上国」を使い続ける団体`
   },
   {
     chapter: 1,
