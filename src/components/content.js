@@ -7,13 +7,14 @@ import ExternalLink from './external-link'
 
 const Content = ({
   jpPage,
+  CustomComponent,
   permalink,
   chapter,
   jpTitle,
   isModal,
   constructionId
 }) => {
-  const Component = contentBundles[permalink]
+  const Component = CustomComponent || contentBundles[permalink]
   return (
     <>
       {isModal && (
@@ -66,23 +67,25 @@ const Content = ({
         css={css`
           margin-top: 0;
           font-size: ${isModal ? '1.5rem' : '1.25rem'};
-          margin-bottom: 0.125rem;
+          margin-bottom: ${jpPage && chapter ? '0.125rem' : '1rem'};
           line-height: 1.5;
         `}
       >
         {jpTitle}{' '}
       </h3>
-      <p
-        css={css`
-          color: ${colors.grey500};
-          font-weight: normal;
-          margin-bottom: 1rem;
-          font-size: 0.85rem;
-        `}
-      >
-        {typeof chapter === 'number' ? `第${chapter}章` : chapter} (P
-        {Array.isArray(jpPage) ? jpPage.join('〜') : jpPage})
-      </p>
+      {jpPage && chapter && (
+        <p
+          css={css`
+            color: ${colors.grey500};
+            font-weight: normal;
+            margin-bottom: 1rem;
+            font-size: 0.85rem;
+          `}
+        >
+          {typeof chapter === 'number' ? `第${chapter}章` : chapter} (P
+          {Array.isArray(jpPage) ? jpPage.join('〜') : jpPage})
+        </p>
+      )}
       <Component />
       {isModal ? (
         <div

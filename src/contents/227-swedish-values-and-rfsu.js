@@ -1,6 +1,7 @@
 import React from 'react'
 import * as H from '../components/h'
 
+// スウェーデン性教育協会
 export default () => (
   <p>
     The earliest condoms found are from Egypt 13000 years BC. In the nineteenth

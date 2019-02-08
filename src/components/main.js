@@ -1,5 +1,5 @@
 import React from 'react'
-import {pagedSources} from '../lib/sources'
+import {pagedSources, finalNoteSources} from '../lib/sources'
 import Card from './card'
 import Content from './content'
 import Intro from './intro'
@@ -14,6 +14,9 @@ const Main = () => (
         <Content {...data} />
       </Card>
     ))}
+    <Card>
+      <Content {...finalNoteSources} />
+    </Card>
   </>
 )
 

@@ -1,3 +1,4 @@
+import FinalNote from '../components/final-note'
 import problems from './problems'
 
 const process = ({jpPage, enTitle, ...rest}) => ({
@@ -918,28 +919,28 @@ export const pagedSources = [
     jpPage: 115,
     enPage: 90,
     enTitle: `Graph: Average family size by income`,
-    jpTitle: `Graph: Average family size by income`
+    jpTitle: `それぞれの所得レベルにおける 1 世帯あたりの平均人数のグラフ`
+  },
+  {
+    chapter: 3,
+    jpPage: 116,
+    enPage: 92,
+    enTitle: `Child survival`,
+    jpTitle: `子供の死亡率の低下`
   },
   {
     chapter: 3,
     jpPage: 117,
     enPage: 92,
     enTitle: `Two public health miracles`,
-    jpTitle: `Two public health miracles`
-  },
-  {
-    chapter: 3,
-    jpPage: 117,
-    enPage: 92,
-    enTitle: `Child survival`,
-    jpTitle: `Child survival`
+    jpTitle: `公衆衛生の2つの奇跡`
   },
   {
     chapter: 3,
     jpPage: [119, 124],
     enPage: [93, 97],
     enTitle: `Graphs: 14 Straight lines, S-bends, slides, and humps`,
-    jpTitle: `Graphs: 14 Straight lines, S-bends, slides, and humps`,
+    jpTitle: `直線、S 字カーブ、すべり台、コブの形のグラフ`,
     constructionId: 'flinex'
   },
   {
@@ -947,21 +948,21 @@ export const pagedSources = [
     jpPage: 123,
     enPage: 97,
     enTitle: `E.coli Bacteria`,
-    jpTitle: `E.coli Bacteria`
+    jpTitle: `大腸菌`
   },
   {
     chapter: 3,
     jpPage: 124,
     enPage: [98, 99],
     enTitle: `CO2 emissions from transportation`,
-    jpTitle: `CO2 emissions from transportation`
+    jpTitle: `二酸化炭素の排出量`
   },
   {
     chapter: 3,
     jpPage: 126,
     enPage: 99,
     enTitle: `What part of the line are you seeing?`,
-    jpTitle: `What part of the line are you seeing?`,
+    jpTitle: `見えているのは、グラフのどの部分だろう？`,
     constructionId: 'fline'
   },
   {
@@ -969,14 +970,14 @@ export const pagedSources = [
     jpPage: 134,
     enPage: 105,
     enTitle: `Fear in polls`,
-    jpTitle: `Fear in polls`
+    jpTitle: `あなたがいちばん恐れているものは何だろう？`
   },
   {
     chapter: 4,
     jpPage: 138,
     enPage: 107,
     enTitle: `Disaster data`,
-    jpTitle: `Disaster data`,
+    jpTitle: `自然災害`,
     constructionId: 'tdis'
   },
   {
@@ -984,14 +985,14 @@ export const pagedSources = [
     jpPage: 141,
     enPage: 110,
     enTitle: `ReliefWeb`,
-    jpTitle: `ReliefWeb`
+    jpTitle: `リリーフウェブ`
   },
   {
     chapter: 4,
     jpPage: 143,
     enPage: 111,
     enTitle: `Child deaths from diarrhea`,
-    jpTitle: `Child deaths from diarrhea`,
+    jpTitle: `下痢で亡くなる子供`,
     constructionId: 'tsan'
   },
   {
@@ -999,21 +1000,21 @@ export const pagedSources = [
     jpPage: 144,
     enPage: 112,
     enTitle: `Plane accidents`,
-    jpTitle: `Plane accidents`
+    jpTitle: `飛行機事故`
   },
   {
     chapter: 4,
     jpPage: 146,
     enPage: 113,
     enTitle: `Deaths in wars`,
-    jpTitle: `Deaths in wars`
+    jpTitle: `戦争の犠牲者数`
   },
   {
     chapter: 4,
     jpPage: 146,
     enPage: 114,
     enTitle: `Graph: Battle deaths`,
-    jpTitle: `Graph: Battle deaths`,
+    jpTitle: `戦争や紛争による犠牲者数の推移のグラフ`,
     constructionId: 'twar'
   },
   {
@@ -1021,14 +1022,14 @@ export const pagedSources = [
     jpPage: 148,
     enPage: 114,
     enTitle: `Fukushima`,
-    jpTitle: `Fukushima`
+    jpTitle: `福島の原発事故`
   },
   {
     chapter: 4,
     jpPage: [148, 149],
     enPage: 114,
     enTitle: `Chernobyl`,
-    jpTitle: `Chernobyl`,
+    jpTitle: `チェルノブイリの原発事故`,
     constructionId: 'tnuc'
   },
   {
@@ -1043,7 +1044,7 @@ export const pagedSources = [
     jpPage: 150,
     enPage: 116,
     enTitle: `Chemophobia`,
-    jpTitle: `Chemophobia`,
+    jpTitle: `化学物質恐怖症`,
     constructionId: 'ffea'
   },
   {
@@ -1051,7 +1052,7 @@ export const pagedSources = [
     jpPage: 150,
     enPage: 116,
     enTitle: `Refusing vaccination`,
-    jpTitle: `Refusing vaccination`,
+    jpTitle: `子供にワクチンを受けさせない親`,
     constructionId: 'tvac'
   },
   {
@@ -1059,14 +1060,14 @@ export const pagedSources = [
     jpPage: 150,
     enPage: 116,
     enTitle: `The environmental movement`,
-    jpTitle: `The environmental movement`
+    jpTitle: `環境運動`
   },
   {
     chapter: 4,
     jpPage: 153,
     enPage: 118,
     enTitle: `Terrorism`,
-    jpTitle: `Terrorism`,
+    jpTitle: `テロ`,
     constructionId: 'tter'
   },
   {
@@ -1074,7 +1075,7 @@ export const pagedSources = [
     jpPage: 157,
     enPage: 121,
     enTitle: `Alcohol deaths`,
-    jpTitle: `Alcohol deaths`,
+    jpTitle: `飲酒による死`,
     constructionId: 'alcterex'
   },
   {
@@ -1082,7 +1083,7 @@ export const pagedSources = [
     jpPage: 158,
     enPage: 122,
     enTitle: `Risks of dying`,
-    jpTitle: `Risks of dying`,
+    jpTitle: `死因とリスク`,
     constructionId: 'ffear'
   },
   {
@@ -1090,28 +1091,28 @@ export const pagedSources = [
     jpPage: 158,
     enPage: 122,
     enTitle: `"How Many Deaths Make a Natural Disaster Newsworthy?"`,
-    jpTitle: `"How Many Deaths Make a Natural Disaster Newsworthy?"`
+    jpTitle: `災害の比較: 何人亡くなれば、ニュースに取り上げられるのか？`
   },
   {
     chapter: 5,
     jpPage: 162,
     enPage: [124, 125],
     enTitle: `Nacala child mortality calculation`,
-    jpTitle: `Nacala child mortality calculation`
+    jpTitle: `ナカラ地区の乳幼児死亡率`
   },
   {
     chapter: 5,
     jpPage: 166,
     enPage: 127,
     enTitle: `Saving lives`,
-    jpTitle: `Saving lives`
+    jpTitle: `命を救う効果的な方法`
   },
   {
     chapter: 5,
     jpPage: [167, 168],
     enPage: 128,
     enTitle: `Wrong proportions: Perils of Perception`,
-    jpTitle: `Wrong proportions: Perils of Perception`,
+    jpTitle: `過大視`,
     constructionId: 'fsize'
   },
   {
@@ -1119,7 +1120,7 @@ export const pagedSources = [
     jpPage: 168,
     enPage: 129,
     enTitle: `Educated mothers and child survival`,
-    jpTitle: `Educated mothers and child survival`,
+    jpTitle: `教育を受けた母親と、子供の生存率の関係`,
     constructionId: 'tcare'
   },
   {
@@ -1127,42 +1128,42 @@ export const pagedSources = [
     jpPage: 169,
     enPage: 130,
     enTitle: `4.2 million`,
-    jpTitle: `4.2 million`
+    jpTitle: `420万人`
   },
   {
     chapter: 5,
     jpPage: 171,
     enPage: 131,
     enTitle: `Bach Mai Hospital`,
-    jpTitle: `Bach Mai Hospital`
+    jpTitle: `バックマイ病院`
   },
   {
     chapter: 5,
     jpPage: 172,
     enPage: 132,
     enTitle: `The Vietnam War`,
-    jpTitle: `The Vietnam War`
+    jpTitle: `ベトナム戦争`
   },
   {
     chapter: 5,
     jpPage: 173,
     enPage: [132, 133],
     enTitle: `Bears and axes`,
-    jpTitle: `Bears and axes`
+    jpTitle: `クマと斧`
   },
   {
     chapter: 5,
     jpPage: 174,
     enPage: 133,
     enTitle: `The Spanish flu`,
-    jpTitle: `The Spanish flu`
+    jpTitle: `スペインかぜ`
   },
   {
     chapter: 5,
     jpPage: 174,
     enPage: 133,
     enTitle: `Tuberculosis (TB) and the swine flu`,
-    jpTitle: `Tuberculosis (TB) and the swine flu`,
+    jpTitle: `結核と豚インフルエンザ`,
     constructionId: 'bswin'
   },
   {
@@ -1170,7 +1171,7 @@ export const pagedSources = [
     jpPage: [175, 176],
     enPage: 134,
     enTitle: `Energy sources`,
-    jpTitle: `Energy sources`,
+    jpTitle: `エネルギー源`,
     constructionId: 'tene'
   },
   {
@@ -1178,35 +1179,35 @@ export const pagedSources = [
     jpPage: 178,
     enPage: 136,
     enTitle: `The world's PIN Code`,
-    jpTitle: `The world's PIN Code`
+    jpTitle: `世界の暗証番号`
   },
   {
     chapter: 5,
     jpPage: 179,
     enPage: 138,
     enTitle: `Graphs: West and Rest`,
-    jpTitle: `Graphs: West and Rest`
+    jpTitle: `結核と豚インフルエンザ`
   },
   {
     chapter: 5,
     jpPage: 179,
     enPage: 138,
     enTitle: `Future consumers`,
-    jpTitle: `Future consumers`
+    jpTitle: `未来の消費者`
   },
   {
     chapter: 5,
     jpPage: [180, 181],
     enPage: 139,
     enTitle: `Child mortality rate`,
-    jpTitle: `Child mortality rate`
+    jpTitle: `乳幼児死亡率`
   },
   {
     chapter: 5,
     jpPage: 182,
     enPage: 139,
     enTitle: `CO2 per capita`,
-    jpTitle: `CO2 per capita`,
+    jpTitle: `ひとりあたりの二酸化炭素排出量`,
     constructionId: 'tco2'
   },
   {
@@ -1214,21 +1215,21 @@ export const pagedSources = [
     jpPage: 196,
     enPage: 151,
     enTitle: `The cost of diabetes`,
-    jpTitle: `The cost of diabetes`
+    jpTitle: `糖尿病の治療コスト`
   },
   {
     chapter: 6,
     jpPage: 203,
     enPage: 155,
     enTitle: `Comparing stoves`,
-    jpTitle: `Comparing stoves`
+    jpTitle: `コンロの比較`
   },
   {
     chapter: 6,
     jpPage: 205,
     enPage: 159,
     enTitle: `Graph: Differences within Africa`,
-    jpTitle: `Graph: Differences within Africa`,
+    jpTitle: `アフリカにおける健康と富の格差を示したグラフ`,
     constructionId: 'edafr'
   },
   {
@@ -1236,14 +1237,14 @@ export const pagedSources = [
     jpPage: 206,
     enPage: 160,
     enTitle: `Contraceptives in Sweden`,
-    jpTitle: `Contraceptives in Sweden`
+    jpTitle: `スウェーデンにおける避妊具`
   },
   {
     chapter: 6,
     jpPage: 206,
     enPage: 160,
     enTitle: `Family planning: Needs met and unmet needs`,
-    jpTitle: `Family planning: Needs met and unmet needs`,
+    jpTitle: `避妊具が手に入らない人と入る人`,
     constructionId: 'twmc'
   },
   {
@@ -1251,7 +1252,7 @@ export const pagedSources = [
     jpPage: 207,
     enPage: 160,
     enTitle: `Everything is made from chemicals`,
-    jpTitle: `Everything is made from chemicals`,
+    jpTitle: `ありとあらゆるものは化学物質からできている`,
     constructionId: 'tind'
   },
   {
@@ -1259,28 +1260,28 @@ export const pagedSources = [
     jpPage: 208,
     enPage: 161,
     enTitle: `The Salhi family on Dollar Street`,
-    jpTitle: `The Salhi family on Dollar Street`
+    jpTitle: `ドル・ストリートのサルヒ一家`
   },
   {
     chapter: 6,
     jpPage: 210,
     enPage: 163,
     enTitle: `The recovery position`,
-    jpTitle: `The recovery position`
+    jpTitle: `回復体位`
   },
   {
     chapter: 6,
     jpPage: 211,
     enPage: 163,
     enTitle: `Hong Kong report on SIDS`,
-    jpTitle: `Hong Kong report on SIDS`
+    jpTitle: `香港のグループによる乳幼児突然死症候群(SIDS)の報告書`
   },
   {
     chapter: 7,
     jpPage: 219,
     enPage: 169,
     enTitle: `The sense of superiority`,
-    jpTitle: `The sense of superiority`,
+    jpTitle: `優越感`,
     constructionId: 'fdes'
   },
   {
@@ -1288,21 +1289,21 @@ export const pagedSources = [
     jpPage: 220,
     enPage: 170,
     enTitle: `World Health Chart over 200 years`,
-    jpTitle: `World Health Chart over 200 years`
+    jpTitle: `過去200年間の世界保健チャート`
   },
   {
     chapter: 7,
     jpPage: 220,
     enPage: 170,
     enTitle: `Life expectancy 1970--2016: North Africa and Western Europe`,
-    jpTitle: `Life expectancy 1970--2016: North Africa and Western Europe`
+    jpTitle: `1970年〜2016年の平均寿命: 北アフリカと西ヨーロッパ`
   },
   {
     chapter: 7,
     jpPage: 221,
     enPage: 170,
     enTitle: `Speed of improvement over the decades`,
-    jpTitle: `Speed of improvement over the decades`,
+    jpTitle: `進歩の速度の変化`,
     constructionId: 'edafr2'
   },
   {
@@ -1310,56 +1311,56 @@ export const pagedSources = [
     jpPage: 221,
     enPage: 170,
     enTitle: `Child mortality rates for Sub-Saharan Africa and Sweden`,
-    jpTitle: `Child mortality rates for Sub-Saharan Africa and Sweden`
+    jpTitle: `サハラ以南アフリカとスウェーデンの乳幼児死亡率`
   },
   {
     chapter: 7,
     jpPage: 221,
     enPage: 171,
     enTitle: `Progress in China, Bangladesh, and Vietnam`,
-    jpTitle: `Progress in China, Bangladesh, and Vietnam`
+    jpTitle: `中国、バングラデシュ、ベトナムの進歩`
   },
   {
     chapter: 7,
     jpPage: 221,
     enPage: 171,
     enTitle: `80 years ago in Sweden and US`,
-    jpTitle: `80 years ago in Sweden and US`
+    jpTitle: `80年前のスウェーデンとアメリカ`
   },
   {
     chapter: 7,
     jpPage: 222,
     enPage: 171,
     enTitle: `Mozambique and India`,
-    jpTitle: `Mozambique and India`
+    jpTitle: `モザンビークとインド`
   },
   {
     chapter: 7,
     jpPage: 222,
     enPage: 171,
     enTitle: `Estimates of extreme poverty`,
-    jpTitle: `Estimates of extreme poverty`
+    jpTitle: `極度の貧困率の推定`
   },
   {
     chapter: 7,
     jpPage: 223,
     enPage: 172,
     enTitle: `IMF forecasts`,
-    jpTitle: `IMF forecasts`
+    jpTitle: `国際通貨基金(IMF)による見通し`
   },
   {
     chapter: 7,
     jpPage: 224,
     enPage: 174,
     enTitle: `Fertility in Iran`,
-    jpTitle: `Fertility in Iran`
+    jpTitle: `イランの出生率`
   },
   {
     chapter: 7,
     jpPage: 226,
     enPage: 175,
     enTitle: `Classifying major religions`,
-    jpTitle: `Classifying major religions`,
+    jpTitle: `宗教別のグループ分け`,
     constructionId: 'ereltfr'
   },
   {
@@ -1367,28 +1368,28 @@ export const pagedSources = [
     jpPage: 227,
     enPage: [175, 176],
     enTitle: `Graphs: Three groups based on religion`,
-    jpTitle: `Graphs: Three groups based on religion`
+    jpTitle: `所得・子供の数・宗教のグラフ`
   },
   {
     chapter: 7,
     jpPage: 226,
     enPage: 175,
     enTitle: `High income means low fertility`,
-    jpTitle: `High income means low fertility`
+    jpTitle: `所得が高いほど子供の数は少ない`
   },
   {
     chapter: 7,
     jpPage: [227, 228],
     enPage: 176,
     enTitle: `Swedish values and RFSU`,
-    jpTitle: `Swedish values and RFSU`
+    jpTitle: `スウェーデンの価値観と性教育協会 `
   },
   {
     chapter: 7,
     jpPage: 228,
     enPage: 177,
     enTitle: `Asian values`,
-    jpTitle: `Asian values`,
+    jpTitle: `アジアの価値観`,
     constructionId: 'twmi'
   },
   {
@@ -1396,133 +1397,133 @@ export const pagedSources = [
     jpPage: [229, 230],
     enPage: 177,
     enTitle: `Asian University for Women in Bangladesh`,
-    jpTitle: `Asian University for Women in Bangladesh`
+    jpTitle: `バングラデシュにあるアジア女子大学`
   },
   {
     chapter: 7,
     jpPage: 231,
     enPage: 179,
     enTitle: `Nature reserves`,
-    jpTitle: `Nature reserves`
+    jpTitle: `自然保護区域`
   },
   {
     chapter: 7,
     jpPage: 231,
     enPage: 179,
     enTitle: `Sri Lanka's earliest protected forest`,
-    jpTitle: `Sri Lanka's earliest protected forest`
+    jpTitle: `スリランカの世界初の自然保護区域`
   },
   {
     chapter: 7,
     jpPage: 232,
     enPage: 180,
     enTitle: `Outdated chimpanzee questions`,
-    jpTitle: `Outdated chimpanzee questions`
+    jpTitle: `時代遅れになったチンパンジークイズ`
   },
   {
     chapter: 7,
     jpPage: 233,
     enPage: 180,
     enTitle: `Swedish school system`,
-    jpTitle: `Swedish school system`
+    jpTitle: `スウェーデンの教育システム`
   },
   {
     chapter: 7,
     jpPage: 233,
     enPage: 181,
     enTitle: `Attitudes toward same-sex marriage`,
-    jpTitle: `Attitudes toward same-sex marriage`
+    jpTitle: `同性婚に対する価値観`
   },
   {
     chapter: 8,
     jpPage: 242,
     enPage: 187,
     enTitle: `Expert forecasts: The single perspective in other books`,
-    jpTitle: `Expert forecasts: The single perspective in other books`
+    jpTitle: `専門家による予測: 単純化本能についての関連書籍`
   },
   {
     chapter: 8,
     jpPage: 243,
     enPage: 188,
     enTitle: `Lindau Nobel laureate meeting`,
-    jpTitle: `Lindau Nobel laureate meeting`
+    jpTitle: `リンダウ・ノーベル賞受賞者会議`
   },
   {
     chapter: 8,
     jpPage: 243,
     enPage: 188,
     enTitle: `Poll results from groups of professionals`,
-    jpTitle: `Poll results from groups of professionals`
+    jpTitle: `専門家のクイズ結果`
   },
   {
     chapter: 8,
     jpPage: 245,
     enPage: 189,
     enTitle: `Plundered natural resources`,
-    jpTitle: `Plundered natural resources`
+    jpTitle: `天然資源の濫用`
   },
   {
     chapter: 8,
     jpPage: 248,
     enPage: 192,
     enTitle: `Eradicating one disease at a time`,
-    jpTitle: `Eradicating one disease at a time`
+    jpTitle: `病気を一網打尽にする`
   },
   {
     chapter: 8,
     jpPage: 249,
     enPage: 193,
     enTitle: `Falling profits of Big Pharma`,
-    jpTitle: `Falling profits of Big Pharma`
+    jpTitle: `大手製薬会社の利益の減少`
   },
   {
     chapter: 8,
     jpPage: 249,
     enPage: 193,
     enTitle: `Education needs electricity`,
-    jpTitle: `Education needs electricity`
+    jpTitle: `教育には電気が必要`
   },
   {
     chapter: 8,
     jpPage: 254,
     enPage: 197,
     enTitle: `Chart: Cuba`,
-    jpTitle: `Chart: Cuba`
+    jpTitle: `キューバのグラフ`
   },
   {
     chapter: 8,
     jpPage: 256,
     enPage: [198, 199],
     enTitle: `Chart: US Health Spendings`,
-    jpTitle: `Chart: US Health Spendings`
+    jpTitle: `アメリカの医療費のグラフ`
   },
   {
     chapter: 8,
     jpPage: 258,
     enPage: 201,
     enTitle: `Democracy Is Not the Single Solution`,
-    jpTitle: `Democracy Is Not the Single Solution`
+    jpTitle: `民主主義でさえ、それだけではすべてを解決できない`
   },
   {
     chapter: 8,
     jpPage: 258,
     enPage: 201,
     enTitle: `Democracy and progress`,
-    jpTitle: `Democracy and progress`
+    jpTitle: `経済成長と民主主義`
   },
   {
     chapter: 9,
     jpPage: 262,
     enPage: 204,
     enTitle: `Neglected diseases`,
-    jpTitle: `Neglected diseases`
+    jpTitle: `製薬会社が見向きもしない病気`
   },
   {
     chapter: 9,
     jpPage: 265,
     enPage: 207,
     enTitle: `Systems thinking`,
-    jpTitle: `Systems thinking`,
+    jpTitle: `システム思考`,
     constructionId: 'fblame'
   },
   {
@@ -1530,35 +1531,35 @@ export const pagedSources = [
     jpPage: 266,
     enPage: 208,
     enTitle: `How UNICEF gets the lowest prices`,
-    jpTitle: `How UNICEF gets the lowest prices`
+    jpTitle: `ユニセフの低コスト`
   },
   {
     chapter: 9,
     jpPage: 268,
     enPage: 210,
     enTitle: `Gapminder's Ignorance Project`,
-    jpTitle: `Gapminder's Ignorance Project`
+    jpTitle: `チンパンジークイズの結果(CNNとBBC)`
   },
   {
     chapter: 9,
     jpPage: 269,
     enPage: 211,
     enTitle: `Poll results`,
-    jpTitle: `Poll results`
+    jpTitle: `チンパンジークイズの結果`
   },
   {
     chapter: 9,
     jpPage: [271, 272],
     enPage: 212,
     enTitle: `Why refugees don't fly`,
-    jpTitle: `Why refugees don't fly`
+    jpTitle: `難民が飛行機を使わない理由`
   },
   {
     chapter: 9,
     jpPage: 274,
     enPage: 214,
     enTitle: `CO2 emissions by income`,
-    jpTitle: `CO2 emissions by income`,
+    jpTitle: `所得ごとの二酸化炭素の排出量`,
     constructionId: 'tco2i'
   },
   {
@@ -1566,42 +1567,42 @@ export const pagedSources = [
     jpPage: 275,
     enPage: 216,
     enTitle: `Syphilis`,
-    jpTitle: `Syphilis`
+    jpTitle: `梅毒`
   },
   {
     chapter: 9,
     jpPage: 276,
     enPage: 216,
     enTitle: `1 billion people and Mao`,
-    jpTitle: `1 billion people and Mao`
+    jpTitle: `毛沢東と10億の人々`
   },
   {
     chapter: 9,
     jpPage: 276,
     enPage: 216,
     enTitle: `Falling birth rates and powerful leaders`,
-    jpTitle: `Falling birth rates and powerful leaders`
+    jpTitle: `出生率の低下と独裁的な政治指導者`
   },
   {
     chapter: 9,
     jpPage: 276,
     enPage: 217,
     enTitle: `Family planning: Contraceptive usage by Catholics`,
-    jpTitle: `Family planning: Contraceptive usage by Catholics`
+    jpTitle: `カトリック教徒による避妊具の使用`
   },
   {
     chapter: 9,
     jpPage: 278,
     enPage: 218,
     enTitle: `Access to safe abortion`,
-    jpTitle: `Access to safe abortion`
+    jpTitle: `安全な中絶`
   },
   {
     chapter: 9,
     jpPage: 279,
     enPage: 218,
     enTitle: `Institutions`,
-    jpTitle: `Institutions`,
+    jpTitle: `社会基盤`,
     constructionId: 'tgovin'
   },
   {
@@ -1609,84 +1610,84 @@ export const pagedSources = [
     jpPage: 279,
     enPage: 219,
     enTitle: `The governmental employees who saved the world from Ebola`,
-    jpTitle: `The governmental employees who saved the world from Ebola`
+    jpTitle: `世界をエボラから救った政府職員`
   },
   {
     chapter: 9,
     jpPage: 280,
     enPage: 219,
     enTitle: `Thank you, industrial Revolution`,
-    jpTitle: `Thank you, industrial Revolution`
+    jpTitle: `工業化バンザイ`
   },
   {
     chapter: 10,
     jpPage: 286,
     enPage: 223,
     enTitle: `Konzo`,
-    jpTitle: `Konzo`
+    jpTitle: `コンゾ`
   },
   {
     chapter: 10,
     jpPage: 288,
     enPage: 225,
     enTitle: `Roadblocks`,
-    jpTitle: `Roadblocks`
+    jpTitle: `道路封鎖`
   },
   {
     chapter: 10,
     jpPage: 290,
     enPage: 227,
     enTitle: `The Urgency Instinct in other books`,
-    jpTitle: `The Urgency Instinct in other books`
+    jpTitle: `焦り本能についての関連書籍`
   },
   {
     chapter: 10,
     jpPage: 290,
     enPage: 227,
     enTitle: `Now or never`,
-    jpTitle: `Now or never`
+    jpTitle: `いつやるか？いまでしょ！`
   },
   {
     chapter: 10,
     jpPage: 295,
     enPage: 232,
     enTitle: `The melting ice cap`,
-    jpTitle: `The melting ice cap`
+    jpTitle: `減っている氷河`
   },
   {
     chapter: 10,
     jpPage: 296,
     enPage: 232,
     enTitle: `Fresh numbers for GDP and CO2`,
-    jpTitle: `Fresh numbers for GDP and CO2`
+    jpTitle: `GDPと二酸化炭素排出量の最新データ`
   },
   {
     chapter: 10,
     jpPage: 297,
     enPage: 233,
     enTitle: `Climate refugees`,
-    jpTitle: `Climate refugees`
+    jpTitle: `温暖化難民`
   },
   {
     chapter: 10,
     jpPage: 297,
     enPage: 233,
-    enTitle: `Climate reductionism and catastrophizing`,
-    jpTitle: `Climate reductionism and catastrophizing`
+    enTitle: `温暖化: 単純化と最悪のシナリオ`,
+    jpTitle: ``
   },
   {
     chapter: 10,
     jpPage: 298,
     enPage: 234,
     enTitle: `Ebola`,
-    jpTitle: `Ebola`
+    jpTitle: `エボラ`
   },
   {
     chapter: 10,
     jpPage: 302,
     enPage: 237,
     enTitle: `The risk of global pandemic`,
-    jpTitle: `The risk of global pandemic`,
+    jpTitle: `感染症の流行リスク`,
     constructionId: 'tgerm'
   },
   {
@@ -1694,7 +1695,7 @@ export const pagedSources = [
     jpPage: 303,
     enPage: 238,
     enTitle: `The risk of financial collapse`,
-    jpTitle: `The risk of financial collapse`,
+    jpTitle: `金融危機のリスク`,
     constructionId: 'dysec'
   },
   {
@@ -1702,7 +1703,7 @@ export const pagedSources = [
     jpPage: 303,
     enPage: 239,
     enTitle: `The risk of World War III`,
-    jpTitle: `The risk of World War III`,
+    jpTitle: `第三次世界大戦のリスク`,
     constructionId: 'dysso'
   },
   {
@@ -1710,14 +1711,14 @@ export const pagedSources = [
     jpPage: 304,
     enPage: 239,
     enTitle: `The risk of climate change and plundering of natural resources`,
-    jpTitle: `The risk of climate change and plundering of natural resources`
+    jpTitle: `地球温暖化のリスクと天然資源の濫用`
   },
   {
     chapter: 10,
     jpPage: [305, 307],
     enPage: 240,
     enTitle: `The risk of extreme poverty`,
-    jpTitle: `The risk of extreme poverty`,
+    jpTitle: `極度の貧困のリスク`,
     constructionId: 'furgr'
   },
   {
@@ -1725,48 +1726,58 @@ export const pagedSources = [
     jpPage: 315,
     enPage: 247,
     enTitle: `Teachers`,
-    jpTitle: `Teachers`
+    jpTitle: `教師たち`
   },
   {
     chapter: 11,
     jpPage: 318,
     enPage: 250,
     enTitle: `Business`,
-    jpTitle: `Business`
+    jpTitle: `ビジネス`
   },
   {
     chapter: 11,
     jpPage: 319,
     enPage: 251,
     enTitle: `Diversified economies`,
-    jpTitle: `Diversified economies`
+    jpTitle: `経済の多様化`
   },
   {
     chapter: 11,
     jpPage: 320,
     enPage: 252,
     enTitle: `Speling miskates`,
-    jpTitle: `Speling miskates`
+    jpTitle: `スペルミス (Speling mistakes)`
   },
   {
     chapter: 11,
     jpPage: 321,
     enPage: 252,
     enTitle: `Constructive news`,
-    jpTitle: `Constructive news`
+    jpTitle: `前向きなニュース`
   },
   {
     chapter: 11,
     jpPage: 322,
     enPage: 253,
     enTitle: `Local ignorance and data`,
-    jpTitle: `Local ignorance and data`
+    jpTitle: `ローカルな知識不足とデータ`
   }
 ]
   .map(process)
   .slice(pagedSourcesSliceBegin, pagedSourcesSliceEnd)
 
-export const pagedSourcesObject = pagedSources.reduce((obj, item) => {
-  obj[item.permalink] = item
-  return obj
-}, {})
+export const finalNoteSources = {
+  jpTitle: 'グローバルな開発に関する無料データ',
+  permalink: 'final-note',
+  CustomComponent: FinalNote
+}
+
+export const pagedSourcesObject = Object.assign(
+  {},
+  pagedSources.reduce((obj, item) => {
+    obj[item.permalink] = item
+    return obj
+  }, {}),
+  {[finalNoteSources.permalink]: finalNoteSources}
+)
