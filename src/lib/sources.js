@@ -1302,7 +1302,8 @@ export const pagedSources = [
     jpPage: 221,
     enPage: 170,
     enTitle: `Speed of improvement over the decades`,
-    jpTitle: `Speed of improvement over the decades`
+    jpTitle: `Speed of improvement over the decades`,
+    constructionId: 'edafr2'
   },
   {
     chapter: 7,
