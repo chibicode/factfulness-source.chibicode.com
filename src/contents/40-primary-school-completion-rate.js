@@ -4,19 +4,15 @@ import * as H from '../components/h'
 export default () => (
   <p>
     <H.FB>
-      The primary school completion rate for girls is below 35 percent in just
-      three countries. But for all three, the uncertainty is high and the
-      numbers are outdated: Afghanistan (1993), 15 percent; South Sudan (2011),
-      18 percent; Chad (2011), 30 percent. Three other countries---Somalia,
-      Syria, and Libya---have no official number. The girls in these six
-      countries suffer under severe gender inequality, but in total they make up
-      only 2 percent of all girls of primary school age in the world.
-    </H.FB>{' '}
-    The data is based on UN-Pop[4], &quot;Annual population by age---Female,
-    medium fertility variant,&quot; available at
-    <a href="http://www.gapm.io/xpopage">www.gapm.io/xpopage</a>.{' '}
-    <H.FB>
-      Note that in these countries, many boys are also missing school.
+      また、女子が初等教育を終える割合が35%を切る国は3
+      つしかない。しかし、これら
+      の数字は正確と言うにはほど遠いし、最新のデータでもない。アフガニスタンの
+      15%は1993年、南スーダンの18%は2011年、チャドの30%は2011
+      年のものだ。ソマリア、シリア、リビアには公式の数字がない。この6
+      カ国では、男女は極めて不平等だ。しか
+      し、世界中の初等教育を受ける年齢の女子のうち、この6カ国に住む女子は
+      2%しかいない(<H.A href="www.gapm.io/xpopage">UN-POP[4]:</H.A>)。
+      ちなみに、この6カ国では、多くの男子も学校に通えていない。
     </H.FB>
   </p>
 )
