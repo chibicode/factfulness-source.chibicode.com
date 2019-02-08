@@ -22,9 +22,6 @@ export default () => (
       become more intense and frequent in many regions. The ocean will continue
       to warm and acidify, and global mean sea level to rise.
     </p>
-    <p>
-      See <a href="http://www.gapm.io/q13">www.gapm.io/q13</a>.
-    </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
 

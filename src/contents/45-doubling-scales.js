@@ -17,6 +17,5 @@ export default () => (
     of diminishing marginal value, first proposed by Daniel Bernoulli in 1738,
     as Kahneman (2011) describes in his book Thinking, Fast and Slow (p. 274).
     Doubling scales are explained with more examples in Factfulness on page 98.
-    See <a href="http://www.gapm.io/esca">www.gapm.io/esca</a>.
   </p>
 )

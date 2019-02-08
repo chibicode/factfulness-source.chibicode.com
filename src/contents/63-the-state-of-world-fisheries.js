@@ -22,7 +22,6 @@ export default () => (
       areas around the world. According to
       <a href="http://gapm.io/xiucnr4">IUCN Red List[4]</a>, the number of
       threatened species in 2015 was 23,250 and increased to 24,307 in 2016.
-      See <a href="http://www.gapm.io/tnplu">www.gapm.io/tnplu</a>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

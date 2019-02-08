@@ -20,7 +20,7 @@ export default () => (
       The tiger (Panthera tigris) was classified as Endangered (EN) in 1996, and
       it still is; see <a href="http://www.gapm.io/xiucnr1">IUCN Red List[1]</a>
       . According to a statement from <a href="http://gapm.io/xwwftiger">WWF</a>
-       in 2016, the number of wild tigers are increasing: &quot;After a century
+      in 2016, the number of wild tigers are increasing: &quot;After a century
       of decline, tiger numbers are on the rise. At least 3,890 tigers remain in
       the wild, but much more work is needed to protect this species that's
       still vulnerable to extinction.&quot; See also Platt (2016) in Scientific
@@ -46,7 +46,6 @@ export default () => (
       </a>
       . And the slow increase remains in March 2018, according to updates from
       the <a href="https://rhinos.org/state-of-the-rhino/">Rhino foundation</a>.
-      See <a href="http://www.gapm.io/q11">www.gapm.io/q11</a>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

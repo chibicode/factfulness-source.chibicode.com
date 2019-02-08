@@ -12,8 +12,7 @@ export default () => (
       2014, terrorism multiplied tenfold to 32,765 deaths, but has slowly begun
       to decline during the past two years. For more on terrorism, see note to
       page 118. For the poll about fear of terrorism, see
-      <a href="http://gapm.io/xgal17">Gallup[4]</a>. See
-      <a href="http://www.gapm.io/tter">www.gapm.io/tter</a>.
+      <a href="http://gapm.io/xgal17">Gallup[4]</a>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

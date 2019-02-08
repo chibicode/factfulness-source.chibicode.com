@@ -13,7 +13,6 @@ export default () => (
     <a href="https://en.wikipedia.org/wiki/Cobratoxin#cite_note-pmid21999367-8">
       Del Brutto (2012)
     </a>
-     retrieved via Wikipedia[8]. See
-    <a href="http://www.gapm.io/tind">www.gapm.io/tind</a>.
+    retrieved via Wikipedia[8].
   </p>
 )

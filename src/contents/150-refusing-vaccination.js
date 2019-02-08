@@ -13,7 +13,6 @@ export default () => (
     vaccination, it is only 1 percent. Deaths from measles mainly happen on
     Level 1 and Level 2, where children only recently started to get vaccinated;
     see <a href="http://gapm.io/xihels">IHME[7]</a> and
-    <a href="http://gapm.io/xwhoim">WHO[1]</a>. See
-    <a href="http://www.gapm.io/tvac">www.gapm.io/tvac</a>.
+    <a href="http://gapm.io/xwhoim">WHO[1]</a>.
   </p>
 )

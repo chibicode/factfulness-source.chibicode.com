@@ -481,8 +481,7 @@ export const pagedSources = [
     jpPage: 64,
     enPage: 50,
     enTitle: `When to trust the data`,
-    jpTitle: `When to trust the data`,
-    constructionId: 'doubt'
+    jpTitle: `いつデータを信頼するべきか`
   },
   {
     chapter: 2,
@@ -511,8 +510,7 @@ export const pagedSources = [
     jpPage: 69,
     enPage: 53,
     enTitle: `Life expectancy and data doubt`,
-    jpTitle: `Life expectancy and data doubt`,
-    constructionId: 'blexd'
+    jpTitle: `Life expectancy and data doubt`
   },
   {
     chapter: 2,
@@ -941,7 +939,8 @@ export const pagedSources = [
     jpPage: [119, 124],
     enPage: [93, 97],
     enTitle: `Graphs: 14 Straight lines, S-bends, slides, and humps`,
-    jpTitle: `Graphs: 14 Straight lines, S-bends, slides, and humps`
+    jpTitle: `Graphs: 14 Straight lines, S-bends, slides, and humps`,
+    constructionId: 'flinex'
   },
   {
     chapter: 3,
@@ -1558,7 +1557,8 @@ export const pagedSources = [
     jpPage: 274,
     enPage: 214,
     enTitle: `CO2 emissions by income`,
-    jpTitle: `CO2 emissions by income`
+    jpTitle: `CO2 emissions by income`,
+    constructionId: 'tco2i'
   },
   {
     chapter: 9,

@@ -16,8 +16,6 @@ export default () => (
     poorest and mask the wide range of differences for countries on levels 1--3.
     Very few countries follow these lines exactly, but the lines show the
     general pattern of all countries over several decades. In each example,
-    there are huge differences between countries on every level. You can explore
-    the actual plotted bubbles behind these lines here:
-    <a href="http://www.gapm.io/flinex">www.gapm.io/flinex</a>.
+    there are huge differences between countries on every level.
   </p>
 )

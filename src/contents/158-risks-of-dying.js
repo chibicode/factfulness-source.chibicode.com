@@ -12,7 +12,6 @@ export default () => (
     <a href="http://www.gapm.io/xgtdb17">GTD</a> for terrorism. A more relevant
     risk calculation should not just divide by the number of all deaths, but
     rather should take into account exposure to the situations in which these
-    kinds of deaths can occur. See
-    <a href="http://www.gapm.io/ffear">www.gapm.io/ffear</a>.
+    kinds of deaths can occur.
   </p>
 )

@@ -17,8 +17,6 @@ export default () => (
     <a href="http://www.gapm.io/xpopage">www.gapm.io/xpopage</a>.{' '}
     <H.FB>
       Note that in these countries, many boys are also missing school.
-    </H.FB>{' '}
-    See
-    <a href="http://gapm.io/twmedu">gapm.io/twmedu</a>.
+    </H.FB>
   </p>
 )

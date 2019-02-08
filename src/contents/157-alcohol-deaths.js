@@ -31,8 +31,7 @@ export default () => (
       terrorism and alcoholism figures are is similar comparable across most
       European countries on Level 4, which all have quite terrible drinking
       habits: the risk that your loved one will be killed by a drunk person is
-      50 48 times higher than the risk they will be killed by a terrorist. See
-      <a href="http://www.gapm.io/alcterex">www.gapm.io/alcterex</a>.
+      50 48 times higher than the risk they will be killed by a terrorist.
     </p>
   </>
 )

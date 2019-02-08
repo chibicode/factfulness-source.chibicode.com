@@ -9,7 +9,7 @@ export default () => (
       <a href="https://www.gapminder.org/videos/dont-panic-end-poverty/">
         &quot;Don't Panic---End Poverty&quot;
       </a>
-       from Gapminder[11].
+      from Gapminder[11].
     </p>
     <p>
       While extreme poverty has fallen, the number of extremely poor people
@@ -23,7 +23,7 @@ export default () => (
       <a href="https://www.pbsbdialogue.org/en">
         preparing for the risk of extreme poverty in conflict prone countries
       </a>
-      . See <a href="http://www.gapm.io/tepov">www.gapm.io/tepov</a>.
+      .
     </p>
     <p>
       The other risks are not ongoing. Extreme poverty is. 78% are small scale
@@ -68,8 +68,7 @@ export default () => (
       For a longer list of major risks, see Global Catastrophes and Trends: The
       Next Fifty Years by Smil (2008). For those who find numbers calming, this
       is where you will find the big picture of the proportional risks and
-      uncertainties of all kinds of possible fatal discontinuities. See
-      <a href="http://www.gapm.io/furgr">www.gapm.io/furgr</a>.
+      uncertainties of all kinds of possible fatal discontinuities.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

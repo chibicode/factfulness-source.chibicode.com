@@ -11,6 +11,6 @@ export default () => (
     Europe are from UNISDR, estimating the total death toll for Western Europe
     to be 46,730 fatalities. All other disaster data used here comes from
     EM-DAT. Nowadays, Bangladesh has a very advanced flood-monitoring website;
-    see http://www.ffwc.gov.bd. See gapm.io/tdis.
+    see http://www.ffwc.gov.bd.
   </p>
 )

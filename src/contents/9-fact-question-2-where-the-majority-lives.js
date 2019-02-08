@@ -46,9 +46,6 @@ export default () => (
         </ul>
       </li>
     </ul>
-    <p>
-      この質問についてさらに<a href="http://gapm.io/q2">詳しくはこちら</a>。
-    </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
 

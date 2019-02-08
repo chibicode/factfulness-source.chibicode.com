@@ -23,8 +23,7 @@ export default () => (
       If you find it hard to understand the fill-up in the text and graphs in
       this book, we find it easier to explain with animations or with our own
       hands---see<a href="http://www.gapm.io/vidfu"> www.gapm.io/vidfu</a>. For
-      more technical descriptions, see from UN-Pop[6, 7]. See also
-      <a href="http://www.gapm.io/efill"> www.gapm.io/efill</a>.
+      more technical descriptions, see from UN-Pop[6, 7].
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

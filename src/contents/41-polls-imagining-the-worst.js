@@ -19,7 +19,6 @@ export default () => (
     <a href="http://www.who.int/gho/tb/">World Bank[10]</a> based on
     <a href="http://gapm.io/faoh2006">FAO[1]</a>. All data from low-income
     countries have large uncertainties; still, the uncertainties are smaller
-    than the public's misconceptions. See
-    <a href="http://www.gapm.io/rdev">www.gapm.io/rdev</a>.
+    than the public's misconceptions.
   </p>
 )

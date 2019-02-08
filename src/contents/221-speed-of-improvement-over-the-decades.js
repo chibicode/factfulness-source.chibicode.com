@@ -29,7 +29,7 @@ export default () => (
         <ul>
           <li>
             <a href="https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=ZG">
-              SSA:  1971--2014- : 46--68%
+              SSA: 1971--2014- : 46--68%
             </a>
           </li>
         </ul>
@@ -62,8 +62,7 @@ export default () => (
       <a href="https://thebreakthrough.org/index.php/voices/roger-pielke-jr/electricity-for-all">
         Electricity for All: What Universal Energy Access Will Take
       </a>
-      . See the speed of improvement over the past decades here:
-      <a href="http://www.gapm.io/edafr2">www.gapm.io/edafr2</a>.
+      .
     </p>
   </>
 )

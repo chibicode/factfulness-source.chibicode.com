@@ -22,8 +22,7 @@ export default () => (
     </p>
     <p>
       Data about nuclear warheads are from the website
-      <a href="http://www.gapm.io/xnuno">Nuclear Notebook</a>. See
-      <a href="http://www.gapm.io/tnuc">www.gapm.io/tnuc</a>.
+      <a href="http://www.gapm.io/xnuno">Nuclear Notebook</a>.
     </p>
   </>
 )

@@ -13,7 +13,7 @@ export default () => (
       <a href="https://data.worldbank.org/indicator/SP.DYN.CONM.ZS?locations=XN-XT-XD-XM">
         contraceptive prevalence rate
       </a>
-       for the select countries, along with more details. You can explore the
+      for the select countries, along with more details. You can explore the
       data in
       <a href="https://www.unfpa.org/sexual-reproductive-health">
         the interactive chart
@@ -27,8 +27,7 @@ export default () => (
       don't want to become pregnant, or want to postpone pregnancy, but are not
       using any method of contraception. The data set, World Contraceptive Use
       2017, is available here:
-      <a href="http://www.gapm.io/xcontr">www.gapm.io/xcontr</a>. See
-      <a href="http://www.gapm.io/twmc">www.gapm.io/twmc</a>.
+      <a href="http://www.gapm.io/xcontr">www.gapm.io/xcontr</a>.
     </p>
   </>
 )

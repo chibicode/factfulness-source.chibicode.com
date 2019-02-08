@@ -16,14 +16,13 @@ export default () => (
       <a href="http://www.yougov.co.uk/news/2016/01/05/chinese-people-are-most-optimistic-word">
         optimistic about the world
       </a>
-       were China and Indonesia in which 41% and 23% said the world is getting
+      were China and Indonesia in which 41% and 23% said the world is getting
       better. But we have decided to remove these two outliers because the
       proportion of people with access to the internet is not large enough to
       represent the whole population. It's quite likely that people with
       internet access have a different perception of the world than the rest of
       the population. This is not to discard the plausible and interesting
-      hypothesis that Asians may be more positive than westerners. See
-      <a href="http://www.gapm.io/rbetter">www.gapm.io/rbetter</a>.
+      hypothesis that Asians may be more positive than westerners.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

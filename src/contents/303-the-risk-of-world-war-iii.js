@@ -26,7 +26,7 @@ export default () => (
       <a href="https://www.gapminder.org/topic/military/war">
         www.gapminder.org/topic/military/war
       </a>
-      . See <a href="http://www.gapm.io/dysso">www.gapm.io/dysso</a>.
+      .
     </p>
   </>
 )

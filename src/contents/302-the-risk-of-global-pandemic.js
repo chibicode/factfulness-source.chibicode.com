@@ -9,6 +9,6 @@ export default () => (
     <a href="http://gapm.io/xantimicres">Antimicrobial resistance</a>---we must
     also be careful not to make the same mistake as we did with DDT and become
     overprotective. Antibiotics could save even more lives if they were less
-    expensive. See <a href="http://www.gapm.io/tgerm">www.gapm.io/tgerm</a>.
+    expensive.
   </p>
 )

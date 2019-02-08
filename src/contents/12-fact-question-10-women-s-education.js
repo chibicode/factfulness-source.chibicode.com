@@ -20,8 +20,7 @@ export default () => (
       as what people think. Gapminder first asked this question with an open
       answer field to see how responses were distributed, before deciding on
       three exact values for alternatives A, B and C, in order to make the
-      skewed perception easier to compare to random results. See
-      <a href="http://gapm.io/q10">gapm.io/q10</a>.
+      skewed perception easier to compare to random results.
     </p>
   </>
 )

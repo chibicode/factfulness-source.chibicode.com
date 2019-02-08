@@ -8,7 +8,6 @@ export default () => (
     helping them to understand the mechanisms that are causing problems. But his
     ideas apply to all kinds of human organizations where blaming individuals
     blocks understanding. See Senge, The Fifth Discipline: The Art &amp;
-    Practice of the Learning Organization (1990). See
-    <a href="http://www.gapm.io/fblame">www.gapm.io/fblame</a>.
+    Practice of the Learning Organization (1990).
   </p>
 )

@@ -21,7 +21,7 @@ export default () => (
       2.094 in the year 2057); see{' '}
       <H.A href="http://www.esa.un.org/unpd/wpp">UN-Pop[2]</H.A>. Nobody can
       know for sure, but the question is only asking which forecast is the most
-      likely. <H.A href="http://www.gapm.io/q5">詳しくはこちら</H.A>。
+      likely.
     </p>
   </>
 )

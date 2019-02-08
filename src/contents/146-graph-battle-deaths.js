@@ -42,6 +42,5 @@ export default () => (
     hardest to generate an increasing impression of fatalities, by drawing a
     trendline from the lowest estimates of past conflicts to the highest
     estimates of the recent conflicts, even such line would be steadily falling.
-    See <a href="http://www.gapm.io/twar">www.gapm.io/twar</a>.
   </p>
 )
