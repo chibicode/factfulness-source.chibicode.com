@@ -883,9 +883,9 @@ export default {
       import(/* webpackChunkName: '52-math-scores' */ '../contents/52-math-scores.js'),
     {loading: () => <DynamicLoading />}
   ),
-  '52-overlapping-spreads': dynamic(
+  '54-overlapping-spreads': dynamic(
     () =>
-      import(/* webpackChunkName: '52-overlapping-spreads' */ '../contents/52-overlapping-spreads.js'),
+      import(/* webpackChunkName: '54-overlapping-spreads' */ '../contents/54-overlapping-spreads.js'),
     {loading: () => <DynamicLoading />}
   ),
   '54-in-apartheid-south-africa': dynamic(

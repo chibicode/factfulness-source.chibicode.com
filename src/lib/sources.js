@@ -171,14 +171,14 @@ export const pagedSources = [
     jpPage: 15,
     enPage: 8,
     enTitle: `Public awareness of climate change`,
-    jpTitle: `Public awareness of climate change`
+    jpTitle: `地球温暖化の認知度`
   },
   {
     chapter: 'イントロダクション',
     jpPage: 17,
     enPage: 10,
     enTitle: `Hans testing students`,
-    jpTitle: `Hans testing students`
+    jpTitle: `学生たちのクイズ結果`
   },
   {
     chapter: 'イントロダクション',
@@ -213,28 +213,28 @@ export const pagedSources = [
     jpPage: 30,
     enPage: 21,
     enTitle: `Improvements in Sweden and Saudi Arabia`,
-    jpTitle: `Improvements in Sweden and Saudi Arabia`
+    jpTitle: `スウェーデンとサウジアラビアの進歩`
   },
   {
     chapter: 1,
     jpPage: 35,
     enPage: 25,
     enTitle: `Graph: The world in 1965`,
-    jpTitle: `Graph: The world in 1965`
+    jpTitle: `1965年の世界のグラフ`
   },
   {
     chapter: 1,
     jpPage: 37,
     enPage: 26,
     enTitle: `Graph: The world in 2017`,
-    jpTitle: `Graph: The world in 2017`
+    jpTitle: `2017年の世界のグラフ`
   },
   {
     chapter: 1,
     jpPage: [38, 39],
     enPage: 28,
     enTitle: `Danish TV interview`,
-    jpTitle: `Danish TV interview`
+    jpTitle: `デンマークのテレビ出演`
   },
   {
     chapter: 1,
@@ -264,7 +264,7 @@ export const pagedSources = [
     jpPage: 42,
     enPage: 32,
     enTitle: `Where 75% of humanity lives`,
-    jpTitle: `Where 75% of humanity lives`,
+    jpTitle: `人類の75%が暮らすのはどこ？`,
     constructionId: 'fwlevels'
   },
   {
@@ -295,14 +295,14 @@ export const pagedSources = [
     jpPage: 46,
     enPage: 34,
     enTitle: `Average family size on Level 1`,
-    jpTitle: `Average family size on Level 1`
+    jpTitle: `レベル1の家庭の平均人数`
   },
   {
     chapter: 1,
     jpPage: 46,
     enPage: 34,
     enTitle: `Children working in the household`,
-    jpTitle: `Children working in the household`
+    jpTitle: `暮らしを支える子供たち`
   },
   {
     chapter: 1,
@@ -316,14 +316,14 @@ export const pagedSources = [
     jpPage: 47,
     enPage: 35,
     enTitle: `Cost of illness on Level 2`,
-    jpTitle: `Cost of illness on Level 2`
+    jpTitle: `レベル2における医療費`
   },
   {
     chapter: 1,
     jpPage: 47,
     enPage: 35,
     enTitle: `Work in a garment factory`,
-    jpTitle: `Work in a garment factory`
+    jpTitle: `繊維工場で働くこと`
   },
   {
     chapter: 1,
@@ -365,21 +365,21 @@ export const pagedSources = [
     jpPage: 50,
     enPage: 38,
     enTitle: `Historic poverty rate`,
-    jpTitle: `Historic poverty rate`
+    jpTitle: `極度の貧困率の変化`
   },
   {
     chapter: 1,
     jpPage: 50,
     enPage: 38,
     enTitle: `Incomes in Western Europe and the US in the 1950s`,
-    jpTitle: `Incomes in Western Europe and the US in the 1950s`
+    jpTitle: `1950年代の西ヨーロッパとアメリカの所得`
   },
   {
     chapter: 1,
     jpPage: 50,
     enPage: 38,
     enTitle: `Outdated terminology and the World Bank`,
-    jpTitle: `Outdated terminology and the World Bank`
+    jpTitle: `時代遅れの「途上国」と世界銀行`
   },
   {
     chapter: 1,
@@ -390,45 +390,45 @@ export const pagedSources = [
   },
   {
     chapter: 1,
-    jpPage: 52,
-    enPage: 40,
-    enTitle: `Overlapping spreads`,
-    jpTitle: `Overlapping spreads`
-  },
-  {
-    chapter: 1,
     jpPage: [52, 53],
     enPage: [40, 41],
     enTitle: `Math scores`,
-    jpTitle: `Math scores`
+    jpTitle: `数学テストの特典`
   },
   {
     chapter: 1,
     jpPage: [52, 53],
     enPage: 41,
     enTitle: `Graphs: Incomes in Mexico & US`,
-    jpTitle: `Graphs: Incomes in Mexico & US`
+    jpTitle: `メキシコとアメリカの所得のグラフ`
+  },
+  {
+    chapter: 1,
+    jpPage: 54,
+    enPage: 40,
+    enTitle: `Overlapping spreads`,
+    jpTitle: `重なりがある分布`
   },
   {
     chapter: 1,
     jpPage: 54,
     enPage: 42,
     enTitle: `In apartheid South Africa`,
-    jpTitle: `In apartheid South Africa`
+    jpTitle: `アパルトヘイト時代の南アフリカ`
   },
   {
     chapter: 1,
     jpPage: [55, 56],
     enPage: 43,
     enTitle: `Brazilian income inequality`,
-    jpTitle: `Brazilian income inequality`
+    jpTitle: `ブラジルの所得格差`
   },
   {
     chapter: 1,
     jpPage: 57,
     enPage: 44,
     enTitle: `Poverty and extreme poverty`,
-    jpTitle: `Poverty and extreme poverty`,
+    jpTitle: `「貧困」と「極度の貧困」`,
     constructionId: 'tepov'
   },
   {
@@ -436,14 +436,14 @@ export const pagedSources = [
     jpPage: 58,
     enPage: 45,
     enTitle: `Levels of poverty`,
-    jpTitle: `Levels of poverty`
+    jpTitle: `貧しさの違い`
   },
   {
     chapter: 2,
     jpPage: 62,
     enPage: 48,
     enTitle: `Living conditions in 1950s Sweden`,
-    jpTitle: `Living conditions in 1950s Sweden`
+    jpTitle: `1950年代のスウェーデンの暮らし`
   },
   {
     chapter: 2,
@@ -451,7 +451,7 @@ export const pagedSources = [
     enPage: 49,
     enTitle: `Terrorism on the rise`,
     jpTitle: `Terrorism on the rise`,
-    constructionId: 'tter'
+    constructionId: 'テロの数は増加中'
   },
   {
     chapter: 2,
@@ -459,21 +459,21 @@ export const pagedSources = [
     enPage: 49,
     enTitle: `The State of World Fisheries`,
     jpTitle: `The State of World Fisheries`,
-    constructionId: 'tnplu'
+    constructionId: '漁業での乱獲'
   },
   {
     chapter: 2,
     jpPage: 63,
     enPage: 49,
     enTitle: `Sea levels`,
-    jpTitle: `Sea levels`
+    jpTitle: `海面の上昇`
   },
   {
     chapter: 2,
     jpPage: 64,
     enPage: 50,
     enTitle: `Graph: Better, worse, or about the same?`,
-    jpTitle: `Graph: Better, worse, or about the same?`,
+    jpTitle: `「世界は良くなっている」「悪くなっている」「あまり変わっていない」の棒グラフ`,
     constructionId: 'rbetter'
   },
   {
@@ -488,14 +488,14 @@ export const pagedSources = [
     jpPage: 67,
     enPage: 52,
     enTitle: `19th century living conditions`,
-    jpTitle: `19th century living conditions`
+    jpTitle: `19世紀の暮らし`
   },
   {
     chapter: 2,
     jpPage: 67,
     enPage: 53,
     enTitle: `Dip in extreme poverty: China, India and Latin America`,
-    jpTitle: `Dip in extreme poverty: China, India and Latin America`,
+    jpTitle: `極度の貧困率の低下: 中国、インド、中南米`,
     constructionId: 'vepovt'
   },
   {
@@ -503,399 +503,399 @@ export const pagedSources = [
     jpPage: 68,
     enPage: 52,
     enTitle: `Graph: Extreme poverty rate`,
-    jpTitle: `Graph: Extreme poverty rate`
+    jpTitle: `極度の貧困率のグラフ`
   },
   {
     chapter: 2,
     jpPage: 69,
     enPage: 53,
     enTitle: `Life expectancy and data doubt`,
-    jpTitle: `Life expectancy and data doubt`
+    jpTitle: `平均寿命とデータをどこまで疑うべきか`
   },
   {
     chapter: 2,
     jpPage: 69,
     enPage: 53,
     enTitle: `Fact Question 4: Life Expectancy`,
-    jpTitle: `質問4: Life Expectancy`
+    jpTitle: `平均寿命についての質問`
   },
   {
     chapter: 2,
     jpPage: 69,
     enPage: 54,
     enTitle: `Historic child mortality`,
-    jpTitle: `Historic child mortality`
+    jpTitle: `乳幼児死亡率の変化`
   },
   {
     chapter: 2,
     jpPage: 70,
     enPage: [54, 55],
     enTitle: `Deaths from starvation in Ethiopia`,
-    jpTitle: `Deaths from starvation in Ethiopia`
+    jpTitle: `エチオピアの飢餓`
   },
   {
     chapter: 2,
     jpPage: 71,
     enPage: 55,
     enTitle: `Graph: Average life expectancy from 1800 to today`,
-    jpTitle: `Graph: Average life expectancy from 1800 to today`
+    jpTitle: `1800年から現在までの平均寿命のグラフ`
   },
   {
     chapter: 2,
     jpPage: 72,
     enPage: 56,
     enTitle: `World Food Programme.`,
-    jpTitle: `World Food Programme.`
+    jpTitle: `世界食糧計画`
   },
   {
     chapter: 2,
     jpPage: 72,
     enPage: 56,
     enTitle: `Swedes living on Level 4`,
-    jpTitle: `Swedes living on Level 4`
+    jpTitle: `レベル4の暮らしをするスウェーデン`
   },
   {
     chapter: 2,
     jpPage: 73,
     enPage: 75,
     enTitle: `Graph: Catching up with Sweden`,
-    jpTitle: `Graph: Catching up with Sweden`
+    jpTitle: `スウェーデンに追いつく国々`
   },
   {
     chapter: 2,
     jpPage: 74,
     enPage: 58,
     enTitle: `Not uncommon for children to drown`,
-    jpTitle: `Not uncommon for children to drown`
+    jpTitle: `溺れる子供も多かった`
   },
   {
     chapter: 2,
     jpPage: 75,
     enPage: 58,
     enTitle: `Citizens of Lesotho`,
-    jpTitle: `Citizens of Lesotho`
+    jpTitle: `レソトの国民`
   },
   {
     chapter: 2,
     jpPage: 75,
     enPage: 58,
     enTitle: `Life expectancy in Lesotho and uncertainty of data`,
-    jpTitle: `Life expectancy in Lesotho and uncertainty of data`
+    jpTitle: `レソトの平均寿命とデータの不確かさ`
   },
   {
     chapter: 2,
     jpPage: 75,
     enPage: 58,
     enTitle: `Literacy in Sweden and India`,
-    jpTitle: `Literacy in Sweden and India`
+    jpTitle: `スウェーデンとインドの識字率`
   },
   {
     chapter: 2,
     jpPage: 76,
     enPage: 59,
     enTitle: `Vaccination on Level 1`,
-    jpTitle: `Vaccination on Level 1`
+    jpTitle: `レベル1における予防接種`
   },
   {
     chapter: 2,
     jpPage: 78,
     enPage: 60,
     enTitle: `Graph: Legal slavery`,
-    jpTitle: `Graph: Legal slavery`
+    jpTitle: `32のグラフ: 合法的な奴隷制度`
   },
   {
     chapter: 2,
     jpPage: 78,
     enPage: 60,
     enTitle: `Graph: Oil spills`,
-    jpTitle: `Graph: Oil spills`
+    jpTitle: `32のグラフ: 石油流出事故`
   },
   {
     chapter: 2,
     jpPage: 78,
     enPage: 60,
     enTitle: `Graph: Child mortality`,
-    jpTitle: `Graph: Child mortality`
+    jpTitle: `32のグラフ: 乳幼児の死亡率`
   },
   {
     chapter: 2,
     jpPage: 78,
     enPage: 60,
     enTitle: `Graph: Death penalty`,
-    jpTitle: `Graph: Death penalty`
+    jpTitle: `32のグラフ: 死刑`
   },
   {
     chapter: 2,
     jpPage: 78,
     enPage: 60,
     enTitle: `Graph: Leaded gasoline`,
-    jpTitle: `Graph: Leaded gasoline`
+    jpTitle: `32のグラフ: 有鉛ガソリン`
   },
   {
     chapter: 2,
     jpPage: 79,
     enPage: 61,
     enTitle: `Graph: Child labor`,
-    jpTitle: `Graph: Child labor`
+    jpTitle: `32のグラフ: 児童労働`
   },
   {
     chapter: 2,
     jpPage: 79,
     enPage: 61,
     enTitle: `Graph: Deaths from disaster`,
-    jpTitle: `Graph: Deaths from disaster`
+    jpTitle: `32のグラフ: 災害による死者数`
   },
   {
     chapter: 2,
     jpPage: 79,
     enPage: 61,
     enTitle: `Graph: Nuclear arms`,
-    jpTitle: `Graph: Nuclear arms`
+    jpTitle: `32のグラフ: 核兵器`
   },
   {
     chapter: 2,
     jpPage: 79,
     enPage: 61,
     enTitle: `Graph: Smallpox`,
-    jpTitle: `Graph: Smallpox`
+    jpTitle: `32のグラフ: 天然痘`
   },
   {
     chapter: 2,
     jpPage: 79,
     enPage: 61,
     enTitle: `Graph: Ozone depletion`,
-    jpTitle: `Graph: Ozone depletion`
+    jpTitle: `32のグラフ: オゾン層の破壊`
   },
   {
     chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: New movies`,
-    jpTitle: `Graph: New movies`
+    jpTitle: `32のグラフ: 新しい映画`
   },
   {
     chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Protected nature`,
-    jpTitle: `Graph: Protected nature`
+    jpTitle: `32のグラフ: 自然保護`
   },
   {
     chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Women's right to vote`,
-    jpTitle: `Graph: Women's right to vote`
+    jpTitle: `32のグラフ: 女性参政権`
   },
   {
     chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: New music`,
-    jpTitle: `Graph: New music`
+    jpTitle: `32のグラフ: 新しい音楽`
   },
   {
     chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Science`,
-    jpTitle: `Graph: Science`
+    jpTitle: `32のグラフ: 科学の発見`
   },
   {
     chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Harvest`,
-    jpTitle: `Graph: Harvest`
-  },
-  {
-    chapter: 2,
-    jpPage: 80,
-    enPage: 62,
-    enTitle: `Graph: Democracy`,
-    jpTitle: `Graph: Democracy`
+    jpTitle: `32のグラフ: 農作物の収穫`
   },
   {
     chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Literacy`,
-    jpTitle: `Graph: Literacy`
+    jpTitle: `32のグラフ: 識字率`
+  },
+  {
+    chapter: 2,
+    jpPage: 80,
+    enPage: 62,
+    enTitle: `Graph: Democracy`,
+    jpTitle: `32のグラフ: オリンピック`
   },
   {
     chapter: 2,
     jpPage: 81,
     enPage: 63,
     enTitle: `Graph: Child cancer survival`,
-    jpTitle: `Graph: Child cancer survival`
+    jpTitle: `32のグラフ: 小児がんの生存率`
   },
   {
     chapter: 2,
     jpPage: 81,
     enPage: 63,
     enTitle: `Graph: Girls in school`,
-    jpTitle: `Graph: Girls in school`
+    jpTitle: `32のグラフ: 女子教育`
   },
   {
     chapter: 2,
     jpPage: 81,
     enPage: 63,
     enTitle: `Graph: Monitored species`,
-    jpTitle: `Graph: Monitored species`
+    jpTitle: `32のグラフ: 絶滅危惧種の保全`
   },
   {
     chapter: 2,
     jpPage: 81,
     enPage: 63,
     enTitle: `Graph: Electricity coverage`,
-    jpTitle: `Graph: Electricity coverage`
+    jpTitle: `32のグラフ: 電気の利用`
   },
   {
     chapter: 2,
     jpPage: 81,
     enPage: 63,
     enTitle: `Graph: Mobile phones`,
-    jpTitle: `Graph: Mobile phones`
+    jpTitle: `32のグラフ: 携帯電話`
   },
   {
     chapter: 2,
     jpPage: 81,
     enPage: 63,
     enTitle: `Graph: Internet`,
-    jpTitle: `Graph: Internet`
+    jpTitle: `32のグラフ: インターネット`
   },
   {
     chapter: 2,
     jpPage: 81,
     enPage: 63,
     enTitle: `Graph: Immunization`,
-    jpTitle: `Graph: Immunization`
+    jpTitle: `32のグラフ: 予防接種`
   },
   {
     chapter: 2,
     jpPage: 82,
     enPage: 64,
     enTitle: `Graph: Guitars per capita`,
-    jpTitle: `Graph: Guitars per capita`
+    jpTitle: `人口当たりのギターの数`
   },
   {
     chapter: 2,
     jpPage: 84,
     enPage: 66,
     enTitle: `Causes of death in human history`,
-    jpTitle: `Causes of death in human history`
+    jpTitle: `人類史における死因`
   },
   {
     chapter: 2,
     jpPage: 84,
     enPage: 66,
     enTitle: `Ancient graveyards and burial sites`,
-    jpTitle: `Ancient graveyards and burial sites`
+    jpTitle: `古代の墓地`
   },
   {
     chapter: 2,
     jpPage: 84,
     enPage: 66,
     enTitle: `Historic child murders`,
-    jpTitle: `Historic child murders`
+    jpTitle: `殺される子供`
   },
   {
     chapter: 2,
     jpPage: 88,
     enPage: 70,
     enTitle: `Educating girls`,
-    jpTitle: `Educating girls`
+    jpTitle: `女子教育`
   },
   {
     chapter: 2,
     jpPage: 93,
     enPage: 73,
     enTitle: `Drownings`,
-    jpTitle: `Drownings`
+    jpTitle: `溺れて亡くなる`
   },
   {
     chapter: 3,
     jpPage: 98,
     enPage: 75,
     enTitle: `Ebola`,
-    jpTitle: `Ebola`
+    jpTitle: `エボラ`
   },
   {
     chapter: 3,
     jpPage: [98, 99],
     enPage: 76,
     enTitle: `Lord Krishna's chessboard`,
-    jpTitle: `Lord Krishna's chessboard`
+    jpTitle: `クリシュナ卿のチェス盤`
   },
   {
     chapter: 3,
     jpPage: 100,
     enPage: 77,
     enTitle: `The world population is not just increasing`,
-    jpTitle: `The world population is not just increasing`
+    jpTitle: `世界の人口はひたすら増え続けない`
   },
   {
     chapter: 3,
     jpPage: 102,
     enPage: 78,
     enTitle: `Graph: Future number of children`,
-    jpTitle: `Graph: Future number of children`
+    jpTitle: `未来の子供の数のグラフ`
   },
   {
     chapter: 3,
     jpPage: 102,
     enPage: 79,
     enTitle: `Teacher's conference in Norway`,
-    jpTitle: `Teacher's conference in Norway`
+    jpTitle: `ノルウェーの教師向けのカンファレンス`
   },
   {
     chapter: 3,
     jpPage: 102,
     enPage: 79,
     enTitle: `Experts at the World Economic Forum`,
-    jpTitle: `Experts at the World Economic Forum`
+    jpTitle: `ダボス会議に来ていた専門家`
   },
   {
     chapter: 3,
     jpPage: 103,
     enPage: 79,
     enTitle: `The accuracy of UN Population forecasts`,
-    jpTitle: `The accuracy of UN Population forecasts`
+    jpTitle: `国連の人口予測の制度`
   },
   {
     chapter: 3,
     jpPage: 103,
     enPage: 80,
     enTitle: `Historic world population and three big cities`,
-    jpTitle: `Historic world population and three big cities`
+    jpTitle: `過去の世界人口と3つの大都市`
   },
   {
     chapter: 3,
     jpPage: 103,
     enPage: 80,
     enTitle: `Graph: World population from 8000 BC to today`,
-    jpTitle: `Graph: World population from 8000 BC to today`
+    jpTitle: `世界の人口のグラフ(紀元前8000年から現在まで)`
   },
   {
     chapter: 3,
     jpPage: 108,
     enPage: 84,
     enTitle: `Graph: Babies per woman from 1800 to today`,
-    jpTitle: `Graph: Babies per woman from 1800 to today`
+    jpTitle: `女性ひとりあたりの子供の数のグラフ(1800年から現在まで)`
   },
   {
     chapter: 3,
     jpPage: 109,
     enPage: 85,
     enTitle: `Fertility transitions`,
-    jpTitle: `Fertility transitions`
+    jpTitle: `出生力転換`
   },
   {
     chapter: 3,
     jpPage: 110,
     enPage: 86,
     enTitle: `The inevitable fill-up`,
-    jpTitle: `The inevitable fill-up`,
+    jpTitle: `世代ごとの人口の増加`,
     constructionId: 'efill'
   },
   {
@@ -903,14 +903,14 @@ export const pagedSources = [
     jpPage: 112,
     enPage: [87, 88],
     enTitle: `The Old Balance`,
-    jpTitle: `The Old Balance`
+    jpTitle: `自然との調和(過去)`
   },
   {
     chapter: 3,
     jpPage: 112,
     enPage: 87,
     enTitle: `The new balance`,
-    jpTitle: `The new balance`,
+    jpTitle: `自然との調和(現在)`,
     constructionId: 'eonb'
   },
   {
