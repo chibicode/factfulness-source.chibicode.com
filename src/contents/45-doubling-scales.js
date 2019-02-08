@@ -3,19 +3,19 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Throughout the book, when talking about personal income levels and
-    countries' average incomes, we use a doubling scale. This is because the
-    impact of another dollar is completely different on different income levels.
-    Doubling (or logarithmic) scales are also used for measuring the size of
-    earthquakes, populations, sound levels, pH levels, and in many other
-    situations when comparing numbers across a large range and where small
-    differences between small numbers are as important as big differences
-    between big numbers. It's not a mistake, it's not cheating. It's
-    representing the world as it really is: in this case, a world where it is
-    not size of the pay rise that matters, but the size of the pay rise in
-    relation to what you had before. Logarithmic scales are based on the theory
-    of diminishing marginal value, first proposed by Daniel Bernoulli in 1738,
-    as Kahneman (2011) describes in his book Thinking, Fast and Slow (p. 274).
-    Doubling scales are explained with more examples in Factfulness on page 98.
+    <H.FB pageNumber={369}>
+      本書では、人々の所得レベルや国の平均所得を比べるときは、グラフの軸に倍増する目盛を利用している。
+    </H.FB>
+    1ドルの価値は、所得レベルによって大きく異なるからだ。地震の強さを表すマグニチュード、音量を表すデシベル、酸性やアルカリ性を表すpHなど、
+    <H.FB pageNumber={369}>
+      小さい数字同士の小さな差と、大きい数字同士の大きな差が同じくらい重要なとき、倍増する目盛(対数目盛)は役に立つ。
+    </H.FB>
+    It's not a mistake, it's not cheating. It's representing the world as it
+    really is: in this case, a world where it is not size of the pay rise that
+    matters, but the size of the pay rise in relation to what you had before.
+    Logarithmic scales are based on the theory of diminishing marginal value,
+    first proposed by Daniel Bernoulli in 1738, as Kahneman (2011) describes in
+    his book Thinking, Fast and Slow (p. 274). Doubling scales are explained
+    with more examples in Factfulness on page 98.
   </p>
 )

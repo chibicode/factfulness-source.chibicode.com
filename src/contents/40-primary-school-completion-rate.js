@@ -3,7 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    <H.FB>
+    <H.FB pageNumber={369}>
       また、女子が初等教育を終える割合が35%を切る国は3
       つしかない。しかし、これら
       の数字は正確と言うにはほど遠いし、最新のデータでもない。アフガニスタンの
