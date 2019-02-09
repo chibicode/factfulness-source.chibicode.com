@@ -3,12 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The data on drownings today comes from IHME[4,5]: see
-    <a href="http://www.hmeuw.org/49kq">www.hmeuw.org/49kq</a> and
-    <a href="http://www.ihmeuw.org/49ks">www.ihmeuw.org/49ks</a> respectively.
-    Up until 1900, more than 20 percent of the victims of drownings were
-    children below the age of ten. The Swedish Life Saving Society started
-    lobbying for obligatory swimming practice in all schools, which together
-    with other preventive actions reduced the number; see Sundin et al. (2005).
+    <H.FB pageNumber={367}>
+      現在の溺死についてのデータはIHME[4,5]によるもの。1900年までは、溺死者の20%以上は10歳以下の子供だった。さまざまな予防対策や、スウェーデンライフセービング協会が水泳をすべての学校で義務教育化するよう働きかけたことが功を奏し、子供が溺死する頻度は減った。詳しくはSundin
+      et al.(2005)を参照のこと。
+    </H.FB>
   </p>
 )

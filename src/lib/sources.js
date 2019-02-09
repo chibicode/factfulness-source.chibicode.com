@@ -777,7 +777,9 @@ export const pagedSources = [
     jpPage: 82,
     enPage: 64,
     enTitle: `Graph: Guitars per capita`,
-    jpTitle: `人口当たりのギターの数`
+    jpTitle: `人口当たりのギターの数`,
+    skip: true,
+    constructionId: 'tcminsg'
   },
   {
     chapter: 2,
@@ -1764,6 +1766,7 @@ export const pagedSources = [
     jpTitle: `ローカルな知識不足とデータ`
   }
 ]
+  .filter(({skip}) => !skip)
   .map(process)
   .slice(pagedSourcesSliceBegin, pagedSourcesSliceEnd)
 

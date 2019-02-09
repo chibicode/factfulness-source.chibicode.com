@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import Link from 'next/link'
 import contentBundles from '../lib/content-bundles'
 import colors from '../lib/colors'
 import ExternalLink from './external-link'
+import InternalLink from './internal-link'
 
 const Content = ({
   jpPage,
@@ -35,31 +35,30 @@ const Content = ({
           >
             『ファクトフルネス』脚注
           </h1>
-          <Link passHref href="/" scroll={false}>
-            <a
-              css={css`
-                position: absolute;
-                right: -0.5rem;
-                top: -0.5rem;
-                width: 2rem;
-                height: 2rem;
-                color: ${colors.grey500};
-                font-size: 1.5rem;
-                line-height: 1;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-decoration: none;
-                border-radius: 0.25rem;
+          <InternalLink
+            css={css`
+              position: absolute;
+              right: -0.5rem;
+              top: -0.5rem;
+              width: 2rem;
+              height: 2rem;
+              color: ${colors.grey500};
+              font-size: 1.5rem;
+              line-height: 1;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              border-radius: 0.25rem;
 
-                &:hover {
-                  background: ${colors.grey200};
-                }
-              `}
-            >
-              &times;
-            </a>
-          </Link>
+              &:hover {
+                background: ${colors.grey200};
+              }
+            `}
+          >
+            {' '}
+            &times;
+          </InternalLink>
         </div>
       )}
 
@@ -94,27 +93,25 @@ const Content = ({
             text-align: center;
           `}
         >
-          <Link passHref href="/" scroll={false}>
-            <a
-              css={css`
-                display: inline-block;
-                background: ${colors.grey100};
-                text-decoration: none;
-                border: 2px solid ${colors.grey300};
-                color: ${colors.grey700};
-                font-weight: bold;
-                font-size: 0.85rem;
-                padding: 0.5rem 1rem;
-                border-radius: 0.25rem;
+          <InternalLink
+            css={css`
+              display: inline-block;
+              background: ${colors.grey100};
+              text-decoration: none;
+              border: 2px solid ${colors.grey300};
+              color: ${colors.grey700};
+              font-weight: bold;
+              font-size: 0.85rem;
+              padding: 0.5rem 1rem;
+              border-radius: 0.25rem;
 
-                &:hover {
-                  background: ${colors.grey200};
-                }
-              `}
-            >
-              全ての脚注を見る
-            </a>
-          </Link>
+              &:hover {
+                background: ${colors.grey200};
+              }
+            `}
+          >
+            全ての脚注を見る
+          </InternalLink>
         </div>
       ) : (
         <p
@@ -125,9 +122,7 @@ const Content = ({
             justify-content: space-between;
           `}
         >
-          <Link passHref href={`?p=${permalink}`} scroll={false}>
-            <a>固定リンク</a>
-          </Link>
+          <InternalLink>固定リンク</InternalLink>
           {constructionId && (
             <>
               <ExternalLink href={`https://gapm.io/${constructionId}`}>

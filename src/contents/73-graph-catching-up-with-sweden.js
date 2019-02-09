@@ -3,9 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Use the animated version of the World Health Chart to see how almost all
-    countries are now catching up with Sweden---or select another country to
-    compare---at
-    <a href="https://www.gapminder.org/whc">www.gapminder.org/whc</a>
+    <H.FB pageNumber={367}>
+      世界保健チャートのアニメーション版を見てみれば、ほとんどの国がスウェーデンに追いついてきていることがわかる。また、国同士を比べることもできる。
+      <H.A href="https://www.gapminder.org/whc">アクセスはこちらから</H.A>。
+    </H.FB>
   </p>
 )

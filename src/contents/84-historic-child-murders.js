@@ -19,23 +19,16 @@ export default () => (
       showed that deaths under age-15 were on average caused by violence.
     </p>
     <p>
-      In violent communities, children are not spared. Members of
-      hunter-gatherer groups generally experienced lots of violence, as
-      described in Gurven and Kaplan (2007), Diamond (2012), Pinker (2011), and
-      <a href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">
-        OurWorldInData[5]
-      </a>
-      . This doesn't mean all tribes of hunter-gatherers are the same. In
-      situations of extreme poverty all across the world, many cultures have
-      accepted the practice of infanticide, the killing of one's own children to
-      reduce the number of mouths to feed in difficult times. This terrifying
-      way of losing a child is just as painful as other ways, as consistently
-      documented in traditional societies by anthropologists interviewing
-      parents who had to kill a newborn---Pinker (2011, p. 417).
+      <H.FB pageNumber={367}>
+        暴力が日常的に起きる社会では、子供とはいえ命の保証はない。一般的に、狩猟採集社会では暴力による危険が多い(Gurven
+        and Kaplan(2007)、ダイアモンド(2013)、ピンカー(2015)、
+        <H.A href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">
+          OurWorldInData[5]
+        </H.A>
+        )。かといって、どの狩猟採集社会も似たようなものとは言い切れない。また、極度の貧困に暮らしている人々の中では、文化の違いにかかわらず、「子殺し」が行われることがある。子殺しとは、飢えで食料不足に陥ったとき、親が子を口減らしのために殺すことをいう。昔ながらの村に行き、子殺しをした親から話を聞いた人類学者たちの多くは、「子殺しで子供を失うつらさは、他の原因で子供を失うのと変わらないようだ」と報告している。詳しくはピンカー(2013)を参照のこと。
+      </H.FB>
     </p>
-
     <H.SmallHeading>出典</H.SmallHeading>
-
     <ul>
       <li>
         <a href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">

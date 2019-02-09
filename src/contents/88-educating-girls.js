@@ -3,9 +3,12 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The data on girls' and boys' education comes from UNESCO[5]. Schultz (2002)
-    describes clearly and in more detail how educating girls has proven to be
-    one of the world's best-ever ideas. See also the note to Fact question 1:
-    Girls in school »
+    <H.FB pageNumber={367}>
+      女子教育と男子教育のデータはユネスコによるもの(UNESCO[5])。女子に教育を受ける機会を与えることが、どうして人類史上最もすばらしいアイデアのひとつだったのかは、Schultz(2002)に詳しい。
+      <H.OtherCardLink permalink="9-fact-question-1-girls-in-school-in-low-income-countries">
+        質問1についての補足も併せて参照のこと
+      </H.OtherCardLink>
+      。
+    </H.FB>
   </p>
 )
