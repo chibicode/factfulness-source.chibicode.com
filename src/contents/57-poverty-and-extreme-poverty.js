@@ -3,24 +3,20 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The term &quot;extreme poverty&quot; has a set technical meaning: it means
-    you have a daily income of less than $1.9 per day. The term
-    &quot;poverty&quot; in many countries on Level 4 is a relative term, and the
-    &quot;poverty line&quot; may refer to the threshold for eligibility for
-    social welfare or the official statistical measure of poverty in that
-    country. In Scandinavia, the official poverty lines are 20 times higher than
-    the poverty lines in the poorest countries, like Malawi, even after
-    adjusting for the large differences in purchasing power; see
-    <a href="http://gapm.io/xwb1717">World Bank[17]</a>. The latest US census
-    estimates that 13 percent of the population lives below its poverty line,
-    putting it at approximately $20/day. In Sweden, the official numbers of
-    &quot;poor&quot; are defined relative to the median income of the country,
-    by counting all individuals with incomes less than 60 percent of the median
-    income. The social and economic challenges of being among the poorest in a
-    rich country should not be neglected, but it is not the same thing as being
-    in extreme poverty. In extreme poverty, you can't even afford a daily meal
-    of staple grain porridge. You can't get poorer without dying. See
-    <a href="http://gapm.io/xwb175">World Bank[5]</a>. See
-    <a href="http://www.gapm.io/tepov">www.gapm.io/tepov</a>.
+    <H.FB pageNumber={369}>
+      「極度の貧困(extreme
+      poverty)」は専門用語で、収入が1日1.9ドル以下である状態を示す。多くのレベル4の国では、「貧困」は相対的に定義される。「貧困ライン」は国が明確に定義したものだったり、社会保障サービスを受けられる基準だったりする。北欧諸国の公式の貧困ラインは、マラウィなど最も貧しい国の貧困ラインと比べると、購買力の大きな差を考慮したとしても20倍の差がある(
+      <H.A href="http://gapm.io/xwb1717">World Bank[17]</H.A>
+      )。アメリカの最新の国勢調査によれば、人口の13%は収入が貧困ラインを下回っている。その貧困ラインとは1日約20ドルの収入を指す。
+    </H.FB>
+    In Sweden, the official numbers of &quot;poor&quot; are defined relative to
+    the median income of the country, by counting all individuals with incomes
+    less than 60 percent of the median income.
+    <H.FB pageNumber={368}>
+      豊かな国の最も貧しい人たちが直面する社会的・経済的な苦難を軽んじるべきではない(
+      <H.A href="http://gapm.io/xwb175">World Bank[5]</H.A>
+      )。しかし、それと「極度の貧困」は違う。
+    </H.FB>
+    極度の貧困にある人は、毎日のポリッジ(粥)すら買えないこともある。少しでもおカネが足りなくなったら死あるのみだ。
   </p>
 )

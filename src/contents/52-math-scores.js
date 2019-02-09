@@ -2,5 +2,7 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>Part of the example is borrowed from Denise Cummins (2014).</p>
+  <p>
+    <H.FB>データの一部はDenise Cummins(2014)から抜粋。</H.FB>
+  </p>
 )
