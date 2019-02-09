@@ -4,14 +4,12 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      In Sweden 100 years ago and India today, &quot;literacy&quot; may only
-      mean basic recognition of letters and the ability to parse text slowly.
-      The figures do not imply an ability to understand advanced written
-      messages. The literacy rate for India is from India Census 2011. Historic
-      literacy numbers for Sweden are from
-      <a href="http://gapm.io/xriwe">van Zanden[2]</a> and
-      <a href="https://ourworldindata.org/literacy">OurWorldInData[2]</a>,
-      visually interpolated by Gapminder.
+      <H.FB>
+        100年前のスウェーデンでも、現在のインドでも、簡単な字を認識でき、文章をゆっくりと読めれば「識字」ができるということになる。つまり「識字率」は、難しい文章を読むことができる人の割合ではない。スウェーデンの過去の識字率は
+        <H.A href="http://gapm.io/xriwe">van Zanden[2]</H.A>と
+        <H.A href="https://ourworldindata.org/literacy">OurWorldInData[2]</H.A>
+        を参考にした。インドの識字率はIndia Census 2011を参考にした。
+      </H.FB>
     </p>
     <p>
       The most recent census data on literacy in India puts the overall literacy
@@ -29,7 +27,7 @@ export default () => (
       <a href="https://researchingswedishroots.blogspot.se/2014/02/husforhor.html">
         these paintings
       </a>
-       depict the so called &quot;house interrogations&quot; or
+      depict the so called &quot;house interrogations&quot; or
       &quot;husförhör&quot; in Swedish). Despite increasing rates of literacy,
       many Swedes still couldn't read and write a century later. Not until 1842,
       with the Swedish school reform making it obligatory for children to attend

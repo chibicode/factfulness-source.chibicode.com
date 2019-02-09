@@ -3,8 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The citizens of Lesotho are usually referred to as the Basotho. Many Basotho
-    also live outside Lesotho, but here we refer to those actually living in
-    Lesotho.
+    <H.FB pageNumber={368}>
+      レソトの人々はソト族と呼ばれていて、ソト族の多くはレソトの外に暮らしている。文中では、レソトの中に暮らすソト族について説明している。
+    </H.FB>
   </p>
 )
