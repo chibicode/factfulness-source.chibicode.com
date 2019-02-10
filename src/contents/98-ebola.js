@@ -4,11 +4,19 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
+      <H.FB pageNumber={367}>
+        エボラのデータは世界保健機関によるもの(
+        <H.A href="http://gapm.io/xeboresp">WHO[3]</H.A>)。
+      </H.FB>{' '}
       The data is from <a href="http://gapm.io/xeboresp">WHO[3]</a>, the Ebola
       Response Team's research article evaluating the first 9 months of the
-      outbreak, with future projections. The material Gapminder produced to try
-      to communicate the urgency of the situation is at ww.gapm.io/vebol. Watch
-      the epidemic explained in
+      outbreak, with future projections.{' '}
+      <H.FB pageNumber={367}>
+        エボラの緊急性を 伝えるためにギャップマインダーがつくった配布物は
+        <H.A href="https://gapm.io/vebol">こちら</H.A>。
+      </H.FB>
+      The material Gapminder produced to try to communicate the urgency of the
+      situation is at ww.gapm.io/vebol. Watch the epidemic explained in
       <a href="http://gapm.io/fp16">Hans Rosling's Factpod #6</a> and
       <a href="http://gapm.io/fp17">#8</a> on YouTube.
     </p>
@@ -23,7 +31,7 @@ export default () => (
           Projections.&quot; New England Journal of Medicine 371 (October 6,
           2014): 1481--95.
         </a>
-         DOI: 10.1056/NEJMoa1411100
+        DOI: 10.1056/NEJMoa1411100
       </li>
     </ul>
   </>
