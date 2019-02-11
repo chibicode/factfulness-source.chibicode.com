@@ -1,6 +1,7 @@
 import React from 'react'
 import * as H from '../components/h'
 
+// Livi-Bacci → リヴィ‐バッチ
 export default () => (
   <>
     <p>
@@ -12,9 +13,9 @@ export default () => (
       1800.
     </p>
     <p>
-      Nobody knows the average fertility rate before 1800. In theory, the
-      maximum number of children per woman would be between 10 and 15 children
-      if all fertile women in a healthy population had sex often and
+      <H.FB pageNumber={366}>1800年より前の出生率を知る者はいない。</H.FB> In
+      theory, the maximum number of children per woman would be between 10 and
+      15 children if all fertile women in a healthy population had sex often and
       continuously with no attempts to limit fertility. In reality, it is almost
       always lower than that, and six children per woman is a likely average.
       But fertility varies between groups and individual women and, as Gurven
