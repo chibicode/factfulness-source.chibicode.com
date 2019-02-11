@@ -3,7 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The figure of 65 million World War II deaths includes all deaths and comes
-    from White[1,2]. Estimates of fatalities in Syria are from UCDP[2].
+    <H.FB pageNumber={365}>
+      第二次世界大戦の犠牲者数は6500万人。これはWhite[1,2]が算出したもので、さまざまな原因で亡くなった人を含む。シリアの死亡者数はUCDP[2]を参考にした。
+    </H.FB>
   </p>
 )
