@@ -15,16 +15,18 @@ export default () => (
       rough estimates, Gapminder has rounded up the threshold to $2 a day.
     </p>
     <p>
-      Our estimates for families on dif­ferent income levels are based on
-      household data compiled by Countdown to 2030 and GDL[1,2], combining
-      hundreds of households surveys from UNICEF-MICS, USAID-DHS[1], IPUMS, and
-      others. Instead of using national averages, household data allow us to
-      include families on Level 1, as well as the poorest families living in
-      countries on Level 2 and 3. The income levels of households in these
-      datasets are estimated from their material assets, for instance by the
-      number of people per sleeping room, floor-material and means of transport.
-      For more about the data and methods behind Gapminder's four income levels,
-      see <a href="http://www.gapm.io/elev">gapm.io/elev</a>.
+      Our estimates for families on dif­ferent income levels are based on{' '}
+      <H.FB pageNumber={366}>
+        Countdown to
+        2030とGDL[1,2]のデータを基にしている。このデータはUNICEF-MICS、USAID-DHS[1]、IPUMSなどが行った何百もの調査の結果だ。
+      </H.FB>
+      Instead of using national averages, household data allow us to include
+      families on Level 1, as well as the poorest families living in countries
+      on Level 2 and 3. The income levels of households in these datasets are
+      estimated from their material assets, for instance by the number of people
+      per sleeping room, floor-material and means of transport. For more about
+      the data and methods behind Gapminder's four income levels, see{' '}
+      <a href="http://www.gapm.io/elev">gapm.io/elev</a>.
     </p>
   </>
 )
