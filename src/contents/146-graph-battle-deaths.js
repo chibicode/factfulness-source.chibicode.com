@@ -3,20 +3,21 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The data sources for battle deaths---
-    <a href="http://www.correlatesofwar.org/data-sets/COW-war.">
+    戦争の犠牲者数は
+    <H.A href="http://www.correlatesofwar.org/data-sets/COW-war.">
       Correlates of War Project
-    </a>
-    , <a href="http://gapm.io/xnpgfred">Gleditsch</a>,
-    <a href="http://ucdp.uu.se/downloads">UCDP[1]</a> and
-    <a href="http://gapm.io/xpriod">PRIO</a>---include reported deaths of
-    civilians and soldiers during battle, but not indirect deaths like those
-    from starvation. We strongly recommend watching this interactive data-driven
-    documentary, which puts all known wars in perspective---at
-    <a href="http://www.fallen.io/">www.fallen.io</a>. To interactively compare
-    fatalities in wars since 1990, go to
-    <a href="http://ucdp.uu.se/">http://ucdp.uu.se</a>. Measuring battle deaths
-    is not trivial, as a war zone is no place for careful data collection. These
+    </H.A>
+    、<H.A href="http://gapm.io/xnpgfred">Gleditsch</H.A>、
+    <H.A href="http://ucdp.uu.se/downloads">UCDP[1]</H.A>、
+    <H.A href="http://gapm.io/xpriod">PRIO</H.A>を参考にした。
+    <H.FB pageNumber={365}>
+      これらの戦争の犠牲者数は、戦いで亡くなった兵士と一般人の死を含むが、餓死者など戦いの外で亡くなった人は含まれない。
+    </H.FB>{' '}
+    また、過去の戦争の犠牲者のデータを可視化した『
+    <H.A href="http://ja.fallen.io/ww2/">Fallen</H.A>
+    』というインタラクティブ・ドキュメンタリーもおすすめしたい。ほかにも、1990年以降の犠牲者を比較できるツールは
+    <H.A href="http://ucdp.uu.se/">こちら</H.A>。Measuring battle deaths is not
+    trivial, as a war zone is no place for careful data collection. These
     studies publish numbers estimated by combining official sources and media
     reports from conflicts. But this method of estimating conflict fatalities
     has been disputed by several other researchers. Obermeyer and Murray showed
