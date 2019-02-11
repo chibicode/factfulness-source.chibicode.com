@@ -3,9 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Our calculations of child deaths from diarrhea caused by contaminated
-    drinking water are based on numbers from
-    <a href="http://ihmeuw.org/49xs">IHME[11] </a>and
-    <a href="http://gapm.io/xeboresp2">WHO[4]</a>.
+    <H.FB pageNumber={365}>
+      汚染水を飲んで下痢になり、亡くなる子供の数は、
+      <H.A href="http://ihmeuw.org/49xs">IHME[11]</H.A>と
+      <H.A href="http://gapm.io/xeboresp2">WHO[4]</H.A>のデータを基に推定した。
+    </H.FB>
   </p>
 )
