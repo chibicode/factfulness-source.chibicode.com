@@ -3,13 +3,12 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Gordon Gribble (2013) tracks the origin of chemophobia back to the
-    publication of Silent Spring (1962) by Rachel Carson, and chemical accidents
-    in the decades that followed. He argues that the exaggerated and irrational
-    fear of chemicals today leads to wrong usage of common resources. According
-    to Gribble, &quot;Regulatory authorities should focus not on pesticides,
-    antibiotics and dioxins, but rather on pathogens, bacteria and fungi, which
-    cause millions of cases of food-borne infections that result in
+    <H.FB pageNumber={364}>
+      化学物質への恐怖の歴史についてはGribble(2013)に詳しい。レイチェル・カーソンの『沈黙の春』からはじまり、その後の化学物質による災害で化学物質恐怖症が広がった経緯が描かれている。またGribbleは、化学物質に対する大げさで事実に基づかない恐怖が、物資のムダ使いに繋がっていると主張している。
+    </H.FB>
+    According to Gribble, &quot;Regulatory authorities should focus not on
+    pesticides, antibiotics and dioxins, but rather on pathogens, bacteria and
+    fungi, which cause millions of cases of food-borne infections that result in
     hospitalization or death each year.&quot;
   </p>
 )
