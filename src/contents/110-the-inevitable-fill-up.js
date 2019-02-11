@@ -20,10 +20,13 @@ export default () => (
       attribute the difference to the factor they kept constant.
     </p>
     <p>
-      If you find it hard to understand the fill-up in the text and graphs in
-      this book, we find it easier to explain with animations or with our own
-      hands---see<a href="http://www.gapm.io/vidfu"> www.gapm.io/vidfu</a>. For
-      more technical descriptions, see from UN-Pop[6, 7].
+      <H.FB pageNumber={366}>
+        文字と図による説明だけでは、これから人口がどう変化す
+        るかはわかりづらいかもしれない。アニメーションを使ったり、模型を使って説明するほ
+        うがわかりやすいと思うので、
+        <H.A href="https://gapm.io/vidfu">こちらをご覧になってほしい</H.A>
+        。専門的な説明はUN-Pop[6, 7]を参考に。
+      </H.FB>
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
