@@ -4,11 +4,13 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The graph showing the world population from 8000 bc to today uses data
-      from hundreds of dif­ferent sources, compiled by the economic historian
-      Mattias Lindgren. The sources listed under the chart are only the main
-      sources. The next billion were added to the world population in 130 years
-      after 1800:
+      <H.FB pageNumber={366}>
+        紀元前 8000 年から現在までの人口のグラフは、経済史学者のマ
+        ティアス・リンドグレーンが何百もの資料をもとに作成したデータを利用している
+        (Lindgren(2006-2016)。グラフ下部に表記しているのは出典の一部のみ
+      </H.FB>{' '}
+      The next billion were added to the world population in 130 years after
+      1800:
     </p>
     <p>
       | Year | Estimate | | 1800 | 946,764,816 | | 1812 | 1,000,325,622 | | 1929
@@ -30,7 +32,7 @@ export default () => (
       <a href="https://www.jstor.org/stable/3092809">
         Historical Population Estimates: Unraveling the Consensus
       </a>
-       published in the Population and Development Review (pp. 183--204). For
+      published in the Population and Development Review (pp. 183--204). For
       more about Gapminder's population data, see
       <a href="http://www.gapm.io/spop">www.gapm.io/spop</a>.
     </p>
