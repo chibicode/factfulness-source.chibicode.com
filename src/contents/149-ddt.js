@@ -4,34 +4,37 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Paul Hermann Müller won the Nobel Prize in Physiology and Medicine in 1948
-      for &quot;his discovery of the high efficiency of DDT as a contact poison
-      against several arthropods.&quot; Hungary was the first country to ban
-      DDT, in 1968, followed by Sweden in 1969. The United States banned it
-      three years later; see CDC[2]. At the Stockholm Convention on Persistent
-      Organic Pollutants (POPs) in 2004, the UN quickly helped to set up an
-      international treaty against various pesticides, including DDT, which has
-      entered into force in 158 countries; see
-      <a href="http://www.pops.int/">http://www.pops.int</a>.
+      <H.FB pageNumber={364}>
+        1948年に、パウル・ヘルマン・ミュラーは「多数の節足動物に対するDDTの接触毒としての強力な作用の発見」が評価されてノーベル生理学・医学賞を受賞した。DDTを世界で初めて禁止したのはハンガリー(1968年)。それに続いたのはスウェーデンだった(1969年)。アメリカはその3年後にDDTを禁止した(CDC[2])。その後、
+      </H.FB>
+      At the Stockholm Convention on Persistent Organic Pollutants (POPs) in
+      2004, the UN quickly helped to set up an international treaty against
+      various pesticides
+      <H.FB pageNumber={364}>
+        DDTを含むさまざまな農薬の利用を減らすべく、
+        <H.A href="http://www.pops.int">158カ国がPOPs条約を結んだ</H.A>。
+      </H.FB>
     </p>
     <p>
-      Since the 1970s, CDC (Centers for Disease Control and Prevention) and EPA
-      (US Environmental Protection Agency) have issued directives on how to
-      avoid the dangers of DDT to humans; see
+      <H.FB pageNumber={364}>
+        1970年以降、アメリカ疾病管理予防センターと経済連携協定はDDTによる人体への害を減らすためのガイドラインを制定している。
+      </H.FB>
+      see
       <a href="https://www.atsdr.cdc.gov/toxprofiles/tp.asp?id=81&amp;tid=20">
         Toxicological profile for DDT, DDE and DDD
       </a>
-       and the EPA <a href="http://gapm.io/xepa17">Pesticide information</a>.
-      CDC correctly label direct DDT exposure to humans as unhealthy, but also
-      state that the &quot;health effects from DDT at low environmental doses
-      are unknown.&quot; Today, the World Health Organization promotes the use
-      of DDT to save lives in poor settings by killing malaria mosquitoes,
-      within strict safety guidelines:
+      and the EPA <a href="http://gapm.io/xepa17">Pesticide information</a>. CDC
+      correctly label direct DDT exposure to humans as unhealthy, but also state
+      that the &quot;health effects from DDT at low environmental doses are
+      unknown.&quot;
+      <H.FB pageNumber={364}>
+        現在、世界保健機関は貧しい地域でのマラリア対策のため、厳しい安全対策に基づいたDDTの利用を推奨している。
+      </H.FB>
       <a href="http://gapm.io/xwhoddt1">
         &quot;The use of DDT in malaria vector control&quot;
       </a>
-       and <a href="http://gapm.io/xwhoddt2">DDT in Indoor Residual Spraying</a>
-       from WHO[6,7].
+      and <a href="http://gapm.io/xwhoddt2">DDT in Indoor Residual Spraying</a>
+      from WHO[6,7].
     </p>
     <p>
       The CDC produced this 497 page document:
@@ -43,7 +46,7 @@ export default () => (
       <a href="https://www.atsdr.cdc.gov/">
         Agency for Toxic Substances and Disease Registry
       </a>
-       (ATSDR). ATSDR is a component of CDC's CIOs (Center, Institute, and
+      (ATSDR). ATSDR is a component of CDC's CIOs (Center, Institute, and
       Offices) and one of the CDC's independent expert groups within the U.S.
       Department of Health and Human Services; see the
       <a href="https://www.cdc.gov/about/organization/cio.htm">
