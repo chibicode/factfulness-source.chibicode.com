@@ -3,8 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Many lines that are not straight can look straight if you zoom in
-    enough---even a circle. This idea was inspired by Jordan Ellenberg, How Not
-    to Be Wrong: The Power of Mathematical Thinking (2014).
+    <H.FB pageNumber={365}>
+      ただの丸でも、限界まで拡大すれば直線に見えてくる。こういった説明の仕方は、ジョーダン・エレンバーグ著『データを正しく見るための数学的思考』(2015年、松浦俊輔訳、日経BP社)を参考にした。
+    </H.FB>
   </p>
 )
