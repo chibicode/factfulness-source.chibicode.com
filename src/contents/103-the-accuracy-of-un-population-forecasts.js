@@ -4,29 +4,26 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      UN Population forecasts are based on UN-Pop[1,2,5]; see below for the UN
-      Population data. Like forecasting the weather, it is almost impossible to
-      perfectly predict the future population. But the demography experts at the
-      UN Population Division have been very accurate in their forecasts for many
-      decades, even before modern computer modeling was possible. Their
-      forecasts of the future number of children have stayed the same in the
-      past four revisions of the publication. The official UN projection is
-      alternative C. 2 billion children is a rounded number. The precise UN
-      numbers are 1.95 billion as of 2017 and 1.97 billion for 2100.
+      <H.FB pageNumber={367}>人口予測は国連によるもの(UN-Pop[1,2,5])。</H.FB>{' '}
+      see below for the UN Population data. Like forecasting the weather, it is
+      almost impossible to perfectly predict the future population.{' '}
+      <H.FB pageNumber={366}>
+        国連人口部の人口学専門家は何十年もの間、人口をかなり正確に予測してきた。コンピューターによる予測が使えなかった時代でも、予測の精度は高かった。未来の子供の数の予測は、過去4回の報告書のすべてで「約20億人」とされている。正確に言うと、2017年の子供の数は19億5000万人で、2100年の子供の数は19億7000万人だ。
+      </H.FB>
     </p>
     <p>
       <a href="http://www.gapm.io/xbonpop">The Accuracy of Past Projections</a>
-       is a study from Bongaarts and Bulato (2000) that measure past
-      projections, and find that the average error of UN world population
-      forecasts are modest, at 2.8%, for an average length of projection of 17
-      years (see, for example, p. 50). Also Keilman (2001) studied the quality
-      of UN population projections, and analyzed forecasts prepared by the UN
-      between 1950 to 1993. For a video of Hans Rosling comparing these historic
-      forecast based on Keilman's study, see:
+      is a study from Bongaarts and Bulato (2000) that measure past projections,
+      and find that the average error of UN world population forecasts are
+      modest, at 2.8%, for an average length of projection of 17 years (see, for
+      example, p. 50). Also Keilman (2010) studied the quality of UN population
+      projections, and analyzed forecasts prepared by the UN between 1950 to
+      1993. For a video of Hans Rosling comparing these historic forecast based
+      on Keilman's study, see:
       <a href="http://www.gapm.io/mmpopfut">
         How Reliable is the World Population Forecast?
       </a>
-       The projections are available at the
+      The projections are available at the
       <a href="http://www.esa.un.org/unpd/wpp">UN website</a>, as well as the
       <a href="about:blank">uncertainty intervals of their medium forecasts</a>.
     </p>
@@ -82,9 +79,9 @@ export default () => (
       </li>
       <li>
         <a href="http://www.gapm.io/xpaccur">
-          Keilman (2001) Keilman, Nico. &quot;Data quality and accuracy of
+          Keilman (2010) Keilman, Nico. &quot;Data quality and accuracy of
           United Nations population projections, 1950--95.&quot; Population
-          Studies 55, no. 2 (2001): 149--64. 2010/12/9更新。
+          Studies 55, no. 2 (2010): 149--64. 2010/12/9更新。
         </a>
         . DOI: 10.1080/00324720127686
       </li>
