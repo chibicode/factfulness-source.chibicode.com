@@ -3,26 +3,24 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Many studies claim to show that the number of refugees will increase
-    dramatically because of climate change. The UK Government Office for Science
-    showed in their study
-    <a href="http://www.gapm.io/xcli17">
-      Migration and Global Environmental Change
-    </a>
-     (Foresight, 2011) fundamental weaknesses in the common assumptions
-    underlying these claims. First it found that most of the frequently quoted
-    studies refer back to just two original sources, one estimating that climate
-    change will create 10 million refugees and the other anticipating 150
-    million; see Box 1.2: &quot;Existing estimates of 'numbers of environmental
-    migrants' tend to be based on one or two sources.&quot; And second, it found
-    that these original sources underestimate people living on Levels 1 and 2
-    and their ability to cope with change. They describe migration as their only
-    option in the face of climate change. For a fact-based picture of global
-    migration and the refugee situation, see
+    <H.FB pageNumber={356}>
+      地球温暖化によって難民の数が劇的に増えると主張する研究は多い。イギリス政府科学庁が行った「移民と地球環境変化についての研究」(
+      <H.A href="http://www.gapm.io/xcli17">
+        Migration and Global Environmental Change (Foresight, 2011)
+      </H.A>
+      )によると、このような主張のもとになっている共通前提そのものに基本的な欠陥があることが示されている。まず、前提として頻繁に引用されている研究は2つしかない。ひとつは地球温暖化によって1000万の難民が生まれるというもの。もうひとつは1億5000万の難民が生まれるという推定だ。Box
+      1.2: “Existing estimates of ‘numbers of environmental migrants’ tend to be
+      based on one or two
+      sources.”を参照。次に、この前提となっている研究は、レベル1と2にいる人々の環境適応能力を過小評価している。人々が地球温暖化に適応するのではなく、移動するしかないと結論づけている。
+    </H.FB>
+    For a fact-based picture of global migration and the refugee situation, see
     <a href="http://popstats.unhcr.org/en/overview">
       UNHCR Population Statistics
     </a>
-    . Important books on global migration are Alexander Betts's and Paul
-    Collier's Refuge(2017) and Collier's Exodus (2013).
+    .
+    <H.FB pageNumber={356}>
+      また、 次の書籍も参考になる: Paul Collier 著 Exodus (2013)、Alexander
+      Betts Paul Collier 著 Refuge(2017)
+    </H.FB>
   </p>
 )
