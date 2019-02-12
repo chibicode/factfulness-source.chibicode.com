@@ -9,25 +9,25 @@ export default () => (
       prone position. But these campaigns only helped bring down the rates of
       sudden infant deaths to the same low levels where they used to be, before
       the prone position was promoted. The same pattern evolved in the US,
-      Norway and Sweden. The conclusion that it was public health policy on the
-      prone position that caused the increase in SIDS in Sweden is described by
-      Gilbert et al. (2005) and Högberg and Bergström (1997), who brought this
-      to our attention with their article &quot;Läkarråd ökade risken för
-      plötslig spädbarnsdöd&quot; [&quot;Physicians' advice increased the risk
-      of sudden infant death syndrome&quot;].
+      Norway and Sweden.
+      <H.FB pageNumber={362}>
+        スウェーデンで乳幼児突然死症候群(SIDS)が増えた原因がうつぶせ寝だったということは、Gilbert
+        の論文(2005)とHögbergとBergströmによる1997年の論文“Läkarråd ökade risken
+        för plötslig spädbarnsdöd”に書かれている。
+      </H.FB>
     </p>
     <p>
-      The report from Hong Kong is from Davies (1985). The study was the first
-      to suggest that the practice of placing babies in prone position could be
-      the cause of sudden infant deaths; see
+      <H.FB pageNumber={362}>香港の論文はDavies(1985)のもの。</H.FB> The study
+      was the first to suggest that the practice of placing babies in prone
+      position could be the cause of sudden infant deaths; see
       <a href="https://www.ncbi.nlm.nih.gov/pubmed/2866397?dopt=Abstract">
         Cot death in Hong Kong: a rare problem?
       </a>
-       and
+      and
       <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1835990/">
         this follow-up report
       </a>
-       from N.N. Lee (1989). For historical data on sudden infant deaths in
+      from N.N. Lee (1989). For historical data on sudden infant deaths in
       Norway, see, for example, Irgens et. al (1995), available to download as
       <a href="http://pubmedcentralcanada.ca/pmcc/articles/PMC1511132/pdf/archdisch00624-0014.pdf">
         PDF here
