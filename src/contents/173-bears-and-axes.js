@@ -4,12 +4,13 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      This striking comparison was brought to the public's awareness by a man
-      named Hans Hansson. He wrote to his local newspaper about the absurd
-      neglect of domestic violence against women and went on to start a network
-      for men to help them break their violent behavior. Read an interview with
-      him in English
-      <a href="http://www.causeofdeathwoman.com/the-mens-network">here</a>.
+      <H.FB pageNumber={363}>
+        ハンス・ハンソンという男性が、文中で紹介した事件がそれぞれまったく違った形で報道されていることを指摘し、話題になった。彼は地域の新聞に「DVを無視するなんて何事だ」と投稿し、後にDV常習犯の男性向けに習慣改善のための支援団体をつくった。彼のインタビューは
+        <H.A href="http://www.causeofdeathwoman.com/the-mens-network">
+          こちらから英語で読める
+        </H.A>
+        。
+      </H.FB>
     </p>
     <p>
       In a dissertation from Karolinska Institutet, Shilan Caman (2017) studied
@@ -28,8 +29,8 @@ export default () => (
       decrease has been 20 percent since the beginning of the 2000s.]
     </p>
     <p>
-      Caman's study called Intimate Partner Homicide Rates and
-      Characteristics is in English and can be
+      Caman's study called Intimate Partner Homicide Rates and Characteristics
+      is in English and can be
       <a href="https://openarchive.ki.se/xmlui/bitstream/handle/10616/45867/Thesis_Shilan_Caman.pdf?sequence=1&amp;isAllowed=y#__utma=1.120245944.1513028453.1513028453.1513028453.1&amp;__utmb=1.2.10.1513028453&amp;__utmc=1&amp;__utmx=-&amp;__utmz=1.1513028453.1.1.utmcsr=google%7Cutmccn=(organic)%7Cutmcmd=organic%7Cutmctr=(not%20provided)&amp;__utmv=-&amp;__utmk=259404170">
         downloaded as PDF
       </a>
