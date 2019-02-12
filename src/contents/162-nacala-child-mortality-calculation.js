@@ -3,12 +3,14 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The births and population data used for these calculations is based on the
-    Mozambique census of 1970, the Nacala hospital's own records, and UN-IGME of
-    2017. The deaths in the hospital are based on Hans's own notes. The official
-    child mortality estimate for the whole country was probably different back
-    then. For this calculation example, we use the latest available estimate for
-    that year from <a href="http://www.childmortality.org/">UN-IGME</a> of 2017.
+    <H.FB pageNumber={363}>
+      ここで使った出生数と人口のデータは、1970年のモザンビークの人口調査と、ナカラ病院による記録と、UN-IGME
+      of 2017を基にしている。
+    </H.FB>
+    The deaths in the hospital are based on Hans's own notes. The official child
+    mortality estimate for the whole country was probably different back then.
+    For this calculation example, we use the latest available estimate for that
+    year from <a href="http://www.childmortality.org/">UN-IGME</a> of 2017.
     Mozambique was the poorest country in the world in 1979, according to the
     World Bank's latest available estimates; see
     <a href="https://www.gapminder.org/whc">www.gapminder.org/whc</a>. According
