@@ -3,12 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    This is a great annual gathering of brilliant young researchers who, thanks
-    to this wonderful organization, get the chance to learn from Nobel laureates
-    once a year. We are not criticizing that! We are just using their really low
-    score on the vaccination question to make the case that expert knowledge
-    doesn't guarantee general knowledge. Read more about the presentation on the
-    Lindau website:
-    <a href="http://www.gapm.io/xlindau64">www.gapm.io/xlindau64</a>.
+    <H.FB pageNumber={359}>
+      若い研究者たちがノーベル賞受賞者から学ぶすばらしい機会が、この年に一度の会議だ。この会議を批判するつもりは露ほどもない。ただ、出席者のワクチンに関するクイズでの正解率が低かったことから、「専門知識があるからといってあらゆることに精通しているわけではない」という点を明らかにしようと思っただけだ。リンダウ会議でのわたしの講演についてもっと知りたい方は、
+      <H.A href="http://www.gapm.io/xlindau64">こちら(現在準備中)</H.A>
+      を見てほしい。
+    </H.FB>
   </p>
 )
