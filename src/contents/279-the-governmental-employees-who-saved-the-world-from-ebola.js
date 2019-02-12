@@ -3,11 +3,11 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Dr. Mosoka Fallah is one of the Ebola contact tracers who Hans worked with
-    in Monrovia. Listen to Dr. Fallah's own words about the government's
-    employees and their commitment to their society when it needed them most,
-    and watch him describe how to maintain trust within the community while
-    hunting the infection,
-    <a href="http://www.gapm.io/x1">in his TEDx Monrovia talk</a>.
+    <H.FB pageNumber={357}>
+      リベリアのモンロビアでエボラ接触者の捜索に活躍したスタッフのひとりが、モソカ・ファラー医師だ。このような危機における政府職
+      員とその献身について、ファラー医師自身がTEDx
+      Monroviaで語った言葉を聞いてほしい。また彼は、このトークの中で、感染者をたどる際に地域の中で信頼を維持することの大切さについても語っている。
+      <H.A href="http://www.gapm.io/x1">その動画はこちら</H.A>。
+    </H.FB>
   </p>
 )
