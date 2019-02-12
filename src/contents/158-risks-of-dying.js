@@ -3,15 +3,15 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The percentages we quote take the death tolls on Level 4 for the past ten
-    years divided by the number of all deaths on Level 4 over that period, and
-    are based on the following data sources:
-    <a href="http://www.emdat.be/">EM-DAT</a> for natural disasters, IATA for
-    plane crashes, [IHME<a href="http://ihmeuw.org/49pc">10</a>] for murders,
-    <a href="http://gapm.io/xgalvac17">UCDP[1]</a> for wars, and
-    <a href="http://www.gapm.io/xgtdb17">GTD</a> for terrorism. A more relevant
-    risk calculation should not just divide by the number of all deaths, but
-    rather should take into account exposure to the situations in which these
-    kinds of deaths can occur.
+    <H.FB pageNumber={364}>
+      この章の最後で紹介している死因ごとの割合は、レベル4の過去10年間のデータを基にしている。どの割合も、それぞれの原因で亡くなった人の数を総死亡者数で割ったものだ。自然災害は
+      <H.A href="http://www.emdat.be/">EM-DAT</H.A>
+      のデータを、飛行機事故はIATAのデータを、殺人は
+      <H.A href="http://ihmeuw.org/49pc">IHME[10]</H.A>
+      のデータを、戦争のデータは
+      <H.A href="http://gapm.io/xgalvac17">UCDP[1]</H.A>を、テロは
+      <H.A href="http://www.gapm.io/xgtdb17">GTD</H.A>
+      のデータを利用している。わたしたちが用いた計算方法は完璧ではない。たとえば飛行機事故であれば、飛行機事故の死亡者数を全死亡者数で割るよりも、飛行機の利用者数で割ったほうが、リスクの計算には役に立つかもしれない。
+    </H.FB>
   </p>
 )
