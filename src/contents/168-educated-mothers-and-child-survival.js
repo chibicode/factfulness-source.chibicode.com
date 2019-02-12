@@ -3,8 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The discussion on how educated mothers lead to higher child survival is
-    based on a study of data from 175 countries between 1970 and 2009, by
-    Lozano, Murray et al. (2010).
+    <H.FB pageNumber={363}>
+      Lozano, Murray et
+      al.(2010)は1970年から2009年にかけて175カ国で調査を行い、母親が教育を受けていると、その子供の生存率が上がるという結論を出した。
+    </H.FB>
   </p>
 )
