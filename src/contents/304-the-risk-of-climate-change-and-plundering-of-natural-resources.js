@@ -17,24 +17,27 @@ export default () => (
       . See <a href="http://www.gapm.io/dysna">www.gapm.io/dysna</a>.
     </p>
     <p>
-      This passage also draws on The Plundered Planet by Paul Collier (2010),
-      <a href="https://ourworldindata.org/grapher/number-of-parties-env-agreements">
-        OurWorldInData[7]
-      </a>
-      and the thinking of economist Elinor Ostrom. In her work Governing the
-      Commons (1990) Ostrom explores the way in which humans across the world
-      have managed to regulate their common resources to avoid overexploitation.
-      Read more about
+      また、
+      <H.FB pageNumber={2012}>
+        ポール・コリアー著『収奪の星─天然資源と貧困削減の経済学』(2012年、村井章子訳、みすず書房)、
+        <a href="https://ourworldindata.org/grapher/number-of-parties-env-agreements">
+          OurWorldInData[7]
+        </a>
+        、経済学者のエリノア・オストロムの考えも参考にした。
+      </H.FB>
+      In her work Governing the Commons (1990) Ostrom explores the way in which
+      humans across the world have managed to regulate their common resources to
+      avoid overexploitation. Read more about
       <a href="https://www.en.wikipedia.org/wiki/Elinor_Ostrom">
         Ostrom and her design principles of common pool resource administration
       </a>
       .
     </p>
     <p>
-      In The Plundered Planet, Collier describes all kinds of natural resources
-      and how humans are continuously plundering them, usually to the point that
-      the process stops further exploitation, but at that point the breeding
-      ground may already have become overused.
+      In 『収奪の星』, Collier describes all kinds of natural resources and how
+      humans are continuously plundering them, usually to the point that the
+      process stops further exploitation, but at that point the breeding ground
+      may already have become overused.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

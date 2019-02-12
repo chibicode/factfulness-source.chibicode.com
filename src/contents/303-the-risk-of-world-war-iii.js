@@ -4,11 +4,10 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Smil (2008), in Global Catastrophes and Trends: The Next Fifty Years, was
-      already discussing ten years ago how six unfolding trends of the new world
-      order were slowly leading to intensified conflicts between parts of the
-      world: Europe's place, Japan's decline, Islam's choice, Russia's way,
-      China's rise, and the United States' retreat.
+      <H.FB pageNumber={355}>
+        Global Catastrophes and Trends: The Next Fifty Years
+        (2008)の中で、10年前に著者のSmilは当時すでに新たな6つの世界的トレンドによって紛争が激化の方向に向かうことを予想していた。その6つのトレンドとは、ヨーロッパの地位、日本の凋落、イスラム教の選択、ロシアの方向性、中国の台頭、そしてアメリカの後退だ。
+      </H.FB>
     </p>
     <p>
       In Energy Transitions: Global and National Perspectives, Smil (2012)
