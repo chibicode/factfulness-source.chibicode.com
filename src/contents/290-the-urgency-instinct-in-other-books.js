@@ -12,7 +12,10 @@ export default () => (
     benefit our survival. A evolutionary remnant that once saved our lives,
     black-and-white-thinking nowadays blocks us from weighting the good and bad,
     yes and no, and select something more useful, such as a &quot;maybe&quot;.
-    See Superforecasting by Tetlock and Gardner (2015) for more about our
-    tendency toward urgent decision-making.
+    See
+    <H.FB pageNumber={357}>
+      テトロックとガードナー著『超予測力─不確実な時代の先を読む10カ条』(2018年、早川書房、土方奈美訳)
+    </H.FB>
+    for more about our tendency toward urgent decision-making.
   </p>
 )

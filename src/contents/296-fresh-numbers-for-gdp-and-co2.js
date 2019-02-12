@@ -3,19 +3,14 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The OECD regularly publishes data for its 35 rich member countries. As of
-    December 2017, the most recent number for GDP growth is from six weeks ago.
-    The most recent number for CO2 emissions is from three years ago; see
-    OECD[2]
-    <a href="http://www.gapm.io/xoecdco2">
-      Air and GHG emissions: Carbon dioxide
-    </a>
-    . Since 2014, Sweden tracks quarterly greenhouse gas emissions---CO2
-    emissions data that is not older than three months can be found at the
-    website for Sweden's
-    <a href="http://www.gapm.io/xscb2">
-      System of Environmental and Economic Accounts
-    </a>
-    ; see SCB (Statistiska Centralbyrån).
+    <H.FB pageNumber={357}>
+      経済協力開発機構は、加盟35カ国のデータを定期的に発表している。2017年12月時点で、最新のGDP成長率のデータは、6週間前に更新されたものだった。それなのに、二酸化炭素排出についての最も新しいデータは3年前のものだ(OECD[2]:{' '}
+      <H.A href="http://www.gapm.io/xoecdco2">
+        Air and GHG emissions: Carbon dioxide
+      </H.A>
+      )。2014年から、スウェーデンでは環境経済勘定(SCB)の
+      <H.A href="http://www.gapm.io/xscb2">ウェブサイト</H.A>
+      で、直近3カ月以内に更新された二酸化炭素排出データを見ることができる。
+    </H.FB>
   </p>
 )
