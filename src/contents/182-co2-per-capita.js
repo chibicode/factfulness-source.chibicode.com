@@ -3,7 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The data on CO2 per capita for China, the United States, Germany, and India
-    come from CDIAC.
+    <H.FB pageNumber={362}>
+      これに関する中国、アメリカ、ドイツ、インドのデータはCDIACによるもの。
+    </H.FB>
   </p>
 )
