@@ -20,9 +20,12 @@ export default () => (
       <a href="http://www.gapm.io/vchtfr79">here</a> and press play.
     </p>
     <p>
-      This interactive chart shows how all countries' birth rates have fallen
-      since 1800: <a href="http://www.gapm.io/vm4">www.gapm.io/vm4</a>. To see
-      the population of China move over time, click
+      <H.FB pageNumber={357}>
+        1800年以来すべての国で出生率が低下していることについては、
+        <H.A href="https://www.gapm.io/vm4">こちらの動くチャート</H.A>
+        を見てほしい
+      </H.FB>{' '}
+      To see the population of China move over time, click
       <a href="http://www.gapm.io/vchtfr79">here</a> and press play.
     </p>
   </>

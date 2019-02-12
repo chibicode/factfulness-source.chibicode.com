@@ -16,7 +16,7 @@ export default () => (
       to pay can access physicians or travel abroad to procure abortion.&quot;
     </p>
     <p>
-      <H.FB>
+      <H.FB pageNumber={357}>
         <H.A href="http://www.gapm.io/xabor">
           安全な中絶に関する世界保健機構の指針は次の通り
         </H.A>

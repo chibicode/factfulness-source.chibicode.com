@@ -3,9 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Institutions are best understood through the work performed by the people
-    maintaining them. All prospering countries have the same basic institutions.
-    In their book Poor Economics, Banerjee and Duflo (2011) describe the very
-    basic institutions needed to make the escape out of poverty easier.
+    <H.FB pageNumber={357}>
+      社会基盤がどのように機能しているかを知るには、それを支える人々がどんな仕事をしているかを学べばいい。『貧乏人の経済学─
+      もういちど貧困問題を根っこから考える』(2012
+      年、山形浩生訳、みすず書房)の中で、著者のアビジット・V・バナシーとエステル・デュフロは人々が貧困から抜け出すのに役立つ社会基盤について解説している。
+    </H.FB>
   </p>
 )
