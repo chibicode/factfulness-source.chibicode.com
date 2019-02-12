@@ -4,8 +4,11 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The data on the use of contraceptives is based on UNFPA[1] and UN-Pop[9].
-      UNFPA is the part of the United Nations that deals with sexual and
+      <H.FB pageNumber={362}>
+        このデータは国連人口基金と国連人口部のデータベースを基にしている(UNFPA[1]
+        and UN-Pop[9])。
+      </H.FB>
+      国連人口基金 is the part of the United Nations that deals with sexual and
       reproductive health. The data show the unmet need for family planning and
       are based on estimates from the UN data set, World Contraceptive Use 2017.
       The data set provides estimates for all women of reproductive age, 15--49
