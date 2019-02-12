@@ -3,8 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    If you think you are not living in the best of times, search for images of
-    syphilis and you will soon feel blessed. We got the many names of this
-    disgusting disease from Quétel (1990) via the University of Glasgow Library.
+    <H.FB pageNumber={358}>
+      もしあなたが、いまがいい時代だと思えないようなら、梅毒の画像を探して見ればきっといまの時代に生きられて幸運だと思うはずだ。梅毒のさまざまな呼び名はグラスゴー大学図書館にあるQuétel(1990)の論文から引用した。
+    </H.FB>
   </p>
 )
