@@ -1,17 +1,15 @@
 import React from 'react'
 import * as H from '../components/h'
 
+// Ruth DeFries 著 The Big Ratchet(2014)
 export default () => (
   <>
     <p>
-      The bad habit of reducing all problems to one single problem---the
-      climate---is sometimes called climate reductionism. The term sometimes
-      refer to the monocausality explanation that &quot;all climate change has a
-      single cause, often CO2&quot;. To confront such simplicity is not to deny
-      climate change. It is to have realistic expectations about how people will
-      cope with it in relation to other challenges and problems. Climate change
-      is among other problems, and it is there are many examples in world
-      history of humans adapting to new circumstances.
+      <H.FB pageNumber={356}>
+        すべての問題の責任を温暖化というひとつの原因になすりつけるのは悪い癖で、これが「温暖化責任論」と呼ばれるものだ。ただし、地球温暖化を否定しても問題は解決できない。これまでも歴史の中で人々が新しい環境に適応してきた多くの事例を念頭に置きながら、これから人間が温暖化とどのように共生していくかを現実的に予測したほうがいい。
+      </H.FB>
+      Climate change is among other problems, and it is there are many examples
+      in world history of humans adapting to new circumstances.
     </p>
     <p>
       The idea of climate change as a single scenario is refuted by Smil (2008).
