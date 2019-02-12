@@ -3,6 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    See <a href="http://www.auw.edu.bd/">www.auw.edu.bd</a>.
+    <H.FB pageNumber={360}>
+      <H.A href="http://www.auw.edu.bd/">
+        アジア女子大学のウェブサイトはこちら。
+      </H.A>
+    </H.FB>
   </p>
 )
