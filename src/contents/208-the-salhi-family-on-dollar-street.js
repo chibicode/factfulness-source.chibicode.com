@@ -3,14 +3,11 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    See more about the Salhi family at
-    <a href="http://www.gapm.io/dssah">www.gapm.io/dssah</a>. If you think we
-    have too few homes from Tunisia or elsewhere on
-    <a href="http://www.gapm.io/dstun">www.gapm.io/dstun</a>, feel free to
-    contribute. Read more about how you can do it at:
-    <a href="https://www.gapminder.org/dollar-street/about">
-      www.gapminder.org/dollar-street/about
-    </a>
-    .
+    <H.FB pageNumber={362}>
+      サルヒ一家についてもっと知りたい人は、
+      <H.A href="https://gapm.io/dssah">こちらをご覧いただきたい</H.A>
+      。チュニジアの家の例や、そのほかの家の例がまだまだ少ないと思った方はぜひ、ギャップマインダーに投稿していただきたい。投稿方法については、
+      <H.A href="https://www.gapminder.org/dollar-street/about">こちら</H.A>。
+    </H.FB>
   </p>
 )
