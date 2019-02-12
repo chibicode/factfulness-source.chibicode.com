@@ -3,8 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    To see the World Health Chart in motion over 200 years, visit
-    <a href="https://www.gapminder.org/whc">www.gapminder.org/whc</a> and click
-    Play. See also the note to World Health Chart 2017
+    <H.FB pageNumber={361}>
+      世界健康チャートの200年にわたる動きをご覧になりたい方は
+      <H.A href="https://www.gapminder.org/whc">こちら</H.A>
+      のPlayボタンをクリックしてほしい。
+    </H.FB>
   </p>
 )
