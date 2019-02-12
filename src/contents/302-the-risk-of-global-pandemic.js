@@ -3,12 +3,12 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    A small version of the Spanish flu is more likely to occur than a large one;
-    see Smil (2008). While we should work against the obscene overuse of
-    antibiotics in the meat industry---see WHO[14]
-    <a href="http://gapm.io/xantimicres">Antimicrobial resistance</a>---we must
-    also be careful not to make the same mistake as we did with DDT and become
-    overprotective. Antibiotics could save even more lives if they were less
-    expensive.
+    <H.FB pageNumber={356}>
+      スペインかぜのような感染症が再来するとしたら、大規模ではなく小規模になる可能性のほうが高い。詳しくはこちら:Global
+      Catastrophes and Trends: The Next Fifty Years, by Smil (2008).
+      食肉産業での抗生物質の使い過ぎ(WHO[14]:{' '}
+      <H.A href="http://gapm.io/xantimicres">Antimicrobial resistance</H.A>
+      )には反対すべきだが、同時にDDTで犯した間違いをふたたび犯さないように注意して、過剰な保護を避ける必要もある。抗生物質がもっと安価に手に入れば、救えた命もあったはずだ。
+    </H.FB>
   </p>
 )
