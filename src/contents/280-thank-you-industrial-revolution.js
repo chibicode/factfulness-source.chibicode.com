@@ -4,9 +4,16 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      See the magic washing machine in action in
-      <a href="http://www.gapm.io/vid1">this TED talk</a>.
+      <H.FB pageNumber={357}>
+        奇跡の洗濯機が動いている様子はこちらの
+        <H.A href="http://www.gapm.io/vid1">TEDトーク</H.A>で見ることができる。
+      </H.FB>
     </p>
-    <p>See also: Fact Question 12: Electricity</p>
+    <p>
+      <H.OtherCardLink permalink="12-fact-question-12-electricity">
+        質問12: 電気について
+      </H.OtherCardLink>
+      の解説もあわせてご覧いただきたい。
+    </p>
   </>
 )
