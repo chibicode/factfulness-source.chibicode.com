@@ -9,17 +9,16 @@ export default () => (
       countries back in 1960 (p. 175 in Factfulness) for comparison. Estimates
       of <a href="http://gapm.io/xpewrel1">Religious Composition by Country</a>
       by Pew Research Center show percentages of those affiliated with any
-      religion (or not) by country as of 2010 and in the future. In most
-      countries, more than 50% of the population adhere to one of the large
-      religions. However, in many countries there is no clear majority. In
-      Nigeria, for example, 49 percent of the population was Christian and 48
-      percent Muslim in 2010, according to our data on religion; see Pew[2,3].
+      religion (or not) by country as of 2010 and in the future.
+      <H.FB pageNumber={361}>
+        ほとんどの国では、人口の過半数が世界的な宗教のひとつを信仰していて、チャートを見ればどの国がどの宗教に属しているかがわかる。しかし、どの宗教が多数派かがはっきりしない国も多い。たとえば、ピュー研究所のデータ(Pew[2,3])に基づいてわたしたちが算出したところ、ニカラグアでは2010年時点で人口の49%がキリスト教徒で、48%がイスラム教徒だった
+      </H.FB>
     </p>
     <p>
-      We have split 81 such countries into three separate bubbles in the
-      relevant charts, using Pew[2] and USAID-DHS[2]. To estimate each religious
-      group's fertility rate, and roughly estimating each religious group's per
-      capita income, we have used data from GDL[1,2], OECD[3] and other sources.
+      <H.FB pageNumber={360}>
+        主要な宗教がはっきりしない81カ国については、それぞれの宗教を3つの丸で表し、ピュー研究所(Pew[2])とアメリカ合衆国国際開発庁による人口保険調査(USAID-DHS[2])のデータに基づいてそれぞれの出生率を推測した。また、各宗教のおよそのひとり当たり所得については、経済協力開発機構
+        およびほかの情報源(GDL[1,2],OECD[3])から推測した
+      </H.FB>
     </p>
   </>
 )
