@@ -3,10 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Here are two very dif­ferent approaches for fixing the news problem:
-    <a href="https://constructiveinstitute.org/">
-      https://constructiveinstitute.org
-    </a>
-    and <a href="https://www.wikitribune.com/">https://www.wikitribune.com/</a>.
+    <H.FB pageNumber={354}>
+      明るいニュースより暗いニュースの方がはるかに多いという問題を解決するには、正反対の2つの取り組み方がある。詳しくは
+      <H.A href="https://constructiveinstitute.org">こちら</H.A>と
+      <H.A href="https://www.wikitribune.com">こちら</H.A>をご覧いただきたい。
+    </H.FB>
   </p>
 )
