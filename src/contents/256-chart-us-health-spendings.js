@@ -10,9 +10,11 @@ export default () => (
       <a href="http://apps.who.int/nha/database">
         Global Health Expenditure Database
       </a>
-      , via World Bank[24]. This comparison between US spending and spending in
-      other countries comes from OECD[1], a study named &quot;Why Is Health
-      Spending in the United States So High?&quot;
+      , via World Bank[24].
+      <H.FB pageNumber={359}>
+        アメリカの医療費と、そのほかのレベル4にいる資本主義国の医療費の比較は、経済協力開発機構による報告書“Why
+        Is Health Spending in the United States So High?” を参考にした(OECD[1])
+      </H.FB>
     </p>
     <p>
       Compared to other OECD countries, the US spends more on all parts of the
