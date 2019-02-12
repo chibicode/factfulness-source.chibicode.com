@@ -4,10 +4,12 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The Chinese population was 0.55 billion in 1949 and increased by another
-      0.7 billion 1949--1976. From 1970 to 1976, the total fertility rate
-      declined by half---when Deng Xiaoping enacted China's one child policy in
-      1979, population growth was already on the fall.
+      <H.FB pageNumber={358}>
+        1949年には中国の人口は5億5000万人だった。国連人口部によると、毛沢東が中国を支配した1949年から1976年に中国では7億人が生まれた
+      </H.FB>
+      From 1970 to 1976, the total fertility rate declined by half---when Deng
+      Xiaoping enacted China's one child policy in 1979, population growth was
+      already on the fall.
     </p>
     <p>
       Data about the population of China is derived from UN-Pop[1] and Sheng Luo
