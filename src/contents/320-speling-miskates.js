@@ -3,10 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    This typo on page 252 is intentional, inspired by the fact that oriental
-    rugs should always contain at least one deliberate mistake. At least one
-    knot must always be wrong in every rug. It is to remind us that we are
-    humans and we should not pretend we are perfect. Deliberately, we have no
-    source behind this fact.
+    <H.FB pageNumber={355}>
+      原書ではこの綴りはわざと間違えている。東洋の絨毯には少なくとも一カ所は意図的な乱れがあるという話に発想を得てのことだ。どの絨毯も結び目の少なくともひとつはわざとほつれがある。この話は、わたしたちが人間であって完璧な存在でないことを思い起こさせてくれる例だ。もちろん、この豆知識にはわざと出典をつけていない。
+    </H.FB>
   </p>
 )
