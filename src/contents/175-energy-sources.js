@@ -3,9 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The data comparing energy sources is from Energy Transitions: Global and
-    National Perspectives by Smil (2016). Smil describes the slow transition
-    away from fossil fuels and also debunks myths about food production,
-    innovation, population, and mega-risks.
+    <H.FB pageNumber={362}>
+      エネルギー源の比較データはSmil
+      (2016)によるもの。Smilは、化石燃料への依存がゆっくりと減っていることを語りつつ、食料生産、イノベーション、人口、巨大なリスクへの誤解についても語っている。
+    </H.FB>
   </p>
 )
