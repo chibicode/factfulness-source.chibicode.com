@@ -4,15 +4,15 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      To compare dif­ferent kinds of disaster deaths, read
-      <a href="https://ourworldindata.org/how-many-deaths-make-a-natural-disaster-newsworthy.">
-        &quot;Not All Deaths Are Equal: How Many Deaths Make a Natural Disaster
-        Newsworthy?&quot;
-      </a>
-       from OurWorldInData[8]. Gapminder is currently compiling data about the
-      skewed media coverage of dif­ferent kinds of deaths and dif­ferent kinds
-      of environmental problems. When ready, it will be published here:
-      <a href="http://www.gapm.io/fndr">www.gapm.io/fndr</a>.
+      <H.FB pageNumber={363}>
+        OurWorldInData[8]のサイトから“
+        <H.A href="https://ourworldindata.org/how-many-deaths-make-a-natural-disaster-newsworthy.">
+          Not All Deaths Are Equal: How Many Deaths Make a Natural Disaster
+          Newsworthy?
+        </H.A>
+        ”を閲覧すれば、災害による死を比べることができる。ギャップマインダーは現在、さまざまな死亡事故や環境問題を取り上げるメディアが、いかに偏った報道をしているかについて調べている。調査が終わり次第、
+        <H.A href="https://gapm.io/fndr">こちらで公開する予定だ</H.A>。
+      </H.FB>
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
