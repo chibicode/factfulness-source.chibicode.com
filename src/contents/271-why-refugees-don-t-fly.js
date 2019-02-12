@@ -18,18 +18,20 @@ export default () => (
       </a>
     </p>
     <p>
-      Sweden didn't confiscate the boats belonging to those who smuggled
-      refugees from Denmark during the Second World War---see the BBC
-      documentary &quot;How the Danish Jews Escaped the Holocaust&quot; at
-      <a href="http://www.gapm.io/xbbcesc17">www.gapm.io/xbbcesc17</a>.
-      According to Goldberger (1987) 7,220 Danish Jews were saved by these
-      boats. Today, the EU Council[1] Directive 2002/90/EC defines
-      &quot;smuggler&quot; as anyone facilitating illegal immigration, and the
-      EU Council[2] framework decision allows &quot;confiscation of the means of
-      transport used to commit the offence.&quot; The Geneva Conventions,
-      however, state that many of these refugees have the right to asylum; see
-      UNHCR. See <a href="http://www.gapm.io/p16">www.gapm.io/p16</a> and
-      <a href="http://www.gapm.io/tpref">www.gapm.io/tpref</a>.
+      <H.FB pageNumber={358}>
+        第二次世界大戦中、スウェーデンはデンマークからの難民を運ぶボートを没収しなかった。このことは、BBCのドキュメンタリー映画
+        <H.A href="http://www.gapm.io/xbbcesc17">
+          “How the Danish Jews Escaped the
+          Holocaust.(「デンマーク系ユダヤ人はどのようにホロコーストを間逃れたか」)”
+        </H.A>
+        に詳しい。Goldberger(1987)によると、7220人のデンマーク系ユダヤ人がボートで逃避し命を救われた。今日、EU指令によって不法移民をほう助する人はすべて「違法密輸業者」とされ(EU
+        Council[1] Directive
+        2002/90/EC)、欧州理事会の決定によって「不法移民の輸送手段を没収する」ことが加盟国に許されている(EU
+        Council[2] framework
+        decision)。ジュネーブ条約によって難民の多くは亡命申請の権利を認められているが、実態はそうでない。国連高等難民弁務官事務所(UNHCR)を見てほしい。詳しくは
+        <H.A href="https://gapm.io/p16">こちら</H.A>、または
+        <H.A href="http://www.gapm.io/tpref">こちら</H.A>を参照のこと。
+      </H.FB>
     </p>
   </>
 )
