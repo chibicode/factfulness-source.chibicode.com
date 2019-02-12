@@ -4,12 +4,13 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The passage draws on World Bank[26], ODI, PRIO, Paul Collier's The Bottom
-      Billion (2007), and the BBC documentary
-      <a href="https://www.gapminder.org/videos/dont-panic-end-poverty/">
-        &quot;Don't Panic---End Poverty&quot;
-      </a>
-      from Gapminder[11].
+      <H.FB pageNumber={355}>
+        極度の貧困のリスクについては、次の情報源を参考にした:世界銀行(WorldBank[26])、海外開発研究所(ODI)、オスロ国際平和研究所(PRIO)、ポール・コリアー著『最底辺の10億人─最も貧しい人のために本当になすべきことは何か』(2008年6月、中谷和夫訳、日経BP社)、そしてBBCのドキュメンタリー番組“
+        <H.A href="https://www.gapminder.org/videos/dont-panic-end-poverty/">
+          Don’t Panic—End Poverty
+        </H.A>
+        ” (Gapminder[11] 参照)
+      </H.FB>
     </p>
     <p>
       While extreme poverty has fallen, the number of extremely poor people
@@ -29,13 +30,12 @@ export default () => (
       The other risks are not ongoing. Extreme poverty is. 78% are small scale
       farmers in extremely poor areas. In extreme poverty, every second person
       is a child, see <a href="http://econ.worldbank.org/">World Bank[26]</a>,
-      they are from ethnic minorities; see ODI. While the global rate of poor
-      has fallen, the number of poor in conflict has been stable or even
-      increased, based on preliminary data from PRIO. One can only speculate
-      about the future, but if the current wars continue, soon a vast majority
-      of all these children will need to be helped behind a military defend
-      line. This poses a cultural challenge to the international aid community,
-      as Collier describes in The Bottom Million.
+      they are from ethnic minorities; see ODI.
+      <H.FB pageNumber={355}>
+        オスロ国際平和研究所の暫定的なデータによると、極度の貧困は減っているが、紛争地帯に暮らす極度に貧しい人の数は変わらないか、増えている。現在の紛争が長引けば、極度に貧困な子供たちの大多数はこれからも紛争地帯から抜け出せない。国際援助団体にとっては、長引く紛争が大きな障害になる。
+      </H.FB>
+      This poses a cultural challenge to the international aid community, as
+      Collier describes in The Bottom Million.
     </p>
     <ul>
       <li>Poverty leads to civil war, and civil war leads to poverty.</li>
