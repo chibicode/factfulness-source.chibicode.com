@@ -16,12 +16,12 @@ export default () => (
       to pay can access physicians or travel abroad to procure abortion.&quot;
     </p>
     <p>
-      The WHO guidelines on
-      <a href="http://www.gapm.io/xabor">Access to Safe Abortion</a> say:
-      &quot;Restriction in access to safe abortion services results in both
-      unsafe abortions and unwanted births. Almost all deaths and morbidity from
-      unsafe abortion occur in countries where abortion is severely restricted
-      in law and/or in practice.&quot; See WHO[2] and UNFPA[2].
+      <H.FB>
+        <H.A href="http://www.gapm.io/xabor">
+          安全な中絶に関する世界保健機構の指針は次の通り
+        </H.A>
+        :「安全な中絶処置を受けにくくすれば、危険な中絶と望まない出産が増えることになる。危険な中絶によって女性が死亡したり病気になったりするのはほぼすべて、中絶が法律によって厳しく制限されているか、現実的に中絶が受けられないような国で起きている。
+      </H.FB>
     </p>
   </>
 )
