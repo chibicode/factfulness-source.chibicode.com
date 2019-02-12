@@ -3,11 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Peter Senge developed the idea of systems thinking within corporate
-    organizations as a way of stopping people from blaming one another and
-    helping them to understand the mechanisms that are causing problems. But his
-    ideas apply to all kinds of human organizations where blaming individuals
-    blocks understanding. See Senge, The Fifth Discipline: The Art &amp;
-    Practice of the Learning Organization (1990).
+    <H.FB pageNumber={358}>
+      ピーター・センゲは企業内での責任のなすり合いを止めて問題の原因を理解することを助けるツールとして、「システム思考」という考え方を提唱した。このシステム思考の考え方は、営利企業だけでなく人間の関わるあらゆる組織で理解の促進のために使うことができる。センゲ著『最強組織の法則─新時代のチームワークとは何か』(1995年、守部信之訳、徳間書店)を参照。
+    </H.FB>
   </p>
 )
