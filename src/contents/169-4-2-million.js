@@ -3,7 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The data on infant deaths in recent years comes from UN-IGME. The data on
-    births and infant deaths in 1950 comes from UN-Pop[3].
+    <H.FB pageNumber={363}>
+      最近の乳児の死亡数はUN-IGMEによるもの。1950年の出生数と乳児死亡数はUN-Pop[3]によるもの。
+    </H.FB>
   </p>
 )
