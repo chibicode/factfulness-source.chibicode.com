@@ -4,10 +4,10 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Professor Hossein Malek-Afzali at Tehran University of Medical Science was
-      Hans's host in Iran, who showed him the infertility clinic and taught him
-      about Iran's family planning and sexual education programs. We use the
-      term &quot;babies per woman&quot; for the statistical indicator
+      <H.FB pageNumber={361}>
+        わたしをイランに招いてくれたのは、テヘラン医科大学のフセイン・マレク・アフザリ教授だった。アフザリ教授は大学付属の不妊治療クリニックを見学させてくれ、イランにおける家族計画と性教育プログラムについて教えてくれた。
+      </H.FB>
+      We use the term &quot;babies per woman&quot; for the statistical indicator
       &quot;total fertility rate.&quot; In 1997, the full drop in fertility rate
       had not yet been achieved. Still, in the data that Hans had back then,
       Iran had the fastest drop. Today's UN data rather put Oman as the fastest
@@ -30,9 +30,12 @@ export default () => (
       1.636 in Iran; 1.876 in the US; and 1.909 in Sweden, based on total
       fertility (TFR) data from UN's
       <a href="https://esa.un.org/unpd/wpp/">World Population Prospects 2017</a>
-      .  To compare Iran---the world champion in family planning---against other
-      countries over time, see
-      <a href="http://www.gapm.io/vm2">www.gapm.io/vm2</a>.
+      .
+      <H.FB pageNumber={361}>
+        家族計画において世界の先端をいくイランとほかの国々との長期的な比較は
+        <H.A href="http://www.gapm.io/vm2">こちら</H.A>
+      </H.FB>
+      。
     </p>
   </>
 )
