@@ -1743,7 +1743,8 @@ export const pagedSources = [
     jpPage: 319,
     enPage: 251,
     enTitle: `Diversified economies`,
-    jpTitle: `経済の多様化`
+    jpTitle: `経済の多様化`,
+    constructionId: 'x4'
   },
   {
     chapter: 11,

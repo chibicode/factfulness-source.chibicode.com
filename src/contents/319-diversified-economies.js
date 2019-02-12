@@ -3,13 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    MIT has produced a free-of-charge tool (
-    <a href="https://atlas.media.mit.edu/en/">
-      https://atlas.media.mit.edu/en/
-    </a>
-    ) to help countries work out how best to diversify, given its existing
-    industries and skills; see
-    <a href="http://www.gapm.io/x4">www.gapm.io/x4</a> or read Hausmann et al.
-    (2013).
+    <H.FB pageNumber={355}>
+      マサチューセッツ工科大学は、既存の産業とスキルを使って国家が収入源を多様化することを助ける
+      <H.A href="https://atlas.media.mit.edu/en/">無料ツールを開発した</H.A>
+      。また Hausmann et al.(2013)も参考になる。
+    </H.FB>
   </p>
 )
