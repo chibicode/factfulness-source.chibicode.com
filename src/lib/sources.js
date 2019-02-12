@@ -1504,7 +1504,8 @@ export const pagedSources = [
     jpPage: 258,
     enPage: 201,
     enTitle: `Democracy Is Not the Single Solution`,
-    jpTitle: `民主主義でさえ、それだけではすべてを解決できない`
+    jpTitle: `民主主義でさえ、それだけではすべてを解決できない`,
+    constructionId: 'tgovd'
   },
   {
     chapter: 8,

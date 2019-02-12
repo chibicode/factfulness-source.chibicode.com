@@ -4,9 +4,9 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Paul Collier's books are just as disturbing as they are fact-based. See
-      his Wars, Guns and Votes: Democracy in Dangerous Places (2011) for more on
-      how democracy can destabilize countries rather than make them safer.
+      <H.FB pageNumber={359}>
+        ポール・コリアーの著作は事実に基づいており、同時に恐しいものでもある。レベル1の国では、民主主義によって、国は安全になるどころか不安定になることは、『民主主義がアフリカ経済を殺す─最底辺の10億人の国で起きている事実』(2010年、甘粕智子訳、日経BP社)に詳しく描かれている。
+      </H.FB>
       Unfortunately, this seems to hold true for countries on Level 1, where
       democracy is promoted by the international community, but leads to
       destabilization rather than safety. The promotion of so-called
@@ -23,18 +23,17 @@ export default () => (
       Collier quotes a threshold of $2700 in GDP per capita per year: over this
       threshold, democracy lead to more stability, but below it, war was a more
       likely outcome. That threshold is exactly where the line goes between
-      Level 1 and 2 in Gapminder's income levels. More disturbing problems with
-      democracy is discussed in a great book by Fareed Zakarias, The Future of
-      Freedom: Illiberal Democracy at Home and Abroad. In it, Zakarias talks
-      about legislation that has become a question for the angry crowds, who
-      wants tougher punishment for criminals without considering the predicted
-      costs. Read it! We must remind ourselves, in line with the wise words of
-      Winston Churchill, that democracy, despite all its problems, in the long
-      run, still is the least bad system we know. See
-      <a href="https://www.gapminder.org/topics/government/democracy">
-        www.gapminder.org/topics/government/democracy
-      </a>
-      .
+      Level 1 and 2 in Gapminder's income levels.
+      <H.FB pageNumber={359}>
+        民主主義の問題点についてはさらに、Fareed Zakaria著のThe Future of
+        Freedom: Illiberal Democracy at Home and Abroadでも指摘している
+      </H.FB>
+      In it, Zakarias talks about legislation that has become a question for the
+      angry crowds, who wants tougher punishment for criminals without
+      considering the predicted costs. Read it!
+      <H.FB pageNumber={359}>
+        「民主主義がまるで完璧か、万能であるかのように偽ることはできない。実際、民主主義は最悪の政治形態だ。ただし、これまでに試されたほかの政治形態で民主主義よりましなものがなかっただけだ」。
+      </H.FB>
     </p>
   </>
 )
