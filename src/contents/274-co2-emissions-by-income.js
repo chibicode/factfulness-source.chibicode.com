@@ -4,9 +4,11 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Researchers are trying to figure out how to adjust emissions quotas for
-      changing population sizes; see Shengmin et al. (2011) and Raupach et al.
-      (2014). See <a href="http://gapm.io/eco2a">gapm.io/eco2a</a>.
+      <H.FB pageNumber={358}>
+        人口の変化に合わせて各国の二酸化炭素排出量の割り当てをどう調整したらいいかについて、研究者たちは答えを出そうと努力している。参考論文はこちら:
+        Shengmin et al. (2011)、Raupach et al. (2014).
+        <H.A href="gapm.io/eco2a">詳しくはこちら</H.A>
+      </H.FB>
     </p>
     <p>
       On Level 4, transportation is behind one third of all CO2
