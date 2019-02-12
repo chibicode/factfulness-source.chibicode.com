@@ -11,16 +11,17 @@ export default () => (
       Fact Question 3: Extreme Poverty.
     </p>
     <p>
-      Paul Collier writes in The Bottom Billion (2007) about the future
-      prospects for the world's poorest people, living in conflict areas on
-      meager soil. To see where these people are, the thing to measure is child
-      mortality, which is the most reliable indication of extreme poverty. By
-      combining these four detailed maps, we can locate the poorest on earth
-      with the most unfortunate future. Our rough estimate of people in extreme
-      poverty close to conflicts is based on ODI (Overseas Development
-      Institute) from 2015, preliminary results by Andreas Forø Tollefsen and
-      Gudrun Østby of the number of people who live close to conflict worldwide
-      (743 millions in 2016); download PDF
+      <H.FB pageNumber={361}>
+        ポール・コリアーは、『最底辺の10億人─最も貧しい人のために本当になすべきことは何か』(2008年6月、中谷和夫訳、日経BP社)の中で、痩せ細った土地に縛られたり、紛争地帯に暮らしている、世界で最も貧しい人たちの未来を描いている。
+      </H.FB>
+      To see where these people are, the thing to measure is child mortality,
+      which is the most reliable indication of extreme poverty. By combining
+      these four detailed maps, we can locate the poorest on earth with the most
+      unfortunate future. Our rough estimate of people in extreme poverty close
+      to conflicts is based on ODI (Overseas Development Institute) from 2015,
+      preliminary results by Andreas Forø Tollefsen and Gudrun Østby of the
+      number of people who live close to conflict worldwide (743 millions in
+      2016); download PDF
       <a href="http://www.gapm.io/xodi">here</a>. Data on where most people live
       is from United Nations Population Division; where there are high rates of
       child mortality from <a href="http://gapm.io/xih5mr">IHME[6]</a>; where
