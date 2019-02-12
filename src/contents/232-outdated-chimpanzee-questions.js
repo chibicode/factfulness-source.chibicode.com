@@ -3,12 +3,12 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    In the 1990s, students at Karolinska Institutet did not know that many
-    European countries had worse health outcomes than many Asian countries.
-    These are the results that Hans show in his first TED talk---Rosling (2006).
-    Thirteen years later, when we wanted to check whether people's knowledge had
-    improved, we could no longer use the original questions since the European
-    countries had managed to caught up. This is shown in the animated graph
-    here---at <a href="http://www.gapm.io/vm3">www.gapm.io/vm3</a>.
+    <H.FB pageNumber={360}>
+      1990年代にカロリンスカ医科大学の学生たちにクイズを出したところ、ヨーロッパ諸国における人々の健康水準がアジア諸国に劣っていることを知らなかった。2006年に行ったわたしの最初のTEDトークでその結果を紹介している。それから13年後に人々の知識が向上しているかを調べようとしたが、昔使ったクイズはもう使えなかった。ヨーロッパ諸国がアジアに追いついていたからだ。
+      <H.A href="http://www.gapm.io/vm3">
+        そのトレンドを描いた動くチャートはこちら
+      </H.A>
+      。
+    </H.FB>
   </p>
 )
