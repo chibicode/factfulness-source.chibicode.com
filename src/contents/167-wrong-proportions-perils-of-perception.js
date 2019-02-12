@@ -4,9 +4,12 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The examples of proportions that people tend to overestimate come from
-      Ipsos MORI[2,3] and reveal misconceptions across 33 countries. The survey
-      is called <a href="http://www.gapm.io/xip15">Perils of Perception</a>
+      <H.FB pageNumber={363}>
+        人々が過大視しやすい物事の例は、33カ国を対象に調査を行ったIspos
+        MORI[2,3]によるもの。
+      </H.FB>
+      The survey is called{' '}
+      <a href="http://www.gapm.io/xip15">Perils of Perception</a>
       (2015) and presents numbers like these highlights from the UK poll: For
       the wealth that the top 1 percent owns, the average guess was 59 percent,
       when the correct figure is 23 percent; on immigration, they guessed that
@@ -14,9 +17,11 @@ export default () => (
       is 13 percent.
     </p>
     <p>
-      Innumeracy (1988) by John Allen Paulos is full of fascinating examples of
-      disproportionality, asking, for example, how much the level of the Red Sea
-      would rise if you added all the human blood in the world.
+      <H.FB pageNumber={363}>
+        ジョン・アレン・パウロス著『
+        <H.A href="http://www.gapm.io/xip15">数で考えるアタマになる!</H.A>
+        』(2007年、野本陽代訳、草思社)には、数々のおもしろい過大視の例が紹介されている。たとえば、全人類の血液を紅海に流し込むと、海面はどれくらい上昇するか、など。
+      </H.FB>
     </p>
   </>
 )
