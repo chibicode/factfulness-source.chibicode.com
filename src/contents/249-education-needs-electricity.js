@@ -3,9 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The link between education and electricity has been evaluated by UNDESA
-    (United Nations Department of Economic and Social Affairs). You can download
-    the report as PDF here:
-    <a href="http://www.gapm.io/xdessel">www.gapm.io/xdessel</a>.
+    <H.FB pageNumber={359}>
+      より詳しくは、国連経済社会局(UNDESA)のデータや
+      <H.A href="http://www.gapm.io/xdessel">報告書</H.A>を参照のこと
+    </H.FB>
   </p>
 )
