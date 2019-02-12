@@ -777,7 +777,7 @@ export const pagedSources = [
     jpPage: 82,
     enPage: 64,
     enTitle: `Graph: Guitars per capita`,
-    jpTitle: `人口当たりのギターの数`,
+    jpTitle: `100万人あたりのギターの数`,
     skip: true,
     constructionId: 'tcminsg'
   },
