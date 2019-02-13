@@ -1,5 +1,6 @@
 import React from 'react'
-import {pagedSources, finalNoteSources} from '../lib/sources'
+import {finalNoteSources} from '../lib/sources'
+import pagedSources from '../lib/paged-sources'
 import Card from './card'
 import Content from './content'
 import Intro from './intro'

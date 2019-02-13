@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      <H.FB>
+      <H.FB pageNumber={368}>
         100年前のスウェーデンでも、現在のインドでも、簡単な字を認識でき、文章をゆっくりと読めれば「識字」ができるということになる。つまり「識字率」は、難しい文章を読むことができる人の割合ではない。スウェーデンの過去の識字率は
         <H.A href="http://gapm.io/xriwe">van Zanden[2]</H.A>と
         <H.A href="https://ourworldindata.org/literacy">OurWorldInData[2]</H.A>

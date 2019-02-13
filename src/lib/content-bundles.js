@@ -99,9 +99,9 @@ export default {
       import(/* webpackChunkName: '115-graph-average-family-size-by-income' */ '../contents/115-graph-average-family-size-by-income.js'),
     {loading: () => <DynamicLoading />}
   ),
-  '117-child-survival': dynamic(
+  '116-child-survival': dynamic(
     () =>
-      import(/* webpackChunkName: '117-child-survival' */ '../contents/117-child-survival.js'),
+      import(/* webpackChunkName: '116-child-survival' */ '../contents/116-child-survival.js'),
     {loading: () => <DynamicLoading />}
   ),
   '117-two-public-health-miracles': dynamic(

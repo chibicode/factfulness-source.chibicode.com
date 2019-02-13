@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "contents": "node ./scripts/generate-content-bundles.js && xo --fix ./src/lib/content-bundles.js"
+    "contents": "node ./scripts/generate-content-bundles.js && xo --fix ./src/lib/content-bundles.js",
+    "paged-sources": "node ./scripts/generate-paged-sources.js"
   },
   "dependencies": {
     "@emotion/core": "^10.0.5",

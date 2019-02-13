@@ -17,7 +17,7 @@ export default () => (
       expected to occur in a very limited group of people.
     </p>
     <p>
-      <H.FB>
+      <H.FB pageNumber={364}>
         Pew[1]が2012年に行った調査によると、日本人の76%が福島産の食べ物は危険だと答えた。
       </H.FB>{' '}
       The contamination of the very word Fukushima is discussed in the book
