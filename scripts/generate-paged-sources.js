@@ -3,6 +3,7 @@ const problems = require('../src/lib/problems.json')
 
 const process = ({jpPage, enTitle, ...rest}) => ({
   jpPage,
+  jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
   enTitle,
   ...rest,
   permalink: [
@@ -1763,6 +1764,22 @@ const pagedSources = [
     jpTitle: `ローカルな知識不足とデータ`
   }
 ].map(process)
+
+pagedSources.sort((a, b) => {
+  if (a.jpPageFirst < b.jpPageFirst) {
+    return -1
+  }
+  if (a.jpPageFirst > b.jpPageFirst) {
+    return 1
+  }
+  if (a.permalink < b.permalink) {
+    return -1
+  }
+  if (a.permalink > b.permalink) {
+    return 1
+  }
+  return 0
+})
 
 fs.writeFile(
   './src/lib/paged-sources.json',

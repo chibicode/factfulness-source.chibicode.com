@@ -85,6 +85,13 @@ const Content = ({
           {Array.isArray(jpPage) ? jpPage.join('〜') : jpPage})
         </p>
       )}
+      <p
+        css={css`
+          color: red;
+        `}
+      >
+        {permalink}
+      </p>
       <Component />
       {isModal ? (
         <div
@@ -125,7 +132,10 @@ const Content = ({
           <InternalLink>固定リンク</InternalLink>
           {constructionId && (
             <>
-              <ExternalLink href={`https://gapm.io/${constructionId}`}>
+              <ExternalLink
+                transparentBackground
+                href={`https://gapm.io/${constructionId}`}
+              >
                 詳細ページ(準備中)
               </ExternalLink>
             </>
