@@ -85,13 +85,6 @@ const Content = ({
           {Array.isArray(jpPage) ? jpPage.join('〜') : jpPage})
         </p>
       )}
-      <p
-        css={css`
-          color: red;
-        `}
-      >
-        {permalink}
-      </p>
       <Component />
       {isModal ? (
         <div
