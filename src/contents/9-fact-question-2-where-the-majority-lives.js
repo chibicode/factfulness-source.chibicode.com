@@ -51,16 +51,16 @@ export default () => (
 
     <ul>
       <li>
-        <a href="http://www.gapm.io/xwb172">
+        <H.A href="http://www.gapm.io/xwb172">
           World Bank[2] &quot;World Bank Country and Lending Groups.&quot;
           2017/11/6閲覧。
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xwb174">
+        <H.A href="http://www.gapm.io/xwb174">
           World Bank[4] &quot;Population of Country Income Groups in
           2015---Population, total.&quot; 2017/11/7閲覧。
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

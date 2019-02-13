@@ -9,6 +9,6 @@ export default () => (
     Janeiro; 8.1 million in London; and 8.3 million in Bangkok; see Table 8,
     &quot;Population of capital cities and cities of 100 000 or more
     inhabitants: latest available year, 1996-2015,&quot; at
-    <a href="http://www.gapm.io/xpop">www.gapm.io/xpop</a>.
+    <H.A href="http://www.gapm.io/xpop">www.gapm.io/xpop</H.A>.
   </p>
 )

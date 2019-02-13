@@ -20,22 +20,22 @@ export default () => (
       <H.FB pageNumber={362}>香港の論文はDavies(1985)のもの。</H.FB> The study
       was the first to suggest that the practice of placing babies in prone
       position could be the cause of sudden infant deaths; see
-      <a href="https://www.ncbi.nlm.nih.gov/pubmed/2866397?dopt=Abstract">
+      <H.A href="https://www.ncbi.nlm.nih.gov/pubmed/2866397?dopt=Abstract">
         Cot death in Hong Kong: a rare problem?
-      </a>
+      </H.A>
       and
-      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1835990/">
+      <H.A href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1835990/">
         this follow-up report
-      </a>
+      </H.A>
       from N.N. Lee (1989). For historical data on sudden infant deaths in
       Norway, see, for example, Irgens et. al (1995), available to download as
-      <a href="http://pubmedcentralcanada.ca/pmcc/articles/PMC1511132/pdf/archdisch00624-0014.pdf">
+      <H.A href="http://pubmedcentralcanada.ca/pmcc/articles/PMC1511132/pdf/archdisch00624-0014.pdf">
         PDF here
-      </a>
+      </H.A>
       . For more about
-      <a href="https://www.ispid.org/fileadmin/user_upload/textfiles/articles/CPR17_Hauck_SIDS_Trends.pdf">
+      <H.A href="https://www.ispid.org/fileadmin/user_upload/textfiles/articles/CPR17_Hauck_SIDS_Trends.pdf">
         international trends in SIDS
-      </a>
+      </H.A>
       .
     </p>
   </>

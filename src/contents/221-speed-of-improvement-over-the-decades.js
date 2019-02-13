@@ -13,14 +13,14 @@ export default () => (
         Electrification
         <ul>
           <li>
-            <a href="https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=ZG">
+            <H.A href="https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=ZG">
               SSA: 1991--2014: 19--37%
-            </a>
+            </H.A>
           </li>
           <li>
-            <a href="https://ourworldindata.org/grapher/primary-enrollment-selected-countries">
+            <H.A href="https://ourworldindata.org/grapher/primary-enrollment-selected-countries">
               Europe, UK: 1865--1880: 24.4--77%
-            </a>
+            </H.A>
           </li>
         </ul>
       </li>
@@ -28,9 +28,9 @@ export default () => (
         Education
         <ul>
           <li>
-            <a href="https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=ZG">
+            <H.A href="https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=ZG">
               SSA: 1971--2014- : 46--68%
-            </a>
+            </H.A>
           </li>
         </ul>
       </li>
@@ -38,9 +38,9 @@ export default () => (
         Sanitation
         <ul>
           <li>
-            <a href="https://data.worldbank.org/indicator/SH.STA.ACSN?locations=ZG">
+            <H.A href="https://data.worldbank.org/indicator/SH.STA.ACSN?locations=ZG">
               SSA: 1990--2015 : 23--29%
-            </a>
+            </H.A>
           </li>
         </ul>
       </li>
@@ -48,9 +48,9 @@ export default () => (
         Water
         <ul>
           <li>
-            <a href="https://data.worldbank.org/indicator/SH.H2O.SAFE.ZS?locations=ZG">
+            <H.A href="https://data.worldbank.org/indicator/SH.H2O.SAFE.ZS?locations=ZG">
               SSA: 1990--2015 : 46--67%
-            </a>
+            </H.A>
           </li>
         </ul>
       </li>
@@ -59,9 +59,9 @@ export default () => (
       This article discusses the challenges of making electricity available and
       how to achieve energy access to the world's poorest populations, comparing
       historical rates:
-      <a href="https://thebreakthrough.org/index.php/voices/roger-pielke-jr/electricity-for-all">
+      <H.A href="https://thebreakthrough.org/index.php/voices/roger-pielke-jr/electricity-for-all">
         Electricity for All: What Universal Energy Access Will Take
-      </a>
+      </H.A>
       .
     </p>
   </>

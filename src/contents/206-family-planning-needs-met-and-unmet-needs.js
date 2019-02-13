@@ -13,14 +13,14 @@ export default () => (
       are based on estimates from the UN data set, World Contraceptive Use 2017.
       The data set provides estimates for all women of reproductive age, 15--49
       years, who are married or in a union. See, for example,
-      <a href="https://data.worldbank.org/indicator/SP.DYN.CONM.ZS?locations=XN-XT-XD-XM">
+      <H.A href="https://data.worldbank.org/indicator/SP.DYN.CONM.ZS?locations=XN-XT-XD-XM">
         contraceptive prevalence rate
-      </a>
+      </H.A>
       for the select countries, along with more details. You can explore the
       data in
-      <a href="https://www.unfpa.org/sexual-reproductive-health">
+      <H.A href="https://www.unfpa.org/sexual-reproductive-health">
         the interactive chart
-      </a>
+      </H.A>
       further down the page.
     </p>
     <p>
@@ -30,7 +30,7 @@ export default () => (
       don't want to become pregnant, or want to postpone pregnancy, but are not
       using any method of contraception. The data set, World Contraceptive Use
       2017, is available here:
-      <a href="http://www.gapm.io/xcontr">www.gapm.io/xcontr</a>.
+      <H.A href="http://www.gapm.io/xcontr">www.gapm.io/xcontr</H.A>.
     </p>
   </>
 )

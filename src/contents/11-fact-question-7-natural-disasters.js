@@ -36,11 +36,11 @@ export default () => (
     <H.SmallHeading>出典</H.SmallHeading>
     <ul>
       <li>
-        <a href="http://www.emdat.be/">
+        <H.A href="http://www.emdat.be/">
           EM-DAT Centre for Research on the Epidemiology of Disasters (CRED).
           The International Disaster Database. Debarati Guha-Sapir, Université
           catholique de Louvain. 2017/11/5閲覧。
-        </a>
+        </H.A>
       </li>
     </ul>
     <p>

@@ -14,9 +14,9 @@ export default () => (
       sources.”を参照。次に、この前提となっている研究は、レベル1と2にいる人々の環境適応能力を過小評価している。人々が地球温暖化に適応するのではなく、移動するしかないと結論づけている。
     </H.FB>
     For a fact-based picture of global migration and the refugee situation, see
-    <a href="http://popstats.unhcr.org/en/overview">
+    <H.A href="http://popstats.unhcr.org/en/overview">
       UNHCR Population Statistics
-    </a>
+    </H.A>
     .
     <H.FB pageNumber={356}>
       また、 次の書籍も参考になる: Paul Collier 著 Exodus (2013)、Alexander

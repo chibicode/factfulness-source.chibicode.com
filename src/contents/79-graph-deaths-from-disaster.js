@@ -5,7 +5,7 @@ export default () => (
   <p>
     Annual deaths from natural disasters have decreased by 75 percent over the
     past 100 years, according to the International Disaster Database; see
-    <a href="http://www.emdat.be/">EM-DAT</a>. Since disasters vary from year to
+    <H.A href="http://www.emdat.be/">EM-DAT</H.A>. Since disasters vary from year to
     year, here we compare ten-year averages. In chapter four where we further
     discuss the decline, we also use 25-year averages. In the last ten years
     (2007--2016), on average 80,386 people were killed by natural disasters per

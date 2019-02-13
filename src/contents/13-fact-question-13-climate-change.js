@@ -27,17 +27,17 @@ export default () => (
 
     <ul>
       <li>
-        <a href="http://www.gapm.io/xipcca">
+        <H.A href="http://www.gapm.io/xipcca">
           IPCC[1] (Intergovernmental Panel on Climate Change) Fifth Assessment
           Report (AR5) Authors and Review Editors. May 2014.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xipcc">
+        <H.A href="http://www.gapm.io/xipcc">
           IPCC[2] Climate Change 2014---Synthesis Report Summary for
           Policymakers. &quot;SPM 2.2 Projected changes in the climate
           system.&quot; p. 10 2018/8/18閲覧。
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

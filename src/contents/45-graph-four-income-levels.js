@@ -6,7 +6,7 @@ export default () => (
     <p>
       The numbers are rounded to billion people to make it easier to remember.
       Incomes are in price adjusted PPP 2011 dollars by ICP.
-      <a href="http://gapm.io/incm">Gapminder[8]</a> estimates that the number
+      <H.A href="http://gapm.io/incm">Gapminder[8]</H.A> estimates that the number
       of people on each income level in 2017 are as follows:
     </p>
     <ul>
@@ -20,8 +20,8 @@ export default () => (
     </ul>
     <p>
       The detailed estimates are based on the World Bank's PovcalNet for 2013
-      and forecasts from <a href="http://gapm.io/ximfw">IMF[1]</a>.
-      <a href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</a> is the
+      and forecasts from <H.A href="http://gapm.io/ximfw">IMF[1]</H.A>.
+      <H.A href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</H.A> is the
       dataset that the World Bank uses to estimate the official rate of extreme
       poverty worldwide. Data was collected through household income surveys
       from across the world. National currencies are converted to comparable

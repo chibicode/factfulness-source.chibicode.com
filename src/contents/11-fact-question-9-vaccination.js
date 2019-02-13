@@ -32,9 +32,9 @@ export default () => (
     <p>
       The estimate for immunization coverage of the vaccine against TB is based
       on
-      <a href="http://www.who.int/gho/tb/en/">Global Health Observatory data</a>
+      <H.A href="http://www.who.int/gho/tb/en/">Global Health Observatory data</H.A>
       from WHO[10]. For vaccination data by category, see
-      <a href="http://www.gapm.io/xwhoim"> WHO[1]</a>.
+      <H.A href="http://www.gapm.io/xwhoim"> WHO[1]</H.A>.
     </p>
   </>
 )

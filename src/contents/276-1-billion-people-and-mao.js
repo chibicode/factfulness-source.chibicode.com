@@ -9,6 +9,6 @@ export default () => (
     </H.FB>
     The number of victims is uncertain. A list of sources and evaluation of
     their claims can be found at
-    <a href="http://necrometrics.com/20c5m.htm#Mao">Necrometrics</a>.
+    <H.A href="http://necrometrics.com/20c5m.htm#Mao">Necrometrics</H.A>.
   </p>
 )

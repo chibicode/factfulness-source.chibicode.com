@@ -38,9 +38,9 @@ export default () => (
     </ul>
     <p>
       Many of these authors study cognitive biases. At the moment of writing,
-      <a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">
+      <H.A href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">
         English Wikipedia lists 186 studied biases
-      </a>
+      </H.A>
       . Psychologists struggle to capture these quirks in the mental machine in
       lab experiments so that they can be replicated or falsified. That's not
       how we developed our list of misconceptions and instincts---they only

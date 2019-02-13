@@ -22,9 +22,9 @@ export default () => (
       the Countries We've Ever Invaded by Stuart Laycock (2012), it's easier to
       imagine that Europe might not be the victim of a third world war and more
       likely the perpetrator and a threat to world peace. See
-      <a href="https://www.gapminder.org/topic/military/war">
+      <H.A href="https://www.gapminder.org/topic/military/war">
         www.gapminder.org/topic/military/war
-      </a>
+      </H.A>
       .
     </p>
   </>

@@ -24,9 +24,9 @@ export default () => (
       Literacy in Sweden began to slowly increase in 1765, as the church decided
       to penalize those who didn't participate in the catechetical exams,
       conducted in households to measure people's ability to read and write (
-      <a href="https://researchingswedishroots.blogspot.se/2014/02/husforhor.html">
+      <H.A href="https://researchingswedishroots.blogspot.se/2014/02/husforhor.html">
         these paintings
-      </a>
+      </H.A>
       depict the so called &quot;house interrogations&quot; or
       &quot;husförhör&quot; in Swedish). Despite increasing rates of literacy,
       many Swedes still couldn't read and write a century later. Not until 1842,
@@ -39,10 +39,10 @@ export default () => (
 
     <ul>
       <li>
-        <a href="https://www.ourworldindata.org/literacy">
+        <H.A href="https://www.ourworldindata.org/literacy">
           OurWorldInData[2] Roser, Max, and Esteban Ortiz-Ospina. &quot;When did
           literacy start growing in Europe?&quot; 2017/11/20閲覧。
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

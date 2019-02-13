@@ -12,8 +12,8 @@ export default () => (
     that there is no popular vote at all in the Vatican, since the head of state
     is chosen by the cardinals, but nevertheless, it's the only state where no
     woman's voice is heard in election. The data from
-    <a href="http://gapm.io/dwomsuff">Gapminder[20]</a> is mainly based on the
-    <a href="https://en.wikipedia.org/wiki/Women%27s_suffrage">Wikipedia[4]</a>
+    <H.A href="http://gapm.io/dwomsuff">Gapminder[20]</H.A> is mainly based on the
+    <H.A href="https://en.wikipedia.org/wiki/Women%27s_suffrage">Wikipedia[4]</H.A>
      page about the women's suffrage movement.
   </p>
 )

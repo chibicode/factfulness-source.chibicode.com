@@ -9,9 +9,9 @@ export default () => (
       )で見ることができる。エボラは最近までこのリストに載っていた。
     </H.FB>
     See also
-    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4306754/">
+    <H.A href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4306754/">
       this article by Von Philipsborn (2015)
-    </a>
+    </H.A>
     in Glob Health Action that evaluate poverty in relation to neglect in
     R&amp;D.
   </p>

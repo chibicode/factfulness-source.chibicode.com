@@ -21,7 +21,7 @@ export default () => (
     studies publish numbers estimated by combining official sources and media
     reports from conflicts. But this method of estimating conflict fatalities
     has been disputed by several other researchers. Obermeyer and Murray showed
-    in 2008 (<a href="http://gapm.io/xobewar08">www.gapm.io/xobewar08</a>) that
+    in 2008 (<H.A href="http://gapm.io/xobewar08">www.gapm.io/xobewar08</H.A>) that
     the number of battle deaths in recent wars seems much higher if estimated
     with a different method, based on sample surveys of the local population in
     war-torn areas, who report how many family members they lost in conflict,
@@ -34,7 +34,7 @@ export default () => (
     conflicts, the chances of new reliable estimates from other sources are
     small. The methodological discussion seems to have ended with a response in
     2012 by Lacina &amp; Gleditsch (see
-    <a href="http://www.gapm.io/xgledwar12">www.gapm.io/xgledwar12</a>), making
+    <H.A href="http://www.gapm.io/xgledwar12">www.gapm.io/xgledwar12</H.A>), making
     the case that their data-sources are indeed bias in an unknown way and that
     the bias may not be the same over the decades. Maybe the tendency is to
     under-report in some wars in some decade and then over-report in others. But

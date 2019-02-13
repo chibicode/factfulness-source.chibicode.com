@@ -13,13 +13,13 @@ export default () => (
     <p>
       On Level 4, transportation is behind one third of all CO2
       emissions---which also double with income, based on
-      <a href="https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions">
+      <H.A href="https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions">
         US EPA data
-      </a>
+      </H.A>
       (27 percent for the US). See
-      <a href="https://data.ess-dive.lbl.gov/#view/ess-dive-ba81a8a8e0bef31-20180330T223152179">
+      <H.A href="https://data.ess-dive.lbl.gov/#view/ess-dive-ba81a8a8e0bef31-20180330T223152179">
         Global, Regional, and National Fossil-Fuel CO2 Emissions
-      </a>
+      </H.A>
       .
     </p>
   </>

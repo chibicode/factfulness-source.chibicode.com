@@ -13,9 +13,9 @@ export default () => (
       onward transportation immediately and to bear the cost thereof &quot;which
       recognizes the right of persons to seek asylum from persecution in other
       countries&quot;. See
-      <a href="https://www.gapminder.org/topics/people/refugees">
+      <H.A href="https://www.gapminder.org/topics/people/refugees">
         www.gapminder.org/topics/people/refugees
-      </a>
+      </H.A>
     </p>
     <p>
       <H.FB pageNumber={358}>

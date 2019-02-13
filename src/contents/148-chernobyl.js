@@ -20,7 +20,7 @@ export default () => (
       unexplained physical symptoms and subjective poor health.&quot; Read more
       about WHO's summarizing reports on the healths effects of the Chernobyl
       accident, here:
-      <a href="http://gapm.io/xwhoc30">http://gapm.io/xwhoc30</a>.
+      <H.A href="http://gapm.io/xwhoc30">http://gapm.io/xwhoc30</H.A>.
     </p>
     <p>
       <H.FB pageNumber={364}>

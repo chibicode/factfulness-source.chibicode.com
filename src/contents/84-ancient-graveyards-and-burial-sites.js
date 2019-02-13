@@ -13,9 +13,9 @@ export default () => (
       &quot;large numbers of non-adult remains have been recovered from cemetery
       sites, and continue to be housed in museums and universities ready for
       study.&quot; (from
-      <a href="https://www.cambridge.org/core/books/bioarchaeology-of-children/AE18D0323BC1F49700ECC42DA79AF011">
+      <H.A href="https://www.cambridge.org/core/books/bioarchaeology-of-children/AE18D0323BC1F49700ECC42DA79AF011">
         The Bioarchaeology of Children
-      </a>
+      </H.A>
       , p. 20) In general however, experts are surprised at not finding as many
       infants as they could expect, not anything near 30%. The percentage of
       infants varies enormously between sites, and occasionally, among hundreds
@@ -36,11 +36,11 @@ export default () => (
         10.1017/CBO9780511542473.002
       </li>
       <li>
-        <a href="https://www.sciencedirect.com/science/article/pii/S0018442X15000748">
+        <H.A href="https://www.sciencedirect.com/science/article/pii/S0018442X15000748">
           Manifold (2014) &quot;Skeletal preservation of children's remains in
           the archaeological record.&quot; HOMO-Journal of Comparative Human
           Biology 66 6: pp. 520-548.
-        </a>
+        </H.A>
         . DOI: 10.1016/j.jchb.2015.04.003
       </li>
     </ul>

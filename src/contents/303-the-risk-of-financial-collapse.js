@@ -17,6 +17,6 @@ export default () => (
     preventative measures do not benefit all. A number of countries in Latin
     America for example, Hausmann writes, have instead made their economies too
     secure. You can read the article by Hausmann in full at
-    <a href="http://www.gapm.io/xecc">www.gapm.io/xecc</a>.
+    <H.A href="http://www.gapm.io/xecc">www.gapm.io/xecc</H.A>.
   </p>
 )

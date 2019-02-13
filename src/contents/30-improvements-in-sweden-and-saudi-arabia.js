@@ -7,6 +7,6 @@ export default () => (
     1946, a process that took 77 years. Saudi Arabia moved from 242 in 1960 to
     35 in 1993, roughly the same difference in 33 years. For detailed
     documentation behind our data on child mortality, see
-    <a href="http://www.gapm.io/itfr">www.gapm.io/itfr</a>.
+    <H.A href="http://www.gapm.io/itfr">www.gapm.io/itfr</H.A>.
   </p>
 )

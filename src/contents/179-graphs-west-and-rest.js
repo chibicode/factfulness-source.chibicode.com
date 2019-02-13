@@ -8,13 +8,13 @@ export default () => (
     --- the west consisting predominantly of Western Europe, United States,
     Canada, and Australia. Gapminder's rough estimates of the number of people
     on different incomes for 2017 are based on
-    <a href="http://iresearch.worldbank.org/PovcalNet">
+    <H.A href="http://iresearch.worldbank.org/PovcalNet">
       World Bank official data from PovCalNet
-    </a>
+    </H.A>
     , and extended into the future with IMF forecasts. To see how the majority
     of people are catching up with the west, see the color-chart at the end of
     the book, showing the number of people on each income level separated by the
     four regions, or use this interactive version to animate the income
-    mountains: <a href="http://www.gapm.io/incm">www.gapm.io/incm</a>.
+    mountains: <H.A href="http://www.gapm.io/incm">www.gapm.io/incm</H.A>.
   </p>
 )

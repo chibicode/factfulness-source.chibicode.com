@@ -11,9 +11,9 @@ export default () => (
     YouGov[2], the leading fears in the United Kingdom were heights; snakes; and
     public speaking; followed by spiders; entrapment; mice; needles; and
     airplanes. Read more about the fear instinct at
-    <a href="https://www.gapminder.org/factfulness.org/fear">
+    <H.A href="https://www.gapminder.org/factfulness.org/fear">
       www.gapminder.org/factfulness.org/fear
-    </a>
+    </H.A>
     .
   </p>
 )

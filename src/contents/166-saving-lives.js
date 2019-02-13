@@ -9,6 +9,6 @@ export default () => (
     The publication from UNICEF[2] is called &quot;Narrowing the Gaps---The
     Power of Investing in the Poorest Children&quot; (2017), and is available
     for PDF download here:
-    <a href="http://www.gapm.io/xunicef2">www.gapm.io/xunicef2</a>.
+    <H.A href="http://www.gapm.io/xunicef2">www.gapm.io/xunicef2</H.A>.
   </p>
 )

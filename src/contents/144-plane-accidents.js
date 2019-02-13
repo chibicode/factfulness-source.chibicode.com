@@ -15,44 +15,44 @@ export default () => (
         )
       </H.FB>{' '}
       Gapminder[16] on airplane fatalities---v1 is based on
-      <a href="https://www.icao.int/sustainability/Pages/Air-Traffic-Monitor.aspx">
+      <H.A href="https://www.icao.int/sustainability/Pages/Air-Traffic-Monitor.aspx">
         ICAO[3]
-      </a>
-      , <a href="http://www.gapm.io/xbtsafat">US Air Carrier Safety Data</a>
-      and <a href="http://www.gapm.io/xbtspass">Revenue Passenger-Miles</a>
+      </H.A>
+      , <H.A href="http://www.gapm.io/xbtsafat">US Air Carrier Safety Data</H.A>
+      and <H.A href="http://www.gapm.io/xbtspass">Revenue Passenger-Miles</H.A>
       from BTS[1,2] and The Annual Reports of the U.S. Scheduled Airline
-      Industryfrom <a href="http://airlines.org/">ATAA</a>. See
-      <a href="http://www.gapm.io/ttranspa">www.gapm.io/ttranspa</a> and
-      <a href="http://www.gapm.io/dpland">www.gapm.io/dpland</a>.
+      Industryfrom <H.A href="http://airlines.org/">ATAA</H.A>. See
+      <H.A href="http://www.gapm.io/ttranspa">www.gapm.io/ttranspa</H.A> and
+      <H.A href="http://www.gapm.io/dpland">www.gapm.io/dpland</H.A>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
 
     <ul>
       <li>
-        <a href="http://airlines.org/">
+        <H.A href="http://airlines.org/">
           ATAA, Air Transport Association of America
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/dpland">
+        <H.A href="http://www.gapm.io/dpland">
           Gapminder[16] Air plane fatalities---v1. Indicator
           Population---v5---all countries---1800--2100, based on IATA, ICAO[3],
           BTS[1,2] &amp; ATAA.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://gapm.io/xiatas">IATA Accident Overview</a>
+        <H.A href="http://gapm.io/xiatas">IATA Accident Overview</H.A>
       </li>
       <li>
         ICAO[1,2,3]
-        <a href="http://gapm.io/xchicc">
+        <H.A href="http://gapm.io/xchicc">
           Convention on International Civil Aviation
-        </a>
-        , <a href="http://www.gapm.io/xchi13">Annex 13</a> in 1955, and the
-        <a href="https://www.icao.int/sustainability/Pages/Air-Traffic-Monitor.aspx">
+        </H.A>
+        , <H.A href="http://www.gapm.io/xchi13">Annex 13</H.A> in 1955, and the
+        <H.A href="https://www.icao.int/sustainability/Pages/Air-Traffic-Monitor.aspx">
           Air Transport Monitor
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

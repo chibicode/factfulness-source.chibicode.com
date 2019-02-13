@@ -12,7 +12,7 @@ export default () => (
     <p>
       The number of people on different incomes are based on latest available
       income distribution data from the World Bank's
-      <a href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</a>, which
+      <H.A href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</H.A>, which
       was extended to 2013 by Gapminder[10] using the indicator Household per
       capita income and converted into constant international dollars (PPP
       2011), on a logarithmic scale. By adjusting the exchange rates to consider
@@ -25,30 +25,30 @@ export default () => (
       The right chart uses a doubling scale for income, just like all other
       charts displaying income the book. This image shows what the shapes would
       look like if they were drawn on a linear scale. For more details see:
-      <a href="http://gapm.io/fbincmlinlog">gapm.io/fbincmlinlog</a>
+      <H.A href="http://gapm.io/fbincmlinlog">gapm.io/fbincmlinlog</H.A>
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
 
     <ul>
       <li>
-        <a href="http://www.beta.inegi.org.mx/proyectos/enchogares/regulares/enigh/nc/2016">
+        <H.A href="http://www.beta.inegi.org.mx/proyectos/enchogares/regulares/enigh/nc/2016">
           ENIGH (Encuesta Nacional de Ingresos y Gastos de los Hogares) 2016.
           Tabulados básicos 2017: Table 2.3.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xuscps17">
+        <H.A href="http://www.gapm.io/xuscps17">
           US-CPS (US Census Bureau) Current Population Survey (CPS) 2017: Family
           Income in 2016. Table: FINC0_01.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://iresearch.worldbank.org/PovcalNet">
+        <H.A href="http://iresearch.worldbank.org/PovcalNet">
           PovcalNet &quot;An Online Analysis Tool for Global Poverty
           Monitoring.&quot; Founded by Martin Ravallion, at the World Bank.
           2017/11/30閲覧。
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

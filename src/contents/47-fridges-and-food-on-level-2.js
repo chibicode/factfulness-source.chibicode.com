@@ -6,9 +6,9 @@ export default () => (
     Many people on Level 2 also have some kind of freezer, but with the unstable
     electricity grid it's usually not until Level 3 that it's worth mentioning.
     The increased variation of dishes can be seen by looking into the
-    <a href="https://www.gapminder.org/dollar-street/matrix?thing=Refrigerators">
+    <H.A href="https://www.gapminder.org/dollar-street/matrix?thing=Refrigerators">
       refrigerators of people on different incomes
-    </a>
+    </H.A>
     on Dollar Street.
   </p>
 )

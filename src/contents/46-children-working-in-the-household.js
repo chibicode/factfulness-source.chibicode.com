@@ -8,10 +8,10 @@ export default () => (
     chores like fetching water, gathering firewood and cooking. But where water
     is far away or firewood is scarce some children spend the whole day,
     everyday, fulfilling these tasks. Read more in the [UNICEF
-    <a href="http://gapm.io/xunicef2">2</a>] publication:
-    <a href="http://gapm.io/xunicef2">
+    <H.A href="http://gapm.io/xunicef2">2</H.A>] publication:
+    <H.A href="http://gapm.io/xunicef2">
       &quot;Narrowing the Gaps---The Power of Investing in the Poorest
       Children.&quot;
-    </a>
+    </H.A>
   </p>
 )

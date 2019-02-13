@@ -11,8 +11,8 @@ export default () => (
     treatment is improving, but we should keep in mind that most people don't
     have access to this treatment. The first part of the trend line comes from
     NCI[1] (National Cancer Institute), see
-    <a href="http://www.gapm.io/xccs17.">www.gapm.io/xccs17</a>. The 2010
+    <H.A href="http://www.gapm.io/xccs17.">www.gapm.io/xccs17</H.A>. The 2010
     estimate is from NCI[2], see
-    <a href="http://www.gapm.io/xccs10">www.gapm.io/xccs10</a>.
+    <H.A href="http://www.gapm.io/xccs10">www.gapm.io/xccs10</H.A>.
   </p>
 )

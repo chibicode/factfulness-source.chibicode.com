@@ -9,7 +9,7 @@ export default () => (
         MORI[2,3]によるもの。
       </H.FB>
       The survey is called{' '}
-      <a href="http://www.gapm.io/xip15">Perils of Perception</a>
+      <H.A href="http://www.gapm.io/xip15">Perils of Perception</H.A>
       (2015) and presents numbers like these highlights from the UK poll: For
       the wealth that the top 1 percent owns, the average guess was 59 percent,
       when the correct figure is 23 percent; on immigration, they guessed that

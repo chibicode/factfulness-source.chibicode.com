@@ -7,7 +7,7 @@ export default () => (
     4, including many of the gulf states that only recently reached Level 4,
     like Saudi Arabia and the UAE. The only exceptions on Level 4 are the three
     small gulf states: Bahrain, Oman, and Qatar. See
-    <a href="http://gapm.io/xihedu">IHME[2]</a>and
-    <a href="http://www.gapm.io/xbl17">Barro-Lee</a>.
+    <H.A href="http://gapm.io/xihedu">IHME[2]</H.A>and
+    <H.A href="http://www.gapm.io/xbl17">Barro-Lee</H.A>.
   </p>
 )

@@ -14,7 +14,7 @@ export default () => (
     <p>
       For the measures of access to electricity. GTF is a collaboration between
       the World Bank and the International Energy Agency; see
-      <a href="http://www.gapm.io/xgtf">www.gapm.io/xgtf</a>.
+      <H.A href="http://www.gapm.io/xgtf">www.gapm.io/xgtf</H.A>.
     </p>
   </>
 )

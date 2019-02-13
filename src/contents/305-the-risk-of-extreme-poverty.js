@@ -21,15 +21,15 @@ export default () => (
       on Peacebuilding and Statebuilding had its fifth global meeting in
       Stockholm, 2016. The meeting, following the Stockholm Declaration against
       war and conflict, discussed how the aid community is now
-      <a href="https://www.pbsbdialogue.org/en">
+      <H.A href="https://www.pbsbdialogue.org/en">
         preparing for the risk of extreme poverty in conflict prone countries
-      </a>
+      </H.A>
       .
     </p>
     <p>
       The other risks are not ongoing. Extreme poverty is. 78% are small scale
       farmers in extremely poor areas. In extreme poverty, every second person
-      is a child, see <a href="http://econ.worldbank.org/">World Bank[26]</a>,
+      is a child, see <H.A href="http://econ.worldbank.org/">World Bank[26]</H.A>,
       they are from ethnic minorities; see ODI.
       <H.FB pageNumber={355}>
         オスロ国際平和研究所の暫定的なデータによると、極度の貧困は減っているが、紛争地帯に暮らす極度に貧しい人の数は変わらないか、増えている。現在の紛争が長引けば、極度に貧困な子供たちの大多数はこれからも紛争地帯から抜け出せない。国際援助団体にとっては、長引く紛争が大きな障害になる。
@@ -74,25 +74,25 @@ export default () => (
     <H.SmallHeading>出典</H.SmallHeading>
     <ul>
       <li>
-        <a href="http://www.gapm.io/xodi">
+        <H.A href="http://www.gapm.io/xodi">
           ODI (Overseas Development Institute) Greenhill, Romilly, Paddy Carter,
           Chris Hoy, and Marcus Manuel (2015) &quot;Financing the future: how
           international public finance should fund a global social compact to
           eradicate poverty.&quot;
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xpriod">
+        <H.A href="http://www.gapm.io/xpriod">
           PRIO &quot;The Battle Deaths Dataset version 3.1.&quot; Updated in
           2006; 1946--2008. See Gleditsch and Lacina (2005). 2017/11/12閲覧
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xwb1726">
+        <H.A href="http://www.gapm.io/xwb1726">
           World Bank[26] Newhouse, David, Pablo Suarez-Becerra and Martin C.
           Evans (2016) &quot;New Estimates of Extreme Poverty for Children&quot;
           Policy Research Working Paper.
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <p>
     In 2016, only two countries had a life expectancy as low as 50 years
-    according to <a href="http://gapm.io/xihlex">IHME[1]</a>--- The Central
+    according to <H.A href="http://gapm.io/xihlex">IHME[1]</H.A>--- The Central
     African Republic at 50.2 years and Lesotho at 50.3 years. The uncertainties
     are huge for all health estimates on Level 1. According to the IHME models,
     the confidence interval for these numbers are ±2.5 years. That is only

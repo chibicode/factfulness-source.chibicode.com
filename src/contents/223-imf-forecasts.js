@@ -9,15 +9,15 @@ export default () => (
       </H.FB>
       IMF forecasts are used for speculations about future growth in the stock
       and finance industry, as
-      <a href="https://www.bbc.com/news/business-22228223">BBC News</a> points
+      <H.A href="https://www.bbc.com/news/business-22228223">BBC News</H.A> points
       out.
-      <a href="https://seekingalpha.com/article/4117923-2017-q4-stock-market-outlook-u-s-economy-reaching-peak">
+      <H.A href="https://seekingalpha.com/article/4117923-2017-q4-stock-market-outlook-u-s-economy-reaching-peak">
         Here
-      </a>
+      </H.A>
       is one example of such speculations.
     </p>
     <p>
-      See <a href="http://www.gapm.io/eecof">www.gapm.io/eecof</a>. The
+      See <H.A href="http://www.gapm.io/eecof">www.gapm.io/eecof</H.A>. The
       following graphs are from IMF forecast track record, based on the World
       Economic Outlook from previous years IMF[2-10]:
     </p>
@@ -29,18 +29,18 @@ export default () => (
 
     <ul>
       <li>
-        <a href="http://www.gapm.io/xihlex">
+        <H.A href="http://www.gapm.io/xihlex">
           IHME[1] (Institute for Health Metrics and Evaluation) Global Burden of
           Disease Study 2016 (GBD 2016) All-cause Under-5 Mortality, Adult
           Mortality, and Life Expectancy 1970-2016. Table 13A. Select Lancet
           article tables (2017).
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.esa.un.org/unpd/wpp">
+        <H.A href="http://www.esa.un.org/unpd/wpp">
           UN-Pop[1] (UN Population Division) Population, medium fertility
           variant. World Population Prospects 2017.
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

@@ -4,9 +4,9 @@ import * as H from '../components/h'
 export default () => (
   <p>
     In the US in the 1930s, the
-    <a href="https://en.wikipedia.org/wiki/Farm_Security_Administration">
+    <H.A href="https://en.wikipedia.org/wiki/Farm_Security_Administration">
       Farm Security Administration
-    </a>
+    </H.A>
      (FSA) sent photographers across the nation to understand what it looked
     like, resulting in famous black and white images from the rural poor. In
     Sweden in 1938, Ludvig &quot;Lubbe&quot; Nordström gave eye witness reports

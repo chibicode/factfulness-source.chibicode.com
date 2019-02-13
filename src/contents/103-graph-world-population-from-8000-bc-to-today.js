@@ -19,22 +19,22 @@ export default () => (
     <p>
       UN Population Division prepared historic world population estimates that
       can be found online in the UN publication,
-      <a href="http://www.un.org/esa/population/publications/sixbillion/sixbillion.htm">
+      <H.A href="http://www.un.org/esa/population/publications/sixbillion/sixbillion.htm">
         The World at Six Billion
-      </a>
+      </H.A>
       . For estimates beginning in year zero, see Table 1, page 5, available to
       download
-      <a href="http://www.un.org/esa/population/publications/sixbillion/sixbilpart1.pdf">
+      <H.A href="http://www.un.org/esa/population/publications/sixbillion/sixbilpart1.pdf">
         as PDF
-      </a>
+      </H.A>
       . Caldwell and Schindlmayr (2002) provides population estimates before
       1950 in
-      <a href="https://www.jstor.org/stable/3092809">
+      <H.A href="https://www.jstor.org/stable/3092809">
         Historical Population Estimates: Unraveling the Consensus
-      </a>
+      </H.A>
       published in the Population and Development Review (pp. 183--204). For
       more about Gapminder's population data, see
-      <a href="http://www.gapm.io/spop">www.gapm.io/spop</a>.
+      <H.A href="http://www.gapm.io/spop">www.gapm.io/spop</H.A>.
     </p>
   </>
 )

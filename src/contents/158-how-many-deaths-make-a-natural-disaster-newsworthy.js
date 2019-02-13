@@ -19,34 +19,34 @@ export default () => (
 
     <ul>
       <li>
-        <a href="http://www.emdat.be/">
+        <H.A href="http://www.emdat.be/">
           EM-DAT Centre for Research on the Epidemiology of Disasters (CRED) The
           International Disaster Database. Debarati Guha-Sapir. 2017/11/5閲覧。
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xiata">
+        <H.A href="http://www.gapm.io/xiata">
           IATA (International Air Transport Association) &quot;Accident
           Overview.&quot; Table. Fact Sheet Safety. December 2017.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xgtdb17">
+        <H.A href="http://www.gapm.io/xgtdb17">
           GTD (Global Terrorism Database) (2017) 2017/12/7閲覧。
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xowd8">
+        <H.A href="http://www.gapm.io/xowd8">
           OurWorldInData[8] Tzvetkova, Sandra &quot;Not All Deaths Are Equal:
           How Many Deaths Make a Natural Disaster Newsworthy?&quot;
           2017/7/19閲覧。
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.ucdp.uu.se/downloads">
+        <H.A href="http://www.ucdp.uu.se/downloads">
           UCDP[1] (Uppsala Conflict Data Program) Battle-Related Deaths Dataset,
           1989 to 2016, dyadic, version 17.1. Allansson et alも (2017)も参考に。
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

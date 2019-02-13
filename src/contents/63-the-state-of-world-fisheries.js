@@ -20,7 +20,7 @@ export default () => (
     <p>
       UNEP[1] reports more than 500 recorded dead zones in polluted coastal
       areas around the world. According to
-      <a href="http://gapm.io/xiucnr4">IUCN Red List[4]</a>, the number of
+      <H.A href="http://gapm.io/xiucnr4">IUCN Red List[4]</H.A>, the number of
       threatened species in 2015 was 23,250 and increased to 24,307 in 2016.
     </p>
 
@@ -33,17 +33,17 @@ export default () => (
         Oxford University Press, 2010.
       </li>
       <li>
-        <a href="http://www.gapm.io/xfaofi">
+        <H.A href="http://www.gapm.io/xfaofi">
           FAO[2] (Food and Agriculture Organization of the United Nations) The
           State of World Fisheries and Aquaculture 2016. Rome: 2016. See,
           specifically, page 5.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xpolfr17">
+        <H.A href="http://www.gapm.io/xpolfr17">
           UNEP[1] (United Nations Environment Programme) Towards a
           Pollution-Free Planet. Nairobi: 2017.
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

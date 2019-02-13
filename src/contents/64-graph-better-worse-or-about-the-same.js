@@ -9,13 +9,13 @@ export default () => (
       with a different polling company. In 2017, the same question was asked
       with Ipsos-MORI and the results were similar: This barchart mixes the
       results from the two online polls.
-      <a href="http://www.gapm.io/xyougov15">
+      <H.A href="http://www.gapm.io/xyougov15">
         YouGov polled 18,000 people in 17 countries
-      </a>
+      </H.A>
       . The two countries where most people were
-      <a href="http://www.yougov.co.uk/news/2016/01/05/chinese-people-are-most-optimistic-word">
+      <H.A href="http://www.yougov.co.uk/news/2016/01/05/chinese-people-are-most-optimistic-word">
         optimistic about the world
-      </a>
+      </H.A>
       were China and Indonesia in which 41% and 23% said the world is getting
       better. But we have decided to remove these two outliers because the
       proportion of people with access to the internet is not large enough to
@@ -29,9 +29,9 @@ export default () => (
 
     <ul>
       <li>
-        <a href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/z2knhgzguv/GB_Website.pdf">
+        <H.A href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/z2knhgzguv/GB_Website.pdf">
           YouGov[1] November--December 2015. Poll results.
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

@@ -15,6 +15,6 @@ export default () => (
       。
     </H.FB>
     The family business called Rivopharm is here:
-    <a href="http://www.rivopharm.com/">http://www.rivopharm.com</a>.
+    <H.A href="http://www.rivopharm.com/">http://www.rivopharm.com</H.A>.
   </p>
 )

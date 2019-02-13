@@ -7,7 +7,7 @@ export default () => (
       When classifying countries based on religion, we no longer use the term
       'majority religion'. We only use this term when talking about the 40
       countries back in 1960 (p. 175 in Factfulness) for comparison. Estimates
-      of <a href="http://gapm.io/xpewrel1">Religious Composition by Country</a>
+      of <H.A href="http://gapm.io/xpewrel1">Religious Composition by Country</H.A>
       by Pew Research Center show percentages of those affiliated with any
       religion (or not) by country as of 2010 and in the future.
       <H.FB pageNumber={361}>

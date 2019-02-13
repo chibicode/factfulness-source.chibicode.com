@@ -13,26 +13,26 @@ export default () => (
     at least monitored. Data after 2000 come from Red List[4]. The estimates for
     the following years are handpicked from the following publications and
     pages: 1986, 1990 and 1996 come from previous paper editions of the list:
-    <a href="https://portals.iucn.org/library/sites/library/files/documents/RL-1986-001.pdf">
+    <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1986-001.pdf">
       Page iv, Red List 1986 edition
-    </a>
+    </H.A>
     ;
-    <a href="https://portals.iucn.org/library/sites/library/files/documents/RL-1990-001.pdf">
+    <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1990-001.pdf">
       Page ix, Red List 1990 edition
-    </a>
+    </H.A>
     ; and
-    <a href="https://portals.iucn.org/library/sites/library/files/documents/RL-1996-001.pdf">
+    <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1996-001.pdf">
       page 4, Red List 1996 edition
-    </a>
+    </H.A>
     . The first systematic approach to register and monitor threatened species
     was the 1959 &quot;Threatened Mammals Card Index&quot;. It compiled data
     about 34 mammal species and was managed by The Species Survival Commission
     under Leofric Boyle,
-    <a href="http://support.iucnredlist.org/about">
+    <H.A href="http://support.iucnredlist.org/about">
       according to the about page at Red List
-    </a>
+    </H.A>
     . For the IUCN Red List of threatened species (1996--2017), see
-    <a href="http://www.gapm.io/xiucnr4">www.gapm.io/xiucnr4</a>. See also the
+    <H.A href="http://www.gapm.io/xiucnr4">www.gapm.io/xiucnr4</H.A>. See also the
     note to Fact question 11: Endangered species.
   </p>
 )

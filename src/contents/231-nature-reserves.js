@@ -14,8 +14,8 @@ export default () => (
     </H.FB>
     The trend for 1900--1911 was aggregated by Gapminder[31] from the historic
     records of WDPA, which keeps track of protected areas following the
-    <a href="http://www.gapm.io/xprarde">IUCN Definition 2008</a> and the
-    <a href="http://gapm.io/x-protareacat">Protected Area Categories</a>; see
+    <H.A href="http://www.gapm.io/xprarde">IUCN Definition 2008</H.A> and the
+    <H.A href="http://gapm.io/x-protareacat">Protected Area Categories</H.A>; see
     IUCN[1,2].
     <H.FB pageNumber={360}>
       1911年から1990年までのトレンドについては、Abouchakraらの著したこちらの著書を参考にしている:
@@ -23,6 +23,6 @@ export default () => (
     </H.FB>
     The trend after 1990 is based on UNEP[6] Protected Planet Report 2016 (fig.
     4.1, p. 30), freely available for download at
-    <a href="http://www.gapm.io/xprotp16">www.gapm.io/xprotp16</a>.
+    <H.A href="http://www.gapm.io/xprotp16">www.gapm.io/xprotp16</H.A>.
   </p>
 )

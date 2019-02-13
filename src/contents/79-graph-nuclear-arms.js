@@ -6,7 +6,7 @@ export default () => (
     The number of warheads peaked in the mid 1980s and has steadily decreased
     since. SIPRI (Stockholm International Peace Research Institute) estimates
     the total number in 2017 at 14,935---see
-    <a href="http://www.gapm.io/xsipri17">www.gapm.io/xsipri17</a>. The Nuclear
+    <H.A href="http://www.gapm.io/xsipri17">www.gapm.io/xsipri17</H.A>. The Nuclear
     Notebook gives a detailed breakdown: &quot;As of mid-2017, we estimate that
     there are nearly 15,000 nuclear weapons located at some 107 sites in 14
     countries. Roughly, 9,400 of these weapons are in military arsenals; the
@@ -15,6 +15,6 @@ export default () => (
     ready for use on short notice. By far, the largest concentrations of nuclear
     weapons reside in Russia and the United States, which possess 93 percent of
     the total global inventory.&quot; The Nuclear Notebook can be found at
-    <a href="http://www.gapm.io/xnuno">www.gapm.io/xnuno</a>.
+    <H.A href="http://www.gapm.io/xnuno">www.gapm.io/xnuno</H.A>.
   </p>
 )

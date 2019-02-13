@@ -7,12 +7,12 @@ export default () => (
     led to food shortage and disease during several years, causing up to 5
     million deaths according to the sources listed in the Wikipedia article
     about
-    <a href="https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%9378">
+    <H.A href="https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%9378">
       the Great Famine
-    </a>
+    </H.A>
     . As a result, the Indian life expectancy dropped to roughly 19 years,
     according to economic historian Mattias Lindgren, see
-    <a href="http://gapm.io/ilex">Gapminder[4]</a>. In his book America's
+    <H.A href="http://gapm.io/ilex">Gapminder[4]</H.A>. In his book America's
     Forgotten Pandemic (1989), Alfred W. Crosby estimates that the Spanish flu
     caused 50 million deaths. The number is confirmed by Johnson and Mueller
     (2002) and CDC[1]. The world population in 1918 was 1.84 billion, which

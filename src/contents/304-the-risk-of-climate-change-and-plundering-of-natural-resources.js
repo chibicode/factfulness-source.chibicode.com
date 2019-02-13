@@ -11,26 +11,26 @@ export default () => (
       to predict, but human actions are not. If nothing terrible happens, it is
       easy to imagine how humanity continues to consume resources until it's too
       late. See
-      <a href="https://www.gapminder.org/topic/nature">
+      <H.A href="https://www.gapminder.org/topic/nature">
         www.gapminder.org/topic/nature
-      </a>
-      . See <a href="http://www.gapm.io/dysna">www.gapm.io/dysna</a>.
+      </H.A>
+      . See <H.A href="http://www.gapm.io/dysna">www.gapm.io/dysna</H.A>.
     </p>
     <p>
       また、
       <H.FB pageNumber={2012}>
         ポール・コリアー著『収奪の星─天然資源と貧困削減の経済学』(2012年、村井章子訳、みすず書房)、
-        <a href="https://ourworldindata.org/grapher/number-of-parties-env-agreements">
+        <H.A href="https://ourworldindata.org/grapher/number-of-parties-env-agreements">
           OurWorldInData[7]
-        </a>
+        </H.A>
         、経済学者のエリノア・オストロムの考えも参考にした。
       </H.FB>
       In her work Governing the Commons (1990) Ostrom explores the way in which
       humans across the world have managed to regulate their common resources to
       avoid overexploitation. Read more about
-      <a href="https://www.en.wikipedia.org/wiki/Elinor_Ostrom">
+      <H.A href="https://www.en.wikipedia.org/wiki/Elinor_Ostrom">
         Ostrom and her design principles of common pool resource administration
-      </a>
+      </H.A>
       .
     </p>
     <p>
@@ -44,10 +44,10 @@ export default () => (
 
     <ul>
       <li>
-        <a href="https://www.ourworldindata.org/grapher/number-of-parties-env-agreements">
+        <H.A href="https://www.ourworldindata.org/grapher/number-of-parties-env-agreements">
           OurWorldInData[7] Number of parties in multilateral environmental
           agreements based on UNCTAD United Nations Treaty Collection.
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

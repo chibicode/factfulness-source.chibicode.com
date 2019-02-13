@@ -31,10 +31,10 @@ export default () => (
     <H.SmallHeading>出典</H.SmallHeading>
     <ul>
       <li>
-        <a href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">
+        <H.A href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">
           OurWorldInData[5] Roser, Max. &quot;Ethnographic and Archaeological
           Evidence on Violent Deaths.&quot; 2017/11/26閲覧。
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

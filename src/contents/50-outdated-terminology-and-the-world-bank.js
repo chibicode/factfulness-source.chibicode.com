@@ -4,10 +4,10 @@ import * as H from '../components/h'
 export default () => (
   <p>
     For one of these lectures, filmed June 8, 2015, see
-    <a href="http://gapm.io/xwb1714">World Bank[14]</a>. The outdated
+    <H.A href="http://gapm.io/xwb1714">World Bank[14]</H.A>. The outdated
     terminology of a divided worldview is specifically challenged beginning at
     01:30:31. Five months later, the World Bank announced in a public blog post
-    (<a href="http://gapm.io/xwb1715">World Bank[15]</a>) that they had taken
+    (<H.A href="http://gapm.io/xwb1715">World Bank[15]</H.A>) that they had taken
     the challenge. With references to Hans's latest presentation, and to an
     interview with Bill Gates in the New York Times, the World Bank finally
     announced that they planned to phase out the use of the term

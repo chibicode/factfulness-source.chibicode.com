@@ -29,7 +29,7 @@ export default () => (
       US and Sweden. As of 2017, the total fertility rate is estimated to be at
       1.636 in Iran; 1.876 in the US; and 1.909 in Sweden, based on total
       fertility (TFR) data from UN's
-      <a href="https://esa.un.org/unpd/wpp/">World Population Prospects 2017</a>
+      <H.A href="https://esa.un.org/unpd/wpp/">World Population Prospects 2017</H.A>
       .
       <H.FB pageNumber={361}>
         家族計画において世界の先端をいくイランとほかの国々との長期的な比較は

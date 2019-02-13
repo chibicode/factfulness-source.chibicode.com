@@ -21,9 +21,9 @@ export default () => (
         Pew[1]が2012年に行った調査によると、日本人の76%が福島産の食べ物は危険だと答えた。
       </H.FB>{' '}
       The contamination of the very word Fukushima is discussed in the book
-      <a href="https://www.elsevier.com/books/hazards-risks-and-disasters-in-society/shroder/978-0-12-396451-9">
+      <H.A href="https://www.elsevier.com/books/hazards-risks-and-disasters-in-society/shroder/978-0-12-396451-9">
         &quot;Hazards, Risks, and Disasters in Society&quot;
-      </a>
+      </H.A>
       by John Shroder (2014).
     </p>
   </>

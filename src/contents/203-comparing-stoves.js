@@ -5,8 +5,8 @@ export default () => (
   <p>
     See the similarities between the cooking pots in China and Nigeria, and more
     stoves, on
-    <a href="https://www.gapminder.org/dollar-street/matrix?thing=Stoves">
+    <H.A href="https://www.gapminder.org/dollar-street/matrix?thing=Stoves">
       Dollar Street.
-    </a>
+    </H.A>
   </p>
 )

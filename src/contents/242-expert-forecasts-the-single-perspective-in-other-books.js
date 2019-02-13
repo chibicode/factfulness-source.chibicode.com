@@ -15,6 +15,6 @@ export default () => (
     humility, curiosity, and a willingness to learn from mistakes. The Good
     Judgement Project, a forecasting services firm co-created by Tetlock, runs a
     public tournament called Good Judgement Open. You can practice your
-    forecasting here: <a href="https://www.gjopen.com/">www.gjopen.com</a>.
+    forecasting here: <H.A href="https://www.gjopen.com/">www.gjopen.com</H.A>.
   </p>
 )

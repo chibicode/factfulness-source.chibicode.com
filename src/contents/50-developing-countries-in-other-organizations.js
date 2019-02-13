@@ -20,9 +20,9 @@ export default () => (
     refers to the outdated list of the UN Statistics Division. In the second and
     third, &quot;developing countries&quot; and &quot;developing world&quot;
     actually refer to the
-    <a href="https://www.un.org/development/desa/dpad/least-developed-country-category.html">
+    <H.A href="https://www.un.org/development/desa/dpad/least-developed-country-category.html">
       UN list of Least Developed Countries
-    </a>
+    </H.A>
     , which is updated every third year, taking into account per capita income,
     human assets and economic vulnerability.
   </p>

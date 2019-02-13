@@ -15,6 +15,6 @@ export default () => (
     Sçavans, was established in France in the same year, but without
     peer-reviewing. See &quot;Elsevier Publishing---A Look at the Numbers, and
     More.&quot; at
-    <a href="http://www.gapm.io/xelsevier">www.gapm.io/xelsevier</a>.
+    <H.A href="http://www.gapm.io/xelsevier">www.gapm.io/xelsevier</H.A>.
   </p>
 )

@@ -9,14 +9,14 @@ export default () => (
     Political and Social Indicators by Charles Lewis Taylor, estimates that a
     total of 1,520,453 Vietnamese people were killed. For the total death toll,
     see the
-    <a href="http://necrometrics.com/20c1m.htm#Vietnam">
+    <H.A href="http://necrometrics.com/20c1m.htm#Vietnam">
       American Phase (unstarred)
-    </a>
+    </H.A>
      indicating the median totals to about 1,700,000 deaths and the total of
     medians to 1,300,000 deaths. Data on US war casualties is
-    <a href="https://fas.org/sgp/crs/natsec/RL32492.pdf">
+    <H.A href="https://fas.org/sgp/crs/natsec/RL32492.pdf">
       available to download as pdf
-    </a>
+    </H.A>
     .
   </p>
 )

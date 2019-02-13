@@ -18,62 +18,62 @@ export default () => (
     </p>
     <p>
       The tiger (Panthera tigris) was classified as Endangered (EN) in 1996, and
-      it still is; see <a href="http://www.gapm.io/xiucnr1">IUCN Red List[1]</a>
-      . According to a statement from <a href="http://gapm.io/xwwftiger">WWF</a>
+      it still is; see <H.A href="http://www.gapm.io/xiucnr1">IUCN Red List[1]</H.A>
+      . According to a statement from <H.A href="http://gapm.io/xwwftiger">WWF</H.A>
       in 2016, the number of wild tigers are increasing: &quot;After a century
       of decline, tiger numbers are on the rise. At least 3,890 tigers remain in
       the wild, but much more work is needed to protect this species that's
       still vulnerable to extinction.&quot; See also Platt (2016) in Scientific
       American
-      <a href="https://blogs.scientificamerican.com/extinction-countdown/tiger-populations-increasing/">
+      <H.A href="https://blogs.scientificamerican.com/extinction-countdown/tiger-populations-increasing/">
         reporting on the rising tiger numbers
-      </a>
+      </H.A>
       .
     </p>
     <p>
-      According to <a href="http://www.gapm.io/xiucn2">IUCN Red List[2]</a>, the
+      According to <H.A href="http://www.gapm.io/xiucn2">IUCN Red List[2]</H.A>, the
       giant panda was classified as Endangered (EN) in 1996, but in 2015, new
       assessments of increasing wild populations resulted in a change of
       classification to the less critical status of Vulnerable (VU).
     </p>
     <p>
       The black rhino was classified as Critically Endangered (CR) and still is;
-      see IUCN <a href="http://www.gapm.io/xiucn3">Red List[3]</a>. The
+      see IUCN <H.A href="http://www.gapm.io/xiucn3">Red List[3]</H.A>. The
       International Rhino Foundation states that wild populations are slowly
       increasing, estimating the population at 5,042--5,455 in their
-      <a href="https://rhinos.org/newsroom/annual-report-financials/">
+      <H.A href="https://rhinos.org/newsroom/annual-report-financials/">
         annual report for 2016
-      </a>
+      </H.A>
       . And the slow increase remains in March 2018, according to updates from
-      the <a href="https://rhinos.org/state-of-the-rhino/">Rhino foundation</a>.
+      the <H.A href="https://rhinos.org/state-of-the-rhino/">Rhino foundation</H.A>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
 
     <ul>
       <li>
-        <a href="http://www.gapm.io/xiucnr1">
+        <H.A href="http://www.gapm.io/xiucnr1">
           IUCN Red List[1] Goodrich, J., et al. &quot;Panthera tigris
           (Tiger).&quot; (2015) e.T15955A50659951.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xiucn2">
+        <H.A href="http://www.gapm.io/xiucn2">
           IUCN Red List[2] Swaisgood, R., et al. &quot;Ailuropoda melanoleuca
           (Giant Panda).&quot; (2016) e.T712A121745669.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xiucn3">
+        <H.A href="http://www.gapm.io/xiucn3">
           IUCN Red List[3] Emslie, R. &quot;Diceros bicornis (Black Rhinoceros,
           Hook-lipped Rhinoceros).&quot; (2012) e.T6557A16980917.
-        </a>
+        </H.A>
       </li>
       <li>
-        <a href="http://www.gapm.io/xiucnr4">
+        <H.A href="http://www.gapm.io/xiucnr4">
           IUCN Red List[4] Table 1: Numbers of threatened species by major
           groups of organisms (1996--2017).
-        </a>
+        </H.A>
       </li>
     </ul>
   </>

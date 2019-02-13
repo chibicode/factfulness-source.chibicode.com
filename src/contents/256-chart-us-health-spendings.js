@@ -7,9 +7,9 @@ export default () => (
       The United States spends much more on health care than other capitalist
       countries on Level 4---the European Union, Japan, and South Korea. The
       health spending data comes from WHO's
-      <a href="http://apps.who.int/nha/database">
+      <H.A href="http://apps.who.int/nha/database">
         Global Health Expenditure Database
-      </a>
+      </H.A>
       , via World Bank[24].
       <H.FB pageNumber={359}>
         アメリカの医療費と、そのほかのレベル4にいる資本主義国の医療費の比較は、経済協力開発機構による報告書“Why
@@ -41,7 +41,7 @@ export default () => (
       where the outcomes have been marvelous for those who got treatment. But
       the US health system do not provide incentives for doctors to spend time
       with the patients most in need of care. See
-      <a href="http://www.gapm.io/theasp">www.gapm.io/theasp</a>.
+      <H.A href="http://www.gapm.io/theasp">www.gapm.io/theasp</H.A>.
     </p>
     <p>
       There are two small countries that are excluded from the comparison above.
@@ -55,19 +55,19 @@ export default () => (
 
     <ul>
       <li>
-        <a href="http://www.gapm.io/x-ushealth">
+        <H.A href="http://www.gapm.io/x-ushealth">
           OECD[1] (Organisation for Economic Co-operation and Development).
           &quot;Why is Health Spending in the United States so High?&quot; Chart
           4: Health spending per capita by category of care, US and selected
           OECD countries, 2009. Health at a Glance 2011: OECD Indicators.
-        </a>
+        </H.A>
         .
       </li>
       <li>
-        <a href="http://www.gapm.io/xwb1724">
+        <H.A href="http://www.gapm.io/xwb1724">
           World Bank[24] &quot;Health expenditure, total (% of GDP).&quot; World
           Health Organization Global Health Expenditure Database, 2017.
-        </a>
+        </H.A>
       </li>
     </ul>
   </>
