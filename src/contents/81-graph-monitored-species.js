@@ -32,7 +32,7 @@ export default () => (
       according to the about page at Red List
     </H.A>
     . For the IUCN Red List of threatened species (1996--2017), see
-    <H.A href="http://www.gapm.io/xiucnr4">www.gapm.io/xiucnr4</H.A>. See also the
-    note to Fact question 11: Endangered species.
+    <H.A href="http://www.gapm.io/xiucnr4">www.gapm.io/xiucnr4</H.A>. See also
+    the note to Fact question 11: Endangered species.
   </p>
 )

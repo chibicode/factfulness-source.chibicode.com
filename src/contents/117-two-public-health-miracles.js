@@ -18,15 +18,15 @@ export default () => (
       per 1,000 live births in Egypt 1960. Child mortality rates in Egypt and
       Bangladesh are based on data from
       <H.A href="http://www.gapm.io/xu5mr">UN-IGME</H.A>. At
-      <H.A href="http://www.gapm.io/du5mr">www.gapm.io/du5mr</H.A> we describe in
-      full how we have combined child mortality data from multiple sources.
+      <H.A href="http://www.gapm.io/du5mr">www.gapm.io/du5mr</H.A> we describe
+      in full how we have combined child mortality data from multiple sources.
     </p>
     <p>
       The construction of the High Aswan Dam began in 1960 to control flooding
       along the Nile. The dam was completed in 1970 and installed 1971; see
-      <H.A href="http://www.gapm.io/xdam">gapm.io/xdam</H.A>. In our animated World
-      Health Chart you can see the progress of Egypt, Bangladesh, or most other
-      countries---search by country and click Play at
+      <H.A href="http://www.gapm.io/xdam">gapm.io/xdam</H.A>. In our animated
+      World Health Chart you can see the progress of Egypt, Bangladesh, or most
+      other countries---search by country and click Play at
       <H.A href="https://www.gapminder.org/whc">www.gapminder.org/whc</H.A>.
     </p>
   </>

@@ -12,7 +12,9 @@ export default () => (
       </H.FB>
     </p>
     <p>
-      <H.A href="http://www.gapm.io/xbonpop">The Accuracy of Past Projections</H.A>
+      <H.A href="http://www.gapm.io/xbonpop">
+        The Accuracy of Past Projections
+      </H.A>
       is a study from Bongaarts and Bulato (2000) that measure past projections,
       and find that the average error of UN world population forecasts are
       modest, at 2.8%, for an average length of projection of 17 years (see, for
@@ -24,8 +26,12 @@ export default () => (
         How Reliable is the World Population Forecast?
       </H.A>
       The projections are available at the
-      <H.A href="http://www.esa.un.org/unpd/wpp">UN website</H.A>, as well as the
-      <H.A href="about:blank">uncertainty intervals of their medium forecasts</H.A>.
+      <H.A href="http://www.esa.un.org/unpd/wpp">UN website</H.A>, as well as
+      the
+      <H.A href="about:blank">
+        uncertainty intervals of their medium forecasts
+      </H.A>
+      .
     </p>
 
     <H.SmallHeading>国連の人口データ</H.SmallHeading>

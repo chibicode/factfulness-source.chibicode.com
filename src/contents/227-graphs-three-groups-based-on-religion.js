@@ -19,8 +19,8 @@ export default () => (
       world's large religions represent about 2.1 billion Christians, 1.6
       billion Muslims and about 2.6 billion other large religions (1 billion
       Hindus, 0.5 billion Buddhists). The numbers come from
-      <H.A href="http://gapm.io/xpewrel1">PEW[2]</H.A> and the ARDA[1], where you
-      can find percentages of people following each religion.
+      <H.A href="http://gapm.io/xpewrel1">PEW[2]</H.A> and the ARDA[1], where
+      you can find percentages of people following each religion.
     </p>
   </>
 )

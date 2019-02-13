@@ -10,9 +10,9 @@ export default () => (
       hasn't signed the UN conventions banning forced labor. If state owned
       companies or the state itself is accused of practicing forced labor and
       <H.A href="https://www.gapminder.org/data/documentation/legal-slavery/#ilo">
-         ILO
+        ILO
       </H.A>
-       is refused the possibilities to investigate it, the country is considered
+      is refused the possibilities to investigate it, the country is considered
       as practising legal slavery, regardless of its official legislation. When
       a country passes a law to make slavery illegal, it doesn't mean that the
       practice has stopped. It is a big difference between abolishing slavery in
@@ -25,7 +25,7 @@ export default () => (
       <H.A href="http://www.ilo.org/dyn/normlex/en/f?p=1000:11200:0::NO:11200:P11200_COUNTRY_ID:103551">
         Turkmenistan
       </H.A>
-       and
+      and
       <H.A href="http://www.ilo.org/dyn/normlex/en/f?p=1000:11200:0::NO:11200:P11200_COUNTRY_ID:103547">
         Tajikistan
       </H.A>
@@ -53,18 +53,18 @@ export default () => (
       <H.A href="https://www.qub.ac.uk/slavery/?page=countries">
         Slavery in Domestic Legislation
       </H.A>
-       database, compiled by Jean Allain and Dr. Marie Lynch at Queen's
+      database, compiled by Jean Allain and Dr. Marie Lynch at Queen's
       University Belfast. Most historic dates of abolishment before 1950 are
       based on Wikipedia[1], see
-      <H.A href="http://www.gapm.io/xwiki1">www.gapm.io/xwiki1</H.A>. In 2018 all
-      governments have a legal document banning forced labor, but some of them
-      seem to be practicing forced labor themselves. An organisation called
-      <H.A href="http://www.antislavery.org/">www.antislavery.org</H.A> and others
-      report about forced labor commanded by state owned cotton industries in
-      Turkmenistan and Uzbekistan, most commonly during cotton harvest in
-      October every year. There are, in addition, plenty of reports of forced
-      labour in North Korean work camps. In each of these cases, ILO is not
-      fully content with the countries' abilities to collaborate in
+      <H.A href="http://www.gapm.io/xwiki1">www.gapm.io/xwiki1</H.A>. In 2018
+      all governments have a legal document banning forced labor, but some of
+      them seem to be practicing forced labor themselves. An organisation called
+      <H.A href="http://www.antislavery.org/">www.antislavery.org</H.A> and
+      others report about forced labor commanded by state owned cotton
+      industries in Turkmenistan and Uzbekistan, most commonly during cotton
+      harvest in October every year. There are, in addition, plenty of reports
+      of forced labour in North Korean work camps. In each of these cases, ILO
+      is not fully content with the countries' abilities to collaborate in
       investigating these claims. Therefore we decided to mark these countries
       as not having made slavery illegal yet, even if all of these countries
       have signed UN conventions and banned it by their constitution. After

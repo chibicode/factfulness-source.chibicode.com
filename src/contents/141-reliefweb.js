@@ -12,9 +12,11 @@ export default () => (
     million, which is funded by the OCHA and include contributions from Sweden,
     Japan, the United States, the United Kingdom, Denmark and others. In
     detailed reports, the ReliefWeb
-    <H.A href="http://www.gapm.io/xreliefwb">describes how the money was used</H.A>,
-    stating that &quot;the Red Crescent is also working with the United Nations'
-    World Food Programme to distribute 112.5 tonnes of biscuits to 30,000
-    families in Cox's Bazar.&quot;
+    <H.A href="http://www.gapm.io/xreliefwb">
+      describes how the money was used
+    </H.A>
+    , stating that &quot;the Red Crescent is also working with the United
+    Nations' World Food Programme to distribute 112.5 tonnes of biscuits to
+    30,000 families in Cox's Bazar.&quot;
   </p>
 )

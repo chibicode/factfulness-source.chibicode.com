@@ -11,8 +11,8 @@ export default () => (
       <H.A href="http://www.systemicpeace.org/polity/polity4.htm">
         Polity IV dataset
       </H.A>
-       but give the numbers in terms of inhabitants, not number of countries.
-      The Polity IV dataset puts countries on a democracy scale, and defines
+      but give the numbers in terms of inhabitants, not number of countries. The
+      Polity IV dataset puts countries on a democracy scale, and defines
       non-democratic regimes as autocracies (e.g. China), closed anocracy (e.g.
       Morocco), open anocracy (e.g. Russia) or colonial regimes. In this graph,
       we only show democracies, hence disregarding all types of non-democratic

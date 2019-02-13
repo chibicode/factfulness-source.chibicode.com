@@ -5,8 +5,8 @@ export default () => (
   <>
     <p>
       The data about fatalities from terrorism comes from
-      <H.A href="http://www.gapm.io/xgtdb17">GTD</H.A> (2017) and Gapminder[3] for
-      data on terror deaths per income level. In 1999, terrorism worldwide
+      <H.A href="http://www.gapm.io/xgtdb17">GTD</H.A> (2017) and Gapminder[3]
+      for data on terror deaths per income level. In 1999, terrorism worldwide
       reached its lowest annual death toll in two decades, with only 2,200
       killed worldwide. It then began to increase over the next 12 years. By
       2014, terrorism multiplied tenfold to 32,765 deaths, but has slowly begun

@@ -22,12 +22,13 @@ export default () => (
       preliminary results by Andreas Forø Tollefsen and Gudrun Østby of the
       number of people who live close to conflict worldwide (743 millions in
       2016); download PDF
-      <H.A href="http://www.gapm.io/xodi">here</H.A>. Data on where most people live
-      is from United Nations Population Division; where there are high rates of
-      child mortality from <H.A href="http://gapm.io/xih5mr">IHME[6]</H.A>; where
-      soils give low yield from FAO[4]; and where there are conflicts from
-      UCDP[2]. As long as there's conflict, most people stuck in poverty will
-      have a hard time getting out.
+      <H.A href="http://www.gapm.io/xodi">here</H.A>. Data on where most people
+      live is from United Nations Population Division; where there are high
+      rates of child mortality from{' '}
+      <H.A href="http://gapm.io/xih5mr">IHME[6]</H.A>; where soils give low
+      yield from FAO[4]; and where there are conflicts from UCDP[2]. As long as
+      there's conflict, most people stuck in poverty will have a hard time
+      getting out.
     </p>
   </>
 )

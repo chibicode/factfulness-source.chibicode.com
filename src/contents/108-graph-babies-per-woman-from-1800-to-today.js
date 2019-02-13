@@ -35,9 +35,11 @@ export default () => (
       , &quot;the single biggest famine event in history in terms of absolute
       numbers of death&quot; on Wikipedia. The most accurate number is probably
       estimated at 40 million people who died during the Chinese famine; see
-      <H.A href="http://www.necrometrics.com/20c5m.htm#Mao">necrometrics</H.A> for a
-      documentation of sources. The age structure of the Chinese population
-      still bear marks of
+      <H.A href="http://www.necrometrics.com/20c5m.htm#Mao">
+        necrometrics
+      </H.A>{' '}
+      for a documentation of sources. The age structure of the Chinese
+      population still bear marks of
       <H.A href="https://www.gapminder.org/geo/china">
         fewer number of children born during the famine
       </H.A>

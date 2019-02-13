@@ -5,9 +5,9 @@ export default () => (
   <>
     <p>
       Brazil's trend line for the richest share of income, comes from
-      <H.A href="http://www.gapm.io/xwb1716">World Bank[16]</H.A>. The distribution
-      of Brazilian population over different incomes, is base don data from
-      PovcalNet and slightly adjusted to better align with CETAD.
+      <H.A href="http://www.gapm.io/xwb1716">World Bank[16]</H.A>. The
+      distribution of Brazilian population over different incomes, is base don
+      data from PovcalNet and slightly adjusted to better align with CETAD.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

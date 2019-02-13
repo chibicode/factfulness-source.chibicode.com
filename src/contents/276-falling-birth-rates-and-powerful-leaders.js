@@ -15,8 +15,10 @@ export default () => (
       Data about the population of China is derived from UN-Pop[1] and Sheng Luo
       (1988), which reconstructed population trends in China by year. The study
       is available
-      <H.A href="https://repository.upenn.edu/dissertations/AAI8816201/">here</H.A>.
-      To see the population of China move over time, click
+      <H.A href="https://repository.upenn.edu/dissertations/AAI8816201/">
+        here
+      </H.A>
+      . To see the population of China move over time, click
       <H.A href="http://www.gapm.io/vchtfr79">here</H.A> and press play.
     </p>
     <p>

@@ -14,14 +14,15 @@ export default () => (
       <H.A href="https://read.oecd-ilibrary.org/economics/how-was-life_9789264214262-en#page89">
         Education since 1820
       </H.A>
-       by Bas van Leeuwen and Jieli van Leeuwen-Li (see p. 94). The exact levels
+      by Bas van Leeuwen and Jieli van Leeuwen-Li (see p. 94). The exact levels
       are even more uncertain than after 1970. We removed dips and peaks in
       <H.A href="https://read.oecd-ilibrary.org/economics/how-was-life_9789264214262-en#page96">
         the trend line
       </H.A>
-       from van Zanden[3] as they might give an impression of non-existing
-      accuracy. Visit <H.A href="http://gapm.io/dliterae">Literacy rate---v1</H.A>
-       for detailed documentation of the data sources behind this graph.
+      from van Zanden[3] as they might give an impression of non-existing
+      accuracy. Visit{' '}
+      <H.A href="http://gapm.io/dliterae">Literacy rate---v1</H.A>
+      for detailed documentation of the data sources behind this graph.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

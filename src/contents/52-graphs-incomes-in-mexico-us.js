@@ -12,9 +12,9 @@ export default () => (
     <p>
       The number of people on different incomes are based on latest available
       income distribution data from the World Bank's
-      <H.A href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</H.A>, which
-      was extended to 2013 by Gapminder[10] using the indicator Household per
-      capita income and converted into constant international dollars (PPP
+      <H.A href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</H.A>,
+      which was extended to 2013 by Gapminder[10] using the indicator Household
+      per capita income and converted into constant international dollars (PPP
       2011), on a logarithmic scale. By adjusting the exchange rates to consider
       price differences with PPP, the incomes are more comparable across
       countries. The shapes of the curves were adjusted to better follow the

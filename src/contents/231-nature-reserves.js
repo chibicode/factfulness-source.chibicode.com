@@ -15,8 +15,8 @@ export default () => (
     The trend for 1900--1911 was aggregated by Gapminder[31] from the historic
     records of WDPA, which keeps track of protected areas following the
     <H.A href="http://www.gapm.io/xprarde">IUCN Definition 2008</H.A> and the
-    <H.A href="http://gapm.io/x-protareacat">Protected Area Categories</H.A>; see
-    IUCN[1,2].
+    <H.A href="http://gapm.io/x-protareacat">Protected Area Categories</H.A>;
+    see IUCN[1,2].
     <H.FB pageNumber={360}>
       1911年から1990年までのトレンドについては、Abouchakraらの著したこちらの著書を参考にしている:
       Looking Ahead: The 50 Trends That Matter(2016)。

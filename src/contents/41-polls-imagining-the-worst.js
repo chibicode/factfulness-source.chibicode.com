@@ -14,8 +14,8 @@ export default () => (
     percent. Further, they believed 40 percent of children are vaccinated---but
     data says 78 percent; see
     <H.A href="http://gapm.io/xwb179">World Bank[9]</H.A> based on
-    <H.A href="http://gapm.io/xwhoim">WHO[1]</H.A>. They believed roughly 70 percent
-    are undernourished but it is only 26 percent; see
+    <H.A href="http://gapm.io/xwhoim">WHO[1]</H.A>. They believed roughly 70
+    percent are undernourished but it is only 26 percent; see
     <H.A href="http://www.who.int/gho/tb/">World Bank[10]</H.A> based on
     <H.A href="http://gapm.io/faoh2006">FAO[1]</H.A>. All data from low-income
     countries have large uncertainties; still, the uncertainties are smaller

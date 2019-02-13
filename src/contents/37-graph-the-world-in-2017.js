@@ -6,8 +6,8 @@ export default () => (
     <p>
       Each circle, or bubble, represents a country. The area of the circle is
       proportional to the population of the country, using data from
-      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[1]</H.A>. On the x-axis is the
-      total fertility rate, using data from
+      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[1]</H.A>. On the x-axis is
+      the total fertility rate, using data from
       <H.A href="https://esa.un.org/unpd/wpp">UN-POP[3]</H.A>. The scale is
       reversed, putting large families to the left and small to the right. This
       is to show progress as a movement from left to right, which is more
@@ -17,8 +17,8 @@ export default () => (
       percent, because it is more broadly understood, and we also show survival
       instead of mortality so that the positive direction is upward, which
       intuitively is more positive. The
-      <H.A href="http://www.childmortality.org/">UN-IGME data</H.A> for the child
-      mortality rate ends in 2016.
+      <H.A href="http://www.childmortality.org/">UN-IGME data</H.A> for the
+      child mortality rate ends in 2016.
       <H.A href="http://gapm.io/du5mr">Gapminder[6] </H.A>extended the series by
       using the percentage change expected by UN WPP 2017 medium fertility
       variant from
@@ -35,7 +35,8 @@ export default () => (
       East Timor, Gambia, Mali, Mozambique, Niger, Nigeria, Somalia and Uganda.
       37 countries with 8.4% of the world population are between the boxes. 134
       countries are in the &quot;developed&quot; box. For an interactive version
-      of the chart, see <H.A href="http://gapm.io/voutdwv">gapm.io/voutdwv</H.A>.
+      of the chart, see <H.A href="http://gapm.io/voutdwv">gapm.io/voutdwv</H.A>
+      .
     </p>
   </>
 )

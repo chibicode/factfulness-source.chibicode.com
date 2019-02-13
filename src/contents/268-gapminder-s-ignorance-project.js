@@ -8,10 +8,10 @@ export default () => (
     <H.A href="https://edition.cnn.com/2013/12/10/world/gapminder-us-ignorance-survey/index.html">
       US results on CNN
     </H.A>
-     and
+    and
     <H.A href="https://www.bbc.com/news/magazine-24836917">
       the British results on BBC
     </H.A>
-     (2013).
+    (2013).
   </p>
 )

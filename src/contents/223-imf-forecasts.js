@@ -9,8 +9,8 @@ export default () => (
       </H.FB>
       IMF forecasts are used for speculations about future growth in the stock
       and finance industry, as
-      <H.A href="https://www.bbc.com/news/business-22228223">BBC News</H.A> points
-      out.
+      <H.A href="https://www.bbc.com/news/business-22228223">BBC News</H.A>{' '}
+      points out.
       <H.A href="https://seekingalpha.com/article/4117923-2017-q4-stock-market-outlook-u-s-economy-reaching-peak">
         Here
       </H.A>

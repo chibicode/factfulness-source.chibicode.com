@@ -10,7 +10,7 @@ export default () => (
     outages per week and still be listed as &quot;having access to
     electricity.&quot; The graph, accordingly, shows people with
     &quot;some&quot; access. For the GTF measures of electricity access, see
-    <H.A href="http://gtf.esmap.org/results">http://gtf.esmap.org/results</H.A>. See
-    also the note to Fact question 12: Electricity.
+    <H.A href="http://gtf.esmap.org/results">http://gtf.esmap.org/results</H.A>.
+    See also the note to Fact question 12: Electricity.
   </p>
 )

@@ -18,8 +18,9 @@ export default () => (
     </p>
     <p>
       The tiger (Panthera tigris) was classified as Endangered (EN) in 1996, and
-      it still is; see <H.A href="http://www.gapm.io/xiucnr1">IUCN Red List[1]</H.A>
-      . According to a statement from <H.A href="http://gapm.io/xwwftiger">WWF</H.A>
+      it still is; see{' '}
+      <H.A href="http://www.gapm.io/xiucnr1">IUCN Red List[1]</H.A>. According
+      to a statement from <H.A href="http://gapm.io/xwwftiger">WWF</H.A>
       in 2016, the number of wild tigers are increasing: &quot;After a century
       of decline, tiger numbers are on the rise. At least 3,890 tigers remain in
       the wild, but much more work is needed to protect this species that's
@@ -31,9 +32,9 @@ export default () => (
       .
     </p>
     <p>
-      According to <H.A href="http://www.gapm.io/xiucn2">IUCN Red List[2]</H.A>, the
-      giant panda was classified as Endangered (EN) in 1996, but in 2015, new
-      assessments of increasing wild populations resulted in a change of
+      According to <H.A href="http://www.gapm.io/xiucn2">IUCN Red List[2]</H.A>,
+      the giant panda was classified as Endangered (EN) in 1996, but in 2015,
+      new assessments of increasing wild populations resulted in a change of
       classification to the less critical status of Vulnerable (VU).
     </p>
     <p>
@@ -45,7 +46,8 @@ export default () => (
         annual report for 2016
       </H.A>
       . And the slow increase remains in March 2018, according to updates from
-      the <H.A href="https://rhinos.org/state-of-the-rhino/">Rhino foundation</H.A>.
+      the{' '}
+      <H.A href="https://rhinos.org/state-of-the-rhino/">Rhino foundation</H.A>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

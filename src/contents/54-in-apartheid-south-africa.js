@@ -10,8 +10,8 @@ export default () => (
       people, according data from IRR. In the United States as of 2016, white
       households earned on average 1.6 times more than black households, $65,041
       and $39,490 respectively; see US-CPS below. In this
-      <H.A href="http://www.gapm.io/xsa">article</H.A>, BBC reports on historic race
-      specific employment and incomes in South Africa, using data from IRR.
+      <H.A href="http://www.gapm.io/xsa">article</H.A>, BBC reports on historic
+      race specific employment and incomes in South Africa, using data from IRR.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

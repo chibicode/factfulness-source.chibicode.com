@@ -16,18 +16,20 @@ export default () => (
       , but not until 1980 was the nasty viruses defeated thanks to massive
       global vaccination campaigns lead by the World Health Organization. The
       last known case was recorded in
-      <H.A href="http://www.who.int/csr/disease/smallpox/en/">Somalia in 1977</H.A>.
-      Smallpox was the first (and so far the only) disease eradicated by global
-      vaccination programs. The graph shows the years when the last case was
-      recorded in each country, based on data that was kindly shared with us by
-      Katie Hampson, at Wellcome Trust Boyd Orr Centre for Population and
+      <H.A href="http://www.who.int/csr/disease/smallpox/en/">
+        Somalia in 1977
+      </H.A>
+      . Smallpox was the first (and so far the only) disease eradicated by
+      global vaccination programs. The graph shows the years when the last case
+      was recorded in each country, based on data that was kindly shared with us
+      by Katie Hampson, at Wellcome Trust Boyd Orr Centre for Population and
       Ecosystem at University of Glasgow, Medical, Veterinary &amp; Life
       Sciences. The data was published in the paper
       <H.A href="http://rstb.royalsocietypublishing.org/content/368/1623/20120137">
         Towards the endgame and beyond: complexities and challenges for the
         elimination of infectious diseases
       </H.A>
-       by Klepac, et al (2013).
+      by Klepac, et al (2013).
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

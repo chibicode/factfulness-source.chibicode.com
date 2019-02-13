@@ -8,6 +8,6 @@ export default () => (
     <H.A href="https://books.google.se/books?id=QiYG5lXd4XsC&amp;pg=PA173&amp;lpg=PA173&amp;dq=bach+main+bombs+killed&amp;source=bl&amp;ots=ndDRbaFxwO&amp;sig=blxeTu16nDfD9xt7zpKo3XdW9gc&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwikwoXr5oLYAhWKK5oKHaNoD2cQ6AEIRjAF#v=onepage&amp;q=bach%20main%20bombs%20killed&amp;f=false">
       in this passage
     </H.A>
-     in the book Hanoi: Biography of a City by William Stewart Logan.
+    in the book Hanoi: Biography of a City by William Stewart Logan.
   </p>
 )

@@ -5,11 +5,12 @@ export default () => (
   <>
     <p>
       The trend shows ten-year averages from
-      <H.A href="http://gapm.io/itfr">Gapminder[6]</H.A> that ends with data from
-      UN-IGME, published in 2017 for the period 1990--2016. Estimates before
-      1990 come from hundreds of historical sources, primarily
-      <H.A href="http://www.mortality.org/">www.mortality.org</H.A> and Mitchell's
-      books. They have been compiled into one coherent trend line. In summary:
+      <H.A href="http://gapm.io/itfr">Gapminder[6]</H.A> that ends with data
+      from UN-IGME, published in 2017 for the period 1990--2016. Estimates
+      before 1990 come from hundreds of historical sources, primarily
+      <H.A href="http://www.mortality.org/">www.mortality.org</H.A> and
+      Mitchell's books. They have been compiled into one coherent trend line. In
+      summary:
     </p>
     <ul>
       <li>
@@ -31,9 +32,9 @@ export default () => (
         UN Population Division and the World Bank. They released new estimates
         of child mortality for countries and a global estimate on October 17,
         2017, which is available at
-        <H.A href="http://www.childmortality.org/">www.childmortality.org</H.A>. In
-        this dataset almost all countries have estimates between 1970 and 2016,
-        while roughly half the countries also reach back to 1950.
+        <H.A href="http://www.childmortality.org/">www.childmortality.org</H.A>.
+        In this dataset almost all countries have estimates between 1970 and
+        2016, while roughly half the countries also reach back to 1950.
       </li>
       <li>
         1950--2017. UN-Pop[1],

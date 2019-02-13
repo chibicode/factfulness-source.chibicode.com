@@ -14,7 +14,7 @@ export default () => (
     </p>
     <ul>
       <li>
-        Outsourcing to level 2  -- same quality for less than half the price.
+        Outsourcing to level 2 -- same quality for less than half the price.
         Textiles industry Europe &gt; Bangladesh and Cambodia &gt; Kenya and
         other African countries as Bangladesh and Cambodia become wealthier and
         approach Level 3.

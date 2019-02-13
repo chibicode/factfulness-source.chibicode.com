@@ -18,7 +18,7 @@ export default () => (
     2013 was adjusted downwards by 5.7 years, down to 56.9. This was mainly due
     to an improved modelling of the HIV pandemic. This is just one example of
     the actual size of uncertainty of health estimates on Level 1 and 2. There
-    are no examples of such large  adjustments for estimates when it comes to
+    are no examples of such large adjustments for estimates when it comes to
     countries on Level 3 and 4, where data is more certain.
   </p>
 )

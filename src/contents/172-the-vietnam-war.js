@@ -12,7 +12,7 @@ export default () => (
     <H.A href="http://necrometrics.com/20c1m.htm#Vietnam">
       American Phase (unstarred)
     </H.A>
-     indicating the median totals to about 1,700,000 deaths and the total of
+    indicating the median totals to about 1,700,000 deaths and the total of
     medians to 1,300,000 deaths. Data on US war casualties is
     <H.A href="https://fas.org/sgp/crs/natsec/RL32492.pdf">
       available to download as pdf

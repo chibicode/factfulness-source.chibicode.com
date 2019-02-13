@@ -12,11 +12,12 @@ export default () => (
       <H.A href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)31833-0/fulltext">
         Lancet article 2017
       </H.A>
-      , available to download via <H.A href="http://www.gapm.io/xihlex">IHME</H.A>.
-      Since population weight seems to slightly increase life expectancy,
-      Gapminder rounded it downwards, to 65 years. Total Europe (as used in the
-      rest of the book) has 78 years life expectancy, while Western Europe (or
-      EU) has 82. So this comparison is assuming we use EU or Western Europe.
+      , available to download via{' '}
+      <H.A href="http://www.gapm.io/xihlex">IHME</H.A>. Since population weight
+      seems to slightly increase life expectancy, Gapminder rounded it
+      downwards, to 65 years. Total Europe (as used in the rest of the book) has
+      78 years life expectancy, while Western Europe (or EU) has 82. So this
+      comparison is assuming we use EU or Western Europe.
     </p>
     <p>
       In 1970, the average lifespan in Sweden was 74.5 years. In their estimates

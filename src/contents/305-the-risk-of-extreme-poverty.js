@@ -29,8 +29,9 @@ export default () => (
     <p>
       The other risks are not ongoing. Extreme poverty is. 78% are small scale
       farmers in extremely poor areas. In extreme poverty, every second person
-      is a child, see <H.A href="http://econ.worldbank.org/">World Bank[26]</H.A>,
-      they are from ethnic minorities; see ODI.
+      is a child, see{' '}
+      <H.A href="http://econ.worldbank.org/">World Bank[26]</H.A>, they are from
+      ethnic minorities; see ODI.
       <H.FB pageNumber={355}>
         オスロ国際平和研究所の暫定的なデータによると、極度の貧困は減っているが、紛争地帯に暮らす極度に貧しい人の数は変わらないか、増えている。現在の紛争が長引けば、極度に貧困な子供たちの大多数はこれからも紛争地帯から抜け出せない。国際援助団体にとっては、長引く紛争が大きな障害になる。
       </H.FB>

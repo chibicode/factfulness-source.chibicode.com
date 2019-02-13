@@ -7,7 +7,7 @@ export default () => (
     <H.A href="http://www.who.int/bulletin/volumes/86/10/08-041008/en/">
       an interview from 2008
     </H.A>
-     how they came to promote primary health care to all instead of eradicating
+    how they came to promote primary health care to all instead of eradicating
     one disease at a time. It was declared &quot;a most important world-wide
     social goal&quot; at the International Conference on Primary Health Care in
     Alma Ata 1978. The publication is available to download as PDF:

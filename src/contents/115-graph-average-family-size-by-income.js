@@ -7,11 +7,11 @@ export default () => (
       The graph presenting family size by income uses the most recent available
       data from World Bank[5] estimating that 10.7 percent of the population
       lived in extreme poverty in 2013.
-      <H.A href="http://gapm.io/depov">Gapminder[9]</H.A> has extended the data to
-      2017, using IMF's GDP per capita growth, and estimates that 0.75 billion
-      people of the world population live on less than $2 a day; that is 10
-      percent of 7.55 billion people in the world. UN and the World Bank has set
-      the threshold of extreme poverty at $1.9. Since these numbers are very
+      <H.A href="http://gapm.io/depov">Gapminder[9]</H.A> has extended the data
+      to 2017, using IMF's GDP per capita growth, and estimates that 0.75
+      billion people of the world population live on less than $2 a day; that is
+      10 percent of 7.55 billion people in the world. UN and the World Bank has
+      set the threshold of extreme poverty at $1.9. Since these numbers are very
       rough estimates, Gapminder has rounded up the threshold to $2 a day.
     </p>
     <p>

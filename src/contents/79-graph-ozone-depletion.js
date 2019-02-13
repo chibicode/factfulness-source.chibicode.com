@@ -17,7 +17,7 @@ export default () => (
     <H.A href="https://news.mit.edu/2016/signs-healing-antarctic-ozone-layer-0630">
       MIT
     </H.A>
-     which may be caused by warmer temperature according to
+    which may be caused by warmer temperature according to
     <H.A href="https://www.nasa.gov/feature/goddard/2017/warm-air-helped-make-2017-ozone-hole-smallest-since-1988">
       NASA
     </H.A>

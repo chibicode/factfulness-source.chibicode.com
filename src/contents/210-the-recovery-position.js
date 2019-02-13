@@ -10,7 +10,9 @@ export default () => (
     Högberg and Bergström (1997). The recovery position was not standardized
     until decades later, in the early 1990s, when it emerged in general first
     aid handbooks. See
-    <H.A href="https://en.wikipedia.org/wiki/Recovery_position">Wikipedia[10]</H.A>
-     for more on the history of the recovery position.
+    <H.A href="https://en.wikipedia.org/wiki/Recovery_position">
+      Wikipedia[10]
+    </H.A>
+    for more on the history of the recovery position.
   </p>
 )

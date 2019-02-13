@@ -8,9 +8,9 @@ export default () => (
         エボラのデータは世界保健機関によるもの(
         <H.A href="http://gapm.io/xeboresp">WHO[3]</H.A>)。
       </H.FB>{' '}
-      The data is from <H.A href="http://gapm.io/xeboresp">WHO[3]</H.A>, the Ebola
-      Response Team's research article evaluating the first 9 months of the
-      outbreak, with future projections.{' '}
+      The data is from <H.A href="http://gapm.io/xeboresp">WHO[3]</H.A>, the
+      Ebola Response Team's research article evaluating the first 9 months of
+      the outbreak, with future projections.{' '}
       <H.FB pageNumber={367}>
         エボラの緊急性を 伝えるためにギャップマインダーがつくった配布物は
         <H.A href="https://gapm.io/vebol">こちら</H.A>。

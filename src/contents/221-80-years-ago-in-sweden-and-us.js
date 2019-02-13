@@ -7,7 +7,7 @@ export default () => (
     <H.A href="https://en.wikipedia.org/wiki/Farm_Security_Administration">
       Farm Security Administration
     </H.A>
-     (FSA) sent photographers across the nation to understand what it looked
+    (FSA) sent photographers across the nation to understand what it looked
     like, resulting in famous black and white images from the rural poor. In
     Sweden in 1938, Ludvig &quot;Lubbe&quot; Nordström gave eye witness reports
     to radio listeners on the national radio report series called Dirt Sweden.

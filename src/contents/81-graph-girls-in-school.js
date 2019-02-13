@@ -5,13 +5,14 @@ export default () => (
   <>
     <p>
       This trend is based on
-      <H.A href="http://www.gapm.io/xuisoutsf">UNESCO[3]</H.A>, and shows the number
-      of girls of official primary school age who are enrolled in primary or
-      secondary school, expressed as a percentage of the population of official
-      primary school age girls. The age interval for primary education varies
-      between countries, but it is often between 6 to 11 years of age. Girls of
-      primary school age who are still in pre-primary education are excluded and
-      considered out of school. <H.A href="http://www.gapm.io/xoos">UNESCO[4]</H.A>
+      <H.A href="http://www.gapm.io/xuisoutsf">UNESCO[3]</H.A>, and shows the
+      number of girls of official primary school age who are enrolled in primary
+      or secondary school, expressed as a percentage of the population of
+      official primary school age girls. The age interval for primary education
+      varies between countries, but it is often between 6 to 11 years of age.
+      Girls of primary school age who are still in pre-primary education are
+      excluded and considered out of school.{' '}
+      <H.A href="http://www.gapm.io/xoos">UNESCO[4]</H.A>
       expresses the numbers in &quot;out-of-school&quot; children. We have
       inverted the numbers to show children not out-of-school: the in-school
       rate. See also the note to Fact question 1: Girls in school.

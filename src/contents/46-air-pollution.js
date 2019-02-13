@@ -27,7 +27,7 @@ export default () => (
       <H.A href="http://www.who.int/mediacentre/factsheets/fs292/en/">
         http://www.who.int/mediacentre/factsheets/fs292/en/
       </H.A>
-       and
+      and
       <H.A href="http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&amp;menu=hide">
         http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&amp;menu=hide
       </H.A>

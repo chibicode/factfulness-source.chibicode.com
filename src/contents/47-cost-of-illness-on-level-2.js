@@ -10,11 +10,11 @@ export default () => (
       <H.A href="http://www.amazon.in/One-Illness-Away-People-Poverty/dp/0199693196">
         One Illness Away: Why People Become Poor and How They Escape Poverty
       </H.A>
-       (2010),
+      (2010),
       <H.A href="https://sanford.duke.edu/people/faculty/krishna-anirudh">
         Anirudh Krishna
       </H.A>
-       describes the effect of disease on poor families who are making progress.
+      describes the effect of disease on poor families who are making progress.
       Illness often forces them back into destitute, since they have no safety
       nets or health insurances whatsoever. Level 2 roughly corresponds to the
       World Bank income group called &quot;Lower middle income&quot;, where
@@ -22,10 +22,10 @@ export default () => (
       see <H.A href="http://gapm.io/xwb1711">World Bank[11]</H.A>.
     </p>
     <p>
-      <H.A href="http://gapm.io/xwb1712">Voices of the Poor</H.A> is a three volume
-      publication from the World Bank[12] of interviews with poor people across
-      47 countries. Many describe the unfortunate events of illness that lead
-      them back into extreme poverty again soon after escaping.
+      <H.A href="http://gapm.io/xwb1712">Voices of the Poor</H.A> is a three
+      volume publication from the World Bank[12] of interviews with poor people
+      across 47 countries. Many describe the unfortunate events of illness that
+      lead them back into extreme poverty again soon after escaping.
     </p>
   </>
 )

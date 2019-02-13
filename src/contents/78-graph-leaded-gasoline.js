@@ -6,8 +6,8 @@ export default () => (
     <p>
       Tetraethyl lead began to be added in gasoline for increased vehicle
       performance and fuel economy in the 1920s, see
-      <H.A href="http://www.gapm.io/xwiki11">www.gapm.io/xwiki11</H.A>. That was a
-      stupid idea, since lead is a toxicant that affects multiple body systems
+      <H.A href="http://www.gapm.io/xwiki11">www.gapm.io/xwiki11</H.A>. That was
+      a stupid idea, since lead is a toxicant that affects multiple body systems
       and is particularly harmful to young children: See WHO's Fact sheet,
       Updated August 2017, called &quot;
       <H.A href="http://www.who.int/mediacentre/factsheets/fs379/en/">
