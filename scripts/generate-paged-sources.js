@@ -21,12 +21,6 @@ const process = ({jpPage, hidePageNumber, enTitle, permalink, ...rest}) => ({
 
 const pagedSources = [
   {
-    jpPage: -104,
-    enTitle: 'A note about source acronyms',
-    jpTitle: '出典について',
-    permalink: 'source-acronyms'
-  },
-  {
     jpPage: -103,
     enTitle: 'Inside cover at the end: People by region and income',
     jpTitle: '全般: 2017年のデータ',

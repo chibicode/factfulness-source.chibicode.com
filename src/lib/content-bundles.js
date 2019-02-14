@@ -1230,10 +1230,5 @@ export default {
     () =>
       import(/* webpackChunkName: 'inside-front-cover' */ '../contents/inside-front-cover.js'),
     {loading: () => <DynamicLoading />}
-  ),
-  'source-acronyms': dynamic(
-    () =>
-      import(/* webpackChunkName: 'source-acronyms' */ '../contents/source-acronyms.js'),
-    {loading: () => <DynamicLoading />}
   )
 }
