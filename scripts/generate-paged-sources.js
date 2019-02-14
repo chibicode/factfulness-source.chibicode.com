@@ -1,19 +1,22 @@
 const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
-const process = ({jpPage, enTitle, ...rest}) => ({
+const process = ({jpPage, hidePageNumber, enTitle, permalink, ...rest}) => ({
+  hidePageNumber,
   jpPage,
   jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
   enTitle,
   ...rest,
-  permalink: [
-    Array.isArray(jpPage) ? jpPage[0] : jpPage,
-    enTitle
-      .replace(/\W/g, '-')
-      .replace(/-+/g, '-')
-      .replace(/(^-|-$)/g, '')
-      .toLowerCase()
-  ].join('-')
+  permalink:
+    permalink ||
+    [
+      Array.isArray(jpPage) ? jpPage[0] : jpPage,
+      enTitle
+        .replace(/\W/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/(^-|-$)/g, '')
+        .toLowerCase()
+    ].join('-')
 })
 
 const pagedSources = [
@@ -1762,6 +1765,13 @@ const pagedSources = [
     enPage: 253,
     enTitle: `Local ignorance and data`,
     jpTitle: `ローカルな知識不足とデータ`
+  },
+  {
+    hidePageNumber: true,
+    jpPageNumber: 1000,
+    enTitle: 'Free global development data',
+    jpTitle: 'グローバルな開発に関する無料データ',
+    permalink: 'final-note'
   }
 ].map(process)
 
@@ -1784,5 +1794,18 @@ pagedSources.sort((a, b) => {
 fs.writeFile(
   './src/lib/paged-sources.json',
   JSON.stringify(pagedSources, null, 2),
+  () => {}
+)
+
+fs.writeFile(
+  './src/lib/paged-sources-object.json',
+  JSON.stringify(
+    pagedSources.reduce((obj, item) => {
+      obj[item.permalink] = item
+      return obj
+    }),
+    null,
+    2
+  ),
   () => {}
 )

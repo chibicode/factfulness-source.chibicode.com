@@ -2,7 +2,7 @@
 import {jsx, css, Global} from '@emotion/core'
 import {Component} from 'react'
 import colors from '../lib/colors'
-import {pagedSourcesObject} from '../lib/sources'
+import pagedSourcesObject from '../lib/paged-sources-object'
 import Container from './container'
 import Content from './content'
 import Card from './card'

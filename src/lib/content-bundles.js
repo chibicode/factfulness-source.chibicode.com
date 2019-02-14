@@ -883,14 +883,14 @@ export default {
       import(/* webpackChunkName: '52-math-scores' */ '../contents/52-math-scores.js'),
     {loading: () => <DynamicLoading />}
   ),
-  '54-overlapping-spreads': dynamic(
-    () =>
-      import(/* webpackChunkName: '54-overlapping-spreads' */ '../contents/54-overlapping-spreads.js'),
-    {loading: () => <DynamicLoading />}
-  ),
   '54-in-apartheid-south-africa': dynamic(
     () =>
       import(/* webpackChunkName: '54-in-apartheid-south-africa' */ '../contents/54-in-apartheid-south-africa.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  '54-overlapping-spreads': dynamic(
+    () =>
+      import(/* webpackChunkName: '54-overlapping-spreads' */ '../contents/54-overlapping-spreads.js'),
     {loading: () => <DynamicLoading />}
   ),
   '55-brazilian-income-inequality': dynamic(
@@ -1204,6 +1204,11 @@ export default {
   '98-lord-krishna-s-chessboard': dynamic(
     () =>
       import(/* webpackChunkName: '98-lord-krishna-s-chessboard' */ '../contents/98-lord-krishna-s-chessboard.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'final-note': dynamic(
+    () =>
+      import(/* webpackChunkName: 'final-note' */ '../contents/final-note.js'),
     {loading: () => <DynamicLoading />}
   )
 }
