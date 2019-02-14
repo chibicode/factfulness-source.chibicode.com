@@ -5,6 +5,7 @@ import colors from '../lib/colors'
 import ExternalLink from './external-link'
 import InternalLink from './internal-link'
 import OtherCardLink from './other-card-link'
+import CardTitle from './card-title'
 
 const Content = ({
   jpPage,
@@ -62,17 +63,9 @@ const Content = ({
           </InternalLink>
         </div>
       )}
-
-      <h3
-        css={css`
-          margin-top: 0;
-          font-size: ${isModal ? '1.5rem' : '1.25rem'};
-          margin-bottom: ${jpPage && chapter ? '0.125rem' : '1rem'};
-          line-height: 1.5;
-        `}
-      >
-        {jpTitle}{' '}
-      </h3>
+      <CardTitle largeFont={isModal} smallMarginBottom={jpPage && chapter}>
+        {jpTitle}
+      </CardTitle>
       {jpPage && chapter && (
         <p
           css={css`
