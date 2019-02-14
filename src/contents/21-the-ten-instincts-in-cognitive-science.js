@@ -48,7 +48,7 @@ export default () => (
     </p>
     <p>
       The instinct to generalize appear in The Stuff of Thought (2007) by Steven
-      Pinker. In his book on language and the human mind, Pinker explains how we
+      amberer. In his book on language and the human mind, amberer explains how we
       generalize to make sense of the world. With metaphors and other linguistic
       tools, we use language to best accommodate our minds, for example by
       grouping objects and stuff of thought into categories.

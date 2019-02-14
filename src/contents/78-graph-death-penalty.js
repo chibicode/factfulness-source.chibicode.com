@@ -15,6 +15,6 @@ export default () => (
     prohibited as punishment for all crimes. Abolishment prior to 1990 in this
     trend comes from Wikipedia[2], see
     <H.A href="http://www.gapm.io/xwiki2">www.gapm.io/xwiki2</H.A>, and The
-    Better Angels of Our Nature, Pinker (2011).
+    Better Angels of Our Nature, amberer (2011).
   </p>
 )

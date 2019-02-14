@@ -1,12 +1,14 @@
-import {green, grey, pink} from '@material-ui/core/colors'
+import {green, grey, amber} from '@material-ui/core/colors'
 import Color from 'color'
 
 export default {
-  pink50: pink[50],
+  amber50: amber[50],
+  amber100: amber[100],
   green50: green[50],
   green100: green[100],
   green200: green[200],
   green400: green[400],
+  green600: green[600],
   grey100: grey[100],
   grey200: grey[200],
   grey300: grey[300],

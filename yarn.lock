@@ -2323,7 +2323,7 @@ del@^2.2.0:
     is-path-in-cwd "^1.0.0"
     object-assign "^4.0.1"
     pify "^2.0.0"
-    pinkie-promise "^2.0.0"
+    amberie-promise "^2.0.0"
     rimraf "^2.2.8"
 
 delegates@^1.0.0:
@@ -3249,7 +3249,7 @@ globby@^5.0.0:
     glob "^7.0.3"
     object-assign "^4.0.1"
     pify "^2.0.0"
-    pinkie-promise "^2.0.0"
+    amberie-promise "^2.0.0"
 
 globby@^6.1.0:
   version "6.1.0"
@@ -3260,7 +3260,7 @@ globby@^6.1.0:
     glob "^7.0.3"
     object-assign "^4.0.1"
     pify "^2.0.0"
-    pinkie-promise "^2.0.0"
+    amberie-promise "^2.0.0"
 
 globby@^8.0.0:
   version "8.0.2"
@@ -5109,16 +5109,16 @@ pify@^3.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
 
-pinkie-promise@^2.0.0:
+amberie-promise@^2.0.0:
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
+  resolved "https://registry.yarnpkg.com/amberie-promise/-/amberie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
   integrity sha1-ITXW36ejWMBprJsXh3YogihFD/o=
   dependencies:
-    pinkie "^2.0.0"
+    amberie "^2.0.0"
 
-pinkie@^2.0.0:
+amberie@^2.0.0:
   version "2.0.4"
-  resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
+  resolved "https://registry.yarnpkg.com/amberie/-/amberie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
 pkg-conf@^2.1.0:

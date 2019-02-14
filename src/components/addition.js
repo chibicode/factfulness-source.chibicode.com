@@ -15,7 +15,7 @@ const Addition = ({children, hideParens, ...props}) => (
   >
     <span
       css={css`
-        background: ${colors.pink50};
+        background: ${colors.amber100};
       `}
       {...props}
     >

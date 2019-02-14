@@ -20,6 +20,8 @@ const process = ({jpPage, enTitle, permalink, ...rest}) => ({
 
 const pagedSources = [
   {
+    section: '全般・見返し・はじめに',
+    chapter: '全般',
     jpPage: -103,
     enTitle: 'Inside cover at the end: People by region and income',
     jpTitle: '全般: 2017年のデータ',
@@ -27,24 +29,31 @@ const pagedSources = [
     constructionId: 'eext'
   },
   {
+    section: '全般・見返し・はじめに',
+    chapter: '全般',
     jpPage: -102,
     enTitle: 'Inside front cover: World Health Chart 2017',
     jpTitle: '全般: 国の名称について',
     permalink: 'country-names'
   },
   {
+    section: '全般・見返し・はじめに',
+    chapter: '見返し',
     jpPage: -101,
     enTitle: 'Inside front cover: World Health Chart 2017',
     jpTitle: '見返し: 世界保健チャート(2017年版)',
     permalink: 'inside-front-cover'
   },
   {
+    section: '全般・見返し・はじめに',
+    chapter: '見返し',
     jpPage: -100,
     enTitle: 'Inside cover at the end: People by region and income',
     jpTitle: '見返し: 地域ごとの人口・所得ごとの暮らし',
     permalink: 'inside-end-cover'
   },
   {
+    section: '全般・見返し・はじめに',
     chapter: 'はじめに',
     jpPage: 2,
     enPage: 'ix',
@@ -1791,6 +1800,8 @@ const pagedSources = [
     jpTitle: `ローカルな知識不足とデータ`
   },
   {
+    section: '最後に',
+    chapter: '最後に',
     jpPage: 1000,
     enTitle: 'Free global development data',
     jpTitle: '最後に: グローバルな開発に関する無料データ',

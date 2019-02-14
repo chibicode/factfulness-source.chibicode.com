@@ -3,6 +3,8 @@
     "jpPage": -103,
     "jpPageFirst": -103,
     "enTitle": "Inside cover at the end: People by region and income",
+    "section": "全般・見返し・はじめに",
+    "chapter": "全般",
     "jpTitle": "全般: 2017年のデータ",
     "constructionId": "eext",
     "permalink": "data-for-2017"
@@ -11,6 +13,8 @@
     "jpPage": -102,
     "jpPageFirst": -102,
     "enTitle": "Inside front cover: World Health Chart 2017",
+    "section": "全般・見返し・はじめに",
+    "chapter": "全般",
     "jpTitle": "全般: 国の名称について",
     "permalink": "country-names"
   },
@@ -18,6 +22,8 @@
     "jpPage": -101,
     "jpPageFirst": -101,
     "enTitle": "Inside front cover: World Health Chart 2017",
+    "section": "全般・見返し・はじめに",
+    "chapter": "見返し",
     "jpTitle": "見返し: 世界保健チャート(2017年版)",
     "permalink": "inside-front-cover"
   },
@@ -25,6 +31,8 @@
     "jpPage": -100,
     "jpPageFirst": -100,
     "enTitle": "Inside cover at the end: People by region and income",
+    "section": "全般・見返し・はじめに",
+    "chapter": "見返し",
     "jpTitle": "見返し: 地域ごとの人口・所得ごとの暮らし",
     "permalink": "inside-end-cover"
   },
@@ -32,6 +40,7 @@
     "jpPage": 2,
     "jpPageFirst": 2,
     "enTitle": "Gapminder",
+    "section": "全般・見返し・はじめに",
     "chapter": "はじめに",
     "enPage": "ix",
     "jpTitle": "ギャップマインダー財団",
@@ -2345,6 +2354,8 @@
     "jpPage": 1000,
     "jpPageFirst": 1000,
     "enTitle": "Free global development data",
+    "section": "最後に",
+    "chapter": "最後に",
     "jpTitle": "最後に: グローバルな開発に関する無料データ",
     "permalink": "final-note"
   }

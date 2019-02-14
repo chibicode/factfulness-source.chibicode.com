@@ -3,11 +3,12 @@ import {jsx, css} from '@emotion/core'
 import colors from '../lib/colors'
 import {ns} from './global-styles'
 
-const Card = ({children, isLast}) => (
+const Card = ({children, isLast, background, foreground}) => (
   <>
     <section
       css={css`
-        background: #fff;
+        background: ${background || '#fff'};
+        color: ${foreground || 'inherit'};
         border-radius: 0.5rem;
         padding: 1.25rem 0.875rem 0.25rem;
         word-wrap: break-word;

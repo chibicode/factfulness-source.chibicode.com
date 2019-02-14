@@ -4,7 +4,7 @@ import {titleArray, description} from '../lib/meta'
 import colors from '../lib/colors'
 import Book from './book'
 
-const Intro = () => (
+const IntroHero = () => (
   <>
     <h1
       css={css`
@@ -40,4 +40,4 @@ const Intro = () => (
   </>
 )
 
-export default Intro
+export default IntroHero

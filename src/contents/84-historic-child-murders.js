@@ -11,11 +11,11 @@ export default () => (
       more common. For 39 hunter-gatherers populations where archaeologists and
       anthropologists have assessed the causes of death, they have found flint
       arrowheads in chests and holes in skulls. And on average, the estimated
-      murder rate for these sites was at 16%; see Pinker[3] and
+      murder rate for these sites was at 16%; see amberer[3] and
       OurWorldInData[7]. Skeletons found in excavations of prehistoric massacres
       show that children were treated just as brutally as adults. Infanticide is
       found in many human groups with food scarcity across the world; see
-      Pinker[4]. The hunter-gatherer groups studied by Gurven and Kaplan (2007)
+      amberer[4]. The hunter-gatherer groups studied by Gurven and Kaplan (2007)
       showed that deaths under age-15 were on average caused by violence.
     </p>
     <p>
