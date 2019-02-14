@@ -12,10 +12,19 @@ const ExternalLink = ({transparentBackground, ...props}) => (
           <a
             {...props}
             css={css`
-              text-decoration: ${inFBContext ? 'none' : 'underline'};
+              text-decoration: none;
+              border-bottom: ${inFBContext
+                ? 'none'
+                : `1px solid ${colors.grey500}`};
               background-color: ${inAdditionContext || transparentBackground
                 ? 'transparent'
                 : colors.green50};
+
+              &:hover {
+                border-bottom: ${inFBContext
+                  ? 'none'
+                  : `1px solid ${colors.grey900}`};
+              }
             `}
           />
         )}
