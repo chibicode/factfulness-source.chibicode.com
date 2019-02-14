@@ -12,8 +12,8 @@ const ExternalLink = ({transparentBackground, ...props}) => (
           <a
             {...props}
             css={css`
-              text-decoration: none;
-              border-bottom: ${inFBContext
+              text-decoration: ${transparentBackground ? 'underline' : 'none'};
+              border-bottom: ${inFBContext || transparentBackground
                 ? 'none'
                 : `1px solid ${colors.grey500}`};
               background-color: ${inAdditionContext || transparentBackground
@@ -21,7 +21,7 @@ const ExternalLink = ({transparentBackground, ...props}) => (
                 : colors.green50};
 
               &:hover {
-                border-bottom: ${inFBContext
+                border-bottom: ${inFBContext || transparentBackground
                   ? 'none'
                   : `1px solid ${colors.grey900}`};
               }
