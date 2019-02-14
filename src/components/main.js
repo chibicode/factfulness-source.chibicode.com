@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import pagedSources from '../lib/paged-sources'
 import colors from '../lib/colors'
 import Card from './card'
@@ -24,25 +24,21 @@ const Main = () => {
             ? data.chapter
             : `第${data.chapter}章`)
         return (
-          <>
+          <Fragment key={data.permalink}>
             {(() => {
               if (lastSection !== nextSection) {
                 lastSection = nextSection
                 return (
-                  <Card
-                    key={lastSection}
-                    background={colors.green600}
-                    foreground="#fff"
-                  >
+                  <Card background={colors.green600} foreground="#fff">
                     <BeginNotes>{lastSection}</BeginNotes>
                   </Card>
                 )
               }
             })()}
-            <Card key={data.permalink}>
+            <Card>
               <Content {...data} />
             </Card>
-          </>
+          </Fragment>
         )
       })}
     </>
