@@ -30,7 +30,8 @@ const pagedSources = [
     jpPage: -103,
     enTitle: 'Inside cover at the end: People by region and income',
     jpTitle: '全般: 2017年のデータ',
-    permalink: 'data-for-2017'
+    permalink: 'data-for-2017',
+    constructionId: 'eext'
   },
   {
     jpPage: -102,
