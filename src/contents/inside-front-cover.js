@@ -42,9 +42,11 @@ export default () => (
       </H.FB>
     </p>
     <p>
-      このチャートや、出典についての情報は
-      <H.A href="https://www.gapminder.org/whc/">こちらから</H.A>
-      オンラインで無料で閲覧できる。
+      <H.FB pageNumber={373}>
+        このチャートは
+        <H.A href="https://www.gapminder.org/whc/">こちらから</H.A>
+        オンラインで無料で閲覧できる。
+      </H.FB>
     </p>
   </>
 )
