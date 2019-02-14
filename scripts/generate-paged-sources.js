@@ -21,6 +21,36 @@ const process = ({jpPage, hidePageNumber, enTitle, permalink, ...rest}) => ({
 
 const pagedSources = [
   {
+    jpPage: -104,
+    enTitle: 'A note about source acronyms',
+    jpTitle: '出典について',
+    permalink: 'source-acronyms'
+  },
+  {
+    jpPage: -103,
+    enTitle: 'Inside cover at the end: People by region and income',
+    jpTitle: '全般: 2017年のデータ',
+    permalink: 'data-for-2017'
+  },
+  {
+    jpPage: -102,
+    enTitle: 'Inside front cover: World Health Chart 2017',
+    jpTitle: '全般: 国の名称について',
+    permalink: 'country-names'
+  },
+  {
+    jpPage: -101,
+    enTitle: 'Inside front cover: World Health Chart 2017',
+    jpTitle: '見返し: 世界保健チャート(2017年版)',
+    permalink: 'inside-front-cover'
+  },
+  {
+    jpPage: -100,
+    enTitle: 'Inside cover at the end: People by region and income',
+    jpTitle: '見返し: 地域ごとの人口・所得ごとの暮らし',
+    permalink: 'inside-end-cover'
+  },
+  {
     chapter: 'はじめに',
     jpPage: 2,
     enPage: 'ix',
@@ -1767,10 +1797,9 @@ const pagedSources = [
     jpTitle: `ローカルな知識不足とデータ`
   },
   {
-    hidePageNumber: true,
-    jpPageNumber: 1000,
+    jpPage: 1000,
     enTitle: 'Free global development data',
-    jpTitle: 'グローバルな開発に関する無料データ',
+    jpTitle: '最後に: グローバルな開発に関する無料データ',
     permalink: 'final-note'
   }
 ].map(process)

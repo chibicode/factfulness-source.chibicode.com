@@ -1206,9 +1206,34 @@ export default {
       import(/* webpackChunkName: '98-lord-krishna-s-chessboard' */ '../contents/98-lord-krishna-s-chessboard.js'),
     {loading: () => <DynamicLoading />}
   ),
+  'country-names': dynamic(
+    () =>
+      import(/* webpackChunkName: 'country-names' */ '../contents/country-names.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'data-for-2017': dynamic(
+    () =>
+      import(/* webpackChunkName: 'data-for-2017' */ '../contents/data-for-2017.js'),
+    {loading: () => <DynamicLoading />}
+  ),
   'final-note': dynamic(
     () =>
       import(/* webpackChunkName: 'final-note' */ '../contents/final-note.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'inside-end-cover': dynamic(
+    () =>
+      import(/* webpackChunkName: 'inside-end-cover' */ '../contents/inside-end-cover.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'inside-front-cover': dynamic(
+    () =>
+      import(/* webpackChunkName: 'inside-front-cover' */ '../contents/inside-front-cover.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'source-acronyms': dynamic(
+    () =>
+      import(/* webpackChunkName: 'source-acronyms' */ '../contents/source-acronyms.js'),
     {loading: () => <DynamicLoading />}
   )
 }

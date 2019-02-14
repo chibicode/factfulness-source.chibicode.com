@@ -1,7 +1,7 @@
 import React from 'react'
 import * as H from '../components/h'
 
-const FinalNote = () => (
+export default () => (
   <>
     <p>
       この本を書けたのは、開発に関するデータや研究内容を無料で手に入れることができたからだ。1999年、世界銀行はそれまでで最も包括的なグローバル統計をCD‐ROMの形で発表した。それが、「世界開発指標」(“World
@@ -25,5 +25,3 @@ const FinalNote = () => (
     </p>
   </>
 )
-
-export default FinalNote
