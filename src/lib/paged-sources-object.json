@@ -1,10 +1,12 @@
 {
-  "jpPage": -103,
-  "jpPageFirst": -103,
-  "enTitle": "Inside cover at the end: People by region and income",
-  "jpTitle": "全般: 2017年のデータ",
-  "constructionId": "eext",
-  "permalink": "data-for-2017",
+  "data-for-2017": {
+    "jpPage": -103,
+    "jpPageFirst": -103,
+    "enTitle": "Inside cover at the end: People by region and income",
+    "jpTitle": "全般: 2017年のデータ",
+    "constructionId": "eext",
+    "permalink": "data-for-2017"
+  },
   "country-names": {
     "jpPage": -102,
     "jpPageFirst": -102,

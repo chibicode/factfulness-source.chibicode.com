@@ -4,17 +4,17 @@ import contentBundles from '../lib/content-bundles'
 import colors from '../lib/colors'
 import ExternalLink from './external-link'
 import InternalLink from './internal-link'
+import OtherCardLink from './other-card-link'
 
 const Content = ({
   jpPage,
-  CustomComponent,
   permalink,
   chapter,
   jpTitle,
   isModal,
   constructionId
 }) => {
-  const Component = CustomComponent || contentBundles[permalink]
+  const Component = contentBundles[permalink]
   return (
     <>
       {isModal && (
@@ -36,6 +36,7 @@ const Content = ({
             『ファクトフルネス』脚注
           </h1>
           <InternalLink
+            href="/"
             css={css`
               position: absolute;
               right: -0.5rem;
@@ -94,6 +95,7 @@ const Content = ({
           `}
         >
           <InternalLink
+            href="/"
             css={css`
               display: inline-block;
               background: ${colors.grey100};
@@ -122,7 +124,7 @@ const Content = ({
             justify-content: space-between;
           `}
         >
-          <InternalLink>固定リンク</InternalLink>
+          <OtherCardLink permalink={permalink}>固定リンク</OtherCardLink>
           {constructionId && (
             <>
               <ExternalLink

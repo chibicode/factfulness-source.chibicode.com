@@ -1,8 +1,7 @@
 const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
-const process = ({jpPage, hidePageNumber, enTitle, permalink, ...rest}) => ({
-  hidePageNumber,
+const process = ({jpPage, enTitle, permalink, ...rest}) => ({
   jpPage,
   jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
   enTitle,
@@ -1818,18 +1817,18 @@ pagedSources.sort((a, b) => {
 fs.writeFile(
   './src/lib/paged-sources.json',
   JSON.stringify(pagedSources, null, 2),
-  () => {}
-)
-
-fs.writeFile(
-  './src/lib/paged-sources-object.json',
-  JSON.stringify(
-    pagedSources.reduce((obj, item) => {
-      obj[item.permalink] = item
-      return obj
-    }),
-    null,
-    2
-  ),
-  () => {}
+  () => {
+    fs.writeFile(
+      './src/lib/paged-sources-object.json',
+      JSON.stringify(
+        pagedSources.reduce((obj, item) => {
+          obj[item.permalink] = item
+          return obj
+        }, {}),
+        null,
+        2
+      ),
+      () => {}
+    )
+  }
 )
