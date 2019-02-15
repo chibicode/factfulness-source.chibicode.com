@@ -8,11 +8,10 @@ export default () => (
       <H.A href="http://gapm.io/xnegtrop">WHO[15]</H.A>
       )で見ることができる。エボラは最近までこのリストに載っていた。
     </H.FB>
-    See also
+    また、医療ジャーナルのGlob Health Actionに掲載された
     <H.A href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4306754/">
-      this article by Von Philipsborn (2015)
+      Von Philipsborn (2015)の記事
     </H.A>
-    in Glob Health Action that evaluate poverty in relation to neglect in
-    R&amp;D.
+    には、研究開発の軽視と貧困についてより詳しく書かれている。
   </p>
 )
