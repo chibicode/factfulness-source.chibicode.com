@@ -95,7 +95,7 @@ const Content = ({
               display: inline-block;
               background: ${colors.grey100};
               text-decoration: none;
-              border: 2px solid ${colors.grey300};
+              border: 2px solid ${colors.grey500};
               color: ${colors.grey700};
               font-weight: bold;
               font-size: 0.85rem;
