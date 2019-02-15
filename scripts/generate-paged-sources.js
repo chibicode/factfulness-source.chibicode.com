@@ -49,7 +49,7 @@ const pagedSources = [
     chapter: '見返し',
     jpPage: -100,
     enTitle: 'Inside cover at the end: People by region and income',
-    jpTitle: '見返し: 地域ごとの人口・所得ごとの暮らし',
+    jpTitle: '見返し: 地域ごと・所得ごとの暮らしと人口',
     permalink: 'inside-end-cover'
   },
   {
@@ -1813,15 +1813,19 @@ pagedSources.sort((a, b) => {
   if (a.jpPageFirst < b.jpPageFirst) {
     return -1
   }
+
   if (a.jpPageFirst > b.jpPageFirst) {
     return 1
   }
+
   if (a.permalink < b.permalink) {
     return -1
   }
+
   if (a.permalink > b.permalink) {
     return 1
   }
+
   return 0
 })
 
