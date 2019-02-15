@@ -3,7 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Compare progress in India and Mozambique in
-    <H.A href="https://bit.ly/2nqhF92">this animated chart</H.A>.
+    インドとモザンビークの成長は
+    <H.A href="https://bit.ly/2nqhF92">こちらのバブルチャート</H.A>
+    で比べることができる。
   </p>
 )
