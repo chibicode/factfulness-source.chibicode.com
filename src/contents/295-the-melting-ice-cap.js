@@ -3,11 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The website Greenland Today shows the melting at the North Pole, using
-    satellite images to keep track of the ice cap every day:
-    <H.A href="https://nsidc.org/greenland-today">
-      https://nsidc.org/greenland-today
-    </H.A>
-    .
+    <H.A href="https://nsidc.org/greenland-today">Greenland Today</H.A>
+    というサイトを見れば、北極の氷が溶けていくさまが衛星写真で逐次確認できる。
   </p>
 )
