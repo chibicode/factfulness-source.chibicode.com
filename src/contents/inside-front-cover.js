@@ -7,22 +7,14 @@ export default () => (
       <H.FB pageNumber={373}>
         この本を開いたとき、最初に読者が目にするのはカラフルな世界保健チャート(2017年版)だ。
       </H.FB>
-      When you open the book, you see a colorful chart: the World Health Chart
-      2017. This chart shows 182 states recognized by the UN, only excluding
-      those with the smallest populations (such as the Vatican).
+      国連加盟国のうち、バチカン市国など、人口が極端に少ない国を除く182カ国を掲載している。
       <H.FB pageNumber={373}>
         それぞれの丸は国を表している。丸の大きさは人口、色は地域に対応している。
       </H.FB>
     </p>
     <p>
-      Gapminder has defined four regions, and color coded each of them: green
-      for the Americas, blue for Africa, red for Asia and Australia, and yellow
-      for Europe, including Greenland, Russia, and some parts of Central Asia.
-      Read more about the&nbsp;
-      <H.A href="http://www.gapm.io/ireg">
-        four regions we use in our global graphs
-      </H.A>
-      .
+      ギャップマインダーはすべての国を地域ごとに4つに分類し、それぞれ色分けしている。アメリカ大陸は緑、アフリカは青、アジアとオセアニアは赤、ヨーロッパは黄色だ。グリーンランド、ロシア、一部の中央アジアもヨーロッパに分類している。どの国がどの地域に属すかは
+      <H.A href="http://www.gapm.io/ireg">こちらに書いている</H.A>。
     </p>
     <p>
       <H.FB pageNumber={373}>
