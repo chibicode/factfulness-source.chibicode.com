@@ -5,7 +5,7 @@ import Card from './card'
 import Content from './content'
 import IntroHero from './intro-hero'
 import IntroDisclaimer from './intro-disclaimer'
-import BeginNotes from './begin-notes'
+import SectionHeader from './section-header'
 
 const Main = () => {
   let lastSection
@@ -30,7 +30,7 @@ const Main = () => {
                 lastSection = nextSection
                 return (
                   <Card background={colors.green600} foreground="#fff">
-                    <BeginNotes>{lastSection}</BeginNotes>
+                    <SectionHeader>{lastSection}</SectionHeader>
                   </Card>
                 )
               }
