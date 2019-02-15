@@ -4,16 +4,14 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      When classifying countries based on religion, we no longer use the term
-      'majority religion'. We only use this term when talking about the 40
-      countries back in 1960 (p. 175 in Factfulness) for comparison. Estimates
-      of{' '}
-      <H.A href="http://gapm.io/xpewrel1">Religious Composition by Country</H.A>
-      by Pew Research Center show percentages of those affiliated with any
-      religion (or not) by country as of 2010 and in the future.
       <H.FB pageNumber={361}>
-        ほとんどの国では、人口の過半数が世界的な宗教のひとつを信仰していて、チャートを見ればどの国がどの宗教に属しているかがわかる。しかし、どの宗教が多数派かがはっきりしない国も多い。たとえば、ピュー研究所のデータ(Pew[2,3])に基づいてわたしたちが算出したところ、ニカラグアでは2010年時点で人口の49%がキリスト教徒で、48%がイスラム教徒だった
+        ほとんどの国では、人口の過半数が世界的な宗教のひとつを信仰していて、チャートを見ればどの国がどの宗教に属しているかがわかる。しかし、どの宗教が多数派かがはっきりしない国も多い。たとえば、
+        <H.A href="http://gapm.io/xpewrel1">
+          ピュー研究所のデータ(Pew[2,3]: Religious Composition by Country)
+        </H.A>
+        に基づいてわたしたちが算出したところ、ニカラグアでは2010年時点で人口の49%がキリスト教徒で、48%がイスラム教徒だった。
       </H.FB>
+      ちなみにピュー研究所は、2010年のデータと未来のデータを掲載している。
     </p>
     <p>
       <H.FB pageNumber={360}>
