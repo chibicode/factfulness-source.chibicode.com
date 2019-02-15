@@ -43,6 +43,9 @@ export default () => (
       <H.A href="https://bit.ly/2IxvIAI">http://bit.ly/2IxvIAI</H.A>
     </p>
     <p>
+      <img src="/static/images/sources/sweden-north-africa.jpg" alt="" />
+    </p>
+    <p>
       To estimate the average lifespan for the countries and regions mentioned
       above, we looked at GBD, the table showing life expectancy every five
       years from 1970 to 2016. For sub-Saharan Africa, life expectancy is 62.87

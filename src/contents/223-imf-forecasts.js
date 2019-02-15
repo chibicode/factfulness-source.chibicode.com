@@ -22,8 +22,17 @@ export default () => (
       Economic Outlook from previous years IMF[2-10]:
     </p>
     <p>Advanced economies</p>
+    <p>
+      <img src="/static/images/sources/imf-advanced.jpg" alt="" />
+    </p>
     <p>Sub-Saharan Africa</p>
+    <p>
+      <img src="/static/images/sources/imf-ssa.jpg" alt="" />
+    </p>
     <p>Where growth happened</p>
+    <p>
+      <img src="/static/images/sources/imf-top-growth.jpg" alt="" />
+    </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
 

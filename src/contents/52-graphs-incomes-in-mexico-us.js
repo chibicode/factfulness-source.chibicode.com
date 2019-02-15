@@ -27,6 +27,9 @@ export default () => (
       look like if they were drawn on a linear scale. For more details see:
       <H.A href="http://gapm.io/fbincmlinlog">gapm.io/fbincmlinlog</H.A>
     </p>
+    <p>
+      <img src="/static/images/sources/us-mexico-linear-graph.jpg" alt="" />
+    </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
 
@@ -45,9 +48,8 @@ export default () => (
       </li>
       <li>
         <H.A href="http://iresearch.worldbank.org/PovcalNet">
-          PovcalNet "An Online Analysis Tool for Global Poverty
-          Monitoring." Founded by Martin Ravallion, at the World Bank.
-          2017/11/30閲覧。
+          PovcalNet "An Online Analysis Tool for Global Poverty Monitoring."
+          Founded by Martin Ravallion, at the World Bank. 2017/11/30閲覧。
         </H.A>
       </li>
     </ul>
