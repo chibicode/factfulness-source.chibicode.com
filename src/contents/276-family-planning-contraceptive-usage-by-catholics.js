@@ -4,17 +4,15 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The data on contraceptive use in Catholic-majority countries---60
-      percent---come from the ARDA, using data from their
+      「カトリック教徒が多数派を占める国における避妊具の使用率が60%」というデータは、ARDAによる
       <H.A href="http://www.thearda.com/Archive/Files/Codebooks/WRPNATL_CB.asp">
         National Religion Dataset
       </H.A>
-      , aggregate weighted by total population. The global rates for the rest of
-      the world come from
+      を参考にしている。こちらは各国の人口比をもとにデータを調整した。また、世界全体の避妊具の使用率は
       <H.A href="http://www.un.org/en/development/desa/population/theme/family-planning/cp_model.shtml">
         UN-Pop[9]
       </H.A>
-      , "Model-based estimates and projections: Countries."
+      を参考にしている。
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
