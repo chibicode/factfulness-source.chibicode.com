@@ -30,7 +30,7 @@ export default () => (
       1.636 in Iran; 1.876 in the US; and 1.909 in Sweden, based on total
       fertility (TFR) data from UN's
       <H.A href="https://esa.un.org/unpd/wpp/">
-        World Population Prospects 2017
+        世界人口予測 2017
       </H.A>
       .
       <H.FB pageNumber={361}>

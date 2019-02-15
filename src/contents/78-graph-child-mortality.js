@@ -39,7 +39,7 @@ export default () => (
       <li>
         1950--2017. UN-Pop[1],
         <H.A href="https://esa.un.org/unpd/wpp/Download/Standard/Interpolated/">
-          World Population Prospects 2017
+          世界人口予測 2017
         </H.A>
         , provides annual data of the child mortality rate for all countries in
         the interpolated demographic indicators.

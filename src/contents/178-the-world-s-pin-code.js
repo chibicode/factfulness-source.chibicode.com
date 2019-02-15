@@ -5,7 +5,7 @@ export default () => (
   <p>
     These maps show the official UN forecasts, rounded to billions, from the
     <H.A href="https://esa.un.org/unpd/wpp/">
-      2017 Revision of World Population Prospects
+      2017 Revision of 世界人口予測
     </H.A>
     from UN-Pop[1]. The world population was 7.55 billion in 2017 according to
     their estimates. That would usually be rounded to 8 billion, but we show 7

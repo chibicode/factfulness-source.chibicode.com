@@ -4,14 +4,13 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      巻末の見返しには地域ごとの人口と所得ごとの暮らしを掲載している。 The chart
-      on the pastedown at the end of the book shows people by region and income.
-      The maps show the
-      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[1]</H.A> population numbers
-      from the medium fertility variant of the World Population Prospect 2017,
-      rounded to full billions by
-      <H.A href="http://gapm.io/elev">Gapminder[3]</H.A>. Household per capita
-      are in PPP 2011 $/day using PPP from
+      巻末の見返しには地域ごとの人口と所得ごとの暮らしを掲載している。地域ごとの人口は、国連人口部による2017年の世界人口予測(
+      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[1]</H.A>
+      )の出生率中位予測を基にしている。人口は10億人単位で記号にしている(
+      <H.A href="http://gapm.io/elev">Gapminder[3]</H.A>を参考に)。 The maps
+      show the population numbers from the medium fertility variant of the World
+      Population Prospect 2017, rounded to full billions by . Household per
+      capita are in PPP 2011 $/day using PPP from
       <H.A href="http://www.gapm.io/x-icpp">ICP[1]</H.A>. Income and gini data
       for 2013 comes from
       <H.A href="http://iresearch.worldbank.org/PovcalNet">PovCal</H.A>,

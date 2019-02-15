@@ -23,7 +23,7 @@ export default () => (
       using the percentage change expected by UN WPP 2017 medium fertility
       variant from
       <H.A href="https://esa.un.org/unpd/wpp/Download/Standard/Interpolated/">
-        World Population Prospects 2017
+        世界人口予測 2017
       </H.A>
       .
     </p>
