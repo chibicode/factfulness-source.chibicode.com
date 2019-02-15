@@ -4,23 +4,23 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The UNFPA[2] report about Access to Safe Abortion present these findings:
+      国連人口基金が発表した、安全な中絶処置へのアクセスに関する報告書(UNFPA[2])には、次のように書かれている:
     </p>
     <p>
-      "Whether legally restricted or not, abortions continue to occur with
-      abortion rates being higher where it is restricted than where it is
-      permitted on request or under broad grounds (....) Where abortion is
-      legally highly restricted, the incidence of unsafe abortion and related
-      mortality is high. Legal restrictions also result in major inequity in
-      access to safe providers, as women in urban areas and those who can afford
-      to pay can access physicians or travel abroad to procure abortion."
+      「法的に禁止されていようと、中絶がなくなることはない。中絶がさまざまな条件下、または一部の条件下で認められている地域よりも、中絶に厳しい地域のほうが中絶率が高くなる。(中略)
+      特に取り締まりが厳しい地域では、危険な中絶処置が行われる確率や、中絶による死亡率も高くなる。また、法律が厳しくなればなるほど、安全な中絶処置を行える施設の数も減る。すると、安全な中絶を行えるのは、都会に暮らす人や、中絶が認められている地域に旅行できる人に限られてしまう。これは格差を広げることになる。」
     </p>
     <p>
       <H.FB pageNumber={357}>
         <H.A href="http://www.gapm.io/xabor">
           安全な中絶に関する世界保健機構の指針は次の通り
         </H.A>
-        :「安全な中絶処置を受けにくくすれば、危険な中絶と望まない出産が増えることになる。危険な中絶によって女性が死亡したり病気になったりするのはほぼすべて、中絶が法律によって厳しく制限されているか、現実的に中絶が受けられないような国で起きている。
+        :
+      </H.FB>
+    </p>
+    <p>
+      <H.FB pageNumber={357}>
+        「安全な中絶処置を受けにくくすれば、危険な中絶と望まない出産が増えることになる。危険な中絶によって女性が死亡したり病気になったりするのはほぼすべて、中絶が法律によって厳しく制限されているか、現実的に中絶が受けられないような国で起きている。」
       </H.FB>
     </p>
   </>
