@@ -10,8 +10,8 @@ export default () => (
     everyday, fulfilling these tasks. Read more in the [UNICEF
     <H.A href="http://gapm.io/xunicef2">2</H.A>] publication:
     <H.A href="http://gapm.io/xunicef2">
-      &quot;Narrowing the Gaps---The Power of Investing in the Poorest
-      Children.&quot;
+      "Narrowing the Gaps---The Power of Investing in the Poorest
+      Children."
     </H.A>
   </p>
 )

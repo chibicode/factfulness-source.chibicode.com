@@ -37,14 +37,14 @@ export default () => (
     <ul>
       <li>
         <H.A href="https://www.ourworldindata.org/eradication-of-diseases">
-          Max Roser (2018) &quot;Eradication of Diseases&quot; Smallpox.
+          Max Roser (2018) "Eradication of Diseases" Smallpox.
         </H.A>
       </li>
       <li>
         <H.A href="http://www.rstb.royalsocietypublishing.org/content/368/1623/20120137">
-          Klepac, Petra, et al &quot;Towards the endgame and beyond:
+          Klepac, Petra, et al "Towards the endgame and beyond:
           complexities and challenges for the elimination of infectious
-          diseases.&quot; Figure 1. Phil. Trans. R. Soc. B June 24, 2013.
+          diseases." Figure 1. Phil. Trans. R. Soc. B June 24, 2013.
         </H.A>{' '}
         DOI: 10.1098/rstb.2012.0137
       </li>

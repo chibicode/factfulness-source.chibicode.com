@@ -13,8 +13,8 @@ export default () => (
     articles that are more like modern day scientific articles, excluding book
     reviews and extracts from letters). Another scientific journal, Journal des
     Sçavans, was established in France in the same year, but without
-    peer-reviewing. See &quot;Elsevier Publishing---A Look at the Numbers, and
-    More.&quot; at
+    peer-reviewing. See "Elsevier Publishing---A Look at the Numbers, and
+    More." at
     <H.A href="http://www.gapm.io/xelsevier">www.gapm.io/xelsevier</H.A>.
   </p>
 )

@@ -3,7 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    See last two sheets &quot;speed of u5mr drop.xlsx&quot; The under-5
+    See last two sheets "speed of u5mr drop.xlsx" The under-5
     mortality rates for all countries were turned into five year averages (pre
     1800, 10 year averages) to get rid of temporary enormous drops and data
     artefacts. We calculated all 57 year periods for all countries and SAA's

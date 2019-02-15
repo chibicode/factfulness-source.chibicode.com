@@ -21,10 +21,10 @@ export default () => (
       it still is; see{' '}
       <H.A href="http://www.gapm.io/xiucnr1">IUCN Red List[1]</H.A>. According
       to a statement from <H.A href="http://gapm.io/xwwftiger">WWF</H.A>
-      in 2016, the number of wild tigers are increasing: &quot;After a century
+      in 2016, the number of wild tigers are increasing: "After a century
       of decline, tiger numbers are on the rise. At least 3,890 tigers remain in
       the wild, but much more work is needed to protect this species that's
-      still vulnerable to extinction.&quot; See also Platt (2016) in Scientific
+      still vulnerable to extinction." See also Platt (2016) in Scientific
       American
       <H.A href="https://blogs.scientificamerican.com/extinction-countdown/tiger-populations-increasing/">
         reporting on the rising tiger numbers
@@ -55,20 +55,20 @@ export default () => (
     <ul>
       <li>
         <H.A href="http://www.gapm.io/xiucnr1">
-          IUCN Red List[1] Goodrich, J., et al. &quot;Panthera tigris
-          (Tiger).&quot; (2015) e.T15955A50659951.
+          IUCN Red List[1] Goodrich, J., et al. "Panthera tigris
+          (Tiger)." (2015) e.T15955A50659951.
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xiucn2">
-          IUCN Red List[2] Swaisgood, R., et al. &quot;Ailuropoda melanoleuca
-          (Giant Panda).&quot; (2016) e.T712A121745669.
+          IUCN Red List[2] Swaisgood, R., et al. "Ailuropoda melanoleuca
+          (Giant Panda)." (2016) e.T712A121745669.
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xiucn3">
-          IUCN Red List[3] Emslie, R. &quot;Diceros bicornis (Black Rhinoceros,
-          Hook-lipped Rhinoceros).&quot; (2012) e.T6557A16980917.
+          IUCN Red List[3] Emslie, R. "Diceros bicornis (Black Rhinoceros,
+          Hook-lipped Rhinoceros)." (2012) e.T6557A16980917.
         </H.A>
       </li>
       <li>

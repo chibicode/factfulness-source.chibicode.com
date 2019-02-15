@@ -18,8 +18,8 @@ export default () => (
     <ul>
       <li>
         <H.A href="http://www.gapm.io/x-icpp">
-          ICP[1] (International Comparison Program) &quot;Purchasing Power
-          Parity $ 2011.&quot;
+          ICP[1] (International Comparison Program) "Purchasing Power
+          Parity $ 2011."
         </H.A>
       </li>
     </ul>

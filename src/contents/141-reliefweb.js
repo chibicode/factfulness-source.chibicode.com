@@ -15,8 +15,8 @@ export default () => (
     <H.A href="http://www.gapm.io/xreliefwb">
       describes how the money was used
     </H.A>
-    , stating that &quot;the Red Crescent is also working with the United
+    , stating that "the Red Crescent is also working with the United
     Nations' World Food Programme to distribute 112.5 tonnes of biscuits to
-    30,000 families in Cox's Bazar.&quot;
+    30,000 families in Cox's Bazar."
   </p>
 )

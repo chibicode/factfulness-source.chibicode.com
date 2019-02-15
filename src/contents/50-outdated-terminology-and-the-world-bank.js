@@ -11,7 +11,7 @@ export default () => (
     taken the challenge. With references to Hans's latest presentation, and to
     an interview with Bill Gates in the New York Times, the World Bank finally
     announced that they planned to phase out the use of the term
-    &quot;developing world&quot;. They illustrated their decision with a version
+    "developing world". They illustrated their decision with a version
     of the two boxes bubble graph used in this book.
   </p>
 )

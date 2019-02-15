@@ -14,7 +14,7 @@ export default () => (
       <H.A href="http://www.un.org/en/development/desa/population/theme/family-planning/cp_model.shtml">
         UN-Pop[9]
       </H.A>
-      , &quot;Model-based estimates and projections: Countries.&quot;
+      , "Model-based estimates and projections: Countries."
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>

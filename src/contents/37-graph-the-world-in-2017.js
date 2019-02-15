@@ -30,11 +30,11 @@ export default () => (
     <p>
       The two boxes are not showing any official thresholds. They are there for
       comparison with the world in 1965. In 2017, only 13 countries with 6.4
-      percent of the world population are still in the &quot;developing&quot;
+      percent of the world population are still in the "developing"
       box. Those are as follows: Angola, Burkina Faso, Burundi, Chad, DR Congo,
       East Timor, Gambia, Mali, Mozambique, Niger, Nigeria, Somalia and Uganda.
       37 countries with 8.4% of the world population are between the boxes. 134
-      countries are in the &quot;developed&quot; box. For an interactive version
+      countries are in the "developed" box. For an interactive version
       of the chart, see <H.A href="http://gapm.io/voutdwv">gapm.io/voutdwv</H.A>
       .
     </p>

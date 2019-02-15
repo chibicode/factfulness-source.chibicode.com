@@ -5,8 +5,8 @@ export default () => (
   <>
     <p>
       The current ILO (International Labour Organization) definition of
-      &quot;child labor&quot; excludes light part-time work, and includes only
-      the so called &quot;worst forms of child labour&quot;; see
+      "child labor" excludes light part-time work, and includes only
+      the so called "worst forms of child labour"; see
       <H.A href="http://gapm.io/xilo182">ILO[6]</H.A>.
       <H.A href="about:blank">Gapminder[42]</H.A> combines data from three
       different ILO reports, using three age intervals; ILO[
@@ -41,8 +41,8 @@ export default () => (
     <ul>
       <li>
         <H.A href="https://ourworldindata.org/child-labor">
-          OurWorldInData[3] Roser, Max, and Esteban Ortiz-Ospina. &quot;Child
-          Labor.&quot; 2017/11/20閲覧。
+          OurWorldInData[3] Roser, Max, and Esteban Ortiz-Ospina. "Child
+          Labor." 2017/11/20閲覧。
         </H.A>
       </li>
     </ul>

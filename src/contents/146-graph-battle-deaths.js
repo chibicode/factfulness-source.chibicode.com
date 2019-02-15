@@ -26,8 +26,8 @@ export default () => (
     estimated with a different method, based on sample surveys of the local
     population in war-torn areas, who report how many family members they lost
     in conflict, with the so called sibling method. These authors claim
-    explicitly that &quot;there's no evidence to support a recent decline in war
-    deaths&quot; since the Vietnam War. But the representativeness of the sample
+    explicitly that "there's no evidence to support a recent decline in war
+    deaths" since the Vietnam War. But the representativeness of the sample
     is not a trivial problem in these extreme events, and the number easily gets
     exaggerated when a local death toll is multiplied to a broader population.
     As there is little chance that new primary data will show up about past

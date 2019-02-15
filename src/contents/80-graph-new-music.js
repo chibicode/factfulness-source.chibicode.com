@@ -3,7 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The first time music was &quot;recorded&quot; was for experimental purposes
+    The first time music was "recorded" was for experimental purposes
     in 1857. Since then, music recording have increased both in terms of quality
     and quantity. The curve shows the number of songs on Spotify, based on the
     recording date as stated by the

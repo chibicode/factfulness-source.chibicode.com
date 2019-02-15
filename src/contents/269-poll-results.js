@@ -8,6 +8,6 @@ export default () => (
     Geographic and the Discovery Channel. As it says in the book, journalists
     and documentarians are not lying---most of the journalists and filmmakers
     who inform us about the world have themselves a skewed worldview (see also
-    &quot;Who Should You Blame?&quot; on page 221 in the book).
+    "Who Should You Blame?" on page 221 in the book).
   </p>
 )

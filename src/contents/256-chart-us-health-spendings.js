@@ -57,7 +57,7 @@ export default () => (
       <li>
         <H.A href="http://www.gapm.io/x-ushealth">
           OECD[1] (Organisation for Economic Co-operation and Development).
-          &quot;Why is Health Spending in the United States so High?&quot; Chart
+          "Why is Health Spending in the United States so High?" Chart
           4: Health spending per capita by category of care, US and selected
           OECD countries, 2009. Health at a Glance 2011: OECD Indicators.
         </H.A>
@@ -65,7 +65,7 @@ export default () => (
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb1724">
-          World Bank[24] &quot;Health expenditure, total (% of GDP).&quot; World
+          World Bank[24] "Health expenditure, total (% of GDP)." World
           Health Organization Global Health Expenditure Database, 2017.
         </H.A>
       </li>

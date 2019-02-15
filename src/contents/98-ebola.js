@@ -26,9 +26,9 @@ export default () => (
     <ul>
       <li>
         <H.A href="http://www.gapm.io/xeboresp">
-          WHO[3] WHO Ebola Response Team &quot;Ebola Virus Disease in West
+          WHO[3] WHO Ebola Response Team "Ebola Virus Disease in West
           Africa---The First 9 Months of the Epidemic and Forward
-          Projections.&quot; New England Journal of Medicine 371 (October 6,
+          Projections." New England Journal of Medicine 371 (October 6,
           2014): 1481--95.
         </H.A>
         DOI: 10.1056/NEJMoa1411100

@@ -10,9 +10,9 @@ export default () => (
       paleodemography generally expect that at least 30% of all deaths happened
       before adulthood in all archeological populations. Lewis (2006) has a list
       of sites with many recorded non-adult skeletons, and argues that
-      &quot;large numbers of non-adult remains have been recovered from cemetery
+      "large numbers of non-adult remains have been recovered from cemetery
       sites, and continue to be housed in museums and universities ready for
-      study.&quot; (from
+      study." (from
       <H.A href="https://www.cambridge.org/core/books/bioarchaeology-of-children/AE18D0323BC1F49700ECC42DA79AF011">
         The Bioarchaeology of Children
       </H.A>
@@ -31,14 +31,14 @@ export default () => (
     <ul>
       <li>
         Lewis (2006) Mary E. Lewis The Bioarchaeology of Children: Perspectives
-        from Biological and Forensic Anthropology &quot;2- Fragile bones and
-        shallow graves.&quot; Cambridge U P. See p. 20 and Table 2.1. DOI:
+        from Biological and Forensic Anthropology "2- Fragile bones and
+        shallow graves." Cambridge U P. See p. 20 and Table 2.1. DOI:
         10.1017/CBO9780511542473.002
       </li>
       <li>
         <H.A href="https://www.sciencedirect.com/science/article/pii/S0018442X15000748">
-          Manifold (2014) &quot;Skeletal preservation of children's remains in
-          the archaeological record.&quot; HOMO-Journal of Comparative Human
+          Manifold (2014) "Skeletal preservation of children's remains in
+          the archaeological record." HOMO-Journal of Comparative Human
           Biology 66 6: pp. 520-548.
         </H.A>
         . DOI: 10.1016/j.jchb.2015.04.003

@@ -8,7 +8,7 @@ export default () => (
       Ordinary Disruption(2016)にて書いている。
     </H.FB>
     illustrated by the peaks in the trend line on page 88. In his article
-    &quot;How Should We Prevent the Next Financial Crisis?&quot; (2015) Ricardo
+    "How Should We Prevent the Next Financial Crisis?" (2015) Ricardo
     Hausmann suggests that since the financial system constantly changes, it is
     difficult to learn from past mistakes---our next financial crisis will
     simply not look like any other that has happened before. Many countries have

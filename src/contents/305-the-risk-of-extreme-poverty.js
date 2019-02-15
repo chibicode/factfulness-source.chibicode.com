@@ -77,21 +77,21 @@ export default () => (
       <li>
         <H.A href="http://www.gapm.io/xodi">
           ODI (Overseas Development Institute) Greenhill, Romilly, Paddy Carter,
-          Chris Hoy, and Marcus Manuel (2015) &quot;Financing the future: how
+          Chris Hoy, and Marcus Manuel (2015) "Financing the future: how
           international public finance should fund a global social compact to
-          eradicate poverty.&quot;
+          eradicate poverty."
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xpriod">
-          PRIO &quot;The Battle Deaths Dataset version 3.1.&quot; Updated in
+          PRIO "The Battle Deaths Dataset version 3.1." Updated in
           2006; 1946--2008. See Gleditsch and Lacina (2005). 2017/11/12閲覧
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb1726">
           World Bank[26] Newhouse, David, Pablo Suarez-Becerra and Martin C.
-          Evans (2016) &quot;New Estimates of Extreme Poverty for Children&quot;
+          Evans (2016) "New Estimates of Extreme Poverty for Children"
           Policy Research Working Paper.
         </H.A>
       </li>

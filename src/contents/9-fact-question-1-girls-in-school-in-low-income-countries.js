@@ -43,20 +43,20 @@ export default () => (
     <ul>
       <li>
         <H.A href="http://www.gapm.io/xwb172">
-          World Bank[2] &quot;World Bank Country and Lending Groups.&quot;
+          World Bank[2] "World Bank Country and Lending Groups."
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb173">
-          World Bank[3] &quot;Primary completion rate, female (% of relevant age
-          group).&quot;
+          World Bank[3] "Primary completion rate, female (% of relevant age
+          group)."
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xuisoutsf">
           UNESCO[3] (United Nations Educational, Scientific and Cultural
-          Organization) &quot;Education: Out-of-school rate for children of
-          primary school age, female.&quot;
+          Organization) "Education: Out-of-school rate for children of
+          primary school age, female."
         </H.A>
       </li>
       <li>

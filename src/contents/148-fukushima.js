@@ -22,7 +22,7 @@ export default () => (
       </H.FB>{' '}
       The contamination of the very word Fukushima is discussed in the book
       <H.A href="https://www.elsevier.com/books/hazards-risks-and-disasters-in-society/shroder/978-0-12-396451-9">
-        &quot;Hazards, Risks, and Disasters in Society&quot;
+        "Hazards, Risks, and Disasters in Society"
       </H.A>
       by John Shroder (2014).
     </p>

@@ -35,7 +35,7 @@ export default () => (
       <li>
         <H.A href="http://www.gapm.io/xpopfut2">
           UN-Pop[7] Andreev, K., V. Kantorová, and J. Bongaarts.
-          &quot;Demographic components of future population growth.&quot;
+          "Demographic components of future population growth."
           Technical paper no. 2013/3. United Nations DESA Population Division,
           2013.
         </H.A>

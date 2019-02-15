@@ -32,8 +32,8 @@ export default () => (
       <H.A href="https://en.wikipedia.org/wiki/Great_Chinese_Famine">
         Great Chinese Famine
       </H.A>
-      , &quot;the single biggest famine event in history in terms of absolute
-      numbers of death&quot; on Wikipedia. The most accurate number is probably
+      , "the single biggest famine event in history in terms of absolute
+      numbers of death" on Wikipedia. The most accurate number is probably
       estimated at 40 million people who died during the Chinese famine; see
       <H.A href="http://www.necrometrics.com/20c5m.htm#Mao">
         necrometrics

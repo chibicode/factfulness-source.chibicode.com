@@ -9,10 +9,10 @@ export default () => (
     </H.A>
     (FSA) sent photographers across the nation to understand what it looked
     like, resulting in famous black and white images from the rural poor. In
-    Sweden in 1938, Ludvig &quot;Lubbe&quot; Nordström gave eye witness reports
+    Sweden in 1938, Ludvig "Lubbe" Nordström gave eye witness reports
     to radio listeners on the national radio report series called Dirt Sweden.
-    It is described in the article &quot;Culture, Health, and Religion at the
-    Millennium: Sweden Unparadised&quot; by Demker et al. (2014). These human
+    It is described in the article "Culture, Health, and Religion at the
+    Millennium: Sweden Unparadised" by Demker et al. (2014). These human
     faces to mobilized support for massive development investments across these
     countries, leading to the Swedish welfare system being constructed and the
     New Deal in the US.

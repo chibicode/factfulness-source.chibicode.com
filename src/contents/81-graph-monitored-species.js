@@ -7,7 +7,7 @@ export default () => (
     includes an impressive 87,967 wildlife lkölspecies (animals, fungi and
     plants), each with an expert assessments of threat-status. Out of these,
     25,062 (approximately 28%) today fall within one of the the three
-    &quot;threatened&quot; categories: Critically Endangered (CR), Endangered
+    "threatened" categories: Critically Endangered (CR), Endangered
     (EN), or Vulnerable (VU). Despite the fact that the status of many of these
     species is not improving, we consider it a great improvement that they are
     at least monitored. Data after 2000 come from Red List[4]. The estimates for
@@ -25,7 +25,7 @@ export default () => (
       page 4, Red List 1996 edition
     </H.A>
     . The first systematic approach to register and monitor threatened species
-    was the 1959 &quot;Threatened Mammals Card Index&quot;. It compiled data
+    was the 1959 "Threatened Mammals Card Index". It compiled data
     about 34 mammal species and was managed by The Species Survival Commission
     under Leofric Boyle,
     <H.A href="http://support.iucnredlist.org/about">

@@ -10,7 +10,7 @@ export default () => (
       explained it to Hans Rosling like this:
     </p>
     <p>
-      &quot;Fertility runs the show. It's reduced fertility rate that will slow
+      "Fertility runs the show. It's reduced fertility rate that will slow
       down population growth and reduced child mortality rate is one of those
       factors, because when 1 in 5 children is dying, a country has a very fast
       population growth, but mortality is still too high to allow for a strong
@@ -19,14 +19,14 @@ export default () => (
       fertility; basic education, a move out of extreme poverty, changing values
       towards rights for women and access to contraceptives are the other
       important determinants. In fact, these major aspects of modernization must
-      all come together for each of them to happen.&quot;
+      all come together for each of them to happen."
     </p>
     <p>
       The contributing factors to lowered fertility in a population has a
       technical term: fertility determinants. And as the UN expert pointed out,
       decreasing rates in child mortality is only one of those. The full
       complexity is analyzed by Karen Oppenheim Mason, who in her
-      interdisciplinary article &quot;Explaining Fertility Transitions&quot;
+      interdisciplinary article "Explaining Fertility Transitions"
       reviews the main theories of fertility to assess why they present
       conflicting views of what makes fertility drop in a population. Oppenheim
       Mason argues that it is due to the following wrong assumptions:
@@ -37,7 +37,7 @@ export default () => (
         Ignoring mortality decline as a precondition for fertility decline
       </li>
       <li>
-        Assuming that societies had a so-called &quot;natural fertility&quot;
+        Assuming that societies had a so-called "natural fertility"
         before the fertility transition
       </li>
       <li>Using decadal time scales to compare cause and effect</li>
@@ -60,8 +60,8 @@ export default () => (
     <p>
       While the above determinants are necessary to make fertility rates drop,
       they are not sufficient on their own, Oppenheim Mason says. And as
-      Oppenheim Mason importantly points out, the idea of a &quot;natural
-      fertility&quot; rules out the fact that many societies do have family
+      Oppenheim Mason importantly points out, the idea of a "natural
+      fertility" rules out the fact that many societies do have family
       planning strategies even though they have large families and high
       fertility. Changing fertility means changes in family norms, gender roles,
       sexual behaviour, as well as in education and economy. But the strength of
@@ -85,14 +85,14 @@ export default () => (
       to catch up fast, and the societal improvements needed for transition
       become less over time. But there are two caveats of examples that break
       the pattern of the fertility slide. The first is pointed out by Caldwell
-      (2008) in &quot;Three fertility Compromises and Two transitions&quot; (pp.
+      (2008) in "Three fertility Compromises and Two transitions" (pp.
       427-446), who writes that a few countries dropped their fertility rates
-      long before mortality. Hans Rosling wrote that &quot;Caldwell review how
+      long before mortality. Hans Rosling wrote that "Caldwell review how
       low fertility in historical Europe was achieved reduced access to sex by
-      late or no marriage and strong repression on sex outside marriage.&quot;
+      late or no marriage and strong repression on sex outside marriage."
       The last caveat is that on the higher incomes on Level 4, fertility begins
-      to increase again. See, for example, this study in Nature, &quot;Advances
-      in development reverse fertility declines,&quot; from Myrskylä M, et al.
+      to increase again. See, for example, this study in Nature, "Advances
+      in development reverse fertility declines," from Myrskylä M, et al.
       (2008).
     </p>
   </>

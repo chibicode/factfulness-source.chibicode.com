@@ -6,7 +6,7 @@ export default () => (
     Hans presented the new forecasts of rising sea levels at the launch of the
     Fifth Assessment Report of IPCC[1] in 2013. The video clip is called
     <H.A href="http://www.gapm.io/xipccros">
-      &quot;Hans Rosling -- 200 years of global change&quot;
+      "Hans Rosling -- 200 years of global change"
     </H.A>
     .
   </p>

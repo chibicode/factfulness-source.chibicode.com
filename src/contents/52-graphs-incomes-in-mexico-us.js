@@ -45,8 +45,8 @@ export default () => (
       </li>
       <li>
         <H.A href="http://iresearch.worldbank.org/PovcalNet">
-          PovcalNet &quot;An Online Analysis Tool for Global Poverty
-          Monitoring.&quot; Founded by Martin Ravallion, at the World Bank.
+          PovcalNet "An Online Analysis Tool for Global Poverty
+          Monitoring." Founded by Martin Ravallion, at the World Bank.
           2017/11/30閲覧。
         </H.A>
       </li>

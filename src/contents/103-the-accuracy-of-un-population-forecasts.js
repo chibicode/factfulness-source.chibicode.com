@@ -79,14 +79,14 @@ export default () => (
       <li>
         <H.A href="http://www.gapm.io/xbonpop">
           Bongaarts and Bulato (2000) Beyond Six Billion: Forecasting the
-          World's Population(2000) &quot;Chapter 4: The Accuracy of Past
-          Projections.&quot; 37--52.
+          World's Population(2000) "Chapter 4: The Accuracy of Past
+          Projections." 37--52.
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xpaccur">
-          Keilman (2010) Keilman, Nico. &quot;Data quality and accuracy of
-          United Nations population projections, 1950--95.&quot; Population
+          Keilman (2010) Keilman, Nico. "Data quality and accuracy of
+          United Nations population projections, 1950--95." Population
           Studies 55, no. 2 (2010): 149--64. 2010/12/9更新。
         </H.A>
         . DOI: 10.1080/00324720127686

@@ -9,11 +9,11 @@ export default () => (
       <H.A href="http://www.gapm.io/xwiki11">www.gapm.io/xwiki11</H.A>. That was
       a stupid idea, since lead is a toxicant that affects multiple body systems
       and is particularly harmful to young children: See WHO's Fact sheet,
-      Updated August 2017, called &quot;
+      Updated August 2017, called "
       <H.A href="http://www.who.int/mediacentre/factsheets/fs379/en/">
         Lead poisoning and health
       </H.A>
-      &quot;.
+      ".
     </p>
     <p>
       The first country to ban lead in gasoline was Japan in 1986. Since then

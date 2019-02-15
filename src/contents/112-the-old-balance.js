@@ -19,8 +19,8 @@ export default () => (
       continuously with no attempts to limit fertility. In reality, it is almost
       always lower than that, and six children per woman is a likely average.
       But fertility varies between groups and individual women and, as Gurven
-      and Kaplan writes, it &quot;ranges widely from below 4 to as high as 8
-      children per woman.&quot; (2007, p. 347)
+      and Kaplan writes, it "ranges widely from below 4 to as high as 8
+      children per woman." (2007, p. 347)
     </p>
     <p>
       Age specific mortality rates of the first millennials of human history are
@@ -35,11 +35,11 @@ export default () => (
       societies studied in modern times. Gurven and Kaplan (2007) writes that:
     </p>
     <p>
-      &quot;The regular mortality rates differ among populations and among
+      "The regular mortality rates differ among populations and among
       periods, especially in risks of violent death. However, those differences
       are small in a comparative cross-species perspective, and the similarity
       in mortality profiles of traditional peoples living in varying
-      environments is impressive.&quot;
+      environments is impressive."
     </p>
     <p>
       Before 1800, when agriculture made people crowd in settlements and

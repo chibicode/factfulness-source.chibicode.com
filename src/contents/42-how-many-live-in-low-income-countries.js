@@ -10,8 +10,8 @@ export default () => (
       guessing that a majority of people live in low-income countries. The
       average guesses were 57 percent in the US and 61 percent in Sweden, see
       <H.A href="http://gapm.io/pollnov17bnovus-17b">Novus[3]</H.A>. Gapminder
-      also asked the same question but with &quot;low-income countries&quot;
-      replaced by &quot;developing countries&quot;. The results were the same,
+      also asked the same question but with "low-income countries"
+      replaced by "developing countries". The results were the same,
       as if the terms were synonyms.
     </p>
 
@@ -20,34 +20,34 @@ export default () => (
     <ul>
       <li>
         <H.A href="http://www.gapm.io/xpopage">
-          UN-Pop[4] &quot;Annual population by age---Female, medium fertility
-          variant,&quot;
+          UN-Pop[4] "Annual population by age---Female, medium fertility
+          variant,"
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb177">
-          World Bank[7] &quot;Life expectancy at birth, total (years).&quot;
+          World Bank[7] "Life expectancy at birth, total (years)."
           United Nations Statistical Division. Population and Vital Statistics
           Reports (various years). 2017/11/8閲覧。
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb178">
-          World Bank[8] &quot;Improved water source (% of population with
-          access).&quot; WHO/UNICEF Joint Monitoring Programme (JMP) for Water
+          World Bank[8] "Improved water source (% of population with
+          access)." WHO/UNICEF Joint Monitoring Programme (JMP) for Water
           Supply and Sanitation. 2017/11/8閲覧。
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb179">
-          World Bank[9] &quot;Immunization, measles (% of population with
-          access).&quot; 2017/11/8閲覧。
+          World Bank[9] "Immunization, measles (% of population with
+          access)." 2017/11/8閲覧。
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb1710">
-          World Bank[10] &quot;Prevalence of undernourishment (% of
-          population).&quot; Food and Agriculture Organisation. 2017/11/8閲覧。
+          World Bank[10] "Prevalence of undernourishment (% of
+          population)." Food and Agriculture Organisation. 2017/11/8閲覧。
         </H.A>
       </li>
     </ul>

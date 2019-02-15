@@ -25,13 +25,13 @@ export default () => (
       </H.A>
       and the EPA <H.A href="http://gapm.io/xepa17">Pesticide information</H.A>.
       CDC correctly label direct DDT exposure to humans as unhealthy, but also
-      state that the &quot;health effects from DDT at low environmental doses
-      are unknown.&quot;
+      state that the "health effects from DDT at low environmental doses
+      are unknown."
       <H.FB pageNumber={364}>
         現在、世界保健機関は貧しい地域でのマラリア対策のため、厳しい安全対策に基づいたDDTの利用を推奨している。
       </H.FB>
       <H.A href="http://gapm.io/xwhoddt1">
-        &quot;The use of DDT in malaria vector control&quot;
+        "The use of DDT in malaria vector control"
       </H.A>
       and{' '}
       <H.A href="http://gapm.io/xwhoddt2">DDT in Indoor Residual Spraying</H.A>

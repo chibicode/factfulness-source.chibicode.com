@@ -17,7 +17,7 @@ export default () => (
       describes the effect of disease on poor families who are making progress.
       Illness often forces them back into destitute, since they have no safety
       nets or health insurances whatsoever. Level 2 roughly corresponds to the
-      World Bank income group called &quot;Lower middle income&quot;, where
+      World Bank income group called "Lower middle income", where
       people pay on average 55 percent of their health expenditure with cash,
       see <H.A href="http://gapm.io/xwb1711">World Bank[11]</H.A>.
     </p>

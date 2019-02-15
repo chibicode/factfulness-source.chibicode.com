@@ -17,11 +17,11 @@ export default () => (
       domestic violence in Sweden, summarizing on page 82 that:
     </p>
     <p>
-      &quot;Enligt Brå hade cirka 17 kvinnor dödats varje år av en man i en nära
+      "Enligt Brå hade cirka 17 kvinnor dödats varje år av en man i en nära
       relation under perioden 1990 -- 2005. Detta var en minskning jämfört med
       perioden innan [6]. I en rapport från 2015 redovisar Brå en fortsatt
       minskning. Under perioden 2008 -- 2013 var antalet fall 13 kvinnor per år.
-      Sedan början på 2000-talet har minskningen varit 20 procent.&quot;
+      Sedan början på 2000-talet har minskningen varit 20 procent."
       [According to Brå, about 17 women was killed every year by a man in a
       close relationship during the period of 1990--2005. This was a decrease in
       comparison to the period before. In a report from 2015, Brå presents a

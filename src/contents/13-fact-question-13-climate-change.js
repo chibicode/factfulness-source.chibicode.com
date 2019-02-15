@@ -35,8 +35,8 @@ export default () => (
       <li>
         <H.A href="http://www.gapm.io/xipcc">
           IPCC[2] Climate Change 2014---Synthesis Report Summary for
-          Policymakers. &quot;SPM 2.2 Projected changes in the climate
-          system.&quot; p. 10 2018/8/18閲覧。
+          Policymakers. "SPM 2.2 Projected changes in the climate
+          system." p. 10 2018/8/18閲覧。
         </H.A>
       </li>
     </ul>

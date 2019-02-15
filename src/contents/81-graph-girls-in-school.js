@@ -13,7 +13,7 @@ export default () => (
       Girls of primary school age who are still in pre-primary education are
       excluded and considered out of school.{' '}
       <H.A href="http://www.gapm.io/xoos">UNESCO[4]</H.A>
-      expresses the numbers in &quot;out-of-school&quot; children. We have
+      expresses the numbers in "out-of-school" children. We have
       inverted the numbers to show children not out-of-school: the in-school
       rate. See also the note to Fact question 1: Girls in school.
     </p>
@@ -24,13 +24,13 @@ export default () => (
       <li>
         <H.A href="http://www.gapm.io/xuisoutsf">
           UNESCO[3] (United Nations Educational, Scientific and Cultural
-          Organization) &quot;Education: Out-of-school rate for children of
-          primary school age, female.&quot; 2017/11/26閲覧。
+          Organization) "Education: Out-of-school rate for children of
+          primary school age, female." 2017/11/26閲覧。
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xoos">
-          UNESCO[4] &quot;Rate of out-of-school children.&quot; 2017/11/29閲覧。
+          UNESCO[4] "Rate of out-of-school children." 2017/11/29閲覧。
         </H.A>
       </li>
     </ul>

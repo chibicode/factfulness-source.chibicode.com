@@ -7,13 +7,13 @@ export default () => (
       The UNFPA[2] report about Access to Safe Abortion present these findings:
     </p>
     <p>
-      &quot;Whether legally restricted or not, abortions continue to occur with
+      "Whether legally restricted or not, abortions continue to occur with
       abortion rates being higher where it is restricted than where it is
       permitted on request or under broad grounds (....) Where abortion is
       legally highly restricted, the incidence of unsafe abortion and related
       mortality is high. Legal restrictions also result in major inequity in
       access to safe providers, as women in urban areas and those who can afford
-      to pay can access physicians or travel abroad to procure abortion.&quot;
+      to pay can access physicians or travel abroad to procure abortion."
     </p>
     <p>
       <H.FB pageNumber={357}>

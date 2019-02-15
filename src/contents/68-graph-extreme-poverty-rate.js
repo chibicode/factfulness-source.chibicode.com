@@ -55,8 +55,8 @@ export default () => (
       <li>
         <H.A href="https://www.ourworldindata.org/extreme-poverty">
           OurWorldInData[1] Roser, Max, and Esteban Ortiz-Ospina.
-          &quot;Declining global poverty: share of people living in extreme
-          poverty, 1820--2015, Global Extreme Poverty.&quot; 2017/11/20閲覧。
+          "Declining global poverty: share of people living in extreme
+          poverty, 1820--2015, Global Extreme Poverty." 2017/11/20閲覧。
         </H.A>
       </li>
     </ul>

@@ -36,7 +36,7 @@ export default () => (
       <li>
         <H.A href="http://www.gapm.io/xuislit">
           UNESCO[2] (United Nations Educational, Scientific and Cultural
-          Organization) &quot;Education: Literacy rate.&quot;
+          Organization) "Education: Literacy rate."
           2017/7最終更新。2017/11/5閲覧。
         </H.A>
       </li>

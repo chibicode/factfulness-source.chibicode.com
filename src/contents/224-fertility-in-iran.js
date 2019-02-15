@@ -7,8 +7,8 @@ export default () => (
       <H.FB pageNumber={361}>
         わたしをイランに招いてくれたのは、テヘラン医科大学のフセイン・マレク・アフザリ教授だった。アフザリ教授は大学付属の不妊治療クリニックを見学させてくれ、イランにおける家族計画と性教育プログラムについて教えてくれた。
       </H.FB>
-      We use the term &quot;babies per woman&quot; for the statistical indicator
-      &quot;total fertility rate.&quot; In 1997, the full drop in fertility rate
+      We use the term "babies per woman" for the statistical indicator
+      "total fertility rate." In 1997, the full drop in fertility rate
       had not yet been achieved. Still, in the data that Hans had back then,
       Iran had the fastest drop. Today's UN data rather put Oman as the fastest
       with Gapminder data compared. (Except for Oman, depending on which years

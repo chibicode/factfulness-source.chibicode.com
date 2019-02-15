@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Putting countries into two groups as being a &quot;democracy&quot; or not
+      Putting countries into two groups as being a "democracy" or not
       is highly problematic. We use Max Roser's data as compiled at
       <H.A href="https://ourworldindata.org/democracy">OurWorldInData[4]</H.A>.
       Roser has adopted the definitions of the
@@ -19,7 +19,7 @@ export default () => (
       regimes. For an alternate detailed list of development of democracy, see
       Mathew White's
       <H.A href="http://www.bookofhorriblethings.com/historyofdemocracy/History-of-Democracy-APX-list.html">
-        &quot;Chronological List of Democracies&quot;
+        "Chronological List of Democracies"
       </H.A>
       .
     </p>
@@ -29,8 +29,8 @@ export default () => (
     <ul>
       <li>
         <H.A href="https://www.ourworldindata.org/democracy">
-          OurWorldInData[4] Roser, Max. &quot;Share of World Population Living
-          in Democracies.&quot; 2017/11/26閲覧。
+          OurWorldInData[4] Roser, Max. "Share of World Population Living
+          in Democracies." 2017/11/26閲覧。
         </H.A>
       </li>
     </ul>

@@ -23,8 +23,8 @@ export default () => (
       The two boxes are not showing any official thresholds. They are there to
       visually emphasize the divided world that existed in 1965, in which 125
       countries with 68 percent of the world's population were in the
-      &quot;developing&quot; box. Only 44 countries, with 30 percent of the
-      world's population, were in the &quot;developed&quot; box. An interactive
+      "developing" box. Only 44 countries, with 30 percent of the
+      world's population, were in the "developed" box. An interactive
       version of the chart will soon be freely available at
       <H.A href="http://www.gapm.io/voutdwv">www.gapm.io/voutdwv</H.A>.
     </p>

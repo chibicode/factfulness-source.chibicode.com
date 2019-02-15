@@ -9,7 +9,7 @@ export default () => (
       <H.A href="http://gapm.io/xwb1717">World Bank[17]</H.A>
       )。アメリカの最新の国勢調査によれば、人口の13%は収入が貧困ラインを下回っている。その貧困ラインとは1日約20ドルの収入を指す。
     </H.FB>
-    In Sweden, the official numbers of &quot;poor&quot; are defined relative to
+    In Sweden, the official numbers of "poor" are defined relative to
     the median income of the country, by counting all individuals with incomes
     less than 60 percent of the median income.
     <H.FB pageNumber={368}>

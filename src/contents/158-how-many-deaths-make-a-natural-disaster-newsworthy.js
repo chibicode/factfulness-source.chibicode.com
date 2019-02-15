@@ -26,8 +26,8 @@ export default () => (
       </li>
       <li>
         <H.A href="http://www.gapm.io/xiata">
-          IATA (International Air Transport Association) &quot;Accident
-          Overview.&quot; Table. Fact Sheet Safety. December 2017.
+          IATA (International Air Transport Association) "Accident
+          Overview." Table. Fact Sheet Safety. December 2017.
         </H.A>
       </li>
       <li>
@@ -37,8 +37,8 @@ export default () => (
       </li>
       <li>
         <H.A href="http://www.gapm.io/xowd8">
-          OurWorldInData[8] Tzvetkova, Sandra &quot;Not All Deaths Are Equal:
-          How Many Deaths Make a Natural Disaster Newsworthy?&quot;
+          OurWorldInData[8] Tzvetkova, Sandra "Not All Deaths Are Equal:
+          How Many Deaths Make a Natural Disaster Newsworthy?"
           2017/7/19閲覧。
         </H.A>
       </li>

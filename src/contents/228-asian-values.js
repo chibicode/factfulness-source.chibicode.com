@@ -15,7 +15,7 @@ export default () => (
     </p>
     <p>
       Karen Oppenheim Mason discusses the changing family norms in her
-      cross-disciplinary article &quot;Explaining Fertility Transitions&quot;.
+      cross-disciplinary article "Explaining Fertility Transitions".
       The strength of cultural differences is easily overstated though.
       <H.FB pageNumber={360}>
         所得水準が上がり生活スタイルが現代的になるにつれ、男女の役割はあっという間に変わる。しかし、親類縁者とのつながりが強い文化では、価値観の変わるスピードは遅くなる。

@@ -19,8 +19,8 @@ export default () => (
     <ul>
       <li>
         <H.A href="http://www.gapm.io/xsa">
-          BBC Justice Malala. &quot;Viewpoint: Does race matter in South
-          Africa?&quot; 29 August 2012.
+          BBC Justice Malala. "Viewpoint: Does race matter in South
+          Africa?" 29 August 2012.
         </H.A>
       </li>
       <li>

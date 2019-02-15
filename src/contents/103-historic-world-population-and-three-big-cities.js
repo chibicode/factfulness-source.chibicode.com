@@ -7,8 +7,8 @@ export default () => (
     major cities, we use data from the UN Statistics Division published in the
     Demographic Yearbook--2015. The population was 6.5 million in Rio de
     Janeiro; 8.1 million in London; and 8.3 million in Bangkok; see Table 8,
-    &quot;Population of capital cities and cities of 100 000 or more
-    inhabitants: latest available year, 1996-2015,&quot; at
+    "Population of capital cities and cities of 100 000 or more
+    inhabitants: latest available year, 1996-2015," at
     <H.A href="http://www.gapm.io/xpop">www.gapm.io/xpop</H.A>.
   </p>
 )

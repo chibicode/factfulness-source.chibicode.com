@@ -20,7 +20,7 @@ export default () => (
       <H.A href="https://www.unicef.org/about/history/files/sowc_1995.pdf">
         PDF here
       </H.A>
-      . Data for 2017 is derived from &quot;Child Mortality Estimates&quot; from{' '}
+      . Data for 2017 is derived from "Child Mortality Estimates" from{' '}
       <H.A href="http://www.childmortality.org/">www.childmortality.org</H.A>.
       UN-IGME---United Nations Inter-agency Group for Child Mortality
       Estimation---is a data collaboration between UNICEF, WHO, UN Population

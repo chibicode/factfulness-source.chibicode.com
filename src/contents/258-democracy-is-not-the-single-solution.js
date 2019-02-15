@@ -10,8 +10,8 @@ export default () => (
       Unfortunately, this seems to hold true for countries on Level 1, where
       democracy is promoted by the international community, but leads to
       destabilization rather than safety. The promotion of so-called
-      &quot;democracy&quot; is well-intended. But in practice, it often involves
-      no more than an &quot;election&quot;, and the winner is usually the
+      "democracy" is well-intended. But in practice, it often involves
+      no more than an "election", and the winner is usually the
       strongest man with control of the weapons in the violent fight preceding
       the election. Reality is definitely not as simple as that, but we're
       describing the disturbing tendency. And to those who lose their loved
