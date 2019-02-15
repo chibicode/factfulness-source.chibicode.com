@@ -14,6 +14,6 @@ export default () => (
       </H.A>
       )と<H.A href="http://www.gapm.io/xmdrtb">WHO[11]</H.A>によるもの。
     </H.FB>
-    For the risk for multidrug resistant TB strains, see WHO[17].
+    多剤耐性結核菌のリスクについてはWHO[17]を参考に。
   </p>
 )
