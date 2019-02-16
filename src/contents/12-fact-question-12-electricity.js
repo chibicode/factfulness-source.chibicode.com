@@ -16,5 +16,11 @@ export default () => (
       ちなみにGTF(The Global Tracking
       Framework)は世界銀行と国際エネルギー機関との合同の取り組みだ。
     </p>
+
+    <H.BlockAddition>
+      <p>
+        <H.BlockAdditionHeader />
+      </p>
+    </H.BlockAddition>
   </>
 )

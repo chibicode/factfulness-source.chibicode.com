@@ -15,11 +15,11 @@ const Addition = ({children, hideParens, ...props}) => (
   >
     <span
       css={css`
-        background: ${colors.amber100};
+        background: ${colors.brown50};
       `}
       {...props}
     >
-      {!hideParens && '(訳注: '}
+      {!hideParens && '(訳註: '}
       {children}
       {!hideParens && ')'}
     </span>
