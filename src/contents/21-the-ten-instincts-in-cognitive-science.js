@@ -37,21 +37,14 @@ export default () => (
       </li>
     </ul>
     <p>
-      Many of these authors study cognitive biases. At the moment of writing,
+      上記の本の多くは認知バイアスについて言及している。執筆当時、英語版のWikipediaには
       <H.A href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">
-        English Wikipedia lists 186 studied biases
+        186の認知バイアスの実験
       </H.A>
-      . Psychologists struggle to capture these quirks in the mental machine in
-      lab experiments so that they can be replicated or falsified. That's not
-      how we developed our list of misconceptions and instincts---they only
-      describe our hypothesis on how the common ways of wrong thinking may work.
+      が載っている。心理学者は認知バイアスを科学的に立証するためにさまざまな努力をしている。ただ、わたしたちが本書に記した「勘違い」や「本能」はそのような実験を基にしていない。よくある間違った考え方はこのようなものだ、という仮説にすぎない。
     </p>
     <p>
-      The instinct to generalize appear in The Stuff of Thought (2007) by Steven
-      amberer. In his book on language and the human mind, amberer explains how we
-      generalize to make sense of the world. With metaphors and other linguistic
-      tools, we use language to best accommodate our minds, for example by
-      grouping objects and stuff of thought into categories.
+      ピンカーの『思考する言語』には、単純化本能について次のように書かれている。わたしたちは世界を理解するために、比喩といった言葉の道具を使い、たとえばモノやコトをグループ化したりする、と。
     </p>
   </>
 )
