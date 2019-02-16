@@ -3,12 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Many people on Level 2 also have some kind of freezer, but with the unstable
-    electricity grid it's usually not until Level 3 that it's worth mentioning.
-    The increased variation of dishes can be seen by looking into the
+    レベル2に暮らしていても、冷蔵庫を持っている人は多い。しかし電力供給が不安定なため、ほとんどの人が利用し始めるのはレベル3になってからだ。
     <H.A href="https://www.gapminder.org/dollar-street/matrix?thing=Refrigerators">
-      refrigerators of people on different incomes
+      ドル・ストリートで人々の冷蔵庫の中を覗いてみると
     </H.A>
-    on Dollar Street.
+    、所得によって食材のバリエーションが増えることがわかる。
   </p>
 )
