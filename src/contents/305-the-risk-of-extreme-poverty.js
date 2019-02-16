@@ -9,7 +9,7 @@ export default () => (
         <H.A href="https://www.gapminder.org/videos/dont-panic-end-poverty/">
           Don’t Panic—End Poverty
         </H.A>
-        ” (Gapminder[11] 参照)
+        ” (Gapminder[11])
       </H.FB>
     </p>
     <p>
@@ -84,15 +84,15 @@ export default () => (
       </li>
       <li>
         <H.A href="http://www.gapm.io/xpriod">
-          PRIO "The Battle Deaths Dataset version 3.1." Updated in
-          2006; 1946--2008. See Gleditsch and Lacina (2005). 2017/11/12閲覧
+          PRIO "The Battle Deaths Dataset version 3.1." Updated in 2006;
+          1946--2008. See Gleditsch and Lacina (2005). 2017/11/12閲覧
         </H.A>
       </li>
       <li>
         <H.A href="http://www.gapm.io/xwb1726">
           World Bank[26] Newhouse, David, Pablo Suarez-Becerra and Martin C.
-          Evans (2016) "New Estimates of Extreme Poverty for Children"
-          Policy Research Working Paper.
+          Evans (2016) "New Estimates of Extreme Poverty for Children" Policy
+          Research Working Paper.
         </H.A>
       </li>
     </ul>

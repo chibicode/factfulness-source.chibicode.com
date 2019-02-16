@@ -5,10 +5,14 @@ export default () => (
   <>
     <p>
       Roughly half a billion people in Africa today live in extreme poverty, as
-      cited in Factfullness, p. 171. The more precise estimate from Gapminder[9]
-      is 0.41 billion people, based on PovalCal[1] and IMF[1]. Keep in mind that
-      there are huge uncertainties in extreme poverty, as described in the note
-      Fact Question 3: Extreme Poverty.
+      cited in Factfullness, p. 171. The more precise estimate from{' '}
+      <H.A href="https://gapm.io/depov">Gapminder[9]</H.A>
+      is 0.41 billion people, based on{' '}
+      <H.A href="http://iresearch.worldbank.org/PovcalNet">
+        PovalCal[1]
+      </H.A> and <H.A href="https://gapm.io/ximfw">IMF[1]</H.A>. Keep in mind
+      that there are huge uncertainties in extreme poverty, as described in the
+      note Fact Question 3: Extreme Poverty.
     </p>
     <p>
       <H.FB pageNumber={361}>
@@ -26,9 +30,10 @@ export default () => (
       live is from United Nations Population Division; where there are high
       rates of child mortality from{' '}
       <H.A href="http://gapm.io/xih5mr">IHME[6]</H.A>; where soils give low
-      yield from FAO[4]; and where there are conflicts from UCDP[2]. As long as
-      there's conflict, most people stuck in poverty will have a hard time
-      getting out.
+      yield from <H.A href="https://gapm.io/xcer">FAO[4]</H.A>; and where there
+      are conflicts from <H.A href="http://ucdp.uu.se/downloads">UCDP[2]</H.A>.
+      As long as there's conflict, most people stuck in poverty will have a hard
+      time getting out.
     </p>
   </>
 )

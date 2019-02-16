@@ -4,11 +4,11 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      This trend from Gapminder[21] for the years 1978--2016, show the latest
-      data from UNESCO[2]. Literacy is hard to define and measure. UNESCO[2]
-      collected data from national surveys and censuses, all using slightly
-      different definitions and methods for measuring literacy. The numbers
-      between 1820 and 1960 are from
+      This trend from <H.A href="https://gapm.io/dliterae">Gapminder[21]</H.A>{' '}
+      for the years 1978--2016, show the latest data from UNESCO[2]. Literacy is
+      hard to define and measure. UNESCO[2] collected data from national surveys
+      and censuses, all using slightly different definitions and methods for
+      measuring literacy. The numbers between 1820 and 1960 are from
       <H.A href="http://gapm.io/x-zanoecd">van Zanden[3]</H.A>, who gathered the
       data from multiple sources, described in the chapter
       <H.A href="https://read.oecd-ilibrary.org/economics/how-was-life_9789264214262-en#page89">

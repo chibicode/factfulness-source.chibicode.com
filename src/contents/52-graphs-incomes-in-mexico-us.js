@@ -13,13 +13,15 @@ export default () => (
       The number of people on different incomes are based on latest available
       income distribution data from the World Bank's
       <H.A href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</H.A>,
-      which was extended to 2013 by Gapminder[10] using the indicator Household
-      per capita income and converted into constant international dollars (PPP
-      2011), on a logarithmic scale. By adjusting the exchange rates to consider
-      price differences with PPP, the incomes are more comparable across
-      countries. The shapes of the curves were adjusted to better follow the
-      distributions, as reported by the latest available national income survey
-      for each country; see ENIGH for Mexico, and US-CPS for the United States.
+      which was extended to 2013 by{' '}
+      <H.A href="https://gapm.io/ihhinc">Gapminder[10]</H.A> using the indicator
+      Household per capita income and converted into constant international
+      dollars (PPP 2011), on a logarithmic scale. By adjusting the exchange
+      rates to consider price differences with PPP, the incomes are more
+      comparable across countries. The shapes of the curves were adjusted to
+      better follow the distributions, as reported by the latest available
+      national income survey for each country; see ENIGH for Mexico, and US-CPS
+      for the United States.
     </p>
     <p>
       The right chart uses a doubling scale for income, just like all other

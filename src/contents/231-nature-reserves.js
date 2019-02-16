@@ -17,18 +17,25 @@ export default () => (
       </H.FB>
     </p>
     <p>
-      1900年から1911年までのデータはWDPAの記録を基にしている(Gapminder[31])。WDPAは
-      <H.A href="http://www.gapm.io/xprarde">IUCN Definition 2008</H.A>と
-      <H.A href="http://gapm.io/x-protareacat">Protected Area Categories</H.A>
-      を基に自然保護区のデータをまとめている(IUCN[1,2])。
+      1900年から1911年までのデータはWDPAの記録を基にしている(
+      <H.A href="https://gapm.io/protnat">Gapminder[31]</H.A>)。WDPAは
+      <H.A href="http://www.gapm.io/xprarde">
+        IUCN Definition 2008 (IUCN[1])
+      </H.A>
+      と
+      <H.A href="http://gapm.io/x-protareacat">
+        Protected Area Categories (IUCN[2])
+      </H.A>
+      を基に自然保護区のデータをまとめている。
       <H.FB pageNumber={360}>
         1911年から1990年までのトレンドについては、Abouchakraらの著したこちらの著書を参考にしている:
         Looking Ahead: The 50 Trends That Matter(2016)。
       </H.FB>
-      1990年以降のデータはUNEP[6]によるProtected Planet Report
-      2016の図4.1(p30)を参考にした。
-      <H.A href="http://www.gapm.io/xprotp16">こちら</H.A>
-      から無料でダウンロードできる。
+      1990年以降のデータは
+      <H.A href="http://www.gapm.io/xprotp16">
+        UNEP[6]によるProtected Planet Report 2016の図4.1(p30)
+      </H.A>
+      を参考にした。
     </p>
   </>
 )

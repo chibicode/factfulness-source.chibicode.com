@@ -5,13 +5,14 @@ export default () => (
   <>
     <p>
       Hans presents this in Factpod #16, "Why Boat Refugees Don't Fly!". see
-      Gapminder[42]. While in the Geneva Convention says: "" , which in practice
-      doesn't happen in EU, as this EU(2001) COUNCIL DIRECTIVE 2001/51/EC
-      commands: "Member States shall take the necessary measures to oblige
-      carriers which are unable to effect the return of a third-country national
-      whose entry is refused to find means of onward transportation immediately
-      and to bear the cost thereof "which recognizes the right of persons to
-      seek asylum from persecution in other countries". See
+      <H.A href="https://gapm.io/p16">Gapminder[41]</H.A>. While in the Geneva
+      Convention says: "" , which in practice doesn't happen in EU, as this
+      EU(2001) COUNCIL DIRECTIVE 2001/51/EC commands: "Member States shall take
+      the necessary measures to oblige carriers which are unable to effect the
+      return of a third-country national whose entry is refused to find means of
+      onward transportation immediately and to bear the cost thereof "which
+      recognizes the right of persons to seek asylum from persecution in other
+      countries". See
       <H.A href="https://www.gapminder.org/topics/people/refugees">
         www.gapminder.org/topics/people/refugees
       </H.A>

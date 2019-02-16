@@ -9,7 +9,8 @@ export default () => (
     invented. Roughly 1% of childbirths resulted in the death of the mother, due
     to complications or infections. As women gave birth to an average of 6
     children, this means that at least 6% of women died giving birth; see
-    Livi-Bacci[1], Paine &amp; Boldsen[1], and Gapminder[25]. Of these newborns,
+    Livi-Bacci[1], Paine &amp; Boldsen[1], and{' '}
+    <H.A href="https://gapm.io/dmamo">Gapminder[25]</H.A>. Of these newborns,
     somewhere between 30% and 50% died before age 1, and another 10% before age
     5; see Lewis[1]. Most children died from diarrhea, pneumonia, measles,
     malaria, or some bacterial infection. The 60% who survived childhood, died
