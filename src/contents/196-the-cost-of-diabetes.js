@@ -5,7 +5,7 @@ export default () => (
   <p>
     貧しさを抜け出しても、糖尿病になれば全財産をインスリン代にあてることになり、貧困層に逆戻りだ。{' '}
     <H.A href="http://www.who.int/diabetes/global-report/en/">
-      WHOの糖尿病に関する報告書はこちら。
+      世界保健機関の糖尿病に関する報告書はこちら。
     </H.A>
   </p>
 )
