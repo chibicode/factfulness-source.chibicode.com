@@ -3,11 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    For a video recording of Hans showing the audience results at the World
-    Economic Forum in Davos 2015, see
-    <H.A href="http://www.gapm.io/xwbros5m">www.gapm.io/xwbros5m</H.A>. Poll
-    results from events, including the results from the experts at WEF, will
-    soon be available at{' '}
-    <H.A href="http://www.gapm.io/rrs">www.gapm.io/rrs</H.A>.
+    2015年のダボス会議にて、ハンスがクイズの結果を見せたときの瞬間は{' '}
+    <H.A href="http://www.gapm.io/xwbros5m">こちらの動画で見れる</H.A>
+    。それぞれの講演で行われたクイズの結果は
+    <H.A href="http://www.gapm.io/rrs">こちら</H.A>。
   </p>
 )
