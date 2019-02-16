@@ -10,7 +10,7 @@ const IntroHero = () => (
       css={css`
         margin: 0 0 0.5rem;
         text-align: center;
-        font-size: 1.75rem;
+        font-size: 2rem;
         line-height: 1.35;
         letter-spacing: -1.5px;
       `}
