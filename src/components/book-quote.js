@@ -9,7 +9,7 @@ const BookQuote = ({children, pageNumber, pageNumbers, ...props}) => (
       padding-left: 1em;
       margin-left: 0;
       margin-right: 0;
-      border-left: 0.5em solid ${colors.green200};
+      border-left: 0.5em solid ${colors.blueGrey100};
     `}
   >
     {children(

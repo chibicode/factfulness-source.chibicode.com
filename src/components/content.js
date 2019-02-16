@@ -30,7 +30,7 @@ const Content = ({
               font-size: 1rem;
               margin-right: 3rem;
               margin-bottom: 1rem;
-              color: ${colors.green400};
+              color: ${colors.blue400};
               flex: 1;
             `}
           >

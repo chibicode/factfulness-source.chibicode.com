@@ -34,7 +34,7 @@ const GlobalStyles = () => (
           font-size: 16px;
           color: ${colors.grey900};
           line-height: 1.8;
-          background-color: ${colors.green100};
+          background-color: ${colors.blueGrey50};
         }
 
         button {
@@ -65,7 +65,7 @@ const GlobalStyles = () => (
         a {
           color: inherit;
           &:hover {
-            background-color: #bbdefb;
+            background-color: ${colors.blue100};
           }
         }
 

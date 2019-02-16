@@ -17,7 +17,7 @@ const Main = () => {
       <Card>
         <IntroDisclaimer />
       </Card>
-      {pagedSources.map(data => {
+      {pagedSources.map((data, i) => {
         const nextSection =
           data.section ||
           (data.chapter === 'イントロダクション'
@@ -29,13 +29,13 @@ const Main = () => {
               if (lastSection !== nextSection) {
                 lastSection = nextSection
                 return (
-                  <Card background={colors.green600} foreground="#fff">
+                  <Card background={colors.blueGrey400} foreground="#fff">
                     <SectionHeader>{lastSection}</SectionHeader>
                   </Card>
                 )
               }
             })()}
-            <Card>
+            <Card isLast={i === pagedSources.length - 1}>
               <Content {...data} />
             </Card>
           </Fragment>

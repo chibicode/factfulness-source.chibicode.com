@@ -28,7 +28,7 @@ const Card = ({children, isLast, background, foreground}) => (
             height: 1.75rem;
           }
           margin: 0 auto;
-          background: ${colors.green200};
+          background: ${colors.blueGrey100};
         `}
       />
     )}

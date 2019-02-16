@@ -12,7 +12,7 @@ const BlockAddition = ({children, ...props}) => (
   >
     <div
       css={css`
-        background: ${colors.brown50};
+        background: ${colors.orange50};
         margin: 1.5rem -0.875rem;
         padding: 1.25rem 0.875rem 0.25rem;
         ${ns} {
