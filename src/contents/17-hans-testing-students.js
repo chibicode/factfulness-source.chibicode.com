@@ -3,9 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The early results from testing students are described in Hans's first TED
-    talk called "The best stats you've ever seen." The TED talk is
-    available at{' '}
-    <H.A href="http://www.gapm.io/xtedros">www.gapm.io/xtedros</H.A>.
+    学生たちのクイズ結果は、ハンスの「
+    <H.A href="https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen?language=ja">
+      最高の統計を披露
+    </H.A>
+    」というTEDトークでも語られている。
   </p>
 )
