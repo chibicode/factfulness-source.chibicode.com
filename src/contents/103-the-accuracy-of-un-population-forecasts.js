@@ -85,9 +85,9 @@ export default () => (
       </li>
       <li>
         <H.A href="http://www.gapm.io/xpaccur">
-          Keilman (2010) Keilman, Nico. "Data quality and accuracy of
-          United Nations population projections, 1950--95." Population
-          Studies 55, no. 2 (2010): 149--64. 2010/12/9更新。
+          Keilman (2010) Keilman, Nico. "Data quality and accuracy of United
+          Nations population projections, 1950--95." Population Studies 55, no.
+          2 (2010): 149--64. 2010/12/9更新。
         </H.A>
         . DOI: 10.1080/00324720127686
       </li>

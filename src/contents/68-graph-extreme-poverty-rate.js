@@ -25,8 +25,11 @@ export default () => (
         single line for the global trend of extreme poverty rate
       </H.A>
       ; Max Roser uses the higher estimate, while we have decided to go for a
-      lower estimate. This is because the second source, van Zanden[1],
-      indicates a lower rate. The paper World Income Inequality 1820-2000 uses
+      lower estimate. This is because the second source,{' '}
+      <H.A href="http://www.basvanleeuwen.net/bestanden/WorldIncomeInequality.pdf">
+        van Zanden[1]
+      </H.A>
+      , indicates a lower rate. The paper World Income Inequality 1820-2000 uses
       historic GDP per capita from Maddison[1] to estimate what income levels
       people lived on. For the distribution of incomes within countries they use
       historic records of the differences in heights of people (such as military
@@ -54,9 +57,9 @@ export default () => (
     <ul>
       <li>
         <H.A href="https://www.ourworldindata.org/extreme-poverty">
-          OurWorldInData[1] Roser, Max, and Esteban Ortiz-Ospina.
-          "Declining global poverty: share of people living in extreme
-          poverty, 1820--2015, Global Extreme Poverty." 2017/11/20閲覧。
+          OurWorldInData[1] Roser, Max, and Esteban Ortiz-Ospina. "Declining
+          global poverty: share of people living in extreme poverty, 1820--2015,
+          Global Extreme Poverty." 2017/11/20閲覧。
         </H.A>
       </li>
     </ul>

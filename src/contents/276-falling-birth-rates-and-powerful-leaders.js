@@ -10,7 +10,8 @@ export default () => (
       1970年から1976年にかけて、合計特殊出生率は半分になった。鄧小平がひとりっ子政策を実行した頃には、人口の伸びはすでにゆるやかになっていた。
     </p>
     <p>
-      中国の人口データはUN-Pop[1]と中国の年次人口を再調査した
+      中国の人口データは<H.A href="https://esa.un.org/unpd/wpp">UN-Pop[1]</H.A>
+      と中国の年次人口を再調査した
       <H.A href="https://repository.upenn.edu/dissertations/AAI8816201/">
         Sheng Luo (1988)
       </H.A>

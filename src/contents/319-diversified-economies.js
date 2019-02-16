@@ -6,7 +6,8 @@ export default () => (
     <H.FB pageNumber={355}>
       マサチューセッツ工科大学は、既存の産業とスキルを使って国家が収入源を多様化することを助ける
       <H.A href="https://atlas.media.mit.edu/en/">無料ツールを開発した</H.A>
-      。また Hausmann et al.(2013)も参考になる。
+      。また <H.A href="https://gapm.io/xatl17">Hausmann et al.(2013)</H.A>
+      も参考になる。
     </H.FB>
   </p>
 )

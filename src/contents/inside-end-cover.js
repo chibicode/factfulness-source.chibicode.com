@@ -21,7 +21,11 @@ export default () => (
     </p>
     <p>
       所得の対数正規分布はBas van Leeuwenが“World Income Inequality
-      1820-2000”で用いた手法を(Zanden[1])基に算出した。よりPovCalの調査結果に沿うように一部調整している。
+      1820-2000”で用いた手法を(
+      <H.A href="http://www.basvanleeuwen.net/bestanden/WorldIncomeInequality.pdf">
+        Zanden[1]
+      </H.A>
+      )基に算出した。よりPovCalの調査結果に沿うように一部調整している。
     </p>
     <p>
       未来の所得ごとの人口については、
@@ -35,7 +39,7 @@ export default () => (
       <li>
         <strong>PovcalNet</strong> &ldquo;An Online Analysis Tool for Global
         Poverty Monitoring.&rdquo; Founded by Martin Ravallion, at the World
-        Bank. Accessed November 30, 2017.
+        Bank. Accessed November 30, 2017.{' '}
         <H.A href="http://iresearch.worldbank.org/PovcalNet">
           http://iresearch.worldbank.org/PovcalNet
         </H.A>

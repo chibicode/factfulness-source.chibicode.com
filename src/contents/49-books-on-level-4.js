@@ -10,7 +10,7 @@ export default () => (
       <H.A href="https://en.wikipedia.org/wiki/Books_published_per_country_per_year#cite_note-publishingtechnology.com-2">
         Wikipedia[1]
       </H.A>
-      divided by UN-POP[1].
+      divided by <H.A href="https://esa.un.org/unpd/wpp">UN-Pop[1]</H.A>.
     </p>
 
     <H.SmallHeading>出典</H.SmallHeading>
@@ -18,8 +18,8 @@ export default () => (
     <ul>
       <li>
         <H.A href="http://www.gapm.io/x-icpp">
-          ICP[1] (International Comparison Program) "Purchasing Power
-          Parity $ 2011."
+          ICP[1] (International Comparison Program) "Purchasing Power Parity $
+          2011."
         </H.A>
       </li>
     </ul>
