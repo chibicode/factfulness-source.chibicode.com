@@ -63,7 +63,7 @@ const Content = ({
           </InternalLink>
         </div>
       )}
-      <CardTitle largeFont={isModal} smallMarginBottom>
+      <CardTitle smallMarginBottom largeFont={isModal}>
         {jpTitle}
       </CardTitle>
       {jpPage && chapter && (
@@ -76,8 +76,7 @@ const Content = ({
           `}
         >
           {typeof chapter === 'number' ? `第${chapter}章` : chapter}
-          {jpPage > 0 &&
-            jpPage < 400 &&
+          {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) &&
             ` (P${Array.isArray(jpPage) ? jpPage.join('〜') : jpPage})`}
         </p>
       )}

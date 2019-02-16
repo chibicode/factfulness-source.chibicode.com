@@ -43,13 +43,6 @@ export default () => (
           </H.A>
         </li>
       </ul>
-      <p>
-        <H.FB pageNumber={371}>
-          正解はC。国際災害データベースによれば、自然災害による年間死者数は過去100年間で75%減少した(
-          <H.A href="http://www.emdat.be/">EM-DAT</H.A>
-          )。自然災害は年によってばらつきがあるので、それぞれの年ごとに過去10年間の平均を比べている。
-        </H.FB>
-      </p>
     </H.InlineCitation>
   </>
 )
