@@ -953,7 +953,7 @@ const pagedSources = [
     jpPage: 115,
     enPage: 90,
     enTitle: `Graph: Average family size by income`,
-    jpTitle: `それぞれの所得レベルにおける 1 世帯あたりの平均人数のグラフ`
+    jpTitle: `それぞれの所得レベルにおける1世帯あたりの平均人数のグラフ`
   },
   {
     chapter: 3,
