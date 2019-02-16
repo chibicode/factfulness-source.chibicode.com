@@ -3,10 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Sweden had a child mortality rate of 249 in 1869. It dropped below 35 in
-    1946, a process that took 77 years. Saudi Arabia moved from 242 in 1960 to
-    35 in 1993, roughly the same difference in 33 years. For detailed
-    documentation behind our data on child mortality, see
-    <H.A href="http://www.gapm.io/itfr">www.gapm.io/itfr</H.A>.
+    1869年のスウェーデンの乳幼児死亡率は1000人中249人だった。77年後の1946年にはそれが35人になった。サウジアラビアでは1960年に242人だったが、33年後の1993年には35人になった。77年かかった変化が33年で起きたわけだ。乳幼児死亡率についての
+    <H.A href="http://www.gapm.io/itfr">詳しいデータはこちら</H.A>。
   </p>
 )
