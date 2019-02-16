@@ -32,7 +32,7 @@ export default () => (
       を参照のこと。
       <H.FB pageNumber={356}>
         また、 次の書籍も参考になる: Paul Collier 著 Exodus (2013)、Alexander
-        Betts Paul Collier 著 Refuge(2017)
+        Betts Paul Collier 著 Refuge (2017)。
       </H.FB>
     </p>
   </>
