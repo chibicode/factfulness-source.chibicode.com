@@ -10,23 +10,22 @@ export default () => (
       data from PovcalNet and slightly adjusted to better align with CETAD.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xbra17">
-          CETAD (Centro de Estudos Tributários e Aduaneiros). "Distribuição
-          da Renda por Centis Ano MARÇO 2017." Ministério da Fazenda,
-          Brazil, 2017.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://iresearch.worldbank.org/PovcalNet">
-          PovcalNet "An Online Analysis Tool for Global Poverty
-          Monitoring." Founded by Martin Ravallion, at the World Bank.
-          2017/11/30閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xbra17">
+            CETAD (Centro de Estudos Tributários e Aduaneiros). "Distribuição da
+            Renda por Centis Ano MARÇO 2017." Ministério da Fazenda, Brazil,
+            2017.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://iresearch.worldbank.org/PovcalNet">
+            PovcalNet "An Online Analysis Tool for Global Poverty Monitoring."
+            Founded by Martin Ravallion, at the World Bank. 2017/11/30閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

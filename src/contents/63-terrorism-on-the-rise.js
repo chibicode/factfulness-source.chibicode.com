@@ -16,14 +16,14 @@ export default () => (
       <H.A href="http://gapm.io/xgal17">Gallup[4]</H.A>.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xgtdb17">
-          GTD (Global Terrorism Database) (2017) 2017/12/2閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xgtdb17">
+            GTD (Global Terrorism Database) (2017) 2017/12/2閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

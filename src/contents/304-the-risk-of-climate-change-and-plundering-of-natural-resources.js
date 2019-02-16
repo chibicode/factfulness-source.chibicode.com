@@ -40,15 +40,15 @@ export default () => (
       may already have become overused.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="https://www.ourworldindata.org/grapher/number-of-parties-env-agreements">
-          OurWorldInData[7] Number of parties in multilateral environmental
-          agreements based on UNCTAD United Nations Treaty Collection.
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="https://www.ourworldindata.org/grapher/number-of-parties-env-agreements">
+            OurWorldInData[7] Number of parties in multilateral environmental
+            agreements based on UNCTAD United Nations Treaty Collection.
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

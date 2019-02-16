@@ -33,22 +33,23 @@ export default () => (
       Epidemic, Extreme temperature, Flood, Fog, Impact, Insect infestation,
       Landslide, Mass movement (dry), Storm, Volcanic activity, Wildfire.
     </p>
-    <H.SmallHeading>出典</H.SmallHeading>
-    <ul>
-      <li>
-        <H.A href="http://www.emdat.be/">
-          EM-DAT Centre for Research on the Epidemiology of Disasters (CRED).
-          The International Disaster Database. Debarati Guha-Sapir, Université
-          catholique de Louvain. 2017/11/5閲覧。
-        </H.A>
-      </li>
-    </ul>
-    <p>
-      <H.FB pageNumber={371}>
-        正解はC。国際災害データベースによれば、自然災害による年間死者数は過去100年間で75%減少した(
-        <H.A href="http://www.emdat.be/">EM-DAT</H.A>
-        )。自然災害は年によってばらつきがあるので、それぞれの年ごとに過去10年間の平均を比べている。
-      </H.FB>
-    </p>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.emdat.be/">
+            EM-DAT Centre for Research on the Epidemiology of Disasters (CRED).
+            The International Disaster Database. Debarati Guha-Sapir, Université
+            catholique de Louvain. 2017/11/5閲覧。
+          </H.A>
+        </li>
+      </ul>
+      <p>
+        <H.FB pageNumber={371}>
+          正解はC。国際災害データベースによれば、自然災害による年間死者数は過去100年間で75%減少した(
+          <H.A href="http://www.emdat.be/">EM-DAT</H.A>
+          )。自然災害は年によってばらつきがあるので、それぞれの年ごとに過去10年間の平均を比べている。
+        </H.FB>
+      </p>
+    </H.InlineCitation>
   </>
 )

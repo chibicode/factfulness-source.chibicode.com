@@ -13,15 +13,15 @@ export default () => (
       divided by <H.A href="https://esa.un.org/unpd/wpp">UN-Pop[1]</H.A>.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/x-icpp">
-          ICP[1] (International Comparison Program) "Purchasing Power Parity $
-          2011."
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/x-icpp">
+            ICP[1] (International Comparison Program) "Purchasing Power Parity $
+            2011."
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

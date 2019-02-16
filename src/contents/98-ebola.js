@@ -21,18 +21,18 @@ export default () => (
       <H.A href="http://gapm.io/fp17">#8</H.A> on YouTube.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xeboresp">
-          WHO[3] WHO Ebola Response Team "Ebola Virus Disease in West
-          Africa---The First 9 Months of the Epidemic and Forward
-          Projections." New England Journal of Medicine 371 (October 6,
-          2014): 1481--95.
-        </H.A>
-        DOI: 10.1056/NEJMoa1411100
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xeboresp">
+            WHO[3] WHO Ebola Response Team "Ebola Virus Disease in West
+            Africa---The First 9 Months of the Epidemic and Forward
+            Projections." New England Journal of Medicine 371 (October 6, 2014):
+            1481--95.
+          </H.A>
+          DOI: 10.1056/NEJMoa1411100
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

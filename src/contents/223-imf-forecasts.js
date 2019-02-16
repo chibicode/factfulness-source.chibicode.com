@@ -34,23 +34,23 @@ export default () => (
       <img src="/static/images/sources/imf-top-growth.jpg" alt="" />
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xihlex">
-          IHME[1] (Institute for Health Metrics and Evaluation) Global Burden of
-          Disease Study 2016 (GBD 2016) All-cause Under-5 Mortality, Adult
-          Mortality, and Life Expectancy 1970-2016. Table 13A. Select Lancet
-          article tables (2017).
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.esa.un.org/unpd/wpp">
-          UN-Pop[1] (UN Population Division) Population, medium fertility
-          variant. World Population Prospects 2017.
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xihlex">
+            IHME[1] (Institute for Health Metrics and Evaluation) Global Burden
+            of Disease Study 2016 (GBD 2016) All-cause Under-5 Mortality, Adult
+            Mortality, and Life Expectancy 1970-2016. Table 13A. Select Lancet
+            article tables (2017).
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.esa.un.org/unpd/wpp">
+            UN-Pop[1] (UN Population Division) Population, medium fertility
+            variant. World Population Prospects 2017.
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

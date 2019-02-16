@@ -25,14 +25,14 @@ export default () => (
       hypothesis that Asians may be more positive than westerners.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/z2knhgzguv/GB_Website.pdf">
-          YouGov[1] November--December 2015. Poll results.
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/z2knhgzguv/GB_Website.pdf">
+            YouGov[1] November--December 2015. Poll results.
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

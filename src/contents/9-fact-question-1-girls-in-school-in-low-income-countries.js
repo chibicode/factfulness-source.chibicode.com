@@ -38,38 +38,38 @@ export default () => (
 
     <p>2017年にこの質問を14カ国1万2000人に行ったところ、正解率は7%だった。</p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xwb172">
-          World Bank[2] "World Bank Country and Lending Groups."
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xwb173">
-          World Bank[3] "Primary completion rate, female (% of relevant age
-          group)."
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xuisoutsf">
-          UNESCO[3] (United Nations Educational, Scientific and Cultural
-          Organization) "Education: Out-of-school rate for children of
-          primary school age, female."
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.mics.unicef.org/">
-          UNICEF-MICS Multiple Indicator Cluster Surveys. Funded by the United
-          Nations Children's Fund.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.dhsprogram.com/">
-          USAID-DHS[1] Demographic and Health Surveys (DHS), funded by USAID.
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xwb172">
+            World Bank[2] "World Bank Country and Lending Groups."
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xwb173">
+            World Bank[3] "Primary completion rate, female (% of relevant age
+            group)."
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xuisoutsf">
+            UNESCO[3] (United Nations Educational, Scientific and Cultural
+            Organization) "Education: Out-of-school rate for children of primary
+            school age, female."
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.mics.unicef.org/">
+            UNICEF-MICS Multiple Indicator Cluster Surveys. Funded by the United
+            Nations Children's Fund.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.dhsprogram.com/">
+            USAID-DHS[1] Demographic and Health Surveys (DHS), funded by USAID.
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

@@ -33,27 +33,27 @@ export default () => (
       <img src="/static/images/sources/us-mexico-linear-graph.jpg" alt="" />
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.beta.inegi.org.mx/proyectos/enchogares/regulares/enigh/nc/2016">
-          ENIGH (Encuesta Nacional de Ingresos y Gastos de los Hogares) 2016.
-          Tabulados básicos 2017: Table 2.3.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xuscps17">
-          US-CPS (US Census Bureau) Current Population Survey (CPS) 2017: Family
-          Income in 2016. Table: FINC0_01.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://iresearch.worldbank.org/PovcalNet">
-          PovcalNet "An Online Analysis Tool for Global Poverty Monitoring."
-          Founded by Martin Ravallion, at the World Bank. 2017/11/30閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.beta.inegi.org.mx/proyectos/enchogares/regulares/enigh/nc/2016">
+            ENIGH (Encuesta Nacional de Ingresos y Gastos de los Hogares) 2016.
+            Tabulados básicos 2017: Table 2.3.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xuscps17">
+            US-CPS (US Census Bureau) Current Population Survey (CPS) 2017:
+            Family Income in 2016. Table: FINC0_01.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://iresearch.worldbank.org/PovcalNet">
+            PovcalNet "An Online Analysis Tool for Global Poverty Monitoring."
+            Founded by Martin Ravallion, at the World Bank. 2017/11/30閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

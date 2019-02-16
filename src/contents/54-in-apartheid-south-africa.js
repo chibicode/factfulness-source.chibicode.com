@@ -13,26 +13,25 @@ export default () => (
       <H.A href="http://www.gapm.io/xsa">article</H.A>, BBC reports on historic
       race specific employment and incomes in South Africa, using data from IRR.
     </p>
-
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xsa">
-          BBC Justice Malala. "Viewpoint: Does race matter in South
-          Africa?" 29 August 2012.
-        </H.A>
-      </li>
-      <li>
-        IRR (South African Institute of Race Relations) South Africa Survey
-        Online 2009/2010. Employment and incomes.
-      </li>
-      <li>
-        <H.A href="http://www.statssa.gov.za/publications/P0310/P03102014.pdf">
-          STAT-SA (Statistics South Africa). Living Conditions of Households in
-          South Africa 2014/2015. Table 2.2.
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xsa">
+            BBC Justice Malala. "Viewpoint: Does race matter in South Africa?"
+            29 August 2012.
+          </H.A>
+        </li>
+        <li>
+          IRR (South African Institute of Race Relations) South Africa Survey
+          Online 2009/2010. Employment and incomes.
+        </li>
+        <li>
+          <H.A href="http://www.statssa.gov.za/publications/P0310/P03102014.pdf">
+            STAT-SA (Statistics South Africa). Living Conditions of Households
+            in South Africa 2014/2015. Table 2.2.
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

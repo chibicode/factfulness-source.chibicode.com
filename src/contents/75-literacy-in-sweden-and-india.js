@@ -27,23 +27,22 @@ export default () => (
       <H.A href="https://researchingswedishroots.blogspot.se/2014/02/husforhor.html">
         these paintings
       </H.A>
-      depict the so called "house interrogations" or
-      "husförhör" in Swedish). Despite increasing rates of literacy,
-      many Swedes still couldn't read and write a century later. Not until 1842,
-      with the Swedish school reform making it obligatory for children to attend
-      school, literacy numbers climbed further. By 1900, the literacy rate was
-      at about 87 percent.
+      depict the so called "house interrogations" or "husförhör" in Swedish).
+      Despite increasing rates of literacy, many Swedes still couldn't read and
+      write a century later. Not until 1842, with the Swedish school reform
+      making it obligatory for children to attend school, literacy numbers
+      climbed further. By 1900, the literacy rate was at about 87 percent.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="https://www.ourworldindata.org/literacy">
-          OurWorldInData[2] Roser, Max, and Esteban Ortiz-Ospina. "When did
-          literacy start growing in Europe?" 2017/11/20閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="https://www.ourworldindata.org/literacy">
+            OurWorldInData[2] Roser, Max, and Esteban Ortiz-Ospina. "When did
+            literacy start growing in Europe?" 2017/11/20閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

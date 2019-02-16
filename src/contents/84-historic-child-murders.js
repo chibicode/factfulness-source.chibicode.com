@@ -28,14 +28,15 @@ export default () => (
         )。かといって、どの狩猟採集社会も似たようなものとは言い切れない。また、極度の貧困に暮らしている人々の中では、文化の違いにかかわらず、「子殺し」が行われることがある。子殺しとは、飢えで食料不足に陥ったとき、親が子を口減らしのために殺すことをいう。昔ながらの村に行き、子殺しをした親から話を聞いた人類学者たちの多くは、「子殺しで子供を失うつらさは、他の原因で子供を失うのと変わらないようだ」と報告している。詳しくはピンカー(2013)を参照のこと。
       </H.FB>
     </p>
-    <H.SmallHeading>出典</H.SmallHeading>
-    <ul>
-      <li>
-        <H.A href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">
-          OurWorldInData[5] Roser, Max. "Ethnographic and Archaeological
-          Evidence on Violent Deaths." 2017/11/26閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="https://www.ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths">
+            OurWorldInData[5] Roser, Max. "Ethnographic and Archaeological
+            Evidence on Violent Deaths." 2017/11/26閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

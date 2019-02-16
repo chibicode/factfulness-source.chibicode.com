@@ -53,15 +53,16 @@ export default () => (
       IMF[1] GDP per capita forecasts are applicable on household incomes form
       PovcalNet.
     </p>
-    <H.SmallHeading>出典</H.SmallHeading>
-    <ul>
-      <li>
-        <H.A href="https://www.ourworldindata.org/extreme-poverty">
-          OurWorldInData[1] Roser, Max, and Esteban Ortiz-Ospina. "Declining
-          global poverty: share of people living in extreme poverty, 1820--2015,
-          Global Extreme Poverty." 2017/11/20閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="https://www.ourworldindata.org/extreme-poverty">
+            OurWorldInData[1] Roser, Max, and Esteban Ortiz-Ospina. "Declining
+            global poverty: share of people living in extreme poverty,
+            1820--2015, Global Extreme Poverty." 2017/11/20閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

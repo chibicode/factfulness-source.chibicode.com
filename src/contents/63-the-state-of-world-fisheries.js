@@ -24,27 +24,27 @@ export default () => (
       threatened species in 2015 was 23,250 and increased to 24,307 in 2016.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        Collier, Paul The Plundered Planet: Why We Must---and How We
-        Can---Manage Nature for Global Prosperity. See page 160. New York:
-        Oxford University Press, 2010.
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xfaofi">
-          FAO[2] (Food and Agriculture Organization of the United Nations) The
-          State of World Fisheries and Aquaculture 2016. Rome: 2016. See,
-          specifically, page 5.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xpolfr17">
-          UNEP[1] (United Nations Environment Programme) Towards a
-          Pollution-Free Planet. Nairobi: 2017.
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          Collier, Paul The Plundered Planet: Why We Must---and How We
+          Can---Manage Nature for Global Prosperity. See page 160. New York:
+          Oxford University Press, 2010.
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xfaofi">
+            FAO[2] (Food and Agriculture Organization of the United Nations) The
+            State of World Fisheries and Aquaculture 2016. Rome: 2016. See,
+            specifically, page 5.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xpolfr17">
+            UNEP[1] (United Nations Environment Programme) Towards a
+            Pollution-Free Planet. Nairobi: 2017.
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

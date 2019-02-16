@@ -47,21 +47,21 @@ export default () => (
       </li>
     </ul>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xwb172">
-          World Bank[2] "World Bank Country and Lending Groups."
-          2017/11/6閲覧。
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xwb174">
-          World Bank[4] "Population of Country Income Groups in
-          2015---Population, total." 2017/11/7閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xwb172">
+            World Bank[2] "World Bank Country and Lending Groups."
+            2017/11/6閲覧。
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xwb174">
+            World Bank[4] "Population of Country Income Groups in
+            2015---Population, total." 2017/11/7閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

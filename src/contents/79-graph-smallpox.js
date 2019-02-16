@@ -32,22 +32,22 @@ export default () => (
       by Klepac, et al (2013).
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="https://www.ourworldindata.org/eradication-of-diseases">
-          Max Roser (2018) "Eradication of Diseases" Smallpox.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.rstb.royalsocietypublishing.org/content/368/1623/20120137">
-          Klepac, Petra, et al "Towards the endgame and beyond:
-          complexities and challenges for the elimination of infectious
-          diseases." Figure 1. Phil. Trans. R. Soc. B June 24, 2013.
-        </H.A>{' '}
-        DOI: 10.1098/rstb.2012.0137
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="https://www.ourworldindata.org/eradication-of-diseases">
+            Max Roser (2018) "Eradication of Diseases" Smallpox.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.rstb.royalsocietypublishing.org/content/368/1623/20120137">
+            Klepac, Petra, et al "Towards the endgame and beyond: complexities
+            and challenges for the elimination of infectious diseases." Figure
+            1. Phil. Trans. R. Soc. B June 24, 2013.
+          </H.A>{' '}
+          DOI: 10.1098/rstb.2012.0137
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

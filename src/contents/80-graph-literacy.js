@@ -25,28 +25,28 @@ export default () => (
       for detailed documentation of the data sources behind this graph.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/dliterae">
-          Gapminder[21] Literacy rate---v1, based on UNESCO[2] and van Zanden.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xuislit">
-          UNESCO[2] (United Nations Educational, Scientific and Cultural
-          Organization) "Education: Literacy rate."
-          2017/7最終更新。2017/11/5閲覧。
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/x-zanoecd">
-          van Zanden[3] van Zanden, Jan Luiten, et al., eds. How Was Life?
-          Global Well-Being Since 1820. Paris: OECD Publishing, 2014.
-        </H.A>{' '}
-        DOI: 10.1787/9789264214262-en
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/dliterae">
+            Gapminder[21] Literacy rate---v1, based on UNESCO[2] and van Zanden.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xuislit">
+            UNESCO[2] (United Nations Educational, Scientific and Cultural
+            Organization) "Education: Literacy rate."
+            2017/7最終更新。2017/11/5閲覧。
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/x-zanoecd">
+            van Zanden[3] van Zanden, Jan Luiten, et al., eds. How Was Life?
+            Global Well-Being Since 1820. Paris: OECD Publishing, 2014.
+          </H.A>{' '}
+          DOI: 10.1787/9789264214262-en
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

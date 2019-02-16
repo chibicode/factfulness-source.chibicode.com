@@ -21,8 +21,8 @@ export default () => (
       it still is; see{' '}
       <H.A href="http://www.gapm.io/xiucnr1">IUCN Red List[1]</H.A>. According
       to a statement from <H.A href="http://gapm.io/xwwftiger">WWF</H.A>
-      in 2016, the number of wild tigers are increasing: "After a century
-      of decline, tiger numbers are on the rise. At least 3,890 tigers remain in
+      in 2016, the number of wild tigers are increasing: "After a century of
+      decline, tiger numbers are on the rise. At least 3,890 tigers remain in
       the wild, but much more work is needed to protect this species that's
       still vulnerable to extinction." See also Platt (2016) in Scientific
       American
@@ -50,33 +50,33 @@ export default () => (
       <H.A href="https://rhinos.org/state-of-the-rhino/">Rhino foundation</H.A>.
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xiucnr1">
-          IUCN Red List[1] Goodrich, J., et al. "Panthera tigris
-          (Tiger)." (2015) e.T15955A50659951.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xiucn2">
-          IUCN Red List[2] Swaisgood, R., et al. "Ailuropoda melanoleuca
-          (Giant Panda)." (2016) e.T712A121745669.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xiucn3">
-          IUCN Red List[3] Emslie, R. "Diceros bicornis (Black Rhinoceros,
-          Hook-lipped Rhinoceros)." (2012) e.T6557A16980917.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xiucnr4">
-          IUCN Red List[4] Table 1: Numbers of threatened species by major
-          groups of organisms (1996--2017).
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xiucnr1">
+            IUCN Red List[1] Goodrich, J., et al. "Panthera tigris (Tiger)."
+            (2015) e.T15955A50659951.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xiucn2">
+            IUCN Red List[2] Swaisgood, R., et al. "Ailuropoda melanoleuca
+            (Giant Panda)." (2016) e.T712A121745669.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xiucn3">
+            IUCN Red List[3] Emslie, R. "Diceros bicornis (Black Rhinoceros,
+            Hook-lipped Rhinoceros)." (2012) e.T6557A16980917.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xiucnr4">
+            IUCN Red List[4] Table 1: Numbers of threatened species by major
+            groups of organisms (1996--2017).
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

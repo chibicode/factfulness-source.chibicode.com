@@ -34,17 +34,18 @@ export default () => (
       </H.A>
       。
     </p>
-    <H.SmallHeading>出典</H.SmallHeading>
-    <ul>
-      <li>
-        <strong>PovcalNet</strong> &ldquo;An Online Analysis Tool for Global
-        Poverty Monitoring.&rdquo; Founded by Martin Ravallion, at the World
-        Bank. Accessed November 30, 2017.{' '}
-        <H.A href="http://iresearch.worldbank.org/PovcalNet">
-          http://iresearch.worldbank.org/PovcalNet
-        </H.A>
-        .
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <strong>PovcalNet</strong> &ldquo;An Online Analysis Tool for Global
+          Poverty Monitoring.&rdquo; Founded by Martin Ravallion, at the World
+          Bank. Accessed November 30, 2017.{' '}
+          <H.A href="http://iresearch.worldbank.org/PovcalNet">
+            http://iresearch.worldbank.org/PovcalNet
+          </H.A>
+          .
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

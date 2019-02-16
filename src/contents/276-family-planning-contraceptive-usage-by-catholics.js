@@ -15,22 +15,22 @@ export default () => (
       を参考にしている。
     </p>
 
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.thearda.com/Archive/Files/Descriptions/WRDNATL.asp">
-          ARDA (Association of Religion Data Archives) World Religion Dataset:
-          National Religion Dataset.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="www.un.org/en/development/desa/population/theme/family-planning/cp_model.shtml">
-          UN-Pop[9] World Contraceptive Use 2017. Data: Model-based estimates
-          and projections: Countries. Contraceptive Prevalence: Any modern
-          method, Percentage of married or in-union women aged 15 to 49 years.
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.thearda.com/Archive/Files/Descriptions/WRDNATL.asp">
+            ARDA (Association of Religion Data Archives) World Religion Dataset:
+            National Religion Dataset.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="www.un.org/en/development/desa/population/theme/family-planning/cp_model.shtml">
+            UN-Pop[9] World Contraceptive Use 2017. Data: Model-based estimates
+            and projections: Countries. Contraceptive Prevalence: Any modern
+            method, Percentage of married or in-union women aged 15 to 49 years.
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

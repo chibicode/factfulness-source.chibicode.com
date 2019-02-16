@@ -42,35 +42,35 @@ export default () => (
       <H.A href="http://www.gapm.io/dpland">こちら</H.A>
       をご覧いただきたい。
     </p>
-
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://airlines.org/">
-          ATAA, Air Transport Association of America
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/dpland">
-          Gapminder[16] Air plane fatalities---v1. Indicator
-          Population---v5---all countries---1800--2100, based on IATA, ICAO[3],
-          BTS[1,2] &amp; ATAA.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://gapm.io/xiatas">IATA Accident Overview</H.A>
-      </li>
-      <li>
-        ICAO[1,2,3]
-        <H.A href="http://gapm.io/xchicc">
-          Convention on International Civil Aviation
-        </H.A>
-        , <H.A href="http://www.gapm.io/xchi13">Annex 13</H.A> in 1955, and the
-        <H.A href="https://www.icao.int/sustainability/Pages/Air-Traffic-Monitor.aspx">
-          Air Transport Monitor
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://airlines.org/">
+            ATAA, Air Transport Association of America
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/dpland">
+            Gapminder[16] Air plane fatalities---v1. Indicator
+            Population---v5---all countries---1800--2100, based on IATA,
+            ICAO[3], BTS[1,2] &amp; ATAA.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://gapm.io/xiatas">IATA Accident Overview</H.A>
+        </li>
+        <li>
+          ICAO[1,2,3]
+          <H.A href="http://gapm.io/xchicc">
+            Convention on International Civil Aviation
+          </H.A>
+          , <H.A href="http://www.gapm.io/xchi13">Annex 13</H.A> in 1955, and
+          the
+          <H.A href="https://www.icao.int/sustainability/Pages/Air-Traffic-Monitor.aspx">
+            Air Transport Monitor
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )

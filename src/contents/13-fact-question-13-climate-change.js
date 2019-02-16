@@ -22,23 +22,22 @@ export default () => (
       become more intense and frequent in many regions. The ocean will continue
       to warm and acidify, and global mean sea level to rise.
     </p>
-
-    <H.SmallHeading>出典</H.SmallHeading>
-
-    <ul>
-      <li>
-        <H.A href="http://www.gapm.io/xipcca">
-          IPCC[1] (Intergovernmental Panel on Climate Change) Fifth Assessment
-          Report (AR5) Authors and Review Editors. May 2014.
-        </H.A>
-      </li>
-      <li>
-        <H.A href="http://www.gapm.io/xipcc">
-          IPCC[2] Climate Change 2014---Synthesis Report Summary for
-          Policymakers. "SPM 2.2 Projected changes in the climate
-          system." p. 10 2018/8/18閲覧。
-        </H.A>
-      </li>
-    </ul>
+    <H.InlineCitation>
+      <ul>
+        <li>
+          <H.A href="http://www.gapm.io/xipcca">
+            IPCC[1] (Intergovernmental Panel on Climate Change) Fifth Assessment
+            Report (AR5) Authors and Review Editors. May 2014.
+          </H.A>
+        </li>
+        <li>
+          <H.A href="http://www.gapm.io/xipcc">
+            IPCC[2] Climate Change 2014---Synthesis Report Summary for
+            Policymakers. "SPM 2.2 Projected changes in the climate system." p.
+            10 2018/8/18閲覧。
+          </H.A>
+        </li>
+      </ul>
+    </H.InlineCitation>
   </>
 )
