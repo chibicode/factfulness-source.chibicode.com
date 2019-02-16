@@ -13,9 +13,8 @@ export default () => (
     </p>
 
     <p>
-      The results of the online polls by question and country are set out in the
-      appendix (p. 267, Factfulness). The results are also presented here:
-      <H.A href="http://gapm.io/gms17">Gapminder Misconception Study 2017</H.A>.
+      国ごとのクイズ結果は本書の付録に載っているほか、
+      <H.A href="http://gapm.io/gms17">こちらでも</H.A>紹介している。
     </p>
   </>
 )
