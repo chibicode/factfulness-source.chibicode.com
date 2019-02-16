@@ -8,13 +8,9 @@ export default () => (
         人々が過大視しやすい物事の例は、33カ国を対象に調査を行ったIspos
         MORI[2,3]によるもの。
       </H.FB>
-      The survey is called{' '}
-      <H.A href="http://www.gapm.io/xip15">Perils of Perception</H.A>
-      (2015) and presents numbers like these highlights from the UK poll: For
-      the wealth that the top 1 percent owns, the average guess was 59 percent,
-      when the correct figure is 23 percent; on immigration, they guessed that
-      25 percent of the population are immigrants, when the the correct figure
-      is 13 percent.
+      (<H.A href="http://www.gapm.io/xip15">Perils of Perception</H.A>
+      (2015))
+      イギリスで行われたこの調査では、「全資産のうち上位1%の富裕層が占める割合はどのくらいか？」等の質問が出された。平均回答は59%だったが、正解は23%だ。また移民に関しての質問では、人々は全人口の25%が移民だと考えていたが、実際は13%だった。
     </p>
     <p>
       <H.FB pageNumber={363}>
