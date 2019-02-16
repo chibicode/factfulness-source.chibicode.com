@@ -3,16 +3,12 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Carson's book Silent Spring is definitely one of
-    <H.A href="https://en.wikipedia.org/wiki/Silent_Spring">
-      the most influential popular science books ever
-    </H.A>
-    . It sparked a global movement with global impact. Thanks to this movement
-    the number of countries signing international Environmental Treaties is
-    still climbing, as you can see in UNCTAD's treaty collection
+    レイチェル・カーソンの『
+    <H.A href="https://en.wikipedia.org/wiki/Silent_Spring">沈黙の春</H.A>
+    』は、通俗科学の本としては最も影響力のある一冊だった。この本は世界中で環境運動に火をつけた。おかげで、国際環境法に署名する国の数は増え続けている。このことは
     <H.A href="https://ourworldindata.org/grapher/number-of-parties-env-agreements">
-      visualized at OurWorldInData[9]
+      UNCTADの国際環境法のページ (OurWorldInData[9])
     </H.A>
-    .
+    で確認できる。
   </p>
 )
