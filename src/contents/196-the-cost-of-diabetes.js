@@ -3,12 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Diabetes is one of those diseases that push people back into poverty, when a
-    household might have to spend their entire budget on expensive insulin. See
-    the
+    貧しさを抜け出しても、糖尿病になれば全財産をインスリン代にあてることになり、貧困層に逆戻りだ。{' '}
     <H.A href="http://www.who.int/diabetes/global-report/en/">
-      global report on diabetes from WHO
+      WHOの糖尿病に関する報告書はこちら。
     </H.A>
-    .
   </p>
 )
