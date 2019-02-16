@@ -6,7 +6,10 @@ export default () => (
     <p>
       <H.FB pageNumber={357}>
         奇跡の洗濯機が動いている様子はこちらの
-        <H.A href="http://www.gapm.io/vid1">TEDトーク</H.A>で見ることができる。
+        <H.A href="https://www.ted.com/talks/hans_rosling_and_the_magic_washing_machine?language=ja">
+          TEDトーク
+        </H.A>
+        で見ることができる。
       </H.FB>
     </p>
     <p>
