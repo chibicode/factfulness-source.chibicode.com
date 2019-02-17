@@ -3,10 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Historic records of GDP per capita, adjusted for inflation and price
-    differences, puts the majority of Western Europe and the US in the 1950s on
-    level 2 and 3. That is where the majority of the world population is today.
-    For more on the historic income distribution of Europe and the US, see
-    <H.A href="http://gapm.io/incm">Gapminder[8]</H.A>.
+    物価上昇率や物価の違いなどを考慮した、過去のひとりあたりのGDPの数字を見てみよう。すると1950年代には、西ヨーロッパとアメリカの大半がレベル2か3だったことが分かる。レベル2か3といえば、現在世界のほとんどの人はこのレベルにいる。ちなみにヨーロッパとアメリカの過去の所得分布は
+    <H.A href="http://gapm.io/incm">こちらから見れる。</H.A>
   </p>
 )
