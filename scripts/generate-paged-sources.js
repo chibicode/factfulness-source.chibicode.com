@@ -484,16 +484,16 @@ const pagedSources = [
     jpPage: 63,
     enPage: 49,
     enTitle: `Terrorism on the rise`,
-    jpTitle: `Terrorism on the rise`,
-    constructionId: 'テロの数は増加中'
+    jpTitle: `テロの数は増加中`,
+    constructionId: 'tter'
   },
   {
     chapter: 2,
     jpPage: 63,
     enPage: 49,
     enTitle: `The State of World Fisheries`,
-    jpTitle: `The State of World Fisheries`,
-    constructionId: '漁業での乱獲'
+    jpTitle: `漁業での乱獲`,
+    constructionId: 'tnplu'
   },
   {
     chapter: 2,

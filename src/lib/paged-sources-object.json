@@ -625,8 +625,8 @@
     "enTitle": "Terrorism on the rise",
     "chapter": 2,
     "enPage": 49,
-    "jpTitle": "Terrorism on the rise",
-    "constructionId": "テロの数は増加中",
+    "jpTitle": "テロの数は増加中",
+    "constructionId": "tter",
     "permalink": "63-terrorism-on-the-rise"
   },
   "63-the-state-of-world-fisheries": {
@@ -635,8 +635,8 @@
     "enTitle": "The State of World Fisheries",
     "chapter": 2,
     "enPage": 49,
-    "jpTitle": "The State of World Fisheries",
-    "constructionId": "漁業での乱獲",
+    "jpTitle": "漁業での乱獲",
+    "constructionId": "tnplu",
     "permalink": "63-the-state-of-world-fisheries"
   },
   "64-graph-better-worse-or-about-the-same": {
