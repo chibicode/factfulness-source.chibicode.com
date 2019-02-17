@@ -2,20 +2,21 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    The famine in India between 1876 and 1878 began with a drought in 1875. This
-    led to food shortage and disease during several years, causing up to 5
-    million deaths according to the sources listed in the Wikipedia article
-    about
-    <H.A href="https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%9378">
-      the Great Famine
-    </H.A>
-    . As a result, the Indian life expectancy dropped to roughly 19 years,
-    according to economic historian Mattias Lindgren, see
-    <H.A href="http://gapm.io/ilex">Gapminder[4]</H.A>. In his book America's
-    Forgotten Pandemic (1989), Alfred W. Crosby estimates that the Spanish flu
-    caused 50 million deaths. The number is confirmed by Johnson and Mueller
-    (2002) and CDC[1]. The world population in 1918 was 1.84 billion, which
-    means this pandemic wiped out 2.7 percent of the entire global population.
-  </p>
+  <>
+    <p>
+      1876年から1878年の間、インドでは飢餓が起きた。きっかけは、1875年に起きた干ばつだった。食糧不足に陥ったインドでは病気が流行り、約500万人が亡くなった(
+      <H.A href="https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%9378">
+        the Great Famine
+      </H.A>
+      )。経済史学者のマティアス・リンドグレーンによれば、インドの平均寿命はこのとき19歳にまで下がった(
+      <H.A href="http://gapm.io/ilex">Gapminder[4]</H.A>)。
+    </p>
+    <p>
+      スペインかぜについては、
+      <H.OtherCardLink permalink="174-the-spanish-flu">
+        こちらの脚注を参考に
+      </H.OtherCardLink>
+      。
+    </p>
+  </>
 )
