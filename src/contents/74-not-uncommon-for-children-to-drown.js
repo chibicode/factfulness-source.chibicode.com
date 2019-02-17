@@ -3,8 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    With "not uncommon", we mean that the drowning percentage of all
-    deaths is higher on Level 3 than on other Levels. This is further explained
-    on page 73 and note.
+    「溺れる子供も多かった」というのは、レベル3では溺れて亡くなる子供の割合が他のレベルに比べて多かった、ということだ。詳しくは
+    <H.OtherCardLink permalink="93-drownings">
+      こちらの脚注を参考に
+    </H.OtherCardLink>
+    。
   </p>
 )
