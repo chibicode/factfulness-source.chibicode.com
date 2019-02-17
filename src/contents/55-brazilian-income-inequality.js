@@ -6,9 +6,10 @@ export default () => (
     <p>
       ブラジル全体の所得のうち、上位10%が占める割合のデータは
       <H.A href="http://www.gapm.io/xwb1716">世界銀行 (World Bank[16])</H.A>
-      から来ている。 The distribution of Brazilian population over different
-      incomes, is base don data from PovcalNet and slightly adjusted to better
-      align with CETAD.
+      から来ている。ブラジルの所得の分布のグラフは
+      <H.A href="http://iresearch.worldbank.org/PovcalNet">PovcalNet</H.A>
+      のデータが基となっており、{' '}
+      <H.A href="http://www.gapm.io/xbra17">CETAD</H.A>を参考に微調整している。
     </p>
 
     <H.InlineCitation>
