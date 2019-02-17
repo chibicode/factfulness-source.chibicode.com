@@ -3,15 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    For one of these lectures, filmed June 8, 2015, see
-    <H.A href="http://gapm.io/xwb1714">World Bank[14]</H.A>. The outdated
-    terminology of a divided worldview is specifically challenged beginning at
-    01:30:31. Five months later, the World Bank announced in a public blog post
-    (<H.A href="http://gapm.io/xwb1715">World Bank[15]</H.A>) that they had
-    taken the challenge. With references to Hans's latest presentation, and to
-    an interview with Bill Gates in the New York Times, the World Bank finally
-    announced that they planned to phase out the use of the term
-    "developing world". They illustrated their decision with a version
-    of the two boxes bubble graph used in this book.
+    わたしが世界銀行向けに行なった講演のひとつは
+    <H.A href="http://gapm.io/xwb1714">こちら (World Bank[14])</H.A>
+    から見れる(2015/6/8撮影)。動画の01:30:31頃から、世界はもはや分断されていないという話になる。そして講演の5ヶ月後、世界銀行は
+    <H.A href="http://gapm.io/xwb1715">ブログ記事 (World Bank[15])</H.A>
+    にて「途上国」という言葉を使うのを辞めると宣言した。記事ではわたしの最新の講演と、本書にあるようなバブルチャートと、ニューヨークタイムズによるビル・ゲイツへのインタビューが触れられていた。
   </p>
 )
