@@ -4,7 +4,7 @@ import * as H from '../components/h'
 export default () => (
   <p>
     トリップアドバイザー社は、Ipsos
-    MORIと共同で2015年1月16日から2月2日のあいだに観光に関するオンライン調査を行なった。報告書(
+    MORIと共同で2015年1月16日から2月2日のあいだに観光に関するオンライン調査を行った。報告書(
     <H.A href="https://www.tripadvisor.com/TripAdvisorInsights/wp-content/uploads/2018/01/TripBarometer-March2015-Global-Report-US.pdf">
       The TripBarometer 2015
     </H.A>

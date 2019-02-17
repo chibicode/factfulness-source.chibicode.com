@@ -3,10 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Hans presented the new forecasts of rising sea levels at the launch of the
-    Fifth Assessment Report of IPCC[1] in 2013. The video clip is called
+    2013年に開かれたIPCC第5次評価報告書の発表会にて、ハンスは海面上昇についての講演を行った。動画はこちらから見れる:{' '}
     <H.A href="http://www.gapm.io/xipccros">
-      "Hans Rosling -- 200 years of global change"
+      "Hans Rosling -- 200 years of global change" (IPCC[1])
     </H.A>
     .
   </p>
