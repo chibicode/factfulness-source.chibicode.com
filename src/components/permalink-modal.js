@@ -28,7 +28,7 @@ export default class Modal extends Component {
             left: 0;
             width: 100%;
             height: 100%;
-            background: ${colors.grey900alpha};
+            background: ${colors.blueGrey900alpha};
             z-index: 1;
             overflow-y: auto;
           `}

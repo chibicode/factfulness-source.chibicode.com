@@ -12,7 +12,7 @@ export default {
   blue100: blue[100],
   grey900: grey[900],
   // eslint-disable-next-line  new-cap
-  grey900alpha: Color(blueGrey[900])
+  blueGrey900alpha: Color(blueGrey[900])
     .alpha(0.6)
     .hsl()
     .string()
