@@ -30,7 +30,7 @@ const Content = ({
               font-size: 1rem;
               margin-right: 3rem;
               margin-bottom: 0rem;
-              color: ${colors.blue400};
+              color: ${colors.blueGrey500};
               flex: 1;
             `}
           >
@@ -38,7 +38,7 @@ const Content = ({
           </h1>
           <p
             css={css`
-              color: ${colors.grey500};
+              color: ${colors.blueGrey400};
               font-size: 0.85rem;
             `}
           >
@@ -52,7 +52,7 @@ const Content = ({
               top: -0.5rem;
               width: 2rem;
               height: 2rem;
-              color: ${colors.grey500};
+              color: ${colors.blueGrey400};
               font-size: 1.5rem;
               line-height: 1;
               display: flex;
@@ -62,7 +62,7 @@ const Content = ({
               border-radius: 0.25rem;
 
               &:hover {
-                background: ${colors.blueGrey100};
+                background: ${colors.blue50};
               }
             `}
           >
@@ -77,7 +77,7 @@ const Content = ({
       {jpPage && chapter && (
         <p
           css={css`
-            color: ${colors.grey500};
+            color: ${colors.blueGrey400};
             font-weight: normal;
             margin-bottom: 1rem;
             font-size: 0.85rem;
@@ -103,14 +103,14 @@ const Content = ({
               background: ${colors.blueGrey50};
               text-decoration: none;
               border: 2px solid ${colors.blueGrey400};
-              color: ${colors.blueGrey700};
+              color: ${colors.blueGrey500};
               font-weight: bold;
               font-size: 0.85rem;
               padding: 0.5rem 1rem;
               border-radius: 0.25rem;
 
               &:hover {
-                background: ${colors.blueGrey100};
+                background: ${colors.blue50};
               }
             `}
           >
@@ -120,7 +120,7 @@ const Content = ({
       ) : (
         <p
           css={css`
-            color: ${colors.grey500};
+            color: ${colors.blueGrey400};
             font-size: 0.85rem;
             display: flex;
             justify-content: space-between;

@@ -15,7 +15,7 @@ const ExternalLink = ({transparentBackground, ...props}) => (
               text-decoration: ${transparentBackground ? 'underline' : 'none'};
               border-bottom: ${inFBContext || transparentBackground
                 ? 'none'
-                : `1px solid ${colors.grey500}`};
+                : `1px solid ${colors.blueGrey400}`};
               background-color: ${inAdditionContext || transparentBackground
                 ? 'transparent'
                 : colors.blue50};

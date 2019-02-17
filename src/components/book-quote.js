@@ -15,7 +15,7 @@ const BookQuote = ({children, pageNumber, pageNumbers, ...props}) => (
     {children(
       <span
         css={css`
-          color: ${colors.grey500};
+          color: ${colors.blueGrey400};
         `}
       >
         (P{pageNumber}

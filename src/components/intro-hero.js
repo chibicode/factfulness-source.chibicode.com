@@ -25,7 +25,7 @@ const IntroHero = () => (
       css={css`
         text-align: center;
         font-size: 0.825rem;
-        color: ${colors.grey500};
+        color: ${colors.blueGrey400};
       `}
     >
       {description}
