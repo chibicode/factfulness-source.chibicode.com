@@ -1,11 +1,8 @@
 import React from 'react'
-import * as H from '../components/h'
 
 export default () => (
   <p>
-    The World Food Programme was established in 1961 as an experiment to provide
-    food through the UN. The WFP started its life saving mission in September
-    1962 when an earthquake killed 12,000 people in Iran, leaving thousands
-    without homes and food.
+    世界食糧計画(WFP)は1961年に設立され、国連を通じて食料を届ける取り組みがはじまった。
+    世界食糧計画が最初に役立ったのは1962年9月に起きたイランの地震のとき。この地震で1万2000人が亡くなり、人々は住むところを失い、国は一時期食糧不足に陥った。
   </p>
 )

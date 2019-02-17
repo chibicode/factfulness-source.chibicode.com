@@ -586,7 +586,7 @@ const pagedSources = [
     jpPage: 72,
     enPage: 56,
     enTitle: `Swedes living on Level 4`,
-    jpTitle: `レベル4の暮らしをするスウェーデン`
+    jpTitle: `レベル4の暮らしをするスウェーデン人`
   },
   {
     chapter: 2,
