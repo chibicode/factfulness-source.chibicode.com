@@ -3,7 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    For the estimate of 85 percent on Level 1 in 1800, see the note to page 52,
-    Extreme poverty graph.
+    「1800年には85%がレベル1にいた」という点については
+    <H.OtherCardLink permalink="68-graph-extreme-poverty-rate">
+      こちらをご覧いただきたい
+    </H.OtherCardLink>
+    。
   </p>
 )
