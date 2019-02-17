@@ -23,7 +23,7 @@ const FB = ({pageNumber, ...props}) => (
     >
       <span
         css={css`
-          border-bottom: 1px dashed ${colors.blue400};
+          border-bottom: 1px dashed ${colors.blueGrey200};
         `}
         {...props}
       />

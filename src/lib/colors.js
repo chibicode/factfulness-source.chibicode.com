@@ -5,14 +5,14 @@ export default {
   brown50: brown[50],
   blueGrey50: blueGrey[50],
   blueGrey100: blueGrey[100],
+  blueGrey200: blueGrey[200],
   blueGrey400: blueGrey[400],
   blueGrey500: blueGrey[500],
   blue50: blue[50],
   blue100: blue[100],
-  blue400: blue[400],
   grey900: grey[900],
   // eslint-disable-next-line  new-cap
-  grey900alpha: Color(grey[900])
+  grey900alpha: Color(blueGrey[900])
     .alpha(0.6)
     .hsl()
     .string()
