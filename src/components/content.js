@@ -2,9 +2,8 @@
 import {jsx, css} from '@emotion/core'
 import contentBundles from '../lib/content-bundles'
 import colors from '../lib/colors'
-import ExternalLink from './external-link'
+import Link from './link'
 import InternalLink from './internal-link'
-import OtherCardLink from './other-card-link'
 import CardTitle from './card-title'
 
 const Content = ({
@@ -126,15 +125,15 @@ const Content = ({
             justify-content: space-between;
           `}
         >
-          <OtherCardLink permalink={permalink}>固定リンク</OtherCardLink>
+          <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>
           {constructionId && (
             <>
-              <ExternalLink
+              <Link
                 transparentBackground
                 href={`https://gapm.io/${constructionId}`}
               >
                 詳細ページ(準備中)
-              </ExternalLink>
+              </Link>
             </>
           )}
         </p>

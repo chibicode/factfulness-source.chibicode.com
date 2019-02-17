@@ -4,12 +4,12 @@ import colors from '../lib/colors'
 import {AdditionContext} from './addition'
 import {FBContext} from './fb'
 
-const ExternalLink = ({transparentBackground, ...props}) => (
+const Link = ({transparentBackground, LinkComponent, ...props}) => (
   <FBContext.Consumer>
     {({inFBContext}) => (
       <AdditionContext.Consumer>
         {({inAdditionContext}) => (
-          <a
+          <LinkComponent
             {...props}
             css={css`
               text-decoration: ${transparentBackground ? 'underline' : 'none'};
@@ -33,4 +33,8 @@ const ExternalLink = ({transparentBackground, ...props}) => (
   </FBContext.Consumer>
 )
 
-export default ExternalLink
+Link.defaultProps = {
+  LinkComponent: 'a'
+}
+
+export default Link

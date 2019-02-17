@@ -1,5 +1,5 @@
 export {default as FB} from './fb'
-export {default as A} from './external-link'
+export {default as A} from './link'
 export {default as QuizQuote} from './quiz-quote'
 export {default as BookQuote} from './book-quote'
 export {default as QuizMap} from './quiz-map'
