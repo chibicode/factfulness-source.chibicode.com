@@ -4,10 +4,11 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Brazil's trend line for the richest share of income, comes from
-      <H.A href="http://www.gapm.io/xwb1716">World Bank[16]</H.A>. The
-      distribution of Brazilian population over different incomes, is base don
-      data from PovcalNet and slightly adjusted to better align with CETAD.
+      ブラジル全体の所得のうち、上位10%が占める割合のデータは
+      <H.A href="http://www.gapm.io/xwb1716">世界銀行 (World Bank[16])</H.A>
+      から来ている。 The distribution of Brazilian population over different
+      incomes, is base don data from PovcalNet and slightly adjusted to better
+      align with CETAD.
     </p>
 
     <H.InlineCitation>
