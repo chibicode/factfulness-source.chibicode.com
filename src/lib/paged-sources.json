@@ -33,7 +33,7 @@
     "enTitle": "Inside cover at the end: People by region and income",
     "section": "全般・見返し・はじめに",
     "chapter": "見返し",
-    "jpTitle": "見返し: 地域ごとの人口・所得ごとの暮らし",
+    "jpTitle": "見返し: 地域ごと・所得ごとの暮らしと人口",
     "permalink": "inside-end-cover"
   },
   {
@@ -441,7 +441,7 @@
     "enTitle": "Fridges and food on Level 2",
     "chapter": 1,
     "enPage": 36,
-    "jpTitle": "レベル2における冷蔵庫",
+    "jpTitle": "レベル2における冷蔵庫と食べ物",
     "permalink": "47-fridges-and-food-on-level-2"
   },
   {
@@ -1226,7 +1226,7 @@
     "enTitle": "Graph: Average family size by income",
     "chapter": 3,
     "enPage": 90,
-    "jpTitle": "それぞれの所得レベルにおける 1 世帯あたりの平均人数のグラフ",
+    "jpTitle": "それぞれの所得レベルにおける1世帯あたりの平均人数のグラフ",
     "permalink": "115-graph-average-family-size-by-income"
   },
   {

@@ -364,7 +364,7 @@ const pagedSources = [
     jpPage: 47,
     enPage: 36,
     enTitle: `Fridges and food on Level 2`,
-    jpTitle: `レベル2における冷蔵庫`
+    jpTitle: `レベル2における冷蔵庫と食べ物`
   },
   {
     chapter: 1,
