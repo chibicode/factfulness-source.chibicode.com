@@ -29,13 +29,21 @@ const Content = ({
               margin-top: 0;
               font-size: 1rem;
               margin-right: 3rem;
-              margin-bottom: 1rem;
+              margin-bottom: 0rem;
               color: ${colors.blue400};
               flex: 1;
             `}
           >
-            『ファクトフルネス』脚注
+            『ファクトフルネス』ウェブ脚注
           </h1>
+          <p
+            css={css`
+              color: ${colors.grey500};
+              font-size: 0.85rem;
+            `}
+          >
+            原著の公式サイトで公開されている、本の脚注の増補版です。
+          </p>
           <InternalLink
             href="/"
             css={css`
@@ -54,7 +62,7 @@ const Content = ({
               border-radius: 0.25rem;
 
               &:hover {
-                background: ${colors.grey200};
+                background: ${colors.blueGrey100};
               }
             `}
           >
@@ -92,17 +100,17 @@ const Content = ({
             href="/"
             css={css`
               display: inline-block;
-              background: ${colors.grey100};
+              background: ${colors.blueGrey50};
               text-decoration: none;
-              border: 2px solid ${colors.grey500};
-              color: ${colors.grey700};
+              border: 2px solid ${colors.blueGrey400};
+              color: ${colors.blueGrey700};
               font-weight: bold;
               font-size: 0.85rem;
               padding: 0.5rem 1rem;
               border-radius: 0.25rem;
 
               &:hover {
-                background: ${colors.grey200};
+                background: ${colors.blueGrey100};
               }
             `}
           >

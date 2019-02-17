@@ -6,13 +6,11 @@ export default {
   blueGrey50: blueGrey[50],
   blueGrey100: blueGrey[100],
   blueGrey400: blueGrey[400],
+  blueGrey700: blueGrey[700],
   blue50: blue[50],
   blue100: blue[100],
   blue400: blue[400],
-  grey100: grey[100],
-  grey200: grey[200],
   grey500: grey[500],
-  grey700: grey[700],
   grey900: grey[900],
   // eslint-disable-next-line  new-cap
   grey900alpha: Color(grey[900])
