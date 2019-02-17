@@ -3,15 +3,9 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Hans grew up in Uppsala, Sweden, in the working class slum suburb of
-    Eriksberg, next to the Ekeby brick factory. The sewage problem in the early
-    1950s was just as bad as it is in industrial slums on level 2 across the
-    world today. Not until the 1970s did this part of Uppsala get improved
-    sanitation. See the page on Eriksbergs Upsala-Ekeby from Uppsala country,
-    which can be downloaded here, via
+    ハンスはスウェーデンのウプラサにあるエリクスバーグという街で育った。そこは労働者が暮らすスラム街で、ハンスの家はエケビーというレンガ工場の近くにあった。1950年初頭のスウェーデンの下水問題は、現在のレベル2の労働者街のそれとあまり変わらない。ウプサラの衛生環境が改善したのは1970年になってからだった。
     <H.A href="http://bygg.uppsala.se/globalassets/uppsala-vaxer/dokument/stadsplanering--utveckling/detaljplanering/samrad_granskning/eriksberg---ekebydalen/5.-kulturmiljoutredning.pdf">
-      Uppsala kommun, Kulturmiljöutredning
+      当時の写真はこちらから見れる。
     </H.A>
-    .
   </p>
 )
