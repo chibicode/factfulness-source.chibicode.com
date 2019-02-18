@@ -3,11 +3,11 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The graph to Fact Question 5 shows three forecasts. The dashed line at the
-    bottom of the graph, alternative C, shows the official UN forecast. The
-    trend up to 2005 is the UN numbers for the global child population, ages
-    0--14. Two billion children is a rounded number. The precise UN numbers are
-    1.95 billion for 2017 and 1.97 billion for 2100. See also the note to Fact
-    Question 5.
+    冒頭のクイズの5問目は、2100年の子供(0〜14歳)人口が何人になるかという質問だ。グラフの一番下の点線は国連の予測を表している。
+    2005年までの子供人口のグラフには国連のデータを使っている。正確な数字で言うと、2017年の子供人口は19億5000万人で、2100年の子供人口は19億7000万人だ。詳しくは
+    <H.OtherCardLink permalink="10-fact-question-5-future-number-of-children">
+      こちらの脚注
+    </H.OtherCardLink>
+    をご覧いただきたい。
   </p>
 )
