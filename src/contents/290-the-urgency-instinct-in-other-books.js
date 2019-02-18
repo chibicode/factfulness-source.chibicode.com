@@ -2,20 +2,19 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    The instinct to think---and act---in oppositional pairs are deeply rooted in
-    our evolutionary survival. For the gazelle, watching out for a possible
-    predator, the difference between "yes" and "no" could be
-    a matter of life and death. Humans, as well, are notoriously bad at keeping
-    a reasonable range of options at hand. Like the gazelle, we tend to
-    instinctively pick between opposites and choose the one that would best
-    benefit our survival. A evolutionary remnant that once saved our lives,
-    black-and-white-thinking nowadays blocks us from weighting the good and bad,
-    yes and no, and select something more useful, such as a "maybe".
-    See
-    <H.FB pageNumber={357}>
-      テトロックとガードナー著『超予測力─不確実な時代の先を読む10カ条』(2018年、早川書房、土方奈美訳)
-    </H.FB>
-    for more about our tendency toward urgent decision-making.
-  </p>
+  <>
+    <p>
+      対極にある2択で物事を考えたり行動したりするのは生存本能のひとつだ。たとえばサバンナに暮らす動物は、天敵に襲われないように、「行くべきか、行かないべきか」といった判断を常に行なっている。イエスかノーか、右か左かといった一瞬の判断が生死を分ける。同じく人間も進化の過程で、最も生き延びやすい選択肢をとっさに選ぶ本能が身についた。
+    </p>
+    <p>
+      しかし、多様な選択肢から選ぶよりも、イエスかノーか、右か左かといった2択だけに絞ってしまうことが多い。そういう意味ではサバンナの動物とあまり変わらない。この本能は大昔は役に立ったかもしれないが、いまはそうでもない。「イエスでもノーでもない」といった、より現実的な選択肢を考える妨げとなっている。
+    </p>
+    <p>
+      焦り本能について詳しくは
+      <H.FB pageNumber={357}>
+        テトロックとガードナー著『超予測力─不確実な時代の先を読む10カ条』(2018年、早川書房、土方奈美訳)
+      </H.FB>
+      を参考に。
+    </p>
+  </>
 )
