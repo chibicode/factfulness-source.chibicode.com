@@ -909,7 +909,8 @@ const pagedSources = [
     jpPage: 103,
     enPage: 80,
     enTitle: `Graph: World population from 8000 BC to today`,
-    jpTitle: `世界の人口のグラフ(紀元前8000年から現在まで)`
+    jpTitle: `世界の人口のグラフ(紀元前8000年から現在まで)`,
+    constructionId: 'spop'
   },
   {
     chapter: 3,
