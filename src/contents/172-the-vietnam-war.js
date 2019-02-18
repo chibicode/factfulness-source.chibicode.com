@@ -2,21 +2,27 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    The figures of war deaths in Vietnam between 1965 and 1975 are based on
-    American War and Military Operations Casualties: Lists and Statistics, and
-    various sources compiled by Necrometrics. WHPSI, The World Handbook of
-    Political and Social Indicators by Charles Lewis Taylor, estimates that a
-    total of 1,520,453 Vietnamese people were killed. For the total death toll,
-    see the
-    <H.A href="http://necrometrics.com/20c1m.htm#Vietnam">
-      American Phase (unstarred)
-    </H.A>
-    indicating the median totals to about 1,700,000 deaths and the total of
-    medians to 1,300,000 deaths. Data on US war casualties is
-    <H.A href="https://fas.org/sgp/crs/natsec/RL32492.pdf">
-      available to download as pdf
-    </H.A>
-    .
-  </p>
+  <>
+    <p>
+      1965年から1975年の間にベトナム戦争で亡くなった人の数はこちらを参考にした:
+    </p>
+    <ul>
+      <li>
+        <H.A href="https://fas.org/sgp/crs/natsec/RL32492.pdf">
+          American War and Military Operations Casualties: Lists and Statistics
+        </H.A>
+      </li>
+      <li>
+        Necrometrics:{' '}
+        <H.A href="http://necrometrics.com/20c1m.htm#Vietnam">
+          American Phase (unstarred)
+        </H.A>{' '}
+        - 約130万人から170万人が亡くなったとの推定
+      </li>
+      <li>
+        Charles Lewis Taylor著 “The World Handbook of Political and Social
+        Indicators” - 約152万453人のベトナム人が亡くなったとの推定
+      </li>
+    </ul>
+  </>
 )
