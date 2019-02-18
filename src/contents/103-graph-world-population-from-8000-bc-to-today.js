@@ -7,7 +7,7 @@ export default () => (
       <H.FB pageNumber={366}>
         紀元前 8000 年から現在までの人口のグラフは、経済史学者のマ
         ティアス・リンドグレーンが何百もの資料をもとに作成したデータを利用している
-        (Lindgren(2006-2016)。グラフ下部に表記しているのは出典の一部のみ
+        (Lindgren(2006-2016)。グラフ下部に表記しているのは出典の一部のみ。
       </H.FB>{' '}
       The next billion were added to the world population in 130 years after
       1800:
