@@ -5,27 +5,21 @@ export default () => (
   <>
     <p>
       <H.FB pageNumber={355}>
-        Global Catastrophes and Trends: The Next Fifty Years
-        (2008)の中で、10年前に著者のSmilは当時すでに新たな6つの世界的トレンドによって紛争が激化の方向に向かうことを予想していた。その6つのトレンドとは、ヨーロッパの地位、日本の凋落、イスラム教の選択、ロシアの方向性、中国の台頭、そしてアメリカの後退だ。
-      </H.FB>
+        “Global Catastrophes and Trends: The Next Fifty Years
+        (2008)”の中で、10年前に著者のSmilは当時すでに新たな6つの世界的トレンドによって紛争が激化の方向に向かうことを予想していた。その6つのトレンドとは、ヨーロッパの地位、日本の凋落、イスラム教の選択、ロシアの方向性、中国の台頭、そしてアメリカの後退だ。
+      </H.FB>{' '}
+      これらは“Dominance and
+      Decline”という章に書かれている。最も危惧すべきなのは、中国が台頭してきたときに、プライドが高いヨーロッパがどう反応するかだ。
     </p>
     <p>
-      In Energy Transitions: Global and National Perspectives, Smil (2012)
-      mentions three challenging identity shifts of the world order, which could
-      lead to a third world war: first, Europe's place in the world; second,
-      Japan's decline; and third, Islam's choice, Russians way, China's rise and
-      the United States' retreat. All summarized in the chapter Dominance and
-      Decline, in which these shifts require new identities. Most concerning are
-      the huge disparities within China and the pride of Europe. Sweden has
-      never been invaded by great Britain, but why not next? Only 35 years ago,
-      the United Kingdom attacked the Falkland Island. If you read the book All
-      the Countries We've Ever Invaded by Stuart Laycock (2012), it's easier to
-      imagine that Europe might not be the victim of a third world war and more
-      likely the perpetrator and a threat to world peace. See
-      <H.A href="https://www.gapminder.org/topic/military/war">
-        www.gapminder.org/topic/military/war
+      スウェーデンは大英帝国に侵略されなかったが、未来永劫侵略されないとは限らない。たとえばイギリスは、つい35年前にもアルゼンチンとフォークランド諸島をめぐって紛争を起こしている。Laycock著
+      <H.A href="https://www.thehistorypress.co.uk/publication/all-the-countries-weve-ever-invaded/9780750952125/">
+        “All the Contries We’ve Ever Invaded”
       </H.A>
-      .
+      を読めば、第三次世界大戦が起きた時、ヨーロッパは被害者ではなく加害者側にまわるのでは、とも思える。
+      <H.Addition>
+        この本によると、イギリスが過去に侵略したり紛争を起こした国の数は171カ国にものぼる。
+      </H.Addition>
     </p>
   </>
 )
