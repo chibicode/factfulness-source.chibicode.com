@@ -1748,7 +1748,8 @@ const pagedSources = [
     jpPage: 304,
     enPage: 239,
     enTitle: `The risk of climate change and plundering of natural resources`,
-    jpTitle: `地球温暖化のリスクと天然資源の濫用`
+    jpTitle: `地球温暖化のリスクと天然資源の濫用`,
+    constructionId: 'dysna'
   },
   {
     chapter: 10,
