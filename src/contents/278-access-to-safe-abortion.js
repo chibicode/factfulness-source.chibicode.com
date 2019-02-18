@@ -4,7 +4,11 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      国連人口基金が発表した、安全な中絶処置へのアクセスに関する報告書(UNFPA[2])には、次のように書かれている:
+      国連人口基金が発表した、
+      <H.A href="https://www.unfpa.org/sites/default/files/resource-pdf/Safe_Abortion.pdf">
+        安全な中絶処置へのアクセスに関する報告書
+      </H.A>
+      には、次のように書かれている:
     </p>
     <p>
       「法的に禁止されていようと、中絶がなくなることはない。中絶がさまざまな条件下、または一部の条件下で認められている地域よりも、中絶に厳しい地域のほうが中絶率が高くなる。(中略)

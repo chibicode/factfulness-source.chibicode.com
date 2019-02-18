@@ -5,8 +5,9 @@ export default () => (
   <>
     <p>
       <H.FB pageNumber={362}>
-        このデータは国連人口基金と国連人口部のデータベースを基にしている(UNFPA[1]
-        and UN-Pop[9])。
+        このデータは国連人口基金と国連人口部のデータベースを基にしている(
+        <H.A href="http://www.unfpa.org/sexual-reproductive-health">UNFPA</H.A>
+        と<H.A href="https://gapm.io/xcontr">UN-Pop[9]</H.A>)。
       </H.FB>
       国連人口基金 is the part of the United Nations that deals with sexual and
       reproductive health. The data show the unmet need for family planning and
