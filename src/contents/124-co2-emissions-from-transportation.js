@@ -3,12 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    According to data from EPA (United States Environmental Protection Agency),
-    transportation is the source of almost 28.5 percent of 2016 CO2 emissions;
-    see
+    アメリカ環境保護庁によると、2016年の二酸化炭素の排出量のうち、28.5%を乗り物からの排出が占めていた。ソースは
     <H.A href="https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions">
-      Total U.S. Greenhouse Gas Emissions by Economic Sector in 2016
+      こちら
     </H.A>
-    .
+    。
   </p>
 )
