@@ -4,21 +4,16 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      <H.FB pageNumber={367}>
-        エボラのデータは世界保健機関によるもの(
-        <H.A href="http://gapm.io/xeboresp">WHO[3]</H.A>)。
-      </H.FB>{' '}
-      The data is from <H.A href="http://gapm.io/xeboresp">WHO[3]</H.A>, the
-      Ebola Response Team's research article evaluating the first 9 months of
-      the outbreak, with future projections.{' '}
+      エボラのデータは世界保健機関のエボラ対策本部による報告書から引用した(
+      <H.A href="http://gapm.io/xeboresp">WHO[3]</H.A>
+      )。報告書には、流行がはじまってから9ヶ月間の振り返りと、将来の予測が書かれている。
       <H.FB pageNumber={367}>
         エボラの緊急性を 伝えるためにギャップマインダーがつくった配布物は
         <H.A href="https://gapm.io/vebol">こちら</H.A>。
       </H.FB>
-      The material Gapminder produced to try to communicate the urgency of the
-      situation is at ww.gapm.io/vebol. Watch the epidemic explained in
-      <H.A href="http://gapm.io/fp16">Hans Rosling's Factpod #6</H.A> and
-      <H.A href="http://gapm.io/fp17">#8</H.A> on YouTube.
+      ハンスがエボラについて行なった講演は
+      <H.A href="http://gapm.io/fp16">Factpod #6</H.A>と
+      <H.A href="http://gapm.io/fp17">#8</H.A>から見れる。
     </p>
 
     <H.InlineCitation>
@@ -29,7 +24,7 @@ export default () => (
             Africa---The First 9 Months of the Epidemic and Forward
             Projections." New England Journal of Medicine 371 (October 6, 2014):
             1481--95.
-          </H.A>
+          </H.A>{' '}
           DOI: 10.1056/NEJMoa1411100
         </li>
       </ul>
