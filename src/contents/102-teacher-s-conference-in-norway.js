@@ -2,20 +2,15 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    9% or 7 out of 81 teachers at the conference in Gardermoen, Norway picked
-    the correct line on the graph. The polling devices used to test the audience
-    were from <H.A href="http://www.gapm.io/xtt">TurningPoint</H.A>. In 2013,
-    when Hans asked the question to the teachers, the forecast had been
-    published two months earlier. But the trend line wasn't news---the line from
-    two years earlier looked almost identical. In fact, the official forecasts
-    have stayed the same in the past four revisions of the publication, 2010,
-    2012, 2015, and 2017. Official projections from UN have been freely
-    available to the public for the past 8 years, showing that the number of
-    children in the world has stopped increasing. See also:
-    <H.A href="http://www.gapm.io/mmpopfut">
-      How Reliable is the World Population Forecast?
-    </H.A>
-    on Gapminder.
-  </p>
+  <>
+    <p>
+      ノルウェーのガーデモエンで行われたカンファレンスにて、正しい答えを選んだのは81人中7人だった(9%)。ちなみに、この時は
+      <H.A href="http://www.gapm.io/xtt">TurningPoint</H.A>
+      というツールを使って集計した。
+    </p>
+    <p>
+      2013年にハンスがこの質問をしたとき、国連はその2ヶ月前に子供人口の最新予測を発表した。しかしその最新予測は、以前からの予測となんら変わらないものだった。国連による2010年、2012年、2015年、2017年のすべての予測で、将来の子供人口はこれ以上増えないとされていた。人口予測についてはわたしたちが公開している
+      <H.A href="http://www.gapm.io/mmpopfut">こちらの記事</H.A>も参考に。
+    </p>
+  </>
 )
