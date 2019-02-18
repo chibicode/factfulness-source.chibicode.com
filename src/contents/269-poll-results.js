@@ -3,12 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    The results from different events are from{' '}
-    <H.A href="https://gapm.io/rrs">Gapminder[27]</H.A>. These include two media
-    conferences, and the factual filmmakers are people from National Geographic
-    and the Discovery Channel. As it says in the book, journalists and
-    documentarians are not lying---most of the journalists and filmmakers who
-    inform us about the world have themselves a skewed worldview (see also "Who
-    Should You Blame?" on page 221 in the book).
+    それぞれのイベントの結果は
+    <H.A href="https://gapm.io/rrs">Gapminder[27]</H.A>
+    を参照のこと。ジャーナリストもドキュメンタリー作家もわざと嘘をついているわけではなく、歪んだ世界の見方をしているだけだ。(p282を参照)
   </p>
 )
