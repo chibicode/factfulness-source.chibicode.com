@@ -3,12 +3,8 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    To compare the population in prehistory with the current population of three
-    major cities, we use data from the UN Statistics Division published in the
-    Demographic Yearbook--2015. The population was 6.5 million in Rio de
-    Janeiro; 8.1 million in London; and 8.3 million in Bangkok; see Table 8,
-    "Population of capital cities and cities of 100 000 or more
-    inhabitants: latest available year, 1996-2015," at
-    <H.A href="http://www.gapm.io/xpop">www.gapm.io/xpop</H.A>.
+    ここでは先史時代の人口と現在のリオデジャネイロ・ロンドン・バンコクの人口を比べている。現在の都市人口は国連人口部による
+    <H.A href="http://www.gapm.io/xpop">Demographic Yearbook (2015)</H.A>のTable
+    8を参考にしている。これによると、現在リオデジャネイロの人口は650万人、ロンドンの人口は810万人、バンコクの人口は830万人だ。
   </p>
 )
