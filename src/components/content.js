@@ -125,16 +125,25 @@ const Content = ({
             justify-content: space-between;
           `}
         >
-          <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>
+          <span>
+            <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>{' '}
+            &middot;{' '}
+            <Link
+              transparentBackground
+              href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/contents/${permalink}.js`}
+            >
+              変更履歴
+            </Link>
+          </span>
           {constructionId && (
-            <>
+            <span>
               <Link
                 transparentBackground
                 href={`https://gapm.io/${constructionId}`}
               >
-                詳細ページ(準備中)
+                詳細(準備中)
               </Link>
-            </>
+            </span>
           )}
         </p>
       )}
