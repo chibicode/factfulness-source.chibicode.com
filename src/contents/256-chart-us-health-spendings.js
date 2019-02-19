@@ -4,51 +4,30 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The United States spends much more on health care than other capitalist
-      countries on Level 4---the European Union, Japan, and South Korea. The
-      health spending data comes from WHO's
+      他のレベル4の資本主義国(EU諸国、日本、韓国など)に比べ、アメリカは医療費に対する支出が遥かに多い。医療費のデータは世界保健機関の
       <H.A href="http://apps.who.int/nha/database">
-        Global Health Expenditure Database
+        Global Health Expenditure Database (World Bank[24])
       </H.A>
-      , via World Bank[24].
+      を参考にした。
       <H.FB pageNumber={359}>
-        アメリカの医療費と、そのほかのレベル4にいる資本主義国の医療費の比較は、経済協力開発機構による報告書“Why
-        Is Health Spending in the United States So High?” を参考にした(OECD[1])
+        アメリカの医療費と、そのほかのレベル4にいる資本主義国の医療費の比較は、経済協力開発機構による報告書
+        <H.A href="https://www.oecd.org/unitedstates/49084355.pdf">
+          “Why Is Health Spending in the United States So High?”
+        </H.A>
+        を参考にした(OECD[1])
       </H.FB>
     </p>
     <p>
-      Compared to other OECD countries, the US spends more on all parts of the
-      system---hospitals, ambulatory care, pharmaceuticals, and public health
-      and administration---which indicate that spending in the US health-care
-      system is generally much higher across the board. The component that
-      stands out is ambulatory care providers---that is, physicians,
-      specialists, dentists, etc. The other most exaggerated costs are public
-      health and administration of the US health system, which is 60 percent
-      higher than in the rest of the OECD countries.
+      他のOECD諸国に比べ、アメリカはほとんどの医療分野における支出が多い。病院、外来受診、薬剤、公衆衛生など、どの分野でもそうだ。医者・医療専門家・歯医者に対する支出と、公衆衛生に対する支出がOECD諸国に比べて遥かに多い(公衆衛生に対してはOECD平均の1.6倍)。
     </p>
     <p>
-      The study continues to ask: Is the US providing too much health care? In
-      some common practices, the answer is clearly yes---when comparing the cost
-      of regular health delivery in US and France, the US health costs are 50
-      percent higher, which is in large part due to unnecessary doctor's
-      appointments, along with costly diagnostic equipment and over-testing.
-      These frequent doctor consultations and elective health interventions, as
-      we see, do not lead to healthier or longer lives on average. In fact, it
-      is the opposite. In other countries, that same amount of time with doctors
-      is spent on patients with worse conditions and payed through public
-      insurance. A few sub-systems are performing well, in terms of patient
-      content and cancer rates, as can be seen in the 32 improvements charts,
-      where the outcomes have been marvelous for those who got treatment. But
-      the US health system do not provide incentives for doctors to spend time
-      with the patients most in need of care. See
-      <H.A href="http://www.gapm.io/theasp">www.gapm.io/theasp</H.A>.
+      報告書は、アメリカは医療におカネを使いすぎなのか？という質問をしている。これは一部の基本的な医療においては完全に正しい。アメリカとフランスの基本的な診療費用を比べると、アメリカのほうが50%ほど高い。必要のない診療や高い機械、検査のしすぎなどが理由だ。わたしたちに言わせれば、医者に頻繁にかかったり、緊急を要しない医療介入は、平均寿命を伸ばすことにつながらない。むしろ逆のことが起きる。他の国では、医者は本当に治療が必要な患者に時間を割き、それは公的保険で支払われる。アメリカでは、最も治療が必要な患者に医師が時間を割くインセンティブがない。
     </p>
     <p>
-      There are two small countries that are excluded from the comparison above.
-      The Marshall Islands is reported to have similar health expenditure per
-      capita as the US, but we don't mention it because of its incomparable
-      size. Maldives is also very small, and it's under the horizontal line, and
-      can't be seen in the chart.
+      ただ、アメリカでも一部では良い結果が出ている。患者の満足度は高く、32のグラフに載っていたように、治療さえ受けられれば癌の予後はとても良い。
+    </p>
+    <p>
+      ちなみに、小国のマーシャル諸島とモルディブは比較から省いている。両方ともひとりあたりの医療費がアメリカ並だが、人口が少なすぎて比較対象として妥当ではない。
     </p>
 
     <H.InlineCitation>
