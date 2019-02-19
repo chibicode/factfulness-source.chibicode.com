@@ -1150,6 +1150,7 @@
     "chapter": 3,
     "enPage": 80,
     "jpTitle": "世界の人口のグラフ(紀元前8000年から現在まで)",
+    "constructionId": "spop",
     "permalink": "103-graph-world-population-from-8000-bc-to-today"
   },
   "103-historic-world-population-and-three-big-cities": {
@@ -2000,6 +2001,7 @@
       199
     ],
     "jpTitle": "アメリカの医療費のグラフ",
+    "constructionId": "theasp",
     "permalink": "256-chart-us-health-spendings"
   },
   "258-democracy-and-progress": {
@@ -2077,6 +2079,7 @@
     "chapter": 9,
     "enPage": 212,
     "jpTitle": "難民が飛行機を使わない理由",
+    "constructionId": "tpref",
     "permalink": "271-why-refugees-don-t-fly"
   },
   "274-co2-emissions-by-income": {
@@ -2280,6 +2283,7 @@
     "chapter": 10,
     "enPage": 239,
     "jpTitle": "地球温暖化のリスクと天然資源の濫用",
+    "constructionId": "dysna",
     "permalink": "304-the-risk-of-climate-change-and-plundering-of-natural-resources"
   },
   "305-the-risk-of-extreme-poverty": {

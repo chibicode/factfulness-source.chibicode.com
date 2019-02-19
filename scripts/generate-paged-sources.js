@@ -1530,7 +1530,7 @@ const pagedSources = [
     jpPage: 256,
     enPage: [198, 199],
     enTitle: `Chart: US Health Spendings`,
-    jpTitle: `アメリカの医療費のグラフ`
+    jpTitle: `アメリカの医療費のグラフ`,
     constructionId: 'theasp'
   },
   {
