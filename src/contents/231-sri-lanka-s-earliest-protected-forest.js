@@ -3,12 +3,15 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    "Conservation of nature and culture are ancient traditions in Sri
-    Lanka" If the king King Pandukabaya, hundred years before King
-    Devanampiyatissa is known to have given certain lands royal protection,
-    according to IUCN[3]. In 1820 Charles Waterton pioneered natural
-    conservation by building a nine-foot-high wall around three miles of his
-    estate in, to protect birds, wildlife and plants. See Wikipedia[25]
-    Yorkshire.
+    世界で初めて自然保護区域をつくったのは、スリランカのデーワー・ナンピアティッサ王だった
+    (
+    <H.A href="https://www.iucn.org/content/iucn-directory-south-asian-protected-areas">
+      IUCN[3]
+    </H.A>
+    )。 1820年には
+    <H.A href="https://en.wikipedia.org/wiki/Charles_Waterton">
+      チャールズ・ウォータートン
+    </H.A>
+    がイギリスのウェスト・ヨークシャーで初めて自然保護区域を作った。高さ3メートル、周囲5キロメートルもある壁を私有地のまわりにつくり、鳥や野生動物や植物を守った。
   </p>
 )
