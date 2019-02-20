@@ -1388,7 +1388,8 @@ const pagedSources = [
     jpPage: 224,
     enPage: 174,
     enTitle: `Fertility in Iran`,
-    jpTitle: `イランの出生率`
+    jpTitle: `イランの出生率`,
+    constructionId: 'vm2'
   },
   {
     chapter: 7,
