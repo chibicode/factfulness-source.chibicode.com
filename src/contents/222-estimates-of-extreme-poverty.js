@@ -4,36 +4,41 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Roughly half a billion people in Africa today live in extreme poverty, as
-      cited in Factfullness, p. 171. The more precise estimate from{' '}
-      <H.A href="https://gapm.io/depov">Gapminder[9]</H.A>
-      is 0.41 billion people, based on{' '}
-      <H.A href="http://iresearch.worldbank.org/PovcalNet">
-        PovalCal[1]
-      </H.A> and <H.A href="https://gapm.io/ximfw">IMF[1]</H.A>. Keep in mind
-      that there are huge uncertainties in extreme poverty, as described in the
-      note Fact Question 3: Extreme Poverty.
+      本書のp221にも書いた通り、現在、アフリカでは約5億人が極度の貧困にある。より正確な推定は4億1000万人だ(
+      <H.A href="https://gapm.io/depov">Gapminder[9]</H.A>、
+      <H.A href="http://iresearch.worldbank.org/PovcalNet">PovalCal[1]</H.A>、
+      <H.A href="https://gapm.io/ximfw">IMF[1]</H.A>
+      )。ただ、極度の貧困の推定には不確定要素が大きいことを忘れてはいけない。詳しくは
+      <H.OtherCardLink permalink="9-fact-question-3-extreme-poverty">
+        こちらの脚注を参照
+      </H.OtherCardLink>
+      のこと。
     </p>
     <p>
       <H.FB pageNumber={361}>
         ポール・コリアーは、『最底辺の10億人─最も貧しい人のために本当になすべきことは何か』(2008年6月、中谷和夫訳、日経BP社)の中で、痩せ細った土地に縛られたり、紛争地帯に暮らしている、世界で最も貧しい人たちの未来を描いている。
       </H.FB>
-      To see where these people are, the thing to measure is child mortality,
-      which is the most reliable indication of extreme poverty. By combining
-      these four detailed maps, we can locate the poorest on earth with the most
-      unfortunate future. Our rough estimate of people in extreme poverty close
-      to conflicts is based on ODI (Overseas Development Institute) from 2015,
-      preliminary results by Andreas Forø Tollefsen and Gudrun Østby of the
-      number of people who live close to conflict worldwide (743 millions in
-      2016); download PDF
-      <H.A href="http://www.gapm.io/xodi">here</H.A>. Data on where most people
-      live is from United Nations Population Division; where there are high
-      rates of child mortality from{' '}
-      <H.A href="http://gapm.io/xih5mr">IHME[6]</H.A>; where soils give low
-      yield from <H.A href="https://gapm.io/xcer">FAO[4]</H.A>; and where there
-      are conflicts from <H.A href="http://ucdp.uu.se/downloads">UCDP[2]</H.A>.
-      As long as there's conflict, most people stuck in poverty will have a hard
-      time getting out.
     </p>
+    <p>
+      極度の貧困がどこにあるかを知るには、まず各地域の乳幼児死亡率を見ることだ。乳幼児死亡率は極度の貧困と密接に結びついている。これに加え、紛争地帯の場所、紛争地帯に暮らす人口、痩せた土地に暮らす人口などを併せて見ることで、極度の貧困がどこにあるかが分かる。
+    </p>
+    <ul>
+      <li>
+        紛争地帯の場所のソース:{' '}
+        <H.A href="http://ucdp.uu.se/downloads">UCDP[2]</H.A>
+      </li>
+      <li>
+        紛争地帯に暮らす人口のソース:{' '}
+        <H.A href="http://www.gapm.io/xodi">ODI</H.A>、
+        <H.A href="http://gapm.io/xpriod">PRIO</H.A>
+      </li>
+      <li>
+        乳幼児死亡率のソース: <H.A href="http://gapm.io/xih5mr">IHME[6]</H.A>
+      </li>
+      <li>
+        土地についてのソース: <H.A href="https://gapm.io/xcer">FAO[4]</H.A>
+      </li>
+    </ul>
+    <p>紛争が続く限り、極度の貧困を脱するのは難しい。</p>
   </>
 )

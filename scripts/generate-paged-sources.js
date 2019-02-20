@@ -1353,7 +1353,8 @@ const pagedSources = [
     jpPage: 221,
     enPage: 171,
     enTitle: `Progress in China, Bangladesh, and Vietnam`,
-    jpTitle: `中国、バングラデシュ、ベトナムの進歩`
+    jpTitle: `中国、バングラデシュ、ベトナムの進歩`,
+    constructionId: 'mpoco'
   },
   {
     chapter: 7,
