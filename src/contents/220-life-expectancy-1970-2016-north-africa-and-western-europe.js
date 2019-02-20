@@ -4,58 +4,45 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      In the book we say that life expectancy in Africa today is 65 years.
-      Estimates from UN says the number for Africa is 66 years. IHME don't
-      present an aggregate for Africa, so Gapminder estimated the average
-      lifespan to be 65.5 for 2017, weighted by population, using select GBD
-      tables published in
+      本書では、アフリカの平均寿命は約65歳と説明している。国連の推定だと66歳。
+      <H.A href="http://www.gapm.io/xihlex">IHME</H.A>
+      はアフリカ全体の平均寿命を公開していないが、
       <H.A href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)31833-0/fulltext">
-        Lancet article 2017
+        国ごとのデータ
       </H.A>
-      , available to download via{' '}
-      <H.A href="http://www.gapm.io/xihlex">IHME</H.A>. Since population weight
-      seems to slightly increase life expectancy, Gapminder rounded it
-      downwards, to 65 years. Total Europe (as used in the rest of the book) has
-      78 years life expectancy, while Western Europe (or EU) has 82. So this
-      comparison is assuming we use EU or Western Europe.
+      を人口に照らし合わせた結果、アフリカ全体では65.5歳となった。この手法だと大きく見積もりがちなので、切り捨てて65歳とした。ヨーロッパの平均寿命は78歳、EU諸国の平均寿命は82歳。ここではEU諸国の平均寿命を用いている。
     </p>
     <p>
-      In 1970, the average lifespan in Sweden was 74.5 years. In their estimates
-      for 2016, IHME combines North Africa with the Middle East, including
-      Afghanistan, and puts life expectancy to 73.16 years, while
-      <H.A href="http://www.esa.un.org/unpd/wpp">UN-Pop[1]</H.A> estimates 71.8
-      years. To compare historical rates in Sweden with North Africa today, we
-      used data from IHME, GBD (2016). Sweden in 1967 and 1970 had 74.5 years
-      and 75.9 years in 1980, with the weighted average of 74.2 years. The five
-      countries in North Africa with life expectancies above the world average
-      of 72 years are as follow:
+      1970年のスウェーデンの平均寿命は74.5歳だった。北アフリカと中東(アフガニスタンを含む)の平均寿命はIHMEの2016年の推定によると73.16歳、
+      <H.A href="http://www.esa.un.org/unpd/wpp">国連の推定</H.A>
+      によると71.8歳だ。昔のスウェーデンと現在の北アフリカの平均寿命を比べるにあたっては、
+      <H.A href="https://gapm.io/xihlex">IHM GBD 2016</H.A>
+      のデータを使った。これによると、スウェーデンの平均寿命は1970年に74.5歳、1980年に75.9歳で、1970年代の平均は75.2歳だった。一方、現在の北アフリカの平均寿命は以下の通り。どれも世界平均の72歳より上だ。
     </p>
     <ul>
-      <li>Algeria, 77.4 years</li>
-      <li>Egypt, 72.1 years</li>
-      <li>Libya, 75.05 years</li>
-      <li>Morocco, 75 years</li>
-      <li>Tunisia, 77.46 years</li>
+      <li>アルジェリア: 77.4歳</li>
+      <li>エジプト: 72.1歳</li>
+      <li>リビア: 75.05歳</li>
+      <li>モロッコ: 75歳</li>
+      <li>チュニジア: 77.46歳</li>
     </ul>
     <p>
-      The five countries have lower Income than Sweden used to have, as you can
-      see in the interactive graph:
-      <H.A href="https://bit.ly/2IxvIAI">http://bit.ly/2IxvIAI</H.A>
+      世界保健チャートを見ると、これらの国の現在の所得は、当時のスウェーデンより低い
+      (<H.A href="https://bit.ly/2IxvIAI">グラフのリンクはこちら</H.A>)。
     </p>
     <p>
-      <img src="/static/images/sources/sweden-north-africa.jpg" alt="" />
+      <img
+        src="/static/images/sources/sweden-north-africa.jpg"
+        alt="Sweden and North Africa"
+      />
     </p>
     <p>
-      To estimate the average lifespan for the countries and regions mentioned
-      above, we looked at GBD, the table showing life expectancy every five
-      years from 1970 to 2016. For sub-Saharan Africa, life expectancy is 62.87
-      according to IHME, while UN estimates 59.7. IHME numbers are generally
-      higher. The reasons why are
+      サハラ以南のアフリカを見ると、現在の平均寿命はIHMEによると62.87歳、国連によると59.7歳だ。IHMEの数字が高くなる理由は
       <H.A href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)31833-0/fulltext">
-        explained by Lancet
+        Lancetの記事
       </H.A>
-      . See <H.A href="http://gapm.io/ilex">Gapminder[4]</H.A> for detailed
-      documentation on life expectancy for countries and regions.
+      を参考に。平均寿命について詳しくは
+      <H.A href="http://gapm.io/ilex">Gapminder[4]</H.A>を参考のこと。
     </p>
   </>
 )
