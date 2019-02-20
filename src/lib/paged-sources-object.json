@@ -1761,6 +1761,7 @@
     "chapter": 7,
     "enPage": 171,
     "jpTitle": "中国、バングラデシュ、ベトナムの進歩",
+    "constructionId": "mpoco",
     "permalink": "221-progress-in-china-bangladesh-and-vietnam"
   },
   "221-speed-of-improvement-over-the-decades": {
@@ -1769,7 +1770,7 @@
     "enTitle": "Speed of improvement over the decades",
     "chapter": 7,
     "enPage": 170,
-    "jpTitle": "進歩の速度の変化",
+    "jpTitle": "進歩の速度",
     "constructionId": "edafr2",
     "permalink": "221-speed-of-improvement-over-the-decades"
   },
@@ -1798,6 +1799,7 @@
     "chapter": 7,
     "enPage": 172,
     "jpTitle": "国際通貨基金(IMF)による見通し",
+    "constructionId": "eecof",
     "permalink": "223-imf-forecasts"
   },
   "224-fertility-in-iran": {
@@ -1807,6 +1809,7 @@
     "chapter": 7,
     "enPage": 174,
     "jpTitle": "イランの出生率",
+    "constructionId": "vm2",
     "permalink": "224-fertility-in-iran"
   },
   "226-classifying-major-religions": {

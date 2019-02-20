@@ -1338,7 +1338,7 @@ const pagedSources = [
     jpPage: 221,
     enPage: 170,
     enTitle: `Speed of improvement over the decades`,
-    jpTitle: `進歩の速度の変化`,
+    jpTitle: `進歩の速度`,
     constructionId: 'edafr2'
   },
   {
