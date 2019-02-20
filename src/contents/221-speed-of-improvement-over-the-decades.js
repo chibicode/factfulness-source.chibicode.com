@@ -27,7 +27,7 @@ export default () => (
         <ul>
           <li>
             <H.A href="https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=ZG">
-              サハラ以南アフリカ: 1971 → 2014- : 46 → 68%
+              サハラ以南アフリカ: 1971 → 2014: 46 → 68%
             </H.A>
           </li>
         </ul>
@@ -37,7 +37,7 @@ export default () => (
         <ul>
           <li>
             <H.A href="https://data.worldbank.org/indicator/SH.STA.ACSN?locations=ZG">
-              サハラ以南アフリカ: 1990 → 2015 : 23 → 29%
+              サハラ以南アフリカ: 1990 → 2015: 23 → 29%
             </H.A>
           </li>
         </ul>
@@ -47,7 +47,7 @@ export default () => (
         <ul>
           <li>
             <H.A href="https://data.worldbank.org/indicator/SH.H2O.SAFE.ZS?locations=ZG">
-              サハラ以南アフリカ: 1990 → 2015 : 46 → 67%
+              サハラ以南アフリカ: 1990 → 2015: 46 → 67%
             </H.A>
           </li>
         </ul>
