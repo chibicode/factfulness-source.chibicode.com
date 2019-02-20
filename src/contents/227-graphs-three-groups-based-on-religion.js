@@ -4,23 +4,15 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      In a sense, it is ridiculous to show only three kinds of religions. The
-      variations of people's spiritual beliefs are probably just as many as
-      there are people. If you search the internet for family trees of world
-      religions you will see how they all branch from a few common beliefs,
-      splitting into a myriad of different interpretations, practices and belief
-      systems that keeps splitting over the decades. It is unusual that
-      religious groups emerge, just like branches on a tree.
+      ある意味、3つの宗教だけを選んでグラフにするのは無理がある。同じ宗教を信じていたとしても、人々の信仰心は多様だ。ひとりひとりが違うように、ひとりひとりの信仰心もまったく違う。
     </p>
     <p>
-      Globally, roughly 1.1 billion people do not affiliate with any of the
-      world's largest religions, such as atheists, agnostics, or those without
-      any particular religion. The number of people who affiliate with the
-      world's large religions represent about 2.1 billion Christians, 1.6
-      billion Muslims and about 2.6 billion other large religions (1 billion
-      Hindus, 0.5 billion Buddhists). The numbers come from
-      <H.A href="http://gapm.io/xpewrel1">PEW[2]</H.A> and the ARDA[1], where
-      you can find percentages of people following each religion.
+      ネットで世界の宗教の樹形図を検索してみると、どれも元々はいくつかの共通した考え方から派生したことがわかる。時が経つにつれ、解釈の違いや信仰の違いが生じ、まるで木のように枝分かれして多種多様な宗教ができる。ふたつの木の枝がひとつに戻ることがないように、枝分かれしたふたつの宗教がひとつになることは稀だ。
+    </p>
+    <p>
+      世界の大きな宗教を信じない人は約11億人いる。特に信仰がない人たちや、不可知論者や無神論者などだ。世界には約21億人のキリスト教徒と16億人のイスラム教徒がいる。他の大きな宗教を信じる人たちは26億人いる(ヒンドゥー教徒は10億人、仏教徒は5億人)。詳しくは
+      <H.A href="http://gapm.io/xpewrel1">PEW[2]</H.A>と
+      <H.A href="http://www.thearda.com/">the ARDA[1]</H.A>を参考のこと。
     </p>
   </>
 )
