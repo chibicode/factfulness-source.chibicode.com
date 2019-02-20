@@ -3,16 +3,21 @@ import * as H from '../components/h'
 
 // スウェーデン性教育協会
 export default () => (
-  <p>
-    The earliest condoms found are from Egypt 13000 years BC. In the nineteenth
-    century they became better and less expensive thanks to new rubber
-    technology. Condoms were allowed in Sweden, but could only be sold by
-    medical staff and up to 1939 it was prison sentence if anyone tried to
-    educate about them, as it was considered demoralizing and "could harm
-    the family and societies and stimulate prostitution". The radical
-    journalist Elise Ottesen--Jensen changed all that by educating women and
-    distributing pesars. She mobilized brave women and men and brave union
-    leaders to finally create the Swedish Association for Sexuality Education:
-    RFSU. It wasn't until the 1970s when the laws changed.
-  </p>
+  <>
+    <p>
+      世界で最も古いコンドームは紀元前1万年以上前のエジプトのもの。
+      <H.Addition>
+        <H.A href="http://www.soc.ucsb.edu/sexinfo/article/history-condom">
+          壁画に描かれていた
+        </H.A>
+      </H.Addition>
+      。19世紀になるとコンドームは性能が上がり、ゴムの技術が発達して安価になった。
+    </p>
+    <p>
+      スウェーデンではコンドームは合法だったが、医療機関でしか入手できなかった。しかも1939年までは、避妊に関する知識を広めようとすると牢獄行きだった。「家族や社会に悪影響だし、売春を広める恐れがある」という理由からだった。
+    </p>
+    <p>
+      しかし、先鋭的なジャーナリストのエリーゼ・オッテセン・イェンセンがそれをひっくり返した。彼女は女性に対して性教育を行い、勇敢な女性や男性、組合の指導者を巻き込んでスウェーデン性教育協会(RFSU)を立ち上げた。法律が追いついたのは1970年代になってからだった。
+    </p>
+  </>
 )
