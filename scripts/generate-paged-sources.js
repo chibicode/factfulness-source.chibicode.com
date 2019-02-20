@@ -1381,7 +1381,8 @@ const pagedSources = [
     jpPage: 223,
     enPage: 172,
     enTitle: `IMF forecasts`,
-    jpTitle: `国際通貨基金(IMF)による見通し`
+    jpTitle: `国際通貨基金(IMF)による見通し`,
+    constructionId: 'eecof'
   },
   {
     chapter: 7,

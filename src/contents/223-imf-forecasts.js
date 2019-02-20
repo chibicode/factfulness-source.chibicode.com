@@ -7,29 +7,23 @@ export default () => (
       <H.FB pageNumber={361}>
         国際通貨基金による過去の予測精度についてのわたしたちのコメントは、国際通貨基金による世界経済見通し(IMF[2])のデータを対象にしている
       </H.FB>
-      IMF forecasts are used for speculations about future growth in the stock
-      and finance industry, as
-      <H.A href="https://www.bbc.com/news/business-22228223">BBC News</H.A>{' '}
-      points out.
+      <H.A href="https://www.bbc.com/news/business-22228223">BBC</H.A>
+      も指摘しているように、IMFの予測は株式市場や金融機関で使われる。株式市場が反応した一例は
       <H.A href="https://seekingalpha.com/article/4117923-2017-q4-stock-market-outlook-u-s-economy-reaching-peak">
-        Here
+        こちら
       </H.A>
-      is one example of such speculations.
+      )。
     </p>
-    <p>
-      See <H.A href="http://www.gapm.io/eecof">www.gapm.io/eecof</H.A>. The
-      following graphs are from IMF forecast track record, based on the World
-      Economic Outlook from previous years IMF[2-10]:
-    </p>
-    <p>Advanced economies</p>
+    <p>以下のグラフはIMFの予測の制度を表している[IMF2-10]。</p>
+    <p>レベル4の各国</p>
     <p>
       <img src="/static/images/sources/imf-advanced.jpg" alt="" />
     </p>
-    <p>Sub-Saharan Africa</p>
+    <p>サハラ以南のアフリカ</p>
     <p>
       <img src="/static/images/sources/imf-ssa.jpg" alt="" />
     </p>
-    <p>Where growth happened</p>
+    <p>経済成長が特に高かったのは以下の国々だ:</p>
     <p>
       <img src="/static/images/sources/imf-top-growth.jpg" alt="" />
     </p>
