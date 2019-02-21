@@ -4,12 +4,9 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The number of sudden infant deaths fell during the 1990s due to successful
-      intervention campaigns telling mothers not to leave their babies in the
-      prone position. But these campaigns only helped bring down the rates of
-      sudden infant deaths to the same low levels where they used to be, before
-      the prone position was promoted. The same pattern evolved in the US,
-      Norway and Sweden.
+      「赤ちゃんをうつぶせに寝かせてはいけない」という情報が母親の間で広まった結果、乳児の突然死は1990年代に減った。ただ、うつぶせ寝が広まる前の水準に戻っただけとも言える。この現象はアメリカ、ノルウェー、スウェーデンで起きた。
+    </p>
+    <p>
       <H.FB pageNumber={362}>
         スウェーデンで乳幼児突然死症候群(SIDS)が増えた原因がうつぶせ寝だったということは、Gilbert
         の論文(2005)とHögbergとBergströmによる1997年の論文“Läkarråd ökade risken
@@ -17,26 +14,29 @@ export default () => (
       </H.FB>
     </p>
     <p>
-      <H.FB pageNumber={362}>香港の論文はDavies(1985)のもの。</H.FB> The study
-      was the first to suggest that the practice of placing babies in prone
-      position could be the cause of sudden infant deaths; see
+      <H.FB pageNumber={362}>
+        香港のグループによる調査はDavies(1985)のもの。
+      </H.FB>
+      子供をうつぶせ寝させることが突然死を招くことに言及したはじめての調査だった。
       <H.A href="https://www.ncbi.nlm.nih.gov/pubmed/2866397?dopt=Abstract">
-        Cot death in Hong Kong: a rare problem?
+        こちらの記事
       </H.A>
-      and
+      と、N.N. Lee (1989)による
       <H.A href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1835990/">
-        this follow-up report
+        こちらの記事
       </H.A>
-      from N.N. Lee (1989). For historical data on sudden infant deaths in
-      Norway, see, for example, Irgens et. al (1995), available to download as
+      を参考のこと。
+    </p>
+    <p>
+      ノルウェーにおける乳児の突然死については
       <H.A href="http://pubmedcentralcanada.ca/pmcc/articles/PMC1511132/pdf/archdisch00624-0014.pdf">
-        PDF here
+        Irgens et. al (1995)
       </H.A>
-      . For more about
+      に詳しい。乳幼児突然死症候群の傾向についての国際的な報告書は
       <H.A href="https://www.ispid.org/fileadmin/user_upload/textfiles/articles/CPR17_Hauck_SIDS_Trends.pdf">
-        international trends in SIDS
+        こちら
       </H.A>
-      .
+      。
     </p>
   </>
 )
