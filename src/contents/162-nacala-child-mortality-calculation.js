@@ -2,21 +2,23 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    <H.FB pageNumber={363}>
-      ここで使った出生数と人口のデータは、1970年のモザンビークの人口調査と、ナカラ病院による記録と、UN-IGME
-      of 2017を基にしている。
-    </H.FB>
-    The deaths in the hospital are based on Hans's own notes. The official child
-    mortality estimate for the whole country was probably different back then.
-    For this calculation example, we use the latest available estimate for that
-    year from <H.A href="http://www.childmortality.org/">UN-IGME</H.A> of 2017.
-    Mozambique was the poorest country in the world in 1979, according to the
-    World Bank's latest available estimates; see
-    <H.A href="https://www.gapminder.org/whc">www.gapminder.org/whc</H.A>.
-    According to <H.A href="http://gapm.io/xwhowf">WHO[8]</H.A>, the number of
-    doctors per 100,000 people in 1980 was 2.2 in Sweden, and 0.0255 in
-    Mozambique. After the liberation in Mozambique, extremely few doctors
-    remained in the remote districts; see World Bank[24].
-  </p>
+  <>
+    <p>
+      <H.FB pageNumber={363}>
+        ここで使った出生数と人口のデータは、1970年のモザンビークの人口調査と、ナカラ病院による記録と、UN-IGME
+        of 2017を基にしている。
+      </H.FB>
+    </p>
+    <p>
+      病院で亡くなった子供の数はハンス自身の記録が基になっている。当時の政府による乳幼児死亡率の推定は、おそらく今と違っていただろう。ここでは、
+      <H.A href="http://www.childmortality.org/">UN-IGME (2017)</H.A>
+      による1970年のデータを利用している。
+    </p>
+    <p>
+      <H.A href="https://www.gapminder.org/whc">世界銀行によると</H.A>
+      、モザンビークは1979年に世界で最も貧しい国だった。また
+      <H.A href="https://gapm.io/xwb1723">WHO[8]</H.A>
+      によると、1980年の10万人あたりの医者の数はスウェーデンでは2.2人だったのに対し、モザンビークでは0.0255人だった。モザンビークが独立した際、ほとんどの医者は田舎を去ってしまったからだ。
+    </p>
+  </>
 )
