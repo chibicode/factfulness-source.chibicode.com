@@ -6,34 +6,29 @@ export default () => (
     <p>
       <H.FB pageNumber={364}>
         飲酒による死亡者数は、<H.A href="http://ihmeuw.org/49pa">IHME[9]</H.A>
-        、NHTSA(2017)、FBI、BJS のデー タを基に算出した。
+        、NHTSA(2017)、FBI、BJS のデータを基に算出した。
       </H.FB>
-      Data on traffic fatalities come from NHTSA (2017). In 2016, drunk drivers
-      in the United States killed 948 pedestrians and cyclists, 1,550 passengers
-      in the vehicles they were driving, and 1,520 in other vehicles---a total
-      of 4,018 deaths, of which 1,233 were children. For murder and nonnegligent
-      manslaughter, US statistics are not as transparent with information on
-      blood-alcohol concentrations in offenders. The total number for 2016 was
-      17,250 homicide victims, according to FBI. To guess how many of those
-      involved a drunk murder, we went to the Bureau of Justice Statistics,
-      BJS[1], Alcohol and Crime: Data From 2002 to 2008, which reported a rate
-      between 19--37 percent. We used the lower estimate of 20 percent,
-      estimating that 3,450 homicides occured when the murderer was under the
-      influence. One caveat here is that many of these deaths could
-      theoretically have happened without the perpetrator being drunk. Domestic
-      violence often involves alcohol (roughly 50 percent), but after the
-      perpetrator (almost always the man) stops drinking, the violence may
-      continue in half of the cases, according to Klostermann (2006).
     </p>
     <p>
-      The total estimate is that alcohol was in the drivers and murderers who
-      killed 7,468 people in the United States 2016. Compared to a terrorism
-      average of 155 per year (which includes 9/11). That would give us a US
-      figure of roughly 9,000 deaths a year. That difference in risks between
-      terrorism and alcoholism figures are is similar comparable across most
-      European countries on Level 4, which all have quite terrible drinking
-      habits: the risk that your loved one will be killed by a drunk person is
-      50 48 times higher than the risk they will be killed by a terrorist.
+      交通事故のデータは<H.A href="https://gapm.io/xalc">NHTSA (2017)</H.A>
+      によるもの。2016年には飲酒運転によりアメリカで4018人が亡くなった。内訳は948人が歩行者や自転車に乗った人、1550人が飲酒運転側の車の搭乗者、1520人が他の車の搭乗者だった。また、4018人中1223人は子供だった。
+    </p>
+    <p>
+      一方、アメリカにおける殺人においては、殺人者の飲酒状況ははっきりと記録されていない。2016年の殺人による犠牲者は、FBIによると17250人。このうち何人が飲酒による殺人かを調べるために、わたしたちはアメリカ司法統計局(BJS)の
+      <H.A href="https://www.bjs.gov/content/acf/ac_conclusion.cfm">
+        Alcohol and Crime: Data From 2002 to 2008
+      </H.A>
+      という資料をあたった。これによると、飲酒が原因の殺人は19〜37%だった。わたしたちは下限の20%を利用し、3450件の殺人が飲酒によるものと算出した。
+    </p>
+    <p>
+      ただ、多くの殺人事件は、犯人が飲酒をしていなくても起きていただろう。
+      <H.A href="https://psycnet.apa.org/record/2006-13502-005">
+        Klostermann (2006)
+      </H.A>
+      によると、DVの約50%のケースでは加害者が飲酒しているが、加害者側が酒を絶っても、さらに50%の確率で暴力は続くという。
+    </p>
+    <p>
+      話を戻すと、2016年のアメリカで、アルコールが原因となった殺人と飲酒運転の合計は7468件。一方テロの犠牲者数は、9/11を含む平均を見ても、一年あたり155人だ。レベル4のヨーロッパの国におけるテロと飲酒による死のリスクは、アメリカとさほど変わらない。大事な人が酔っ払いに殺される確率は、テロリストに殺される確率より50倍以上高い。
     </p>
   </>
 )
