@@ -1221,7 +1221,7 @@ const pagedSources = [
     jpPage: 179,
     enPage: 138,
     enTitle: `Graphs: West and Rest`,
-    jpTitle: `結核と豚インフルエンザ`
+    jpTitle: `もうすぐ、レベル4の大半が西洋人以外になる`
   },
   {
     chapter: 5,
