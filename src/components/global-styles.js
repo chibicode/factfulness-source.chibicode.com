@@ -17,6 +17,10 @@ const GlobalStyles = () => (
             sans-serif;
         }
 
+        body {
+          padding-top: 2rem;
+        }
+
         h1,
         h2,
         h3,

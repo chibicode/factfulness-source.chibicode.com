@@ -10,8 +10,8 @@ const Modal = ({permalink}) => (
   <section
     css={css`
       position: fixed;
-      top: 0;
       left: 0;
+      top: 0;
       width: 100%;
       height: 100%;
       background: ${colors.blueGrey900alpha};
@@ -28,7 +28,7 @@ const Modal = ({permalink}) => (
         `
       ]}
     />
-    <Container>
+    <Container hasVerticalPadding>
       <Card isLast>
         <Content isModal {...pagedSourcesObject[permalink]} />
       </Card>
