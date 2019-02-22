@@ -8,6 +8,7 @@ import CardTitle from './card-title'
 
 const Content = ({
   jpPage,
+  enPage,
   permalink,
   chapter,
   jpTitle,
@@ -84,7 +85,9 @@ const Content = ({
         >
           {typeof chapter === 'number' ? `第${chapter}章` : chapter}
           {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) &&
-            ` (P${Array.isArray(jpPage) ? jpPage.join('〜') : jpPage})`}
+            ` · 邦訳: p${
+              Array.isArray(jpPage) ? jpPage.join('-') : jpPage
+            } · 原著: p${Array.isArray(enPage) ? enPage.join('-') : enPage}`}
         </p>
       )}
       <Component />
