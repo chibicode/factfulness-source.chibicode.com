@@ -91,7 +91,36 @@ const Content = ({
         </p>
       )}
       <Component />
-      {isModal ? (
+      <p
+        css={css`
+          color: ${colors.blueGrey400};
+          font-size: 0.85rem;
+          display: flex;
+          justify-content: space-between;
+        `}
+      >
+        <span>
+          <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>{' '}
+          &middot;{' '}
+          <Link
+            transparentBackground
+            href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/contents/${permalink}.js`}
+          >
+            変更履歴
+          </Link>
+        </span>
+        {constructionId && (
+          <span>
+            <Link
+              transparentBackground
+              href={`https://gapm.io/${constructionId}`}
+            >
+              詳細(準備中)
+            </Link>
+          </span>
+        )}
+      </p>
+      {isModal && (
         <div
           css={css`
             padding: 2rem 0 1rem;
@@ -119,36 +148,6 @@ const Content = ({
             全ての脚注を見る
           </InternalLink>
         </div>
-      ) : (
-        <p
-          css={css`
-            color: ${colors.blueGrey400};
-            font-size: 0.85rem;
-            display: flex;
-            justify-content: space-between;
-          `}
-        >
-          <span>
-            <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>{' '}
-            &middot;{' '}
-            <Link
-              transparentBackground
-              href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/contents/${permalink}.js`}
-            >
-              変更履歴
-            </Link>
-          </span>
-          {constructionId && (
-            <span>
-              <Link
-                transparentBackground
-                href={`https://gapm.io/${constructionId}`}
-              >
-                詳細(準備中)
-              </Link>
-            </span>
-          )}
-        </p>
       )}
     </>
   )
