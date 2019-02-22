@@ -4,29 +4,27 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The graph presenting family size by income uses the most recent available
-      data from World Bank[5] estimating that 10.7 percent of the population
-      lived in extreme poverty in 2013.
-      <H.A href="http://gapm.io/depov">Gapminder[9]</H.A> has extended the data
-      to 2017, using IMF's GDP per capita growth, and estimates that 0.75
-      billion people of the world population live on less than $2 a day; that is
-      10 percent of 7.55 billion people in the world. UN and the World Bank has
-      set the threshold of extreme poverty at $1.9. Since these numbers are very
-      rough estimates, Gapminder has rounded up the threshold to $2 a day.
+      所得別の女性ひとりあたりの子供の数のグラフには、世界銀行による
+      <H.A href="https://gapm.io/xwb175">最新のデータ</H.A>
+      を使った。これによると、2013年には世界人口の10.7%が極度の貧困に暮らしていた。わたしたちはこのデータと、IMFによるひとりあたりGDPの予測をもとに、
+      <H.A href="http://gapm.io/depov">2017年のデータを算出した</H.A>
+      。その結果、2017年に1日2ドル以下で暮らすのは7億5000万人と推定した(世界人口75.5億人の10%)。国連と世界銀行は極度の貧困を「1日1.9ドル以下の所得」と定義している。だが、1.9ドルというと実際と反して正確な調査である印象をもたらすため、わたしたちは2ドルを境にしている。
     </p>
     <p>
-      Our estimates for families on dif­ferent income levels are based on{' '}
+      女性ひとりあたりの子供の数の推定は
       <H.FB pageNumber={366}>
-        Countdown to
-        2030とGDL[1,2]のデータを基にしている。このデータはUNICEF-MICS、USAID-DHS[1]、IPUMSなどが行った何百もの調査の結果だ。
+        <H.A href="http://countdown2030.org/">Countdown to 2030</H.A>と
+        <H.A href="https://globaldatalab.org/areadata">GDL[1]</H.A>、
+        <H.A href="https://globaldatalab.org/iwi">GDL[2]</H.A>
+        のデータを基にしている。このデータは
+        <H.A href="http://mics.unicef.org">UNICEF-MICS</H.A>、
+        <H.A href="https:// dhsprogram.com">USAID-DHS[1]</H.A>、
+        <H.A href="https://gapm.io/xipums">IPUMS</H.A>
+        などが行った何百もの調査の結果だ。
       </H.FB>
-      Instead of using national averages, household data allow us to include
-      families on Level 1, as well as the poorest families living in countries
-      on Level 2 and 3. The income levels of households in these datasets are
-      estimated from their material assets, for instance by the number of people
-      per sleeping room, floor-material and means of transport. For more about
-      the data and methods behind Gapminder's four income levels, see{' '}
-      <H.A href="http://www.gapm.io/elev">gapm.io/elev</H.A>.
+      家庭調査のデータを使うことによって、国の平均を見た場合よりも、レベルごとの世帯人数が正確にわかる。ちなみにこれらの調査データでは、貧しい家庭の所得を計測するのに「家のひと部屋あたりの人数」「家の床が何でできているか」「移動手段は何か」などを使っている。
+      所得レベルについて詳しくは<H.A href="http://www.gapm.io/elev">こちら</H.A>
+      を参照のこと。
     </p>
   </>
 )
