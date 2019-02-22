@@ -2,16 +2,10 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    The population curve is flat when the fill-up is completed and childbearing
-    is on the level of replacement. The technical term called replacement-level
-    fertility is a measure of children per woman (total fertility rate) that is
-    needed for the next generation of a population to replace itself. About 2.1
-    children per woman is often assumed to be the global level of replacement,
-    but this is only the case in periods of good health and well-being in a
-    population. For a country to achieve fertility at replacement-level, it
-    requires that no more than 5% of children die. If four out of six people die
-    before reaching childbearing age, replacement fertility would be 6 children
-    per woman.
-  </p>
+  <>
+    <p>子供から大人になる人の数が一定になれば、人口のグラフは平らになる。</p>
+    <p>
+      次の世代の人口が同じになるために必要な出生率を、「人口置換水準」と呼ぶ。世界的には女性ひとりあたり2.1人という数字がよく使われるが、人々が健康で、子供の死亡率が5%以下であることが前提となっている。もし6人中4人の子供が大人になるまでに亡くなっていたら、人口置換水準は女性ひとりあたり6人となる。
+    </p>
+  </>
 )
