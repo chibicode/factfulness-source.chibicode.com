@@ -4,30 +4,27 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Life expectancy suffered an extreme dip in Bangladesh 1971 because of the
-      Bangladesh war of independence. In 1972, the total fertility rate was 6.93
-      children per woman and life expectancy was 47 years according to UN, or 52
-      years according to IHME. In Bangladesh today, the total fertility rate is
-      2.07 children per woman and life expectancy is 72.8 years according to UN,
-      or 72.7 according to IHME. Since 1972, the under-five mortality rate per
-      1,000 live births (U5mr) has reduced significantly. It fell from 221.7
-      children in 1972 to 34.2 in 2016. In other words, the child survival rate
-      in 1972 was 778 surviving children per 1,000 which means 77.8 percent.
-      Today, the number is 966 out of 1,000 which means that 96.6 percent of
-      children in Bangladesh survive. The child mortality rate was 313 children
-      per 1,000 live births in Egypt 1960. Child mortality rates in Egypt and
-      Bangladesh are based on data from
-      <H.A href="http://www.gapm.io/xu5mr">UN-IGME</H.A>. At
-      <H.A href="http://www.gapm.io/du5mr">www.gapm.io/du5mr</H.A> we describe
-      in full how we have combined child mortality data from multiple sources.
+      バングラデシュでは、独立戦争が起きた1971年に平均寿命が極端に落ち込んだ。1972年の女性ひとりあたりの子供の数は6.93人で、平均寿命は国連によると47歳、IHMEによると52歳だった。現在、バングフラデシュの女性ひとりあたりの子供の数は2.07人で、平均寿命は国連によると72.8歳、IHMEによると72.7歳になった。
     </p>
     <p>
-      The construction of the High Aswan Dam began in 1960 to control flooding
-      along the Nile. The dam was completed in 1970 and installed 1971; see
-      <H.A href="http://www.gapm.io/xdam">gapm.io/xdam</H.A>. In our animated
-      World Health Chart you can see the progress of Egypt, Bangladesh, or most
-      other countries---search by country and click Play at
-      <H.A href="https://www.gapminder.org/whc">www.gapminder.org/whc</H.A>.
+      また1972年以降、乳幼児死亡率も極端に減った。1972年は1000人中221.7人の子供が亡くなっていたが、2016年は34.2人にまで減った。言い換えると、1972年は子供が5歳になるまで生きられる確率は77.8%だったが、現在は96.6%になった。ちなみに1960年のエジプトでは、乳幼児死亡率は1000人中313人だった。
+    </p>
+    <p>
+      エジプトとバングラデシュの乳幼児死亡率は
+      <H.A href="http://www.gapm.io/xu5mr">UN-IGME</H.A>
+      によるもの。乳幼児死亡率について詳しくは
+      <H.A href="http://www.gapm.io/du5mr">こちら</H.A>を参照のこと。
+    </p>
+    <p>
+      ナイル川をせき止めた
+      <H.A href="https://www.nationalgeographic.org/thisday/jul21/aswan-dam-completed/">
+        アスワン・ハイ・ダム
+      </H.A>
+      の建築は1960年にはじまり、1970年に完成し、1971年に運転が開始した。
+    </p>
+    <p>
+      <H.A href="https://www.gapminder.org/whc">世界保健チャートのウェブ版</H.A>
+      では、エジプトやバングラデシュや他の国の歩みをアニメーションで見ることができる。
     </p>
   </>
 )
