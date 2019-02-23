@@ -30,6 +30,10 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
           margin-left: -1px;
           margin-right: -1px;
           display: flex;
+          ${ns} {
+            margin-left: -7px;
+            margin-right: -7px;
+          }
         `}
       >
         {groupedPagedSources.map((section, index) => (
