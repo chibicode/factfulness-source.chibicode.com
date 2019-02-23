@@ -18,11 +18,7 @@ const Main = () => {
         <IntroDisclaimer />
       </Card>
       {pagedSources.map((data, i) => {
-        const nextSection =
-          data.section ||
-          (data.chapter === 'イントロダクション'
-            ? data.chapter
-            : `第${data.chapter}章`)
+        const nextSection = data.section || data.chapter
         return (
           <Fragment key={data.permalink}>
             {(() => {
