@@ -22,20 +22,16 @@ export default () => (
       </li>
       <li>
         <H.FB pageNumber={355}>
-          <H.A href="">
-            ポール・コリアー著『最底辺の10億人─最も貧しい人のために本当になすべきことは何か』(2008年6月、中谷和夫訳、日経BP社)
-          </H.A>
+          ポール・コリアー著『最底辺の10億人─最も貧しい人のために本当になすべきことは何か』(2008年6月、中谷和夫訳、日経BP社)
         </H.FB>
       </li>
       <li>
         <H.FB pageNumber={355}>
-          <H.A href="">
-            BBCのドキュメンタリー番組“
-            <H.A href="https://www.gapminder.org/videos/dont-panic-end-poverty/">
-              Don’t Panic—End Poverty
-            </H.A>
-            ” (Gapminder[11])
+          BBCのドキュメンタリー番組“
+          <H.A href="https://www.gapminder.org/videos/dont-panic-end-poverty/">
+            Don’t Panic—End Poverty
           </H.A>
+          ” (Gapminder[11])
         </H.FB>
       </li>
     </ul>

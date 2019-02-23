@@ -83,7 +83,7 @@ const Content = ({
             font-size: 0.85rem;
           `}
         >
-          {typeof chapter === 'number' ? `第${chapter}章` : chapter}
+          {chapter}
           {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) &&
             ` · 邦訳: p${
               Array.isArray(jpPage) ? jpPage.join('-') : jpPage

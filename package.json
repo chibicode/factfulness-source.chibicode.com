@@ -11,12 +11,13 @@
     "@material-ui/core": "^3.9.1",
     "@zeit/next-css": "^1.0.1",
     "color": "^3.1.0",
-    "lodash": "^4.17.11",
+    "intersection-observer": "^0.5.1",
     "modern-normalize": "^0.5.0",
     "next": "^8.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-intersection-observer": "^8.0.5",
     "smoothscroll-polyfill": "^0.4.3"
   },
   "devDependencies": {
@@ -32,7 +33,12 @@
     "prettier": true,
     "semicolon": false,
     "space": true,
-    "extends": "xo-react",
+    "plugins": [
+      "react-hooks"
+    ],
+    "extends": [
+      "xo-react"
+    ],
     "parser": "babel-eslint",
     "globals": [
       "window"
@@ -41,7 +47,9 @@
       "react/prop-types": false,
       "react/no-danger": false,
       "import/no-unassigned-import": false,
-      "react/no-unescaped-entities": false
+      "react/no-unescaped-entities": false,
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warning"
     }
   }
 }

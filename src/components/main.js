@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react'
 import pagedSources from '../lib/paged-sources'
-import colors from '../lib/colors'
 import Card from './card'
-import Content from './content'
 import IntroHero from './intro-hero'
 import IntroDisclaimer from './intro-disclaimer'
 import SectionHeader from './section-header'
+import ContentCardWrapper from './content-card-wrapper'
 
 const Main = () => {
   let lastSection
+
   return (
     <>
       <Card>
@@ -28,16 +28,13 @@ const Main = () => {
             {(() => {
               if (lastSection !== nextSection) {
                 lastSection = nextSection
-                return (
-                  <Card background={colors.blueGrey400} foreground="#fff">
-                    <SectionHeader>{lastSection}</SectionHeader>
-                  </Card>
-                )
+                return <SectionHeader>{lastSection}</SectionHeader>
               }
             })()}
-            <Card isLast={i === pagedSources.length - 1}>
-              <Content {...data} />
-            </Card>
+            <ContentCardWrapper
+              data={data}
+              isLast={i === pagedSources.length - 1}
+            />
           </Fragment>
         )
       })}

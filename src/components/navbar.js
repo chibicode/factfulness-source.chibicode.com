@@ -2,7 +2,7 @@
 import {jsx, css} from '@emotion/core'
 import colors from '../lib/colors'
 import Container from './container'
-import NavChapterNumber from './nav-chapter-number'
+import NavSection from './nav-section'
 import NavPageNumber from './nav-page-number'
 
 const Navbar = () => (
@@ -12,7 +12,7 @@ const Navbar = () => (
       width: 100%;
       top: 0;
       font-weight: bold;
-      color: ${colors.grey700};
+      color: ${colors.blueGrey800};
       background: ${colors.blueGrey100};
       border-bottom: 1px solid ${colors.blueGrey200};
     `}
@@ -25,7 +25,7 @@ const Navbar = () => (
         justify-content: space-between;
       `}
     >
-      <NavChapterNumber />
+      <NavSection />
       <NavPageNumber />
     </Container>
   </nav>

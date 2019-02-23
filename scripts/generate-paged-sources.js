@@ -1,10 +1,11 @@
 const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
-const process = ({jpPage, enTitle, permalink, ...rest}) => ({
+const process = ({jpPage, chapter, enTitle, permalink, ...rest}) => ({
   jpPage,
   jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
   enTitle,
+  chapter: typeof chapter === 'number' ? `第${chapter}章` : chapter,
   ...rest,
   permalink:
     permalink ||
@@ -18,13 +19,13 @@ const process = ({jpPage, enTitle, permalink, ...rest}) => ({
     ].join('-')
 })
 
-const pagedSources = [
+let pagedSources = [
   {
     section: '全般・見返し・はじめに',
     chapter: '全般',
     jpPage: -103,
     enTitle: 'Inside cover at the end: People by region and income',
-    jpTitle: '全般: 2017年のデータ',
+    jpTitle: '2017年のデータ',
     permalink: 'data-for-2017',
     constructionId: 'eext'
   },
@@ -33,7 +34,7 @@ const pagedSources = [
     chapter: '全般',
     jpPage: -102,
     enTitle: 'Inside front cover: World Health Chart 2017',
-    jpTitle: '全般: 国の名称について',
+    jpTitle: '国の名称について',
     permalink: 'country-names'
   },
   {
@@ -41,7 +42,7 @@ const pagedSources = [
     chapter: '見返し',
     jpPage: -101,
     enTitle: 'Inside front cover: World Health Chart 2017',
-    jpTitle: '見返し: 世界保健チャート(2017年版)',
+    jpTitle: '世界保健チャート(2017年版)',
     permalink: 'inside-front-cover'
   },
   {
@@ -49,7 +50,7 @@ const pagedSources = [
     chapter: '見返し',
     jpPage: -100,
     enTitle: 'Inside cover at the end: People by region and income',
-    jpTitle: '見返し: 地域ごと・所得ごとの暮らしと人口',
+    jpTitle: '地域ごと・所得ごとの暮らしと人口',
     permalink: 'inside-end-cover'
   },
   {
@@ -1835,6 +1836,8 @@ pagedSources.sort((a, b) => {
 
   return 0
 })
+
+pagedSources = pagedSources.map((x, index) => ({...x, index}))
 
 fs.writeFile(
   './src/lib/paged-sources.json',
