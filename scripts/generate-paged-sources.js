@@ -1854,26 +1854,20 @@ pagedSources.forEach(item => {
 })
 
 fs.writeFile(
-  './src/lib/paged-sources.json',
-  JSON.stringify(pagedSources, null, 2),
+  './src/lib/paged-sources-object.json',
+  JSON.stringify(
+    pagedSources.reduce((obj, item) => {
+      obj[item.permalink] = item
+      return obj
+    }, {}),
+    null,
+    2
+  ),
   () => {
     fs.writeFile(
-      './src/lib/paged-sources-object.json',
-      JSON.stringify(
-        pagedSources.reduce((obj, item) => {
-          obj[item.permalink] = item
-          return obj
-        }, {}),
-        null,
-        2
-      ),
-      () => {
-        fs.writeFile(
-          './src/lib/grouped-paged-sources.json',
-          JSON.stringify(groupedPagedSources, null, 2),
-          () => {}
-        )
-      }
+      './src/lib/grouped-paged-sources.json',
+      JSON.stringify(groupedPagedSources, null, 2),
+      () => {}
     )
   }
 )
