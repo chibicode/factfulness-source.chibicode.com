@@ -1,41 +1,38 @@
-import React, {Fragment} from 'react'
-import pagedSources from '../lib/paged-sources'
+import React from 'react'
+import groupedPagedSources from '../lib/grouped-paged-sources'
 import Card from './card'
 import IntroHero from './intro-hero'
 import IntroDisclaimer from './intro-disclaimer'
 import SectionHeader from './section-header'
 import ContentCardWrapper from './content-card-wrapper'
+import SectionWrapper from './section-wrapper'
 
-const Main = () => {
-  let lastSection
-
-  return (
-    <>
-      <Card>
-        <IntroHero />
-      </Card>
-      <Card>
-        <IntroDisclaimer />
-      </Card>
-      {pagedSources.map((data, i) => {
-        const nextSection = data.section || data.chapter
-        return (
-          <Fragment key={data.permalink}>
-            {(() => {
-              if (lastSection !== nextSection) {
-                lastSection = nextSection
-                return <SectionHeader>{lastSection}</SectionHeader>
-              }
-            })()}
+const Main = () => (
+  <>
+    <Card>
+      <IntroHero />
+    </Card>
+    <Card>
+      <IntroDisclaimer />
+    </Card>
+    {groupedPagedSources.map((section, i) => {
+      const sectionName = section[0].section
+      return (
+        <SectionWrapper key={sectionName} index={i}>
+          <SectionHeader>{sectionName}</SectionHeader>
+          {section.map((data, j) => (
             <ContentCardWrapper
+              key={data.permalink}
               data={data}
-              isLast={i === pagedSources.length - 1}
+              isLast={
+                j === section.length - 1 && i === groupedPagedSources.length - 1
+              }
             />
-          </Fragment>
-        )
-      })}
-    </>
-  )
-}
+          ))}
+        </SectionWrapper>
+      )
+    })}
+  </>
+)
 
 export default Main

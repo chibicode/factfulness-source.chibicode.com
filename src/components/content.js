@@ -8,7 +8,6 @@ import CardTitle from './card-title'
 
 const Content = ({
   jpPage,
-  enPage,
   permalink,
   chapter,
   jpTitle,
@@ -73,6 +72,16 @@ const Content = ({
       )}
       <CardTitle smallMarginBottom largeFont={isModal}>
         {jpTitle}
+        {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) && (
+          <span
+            css={css`
+              color: ${colors.blueGrey400};
+            `}
+          >
+            {' '}
+            (P{Array.isArray(jpPage) ? jpPage.join('-') : jpPage})
+          </span>
+        )}
       </CardTitle>
       {jpPage && chapter && (
         <p
@@ -84,10 +93,6 @@ const Content = ({
           `}
         >
           {chapter}
-          {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) &&
-            ` · 邦訳: p${
-              Array.isArray(jpPage) ? jpPage.join('-') : jpPage
-            } · 原著: p${Array.isArray(enPage) ? enPage.join('-') : enPage}`}
         </p>
       )}
       <Component />

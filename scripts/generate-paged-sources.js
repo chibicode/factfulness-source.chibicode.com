@@ -1,11 +1,13 @@
 const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
-const process = ({jpPage, chapter, enTitle, permalink, ...rest}) => ({
+const process = ({jpPage, section, chapter, enTitle, permalink, ...rest}) => ({
   jpPage,
   jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
   enTitle,
   chapter: typeof chapter === 'number' ? `第${chapter}章` : chapter,
+  section:
+    section || (typeof chapter === 'number' ? `第${chapter}章` : chapter),
   ...rest,
   permalink:
     permalink ||
@@ -1839,6 +1841,18 @@ pagedSources.sort((a, b) => {
 
 pagedSources = pagedSources.map((x, index) => ({...x, index}))
 
+const groupedPagedSources = []
+let lastSection
+pagedSources.forEach(item => {
+  if (item.section === lastSection) {
+    groupedPagedSources[groupedPagedSources.length - 1].push(item)
+  } else {
+    groupedPagedSources.push([item])
+  }
+
+  lastSection = item.section
+})
+
 fs.writeFile(
   './src/lib/paged-sources.json',
   JSON.stringify(pagedSources, null, 2),
@@ -1853,7 +1867,13 @@ fs.writeFile(
         null,
         2
       ),
-      () => {}
+      () => {
+        fs.writeFile(
+          './src/lib/grouped-paged-sources.json',
+          JSON.stringify(groupedPagedSources, null, 2),
+          () => {}
+        )
+      }
     )
   }
 )

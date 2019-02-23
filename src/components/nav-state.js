@@ -7,10 +7,10 @@ const NavState = ({children}) => {
   const visibleIndices = Object.keys(visibility)
     .map(x => parseInt(x, 10))
     .filter(x => visibility[x])
-  const minVisibleIndex =
-    visibleIndices.length > 0 ? Math.min.apply(null, visibleIndices) : -1
+  const maxVisibleIndex =
+    visibleIndices.length > 0 ? Math.max.apply(null, visibleIndices) : -1
   return (
-    <NavContext.Provider value={{minVisibleIndex, visibility, setVisibility}}>
+    <NavContext.Provider value={{visibility, maxVisibleIndex, setVisibility}}>
       {children}
     </NavContext.Provider>
   )
