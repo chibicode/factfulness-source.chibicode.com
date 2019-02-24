@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import {useContext, useState} from 'react'
+import {useContext} from 'react'
+import useNavCloser from '../hooks/use-nav-closer'
 import colors from '../lib/colors'
 import groupedPagedSources from '../lib/grouped-paged-sources'
 import NavDropdown from './nav-dropdown'
@@ -10,8 +11,15 @@ import Container from './container'
 import Link from './link'
 
 const Navbar = () => {
-  const [dropdownActive, setDropdownActive] = useState(false)
-  const {maxVisibleIndex} = useContext(NavContext)
+  const handler = useNavCloser()
+  const onShowClick = e => {
+    e.stopPropagation()
+    setDropdownActive(!dropdownActive)
+  }
+
+  const {maxVisibleIndex, dropdownActive, setDropdownActive} = useContext(
+    NavContext
+  )
   return (
     <nav
       css={css`
@@ -20,6 +28,7 @@ const Navbar = () => {
         top: 0;
         font-weight: bold;
       `}
+      onClick={handler}
     >
       <div
         css={css`
@@ -55,7 +64,7 @@ const Navbar = () => {
                 margin-left: -0.875rem;
               }
             `}
-            onClick={() => setDropdownActive(!dropdownActive)}
+            onClick={onShowClick}
           >
             {maxVisibleIndex >= 0
               ? groupedPagedSources[maxVisibleIndex][0].section

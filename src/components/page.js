@@ -8,6 +8,7 @@ import Main from './main'
 import Navbar from './navbar'
 import NavState from './nav-state'
 import PermalinkModal from './permalink-modal'
+import NavCloser from './nav-closer'
 
 Router.events.on('routeChangeComplete', url => pageview(url))
 
@@ -21,9 +22,11 @@ const Page = ({router}) => (
       ) : (
         <Navbar />
       )}
-      <Container hasVerticalPadding>
-        <Main />
-      </Container>
+      <NavCloser>
+        <Container hasVerticalPadding>
+          <Main />
+        </Container>
+      </NavCloser>
     </NavState>
   </>
 )
