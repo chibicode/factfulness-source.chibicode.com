@@ -10,6 +10,7 @@ const Card = ({children, isLast, background, foreground}) => (
         background: ${background || '#fff'};
         color: ${foreground || 'inherit'};
         border-radius: 0.5rem;
+        overflow: hidden;
         padding: 1.25rem 0.875rem 0.25rem;
         word-wrap: break-word;
         ${ns} {

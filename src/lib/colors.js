@@ -1,4 +1,4 @@
-import {blue, blueGrey, grey, brown} from '@material-ui/core/colors'
+import {blue, blueGrey, grey, brown, green} from '@material-ui/core/colors'
 import Color from 'color'
 
 export default {
@@ -10,6 +10,7 @@ export default {
   blueGrey400: blueGrey[400],
   blueGrey500: blueGrey[500],
   blueGrey800: blueGrey[800],
+  green50: green[50],
   blue50: blue[50],
   blue100: blue[100],
   grey900: grey[900],

@@ -1,10 +1,13 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
+import {useState} from 'react'
 import contentBundles from '../lib/content-bundles'
 import colors from '../lib/colors'
 import Link from './link'
 import InternalLink from './internal-link'
 import CardTitle from './card-title'
+import LinkButton from './link-button'
+import BlockAddition from './block-addition'
 
 const Content = ({
   jpPage,
@@ -15,6 +18,7 @@ const Content = ({
   constructionId
 }) => {
   const Component = contentBundles[permalink]
+  const [feedbackVisible, setFeedbackVisible] = useState(false)
   return (
     <>
       {isModal && (
@@ -90,9 +94,12 @@ const Content = ({
             font-weight: normal;
             margin-bottom: 1rem;
             font-size: 0.85rem;
+            display: flex;
+            justify-content: space-between;
           `}
         >
           {chapter}
+          <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>
         </p>
       )}
       <Component />
@@ -105,7 +112,12 @@ const Content = ({
         `}
       >
         <span>
-          <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>{' '}
+          <LinkButton
+            type="button"
+            onClick={() => setFeedbackVisible(!feedbackVisible)}
+          >
+            フィードバック
+          </LinkButton>{' '}
           &middot;{' '}
           <Link
             transparentBackground
@@ -125,6 +137,32 @@ const Content = ({
           </span>
         )}
       </p>
+      {feedbackVisible && (
+        <BlockAddition
+          css={css`
+            background: ${colors.green50};
+            font-size: 0.85em;
+            margin-bottom: -1rem;
+          `}
+        >
+          <p>
+            この脚注、または本書で該当する部分のファクトに間違いがございましたら、
+            共訳者の上杉(
+            <Link href="mailto:shu@chibicode.com">shu@chibicode.com</Link>)
+            までご連絡ください。それぞれ吟味したのち、必要に応じて原著の著者に転送させていただきます。原著の著者に直接フィードバックを送るには、こちらから:{' '}
+            <Link href="mailto:factfulness-book@gapminder.org">
+              factfulness-book@gapminder.org
+            </Link>
+          </p>
+          <p>
+            また、
+            <InternalLink href="/errata">
+              本書の正誤表はこちらからご覧になれます
+            </InternalLink>
+            。
+          </p>
+        </BlockAddition>
+      )}
       {isModal && (
         <div
           css={css`

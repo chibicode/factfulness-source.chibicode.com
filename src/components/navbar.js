@@ -8,7 +8,7 @@ import NavDropdown from './nav-dropdown'
 import {NavContext} from './nav-state'
 import {ns} from './global-styles'
 import Container from './container'
-import Link from './link'
+import InternalLink from './internal-link'
 
 const Navbar = () => {
   const handler = useNavCloser()
@@ -83,11 +83,8 @@ const Navbar = () => {
             />
           </button>
           <div>
-            <Link
-              transparentBackground
-              href="https://factfulness-errata.chibicode.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <InternalLink
+              href="/errata"
               css={css`
                 text-decoration: none;
                 font-weight: normal;
@@ -98,7 +95,7 @@ const Navbar = () => {
               `}
             >
               正誤表
-            </Link>
+            </InternalLink>
           </div>
         </Container>
       </div>
