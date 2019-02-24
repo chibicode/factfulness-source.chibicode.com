@@ -7,43 +7,39 @@ export default () => (
     <p>
       <H.FB pageNumber={366}>
         本書では「合計特殊出生率」という専門用語を「女性ひ
-        とりあたりの子供の数」と表記している
+        とりあたりの子供の数」と表記している。
       </H.FB>
-      Fertility rates decline during times of hardship. The dips and humps
-      before 1965 shown on the graph were caused by the Second World War and
-      famines. Fertility climbs to rates higher than usual when the crisis is
-      over. Globally, the average fertility rate was at 5.05 children in 1950,
-      according to UN-Pop[3]. As of 2017, the estimated fertility rate was 2.48
-      children, according to UN-Pop. Replacement rate with the current mortality
-      worldwide is 2.3.
     </p>
     <p>
-      The long trend displayed on the graph shows Mattias Lindgren's work that
-      compiled multiple historical sources for the years before 1950. It is
-      aligned with UN-Pop[3] estimates for post-1950; see
-      <H.A href="http://gapm.io/dtfr">Gapminder[7]</H.A>.{' '}
+      出生率は過酷な時代には一時的に下がる。1965年の少し前に出生率のグラフが上下しているのは、第二次世界大戦や飢餓のせいだ。ちなみに危機的状況を乗り越えると、出生率は以前より高くなる傾向にある。
+    </p>
+    <p>
+      国連(<H.A href="https://esa.un.org/unpd/wpp">UN-Pop[3]</H.A>
+      )によると、1950年の世界の出生率は女性ひとりあたり5.05人だった。2017年は2.48。現在の世界の人口置換水準は2.3だ。
+    </p>
+    <p>
+      1950年以前のグラフは、マティアス・リンドグレーンがさまざまな歴史的資料を基に算出したデータを使っており(
+      <H.A href="http://gapm.io/dtfr">Gapminder[7]</H.A>
+      )、これは国連の推定ともほぼ同じだ。
       <H.FB pageNumber={366}>
-        2017 年から先の点線は国連 の出生率中位予測。2099
-        年には女性ひとりあたりの子供の数は 1. 96 になると予測されて いる
+        2017年から先の点線は国連の出生率中位予測。2099年には女性ひとりあたりの子供の数は1.96になると予測されている。
       </H.FB>
     </p>
     <p>
-      For more about famines before 1965, see, for example, the
       <H.A href="https://en.wikipedia.org/wiki/Great_Chinese_Famine">
-        Great Chinese Famine
+        1965年の中国の大飢饉
       </H.A>
-      , "the single biggest famine event in history in terms of absolute
-      numbers of death" on Wikipedia. The most accurate number is probably
-      estimated at 40 million people who died during the Chinese famine; see
-      <H.A href="http://www.necrometrics.com/20c5m.htm#Mao">
-        necrometrics
-      </H.A>{' '}
-      for a documentation of sources. The age structure of the Chinese
-      population still bear marks of
+      は、Wikipediaによると世界で最も多くの死者を出した飢饉だった。最も信頼のおける死亡者数の推定は4000万人だと言われている(
+      <H.A href="http://www.necrometrics.com/20c5m.htm#Mao">necrometrics</H.A>
+      )。
       <H.A href="https://www.gapminder.org/geo/china">
-        fewer number of children born during the famine
+        中国の人口ピラミッドを見ると、
       </H.A>
-      . See <H.A href="http://www.gapm.io/tbab">www.gapm.io/tbab</H.A>.
+      大飢饉の間は子供の数が少なかったことがわかる。
+    </p>
+    <p>
+      女性ひとりあたりの子供の数についてさらに詳しくは
+      <H.A href="http://www.gapm.io/tbab">こちらのページ</H.A>を参考のこと。
     </p>
   </>
 )
