@@ -4,20 +4,10 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      This counterintuitive phenomena is what population experts usually refer
-      to as the demographic momentum, a term used to describe the delayed
-      stopping of population increase. The fill-up effect is almost identical to
-      the demographic momentum, but Gapminder has simplified the process by only
-      comparing the size of cohorts.
+      ここで紹介している、直感に反する現象は人口学で言う「人口モメンタム(慣性)」だ。出生率が低下してから、人口が止まるまでは一定の時間がかかる。本書では「人口モメンタム」を分かりやすく解説するため、世代ごとの人口だけを比べるようにしている。
     </p>
     <p>
-      Future changes in population can be attributed to three factors:
-      fertility, mortality, and momentum. To find out how a population will
-      change, demographers make up a set of variations. By keeping fertility at
-      replacement-level or letting mortality be constant, they can analyze the
-      effects of different fertility and mortality scenarios. In that way,
-      demographers can compare the outcome with their main scenario, and then
-      attribute the difference to the factor they kept constant.
+      未来の人口は出生率、死亡率、そして慣性によって決まる。人口を予測するために、人口学者はさまざまなシナリオを考える。たとえば出生率が人口置換水準だったり、死亡率が一定だと仮定し、他の要素を変えることで、どのような差が出るかを見たりする。
     </p>
     <p>
       <H.FB pageNumber={366}>
