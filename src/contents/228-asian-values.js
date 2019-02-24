@@ -5,7 +5,10 @@ export default () => (
   <>
     <p>
       <H.FB pageNumber={360}>
-        “Explaining Fertility Transitions”(1997)で、著者のKaren Oppen-heim
+        <H.A href="https://gapm.io/xferttra">
+          “Explaining Fertility Transitions”(1997)
+        </H.A>
+        で、著者のKaren Oppen-heim
         Masonは「普通の家族」という概念が変わってきたことについて述べている。
         所得水準が上がり生活スタイルが現代的になるにつれ、男女の役割はあっという間に変わる。しかし、親類縁者とのつながりが強い文化では、価値観の変わるスピードは遅くなる。
       </H.FB>

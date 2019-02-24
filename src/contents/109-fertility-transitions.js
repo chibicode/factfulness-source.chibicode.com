@@ -4,96 +4,73 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The change from large to small families in a society is called fertility
-      transitions, and refers to long-term decline of fertility in a population.
-      One of the most experienced demographers at UN Population Division
-      explained it to Hans Rosling like this:
+      大家族から小家族への移り変わりや、長期的な出生率の低下は人口学で「人口転換(または出生力転換)」と呼ばれる。
+    </p>
+    <p>国連人口部のベテラン人口学者は、人口転換についてハンスにこう語った:</p>
+    <p>
+      「人口抑制の鍵を握るのは出生率です。そして出生率が下がる前に、乳幼児死亡率も下がります。乳幼児死亡率が高いと、子供の数も抑制されにくい。だから、5人に1人の子供が亡くなる国では人口がすごい勢いで増える。
     </p>
     <p>
-      "Fertility runs the show. It's reduced fertility rate that will slow
-      down population growth and reduced child mortality rate is one of those
-      factors, because when 1 in 5 children is dying, a country has a very fast
-      population growth, but mortality is still too high to allow for a strong
-      demand for family planning. Reduced child mortality in isolation does not
-      automatically reduce fertility, it is more of a prerequisite for lowered
-      fertility; basic education, a move out of extreme poverty, changing values
-      towards rights for women and access to contraceptives are the other
-      important determinants. In fact, these major aspects of modernization must
-      all come together for each of them to happen."
+      ただ、乳幼児死亡率が下がっても、自動的に出生率が下がることはありません。十分条件というよりは必要条件です。乳幼児死亡率の低下に加えて、基本的な教育、極度の貧困からの脱出、女性の権利に対する価値観の変化、避妊具へのアクセスなど、他の大事な要素がすべて揃うことによって、はじめて出生率が下がるのです」
     </p>
     <p>
-      The contributing factors to lowered fertility in a population has a
-      technical term: fertility determinants. And as the UN expert pointed out,
-      decreasing rates in child mortality is only one of those. The full
-      complexity is analyzed by Karen Oppenheim Mason, who in her
-      interdisciplinary article "Explaining Fertility Transitions"
-      reviews the main theories of fertility to assess why they present
-      conflicting views of what makes fertility drop in a population. Oppenheim
-      Mason argues that it is due to the following wrong assumptions:
+      人口学では、出生率を下げる原因を「出生力決定要因 (Fertility
+      Determinants)」と呼ぶ。先述したように、乳幼児死亡率の低下は出生力決定要因のひとつでしかない。
+      <H.A href="https://gapm.io/xferttra">
+        “Explaining Fertility Transitions”(1997)
+      </H.A>
+      で、著者のKaren Oppen-heim
+      Masonは出生力決定要因についてさまざまな角度から取り上げている。なぜ出生率が下がるかには諸説あり、それぞれの説は互いに矛盾している。この点について彼女は以下のように指摘している:
     </p>
     <ol>
-      <li>Assuming that fertility transitions have the same cause</li>
       <li>
-        Ignoring mortality decline as a precondition for fertility decline
+        出生率が下がる原因はどこも同じだと考えられているが、実際はそうではない。
       </li>
-      <li>
-        Assuming that societies had a so-called "natural fertility"
-        before the fertility transition
-      </li>
-      <li>Using decadal time scales to compare cause and effect</li>
+      <li>死亡率の低下が出生率に与える影響を無視してはいけない。</li>
+      <li>出生率が下がる前にも、家族計画は行われている。</li>
+      <li>十年単位で因果関係を調べるのは難しい。</li>
     </ol>
     <p>
-      Listed first, the major problem of fertility theories is to think that all
-      fertility transitions share one and the same cause---when in reality, a
-      combination of conditions motivates people to prevent most births. To
-      understand fertility decline, a number of causes must be considered.
-      According to Oppenheim Mason, the main determinants make up:
+      とくに一番目は重要なポイントだ。現実的には、子供を産むのをためらう理由はひとつだけではない。Oppen-heim
+      Masonによると、以下の4大要素の組み合わせを考えなければいけない:
     </p>
     <ul>
-      <li>Mortality decline;</li>
-      <li>Change of perception;</li>
-      <li>Access to modern contraceptives and safe abortion;</li>
-      <li>
-        Costs of having many children outweighs benefits of many children.
-      </li>
+      <li>死亡率の低下</li>
+      <li>価値観の変化</li>
+      <li>近代的な避妊具や中絶へのアクセス</li>
+      <li>多くの子供を持つことのデメリットがメリットより大きくなること</li>
     </ul>
     <p>
-      While the above determinants are necessary to make fertility rates drop,
-      they are not sufficient on their own, Oppenheim Mason says. And as
-      Oppenheim Mason importantly points out, the idea of a "natural
-      fertility" rules out the fact that many societies do have family
-      planning strategies even though they have large families and high
-      fertility. Changing fertility means changes in family norms, gender roles,
-      sexual behaviour, as well as in education and economy. But the strength of
-      cultural differences is easily overstated, and gender roles change quite
-      fast across all cultures as people get richer, and their way of living is
-      modernized. In cultures with extended families, including three
-      generations, norms may survive a bit longer and the outdated expectations
-      on women may take longer to transform. Multiple factors behind falling
-      fertility rates are also taken into account by John Bryant, who argues
-      that transition happens as:
+      また、彼女によるとこれらの要素は必要条件であって十分条件ではない。先述したように、大家族が当たり前で死亡率が高いところでも、家族計画は行われている。だから、家族計画の価値観が変わらないといけない。そのためには普通の家族の姿、性役割、性行為、教育、経済に対する価値観の変化が必要だ。
+    </p>
+    <p>
+      ここでは文化の違いはさほど大きな影響はない。近代化して人々が豊かになるにつれて、どの社会でも性役割はすごい勢いで変わっていくからだ。ただ、大家族制度があるところや、女性に対する価値観が特に古いところでは少し時間がかかるかもしれない。
+    </p>
+    <p>
+      一方<H.A href="https://www.jstor.org/stable/25434586">John Bryant</H.A>
+      は、人口転換が起こる理由について以下のように述べている:
     </p>
     <ul>
-      <li>
-        Socio-economic circumstances change the motivation to have children;
-      </li>
-      <li>Women gain access to contraceptives; and</li>
-      <li>New ideas spread through society.</li>
+      <li>社会的、経済的な暮らしの変化が、子供をつくる意味を変えるから。</li>
+      <li>女性が避妊具を容易に手に入れられるようになるから。</li>
+      <li>さまざまな新しい価値観が広まるから。</li>
     </ul>
     <p>
-      Bryant notes that countries slow in initiating fertility drop still manage
-      to catch up fast, and the societal improvements needed for transition
-      become less over time. But there are two caveats of examples that break
-      the pattern of the fertility slide. The first is pointed out by Caldwell
-      (2008) in "Three fertility Compromises and Two transitions" (pp.
-      427-446), who writes that a few countries dropped their fertility rates
-      long before mortality. Hans Rosling wrote that "Caldwell review how
-      low fertility in historical Europe was achieved reduced access to sex by
-      late or no marriage and strong repression on sex outside marriage."
-      The last caveat is that on the higher incomes on Level 4, fertility begins
-      to increase again. See, for example, this study in Nature, "Advances
-      in development reverse fertility declines," from Myrskylä M, et al.
-      (2008).
+      Bryantによると、出生率が下がり始めるのに時間がかかった国でも、その後一気に出生率が下がる可能性がある。また、出生率が下がるのに必要な社会的要素も年々減っている。
+    </p>
+    <p>
+      また、人口転換には例外もある。Caldwellの
+      <H.A href="https://gapm.io/xcaltfrt">
+        "Three fertility Compromises and Two transitions" (2008 p427-446)
+      </H.A>
+      によると、いくつかの国は死亡率が下がるずっと前から出生率が下がっていた。ハンスはCaldwellの言葉を引用し、「昔のヨーロッパでは、結婚を遅らせたり、不倫などの姦淫を糾弾することにより出生率が下がった」と発言している。
+    </p>
+    <p>
+      また、レベル4の国だと、所得が高いほど子供の数も多くなる。ネイチャー誌に載ったこちらの記事を参考のこと:
+      <H.A href="https://www.nature.com/articles/nature08230">
+        "Advances in development reverse fertility declines," from Myrskylä M,
+        et al. (2008).
+      </H.A>
     </p>
   </>
 )

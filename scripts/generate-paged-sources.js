@@ -927,7 +927,7 @@ let pagedSources = [
     jpPage: 109,
     enPage: 85,
     enTitle: `Fertility transitions`,
-    jpTitle: `出生力転換`
+    jpTitle: `人口転換`
   },
   {
     chapter: 3,
