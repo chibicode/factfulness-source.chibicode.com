@@ -19,7 +19,7 @@ export default () => (
         see <H.A href="http://www.mortality.org/">www.mortality.org</H.A>. The
         historic estimates of infant mortality rate come from Brian R.
         Mitchell's volume
-        <H.A href="https://www.google.se/search?tbm=bks&amp;hl=en&amp;q=International+Historical+Statistics+mitchell">
+        <H.A href="https://www.google.se/search?tbm=bks&hl=en&q=International+Historical+Statistics+mitchell">
           International Historical Statistics
         </H.A>
         , which were converted to child mortality through regression. For

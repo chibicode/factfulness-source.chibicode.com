@@ -53,7 +53,7 @@ export default () => (
           <H.A href="http://www.gapm.io/dpland">
             Gapminder[16] Air plane fatalities---v1. Indicator
             Population---v5---all countries---1800--2100, based on IATA,
-            ICAO[3], BTS[1,2] &amp; ATAA.
+            ICAO[3], BTS[1,2] & ATAA.
           </H.A>
         </li>
         <li>

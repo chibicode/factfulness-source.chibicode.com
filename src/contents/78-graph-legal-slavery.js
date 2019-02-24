@@ -72,7 +72,7 @@ export default () => (
       count the number of countries that are yet to abolish slavery and forced
       labor for the years 1800--2018. The UN treaty collection is available at
       the
-      <H.A href="https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&amp;mtdsg_no=XVIII-2&amp;chapter=18&amp;clang=_en">
+      <H.A href="https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XVIII-2&chapter=18&clang=_en">
         UN treaties website
       </H.A>
       . For detailed documentation and data behind this graph, visit

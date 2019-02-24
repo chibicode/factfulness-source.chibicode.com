@@ -17,7 +17,7 @@ export default () => (
       <H.FB pageNumber={364}>
         1970年以降、アメリカ疾病管理予防センターと経済連携協定はDDTによる人体への害を減らすためのガイドラインを制定している。
       </H.FB>
-      <H.A href="https://www.atsdr.cdc.gov/toxprofiles/tp.asp?id=81&amp;tid=20">
+      <H.A href="https://www.atsdr.cdc.gov/toxprofiles/tp.asp?id=81&tid=20">
         Toxicological profile for DDT, DDE and DDD
       </H.A>
       と<H.A href="http://gapm.io/xepa17">the EPA Pesticide information</H.A>

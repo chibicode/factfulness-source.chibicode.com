@@ -23,7 +23,7 @@ export default () => (
       global vaccination programs. The graph shows the years when the last case
       was recorded in each country, based on data that was kindly shared with us
       by Katie Hampson, at Wellcome Trust Boyd Orr Centre for Population and
-      Ecosystem at University of Glasgow, Medical, Veterinary &amp; Life
+      Ecosystem at University of Glasgow, Medical, Veterinary & Life
       Sciences. The data was published in the paper
       <H.A href="http://rstb.royalsocietypublishing.org/content/368/1623/20120137">
         Towards the endgame and beyond: complexities and challenges for the

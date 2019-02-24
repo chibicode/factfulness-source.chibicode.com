@@ -28,8 +28,8 @@ export default () => (
         http://www.who.int/mediacentre/factsheets/fs292/en/
       </H.A>
       and
-      <H.A href="http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&amp;menu=hide">
-        http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&amp;menu=hide
+      <H.A href="http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&menu=hide">
+        http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&menu=hide
       </H.A>
       . UNICEF on how pneumonia affects children's health:
       <H.A href="http://www.gapm.io/xunicef6">www.gapm.io/xunicef6</H.A>.

@@ -16,7 +16,7 @@ export default () => (
       Shilan
       Camanは、スウェーデンのDVについてカロリンスカ医科大学の学術論文で以下のように記した。
       (論文のリンクはこちら:{' '}
-      <H.A href="https://openarchive.ki.se/xmlui/bitstream/handle/10616/45867/Thesis_Shilan_Caman.pdf?sequence=1&amp;isAllowed=y#__utma=1.120245944.1513028453.1513028453.1513028453.1&amp;__utmb=1.2.10.1513028453&amp;__utmc=1&amp;__utmx=-&amp;__utmz=1.1513028453.1.1.utmcsr=google%7Cutmccn=(organic)%7Cutmcmd=organic%7Cutmctr=(not%20provided)&amp;__utmv=-&amp;__utmk=259404170">
+      <H.A href="https://openarchive.ki.se/xmlui/bitstream/handle/10616/45867/Thesis_Shilan_Caman.pdf?sequence=1&isAllowed=y#__utma=1.120245944.1513028453.1513028453.1513028453.1&__utmb=1.2.10.1513028453&__utmc=1&__utmx=-&__utmz=1.1513028453.1.1.utmcsr=google%7Cutmccn=(organic)%7Cutmcmd=organic%7Cutmctr=(not%20provided)&__utmv=-&__utmk=259404170">
         Intimate Partner Homicide Rates and Characteristics
       </H.A>
       )。

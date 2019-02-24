@@ -1,7 +1,6 @@
 import React from 'react'
 import * as H from '../components/h'
 
-// Livi-Bacci → リヴィ‐バッチ
 export default () => (
   <>
     <p>
