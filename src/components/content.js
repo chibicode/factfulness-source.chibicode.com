@@ -99,7 +99,9 @@ const Content = ({
           `}
         >
           {chapter}
-          <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>
+          <span>
+            <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>
+          </span>
         </p>
       )}
       <Component />
@@ -126,16 +128,16 @@ const Content = ({
             変更履歴
           </Link>
         </span>
-        {constructionId && (
-          <span>
+        <span>
+          {constructionId && (
             <Link
               transparentBackground
               href={`https://gapm.io/${constructionId}`}
             >
               詳細(準備中)
             </Link>
-          </span>
-        )}
+          )}
+        </span>
       </p>
       {feedbackVisible && (
         <BlockAddition
@@ -149,16 +151,14 @@ const Content = ({
             この脚注、または本書で該当する部分のファクトに間違いがございましたら、
             共訳者の上杉(
             <Link href="mailto:shu@chibicode.com">shu@chibicode.com</Link>)
-            までご連絡ください。それぞれ吟味したのち、必要に応じて原著の著者に転送させていただきます。原著の著者に直接フィードバックを送るには、こちらから:{' '}
+            までご連絡ください。それぞれ吟味したのち、必要に応じて原著の著者に転送させていただきます。原著の著者に直接英語でフィードバックを送るには、こちらから:{' '}
             <Link href="mailto:factfulness-book@gapminder.org">
               factfulness-book@gapminder.org
             </Link>
           </p>
           <p>
-            また、
-            <InternalLink href="/errata">
-              本書の正誤表はこちらからご覧になれます
-            </InternalLink>
+            また、本書の正誤表(日本語版)は
+            <InternalLink href="/errata">こちらからご覧になれます</InternalLink>
             。
           </p>
         </BlockAddition>
