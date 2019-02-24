@@ -18,11 +18,15 @@ const InlineCitation = ({children}) => {
         css={css`
           padding: 0;
           background: transparent;
-          border: none;
-          text-decoration: underline;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1px solid ${colors.blueGrey400};
+          text-decoration: none;
           cursor: pointer;
           &:hover {
             background-color: ${colors.blue100};
+            border-bottom: 1px solid ${colors.grey900};
           }
         `}
         onClick={() => setExpanded(true)}
