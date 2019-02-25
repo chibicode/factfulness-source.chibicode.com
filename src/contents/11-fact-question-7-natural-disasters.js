@@ -16,23 +16,31 @@ export default () => (
       </H.FB>
     </p>
     <p>
-      The huge decline in disaster deaths would be even more striking if two
-      other major global changes were also taken into account. First, the number
-      of people has increased by four, which calls for counting disaster deaths
-      per capita. 1907--1916, there were 181 disaster deaths per million people.
-      2007--2016, the number was 11. The relative number has dropped to 6
-      percent of what it was 100 years ago. Second, 100 years ago the
-      communication technologies for reporting disasters were very primitive,
-      compared to the monitoring of today, which means that many catastrophes
-      must have gone unrecorded or been underreported.
+      さらに、次の2点に注目すると、さらに大きな変化が起きていることがわかる。第一に、過去100年で人口は4倍になった。ということは、人口あたりの死亡者数を見る必要がある。1907年から1916年の間、100万人あたりの死亡者数は181人だった。一方、2007年〜2016年では11人。つまり、100年前の6%になった。
     </p>
     <p>
-      The EM-DAT includes death toll estimates for 8,969 disasters recorded
-      worldwide since 1900. All known emergency events have been categorized as
-      follows: Animal accident, Complex disasters, Drought, Earthquake,
-      Epidemic, Extreme temperature, Flood, Fog, Impact, Insect infestation,
-      Landslide, Mass movement (dry), Storm, Volcanic activity, Wildfire.
+      第二に、100年前は現在と比べ、災害が起きても初歩的な報道しかできなかった。つまり、昔は多くの災害が見過ごされたり、計上されていなかった可能性がある。
     </p>
+    <p>
+      国際災害データベースには、1900年以降に起きた8969件の自然災害の死亡者数が記録されている。それには以下のようなカテゴリーがある:
+    </p>
+    <ul>
+      <li>動物による被害</li>
+      <li>干ばつ</li>
+      <li>地震</li>
+      <li>伝染病</li>
+      <li>熱波・寒波</li>
+      <li>洪水</li>
+      <li>霧</li>
+      <li>隕石</li>
+      <li>害虫被害</li>
+      <li>山崩れ</li>
+      <li>地滑り</li>
+      <li>暴風</li>
+      <li>火山の噴火</li>
+      <li>森林・原野火災</li>
+      <li>その他の災害</li>
+    </ul>
     <H.InlineCitation>
       <ul>
         <li>
