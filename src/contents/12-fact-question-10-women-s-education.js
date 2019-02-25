@@ -13,14 +13,8 @@ export default () => (
         <H.A href="http://www.barrolee.com/">Barro and Lee (2013)</H.A>)。
       </H.FB>
     </p>
-
     <p>
-      As always, there is uncertainty in these kinds of estimates, but there is
-      no reason to assume that the difference between genders is nearly as large
-      as what people think. Gapminder first asked this question with an open
-      answer field to see how responses were distributed, before deciding on
-      three exact values for alternatives A, B and C, in order to make the
-      skewed perception easier to compare to random results.
+      これらの調査が100%正しいとは言い切れないが、どれほど誤差があっても、間違った選択肢の「6年」や「3年」にはならないだろう。平均寿命の質問と同じく、わたしたちはまずこの質問を自由回答形式で聞いてみた。そこで出た答えに近かった「6年」と「3年」を正解以外の選択肢にした。
     </p>
   </>
 )

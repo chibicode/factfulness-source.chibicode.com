@@ -14,29 +14,27 @@ export default () => (
     </p>
 
     <p>
-      The common vaccines that reached most 1-year-olds worldwide in 2016,
-      sorted by coverage level, are as follows:
+      2016年の世界中の1歳児のワクチン接種率は以下の通り(
+      <H.A href="http://gapm.io/xwhoim">ソース</H.A>)。
     </p>
     <ul>
-      <li>BCG (Tuberculosis): 88%</li>
-      <li>DTP3 (Diphtheria tetanus toxoid and pertussis): 86%</li>
-      <li>MCV1 (Measles, 1st dose): 85%</li>
-      <li>Pol3 (Polio): 85%</li>
-      <li>HepB3 (Hepatitis B): 84%</li>
-      <li>PAB (Neonatal tetanus): 84%</li>
-      <li>Hib3 (Haemophilus influenzae type b): 70%</li>
-      <li>MCV2 (Measles, 2nd dose): 64%</li>
-      <li>PCV3 (Pneumococcal conjugate): 42%</li>
-      <li>RotaC (Rotavirus): 15%</li>
+      <li>BCGワクチン(結核): 88%</li>
+      <li>三種混合ワクチン(ジフテリア、百日咳、破傷風): 86%</li>
+      <li>麻疹ワクチンの初回接種: 85%</li>
+      <li>ポリオワクチン: 85%</li>
+      <li>B型肝炎ワクチン: 84%</li>
+      <li>破傷風ワクチン: 84%</li>
+      <li>ヘモフィルスインフルエンザ菌B型ワクチン: 70%</li>
+      <li>麻疹ワクチンの2回目接種: 64%</li>
+      <li>肺炎球菌ワクチン: 42%</li>
+      <li>ロタウイルスワクチン: 15%</li>
     </ul>
     <p>
-      The estimate for immunization coverage of the vaccine against TB is based
-      on
+      結核の予防ワクチンの普及についてはWHO[10]の
       <H.A href="http://www.who.int/gho/tb/en/">
         Global Health Observatory data
       </H.A>
-      from WHO[10]. For vaccination data by category, see
-      <H.A href="http://www.gapm.io/xwhoim"> WHO[1]</H.A>.
+      も参考のこと。
     </p>
   </>
 )
