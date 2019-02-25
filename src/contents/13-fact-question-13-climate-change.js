@@ -7,20 +7,17 @@ export default () => (
 
     <p>
       <H.FB pageNumber={370}>
-        正解はA。「気候の専門家」とは、2014年に気候変動に関する政府間パネルが公表した「第5次評価報告書(AR5)」の著者274人のことを指す(IPCC[1])。
+        正解はA。「気候の専門家」とは、2014年に気候変動に関する政府間パネルが公表した「第5次評価報告書(AR5)」の著者274人のことを指す(
+        <H.A href="http://www.gapm.io/xipcca">IPCC[1]</H.A>)。
       </H.FB>
     </p>
 
     <p>
-      Here is what they predict about the changes in the climate system, as
-      summarized in IPCC[2]:
+      これらの専門家は、地球温暖化について次のように述べている(
+      <H.A href="http://www.gapm.io/xipcc">IPCC[2]</H.A>):
     </p>
     <p>
-      Surface temperature is projected to rise over the 21st century under all
-      assessed emission scenarios. It is very likely that heat waves will occur
-      more often and last longer, and that extreme precipitation events will
-      become more intense and frequent in many regions. The ocean will continue
-      to warm and acidify, and global mean sea level to rise.
+      「考えられるすべての温室効果ガスの排出シナリオにおいて、21世紀に地表の温度は上昇すると思われる。熱波がより頻繁に起き、より長期化することは確実だ。豪雨はより頻繁に起き、降水量も増えるだろう。海水の温度は上がり、また酸性化する。平均海水面も上昇する」
     </p>
     <H.InlineCitation>
       <ul>
