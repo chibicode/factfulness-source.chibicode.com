@@ -4,25 +4,21 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Paleodemography is an academic research field that attempts to reconstruct
-      the mortality, fertility and age compositions of prehistoric populations
-      based on skeletal samples from archeological sites. Experts in
-      paleodemography generally expect that at least 30% of all deaths happened
-      before adulthood in all archeological populations. Lewis (2006) has a list
-      of sites with many recorded non-adult skeletons, and argues that "large
-      numbers of non-adult remains have been recovered from cemetery sites, and
-      continue to be housed in museums and universities ready for study." (from
+      先史人口学とは、有史以前の人々の死亡率・出生率・世代別人口などを、遺跡から採掘された人骨をもとに推定する学問だ。先史人口学者たちは、どの社会においても、死亡者の30%以上は子供だったとしている。
       <H.A href="https://www.cambridge.org/core/books/bioarchaeology-of-children/AE18D0323BC1F49700ECC42DA79AF011">
-        The Bioarchaeology of Children
+        Lewis (2006 p20)
       </H.A>
-      , p. 20) In general however, experts are surprised at not finding as many
-      infants as they could expect, not anything near 30%. The percentage of
-      infants varies enormously between sites, and occasionally, among hundreds
-      of adults in certain sites, not a single child skeletal is found. Some
-      studies have tried to find out why infants are underrepresented in
-      archeological findings. In a study from Manifold (2014), researchers
-      examined 790 child and adolescent skeletons to assess if local soil
-      properties could make them more easily decomposed.
+      は、子供の遺骨がたくさん発見された遺跡を紹介している。子供の遺骨は博物館や大学に保管され、調査の対象となっている。
+    </p>
+    <p>
+      ただ、専門家は思ったほど赤ちゃんの遺骨を見つけられていない。赤ちゃんの遺骨が見つかる割合は30%よりはるかに低い。その割合は遺跡ごとに大きく違う。一部の遺跡では、何百もの大人の骨が見つかるが、赤ちゃんの遺骨はひとつも見つからなかったりする。
+    </p>
+    <p>
+      その理由を研究した者もいる。
+      <H.A href="https://www.sciencedirect.com/science/article/pii/S0018442X15000748">
+        Manifold (2014)
+      </H.A>
+      は、790人の子供や若者の遺骨と、それが埋まっていた地層を調査した。地層的な要因のせいで、子供の骨が分解されやすかったかどうかを解明しようとしたわけだ。
     </p>
 
     <H.InlineCitation>
