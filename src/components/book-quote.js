@@ -1,21 +1,20 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import colors from '../lib/colors'
 
 const BookQuote = ({children, pageNumber, pageNumbers, ...props}) => (
   <blockquote
     {...props}
-    css={css`
+    css={({colors}) => css`
       padding-left: 1em;
       margin-left: 0;
       margin-right: 0;
-      border-left: 0.5em solid ${colors.blueGrey100};
+      border-left: 0.5em solid ${colors.base100};
     `}
   >
     {children(
       <span
-        css={css`
-          color: ${colors.blueGrey400};
+        css={({colors}) => css`
+          color: ${colors.base400};
         `}
       >
         (P{pageNumber}

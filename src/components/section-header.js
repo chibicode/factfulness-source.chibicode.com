@@ -1,12 +1,11 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import colors from '../lib/colors'
 import chapterTitles from '../lib/chapter-titles'
 import Card from './card'
 import {ns} from './global-styles'
 
 const SectionHeader = ({children}) => (
-  <Card background={colors.blueGrey400} foreground="#fff">
+  <Card background={colors => colors.base400} foreground="#fff">
     <h2
       css={css`
         font-size: 1.5rem;

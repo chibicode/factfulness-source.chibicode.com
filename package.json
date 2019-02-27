@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "contents": "node ./scripts/generate-paged-sources.js && node ./scripts/generate-content-bundles.js && xo --fix ./src/lib/content-bundles.js"
+    "contents": "node ./scripts/generate-paged-sources.js && node ./scripts/generate-content-bundles.js && xo --fix ./src/lib/content-bundles.js",
+    "xo": "xo"
   },
   "dependencies": {
     "@emotion/core": "^10.0.5",
@@ -11,6 +12,7 @@
     "@material-ui/core": "^3.9.1",
     "@zeit/next-css": "^1.0.1",
     "color": "^3.1.0",
+    "emotion-theming": "^10.0.7",
     "intersection-observer": "^0.5.1",
     "modern-normalize": "^0.5.0",
     "next": "^8.0.1",

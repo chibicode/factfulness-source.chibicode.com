@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import colors from '../lib/colors'
 import {AdditionContext} from './addition'
 import {FBContext} from './fb'
 
@@ -11,11 +10,11 @@ const Link = ({transparentBackground, LinkComponent, ...props}) => (
         {({inAdditionContext}) => (
           <LinkComponent
             {...props}
-            css={css`
+            css={({colors}) => css`
               text-decoration: ${transparentBackground ? 'underline' : 'none'};
               border-bottom: ${inFBContext || transparentBackground
                 ? 'none'
-                : `1px solid ${colors.blueGrey400}`};
+                : `1px solid ${colors.base400}`};
               background-color: ${inAdditionContext || transparentBackground
                 ? 'transparent'
                 : colors.blue50};

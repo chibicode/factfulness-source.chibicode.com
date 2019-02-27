@@ -28,20 +28,20 @@ const Content = ({
           `}
         >
           <h1
-            css={css`
+            css={({colors}) => css`
               margin-top: 0;
               font-size: 1rem;
               margin-right: 3rem;
               margin-bottom: 0rem;
-              color: ${colors.blueGrey500};
+              color: ${colors.base500};
               flex: 1;
             `}
           >
             『ファクトフルネス』ウェブ脚注
           </h1>
           <p
-            css={css`
-              color: ${colors.blueGrey400};
+            css={({colors}) => css`
+              color: ${colors.base400};
               font-size: 0.85rem;
             `}
           >
@@ -49,13 +49,13 @@ const Content = ({
           </p>
           <InternalLink
             href="/"
-            css={css`
+            css={({colors}) => css`
               position: absolute;
               right: -0.5rem;
               top: -0.5rem;
               width: 2rem;
               height: 2rem;
-              color: ${colors.blueGrey400};
+              color: ${colors.base400};
               font-size: 1.5rem;
               line-height: 1;
               display: flex;
@@ -78,8 +78,8 @@ const Content = ({
         {jpTitle}
         {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) && (
           <span
-            css={css`
-              color: ${colors.blueGrey400};
+            css={({colors}) => css`
+              color: ${colors.base400};
             `}
           >
             {' '}
@@ -89,8 +89,8 @@ const Content = ({
       </CardTitle>
       {jpPage && chapter && (
         <p
-          css={css`
-            color: ${colors.blueGrey400};
+          css={({colors}) => css`
+            color: ${colors.base400};
             font-weight: normal;
             margin-bottom: 1rem;
             font-size: 0.85rem;
@@ -106,8 +106,8 @@ const Content = ({
       )}
       <Component />
       <p
-        css={css`
-          color: ${colors.blueGrey400};
+        css={({colors}) => css`
+          color: ${colors.base400};
           font-size: 0.85rem;
           display: flex;
           justify-content: space-between;
@@ -172,12 +172,12 @@ const Content = ({
         >
           <InternalLink
             href="/"
-            css={css`
+            css={({colors}) => css`
               display: inline-block;
-              background: ${colors.blueGrey50};
+              background: ${colors.base50};
               text-decoration: none;
-              border: 2px solid ${colors.blueGrey400};
-              color: ${colors.blueGrey500};
+              border: 2px solid ${colors.base400};
+              color: ${colors.base500};
               font-weight: bold;
               font-size: 0.85rem;
               padding: 0.5rem 1rem;

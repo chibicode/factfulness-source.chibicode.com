@@ -7,10 +7,10 @@ import SectionHeader from './section-header'
 import ContentCardWrapper from './content-card-wrapper'
 import SectionWrapper from './section-wrapper'
 
-const Main = () => (
+const Main = ({type}) => (
   <>
     <Card>
-      <IntroHero />
+      <IntroHero type={type} />
     </Card>
     <Card>
       <IntroDisclaimer />

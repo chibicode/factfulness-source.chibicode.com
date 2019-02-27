@@ -2,7 +2,6 @@
 import {jsx, css} from '@emotion/core'
 import {useEffect} from 'react'
 import smoothscroll from 'smoothscroll-polyfill'
-import colors from '../lib/colors'
 import groupedPagedSources from '../lib/grouped-paged-sources'
 import Container from './container'
 import {ns} from './global-styles'
@@ -23,10 +22,10 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
   return (
     <Container hasHorizontalPadding={false}>
       <div
-        css={css`
+        css={({colors}) => css`
           flex-direction: row;
           flex-wrap: wrap;
-          border-left: 1px solid ${colors.blueGrey500};
+          border-left: 1px solid ${colors.base500};
           margin-left: -1px;
           margin-right: -1px;
           display: flex;
@@ -39,7 +38,7 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
         {groupedPagedSources.map((section, index) => (
           <button
             key={section[0].section}
-            css={[
+            css={({colors}) => [
               css`
                 cursor: pointer;
                 outline: none;
@@ -50,14 +49,14 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
                 font-weight: bold;
                 color: #fff;
                 background: ${activeIndex === index
-                  ? colors.blueGrey300
-                  : colors.blueGrey400};
+                  ? colors.base300
+                  : colors.base400};
                 border-top: none;
                 border-left: none;
-                border-right: 1px solid ${colors.blueGrey500};
-                border-bottom: 1px solid ${colors.blueGrey500};
+                border-right: 1px solid ${colors.base500};
+                border-bottom: 1px solid ${colors.base500};
                 &:hover {
-                  background: ${colors.blueGrey300};
+                  background: ${colors.base300};
                 }
               `,
               index > 1

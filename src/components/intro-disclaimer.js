@@ -1,5 +1,5 @@
 import React from 'react'
-import * as H from "./h"
+import * as H from './h'
 
 const IntroDisclaimer = () => (
   <>

@@ -8,8 +8,8 @@ export default styled.button`
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: ${({bordered}) =>
-    bordered ? `1px solid ${colors.blueGrey400}` : `none`};
+  border-bottom: ${({bordered, theme}) =>
+    bordered ? `1px solid ${theme.colors.base400}` : `none`};
   text-decoration: ${({bordered}) => (bordered ? `none` : `underline`)};
   cursor: pointer;
   &:hover {

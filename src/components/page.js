@@ -12,19 +12,19 @@ import NavCloser from './nav-closer'
 
 Router.events.on('routeChangeComplete', url => pageview(url))
 
-const Page = ({router}) => (
+const Page = ({type, router}) => (
   <>
     <GlobalStyles />
-    <Head />
+    <Head type={type} />
     <NavState>
       {router.query.p ? (
         <PermalinkModal permalink={router.query.p} />
       ) : (
-        <Navbar />
+        <Navbar type={type} />
       )}
       <NavCloser>
         <Container hasVerticalPadding>
-          <Main />
+          <Main type={type} />
         </Container>
       </NavCloser>
     </NavState>

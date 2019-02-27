@@ -3,7 +3,6 @@ import {jsx, css} from '@emotion/core'
 import {createContext} from 'react'
 import Tooltip from '@material-ui/core/Tooltip'
 import PropTypes from 'prop-types'
-import colors from '../lib/colors'
 
 export const FBContext = createContext({
   inFBContext: false
@@ -22,8 +21,8 @@ const FB = ({pageNumber, ...props}) => (
       placement="top"
     >
       <span
-        css={css`
-          border-bottom: 1px dashed ${colors.blueGrey200};
+        css={({colors}) => css`
+          border-bottom: 1px dashed ${colors.base200};
         `}
         {...props}
       />

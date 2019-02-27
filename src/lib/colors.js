@@ -9,7 +9,6 @@ export default {
   blueGrey300: blueGrey[300],
   blueGrey400: blueGrey[400],
   blueGrey500: blueGrey[500],
-  blueGrey800: blueGrey[800],
   green50: green[50],
   blue50: blue[50],
   blue100: blue[100],

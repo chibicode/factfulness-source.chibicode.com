@@ -2,7 +2,6 @@
 import {jsx, css} from '@emotion/core'
 import {useContext} from 'react'
 import useNavCloser from '../hooks/use-nav-closer'
-import colors from '../lib/colors'
 import groupedPagedSources from '../lib/grouped-paged-sources'
 import NavDropdown from './nav-dropdown'
 import {NavContext} from './nav-state'
@@ -10,7 +9,16 @@ import {ns} from './global-styles'
 import Container from './container'
 import InternalLink from './internal-link'
 
-const Navbar = () => {
+const topRightLinkCss = css`
+  text-decoration: none;
+  font-weight: normal;
+  &:hover {
+    background: transparent;
+    text-decoration: underline;
+  }
+`
+
+const Navbar = ({type}) => {
   const handler = useNavCloser()
   const onShowClick = e => {
     e.stopPropagation()
@@ -31,11 +39,11 @@ const Navbar = () => {
       onClick={handler}
     >
       <div
-        css={css`
+        css={({colors}) => css`
           padding: 0.3rem 0;
           color: #fff;
-          background: ${colors.blueGrey400};
-          border-bottom: 1px solid ${colors.blueGrey500};
+          background: ${colors.base400};
+          border-bottom: 1px solid ${colors.base500};
         `}
       >
         <Container
@@ -47,7 +55,7 @@ const Navbar = () => {
         >
           <button
             type="button"
-            css={css`
+            css={({colors}) => css`
               background: none;
               cursor: pointer;
               border: none;
@@ -58,7 +66,7 @@ const Navbar = () => {
               border-radius: 0.25rem;
               margin-left: 0;
               &:hover {
-                background: ${colors.blueGrey300};
+                background: ${colors.base300};
               }
               ${ns} {
                 margin-left: -0.875rem;
@@ -68,7 +76,7 @@ const Navbar = () => {
           >
             {maxVisibleIndex >= 0
               ? groupedPagedSources[maxVisibleIndex][0].section
-              : 'ファクトフルネス'}{' '}
+              : groupedPagedSources[0][0].section}{' '}
             <span
               css={css`
                 width: 0;
@@ -83,19 +91,15 @@ const Navbar = () => {
             />
           </button>
           <div>
-            <InternalLink
-              href="/errata"
-              css={css`
-                text-decoration: none;
-                font-weight: normal;
-                &:hover {
-                  background: transparent;
-                  text-decoration: underline;
-                }
-              `}
-            >
-              正誤表
-            </InternalLink>
+            {type === 'errata' ? (
+              <InternalLink href="/" css={topRightLinkCss}>
+                ウェブ脚注
+              </InternalLink>
+            ) : (
+              <InternalLink href="/errata" css={topRightLinkCss}>
+                正誤表
+              </InternalLink>
+            )}
           </div>
         </Container>
       </div>

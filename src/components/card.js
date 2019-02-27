@@ -1,13 +1,12 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import colors from '../lib/colors'
 import {ns} from './global-styles'
 
 const Card = ({children, isLast, background, foreground}) => (
   <>
     <section
-      css={css`
-        background: ${background || '#fff'};
+      css={({colors}) => css`
+        background: ${background ? background(colors) : '#fff'};
         color: ${foreground || 'inherit'};
         border-radius: 0.5rem;
         overflow: hidden;
@@ -22,14 +21,14 @@ const Card = ({children, isLast, background, foreground}) => (
     </section>
     {!isLast && (
       <div
-        css={css`
+        css={({colors}) => css`
           width: 1.25rem;
           height: 1rem;
           ${ns} {
             height: 1.75rem;
           }
           margin: 0 auto;
-          background: ${colors.blueGrey100};
+          background: ${colors.base100};
         `}
       />
     )}

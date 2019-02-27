@@ -1,10 +1,9 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import {titleArray, description} from '../lib/meta'
-import colors from '../lib/colors'
 import Book from './book'
 
-const IntroHero = () => (
+const IntroHero = ({type}) => (
   <>
     <h1
       css={css`
@@ -15,17 +14,15 @@ const IntroHero = () => (
         letter-spacing: -1.5px;
       `}
     >
-      {titleArray[0]}
+      {titleArray[type][0]}
       <br />
-      {titleArray[1]}
-      <br />
-      {titleArray[2]}
+      {titleArray[type][1]}
     </h1>
     <p
-      css={css`
+      css={({colors}) => css`
         text-align: center;
         font-size: 0.825rem;
-        color: ${colors.blueGrey400};
+        color: ${colors.base400};
       `}
     >
       {description}
