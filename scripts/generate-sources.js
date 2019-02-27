@@ -1,27 +1,75 @@
 const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
-const process = ({jpPage, section, chapter, enTitle, permalink, ...rest}) => ({
-  jpPage,
-  jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
-  enTitle,
-  chapter: typeof chapter === 'number' ? `第${chapter}章` : chapter,
-  section:
-    section || (typeof chapter === 'number' ? `第${chapter}章` : chapter),
-  ...rest,
-  permalink:
-    permalink ||
-    [
-      Array.isArray(jpPage) ? jpPage[0] : jpPage,
-      enTitle
-        .replace(/\W/g, '-')
-        .replace(/-+/g, '-')
-        .replace(/(^-|-$)/g, '')
-        .toLowerCase()
-    ].join('-')
-})
+const process = items => {
+  let processedItems = items.map(
+    ({jpPage, section, chapter, enTitle, permalink, ...rest}) => ({
+      jpPage,
+      jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
+      enTitle,
+      chapter: typeof chapter === 'number' ? `第${chapter}章` : chapter,
+      section:
+        section || (typeof chapter === 'number' ? `第${chapter}章` : chapter),
+      ...rest,
+      permalink:
+        permalink ||
+        [
+          Array.isArray(jpPage) ? jpPage[0] : jpPage,
+          enTitle
+            .replace(/\W/g, '-')
+            .replace(/-+/g, '-')
+            .replace(/(^-|-$)/g, '')
+            .toLowerCase()
+        ].join('-')
+    })
+  )
 
-let sources = [
+  processedItems.sort((a, b) => {
+    if (a.jpPageFirst < b.jpPageFirst) {
+      return -1
+    }
+
+    if (a.jpPageFirst > b.jpPageFirst) {
+      return 1
+    }
+
+    if (a.permalink < b.permalink) {
+      return -1
+    }
+
+    if (a.permalink > b.permalink) {
+      return 1
+    }
+
+    return 0
+  })
+
+  processedItems = processedItems.map((x, index) => ({...x, index}))
+
+  const groupedItems = []
+  let lastSection
+  processedItems.forEach(item => {
+    if (item.section === lastSection) {
+      groupedItems[groupedItems.length - 1].push(item)
+    } else {
+      groupedItems.push([item])
+    }
+
+    lastSection = item.section
+  })
+
+  const itemsObject = processedItems.reduce((obj, item) => {
+    obj[item.permalink] = item
+    return obj
+  }, {})
+
+  return {
+    object: JSON.stringify(itemsObject, null, 2),
+    grouped: JSON.stringify(groupedItems, null, 2)
+  }
+}
+
+const sources = [
   {
     section: '全般・見返し・はじめに',
     chapter: '全般',
@@ -1817,57 +1865,9 @@ let sources = [
     jpTitle: '最後に: グローバルな開発に関する無料データ',
     permalink: 'final-note'
   }
-].map(process)
+]
 
-sources.sort((a, b) => {
-  if (a.jpPageFirst < b.jpPageFirst) {
-    return -1
-  }
+const {object: sourcesObject, grouped: groupedSources} = process(sources)
 
-  if (a.jpPageFirst > b.jpPageFirst) {
-    return 1
-  }
-
-  if (a.permalink < b.permalink) {
-    return -1
-  }
-
-  if (a.permalink > b.permalink) {
-    return 1
-  }
-
-  return 0
-})
-
-sources = sources.map((x, index) => ({...x, index}))
-
-const groupedSources = []
-let lastSection
-sources.forEach(item => {
-  if (item.section === lastSection) {
-    groupedSources[groupedSources.length - 1].push(item)
-  } else {
-    groupedSources.push([item])
-  }
-
-  lastSection = item.section
-})
-
-fs.writeFile(
-  './src/lib/sources-object.json',
-  JSON.stringify(
-    sources.reduce((obj, item) => {
-      obj[item.permalink] = item
-      return obj
-    }, {}),
-    null,
-    2
-  ),
-  () => {
-    fs.writeFile(
-      './src/lib/grouped-sources.json',
-      JSON.stringify(groupedSources, null, 2),
-      () => {}
-    )
-  }
-)
+fs.writeFileSync('./src/lib/sources-object.json', sourcesObject)
+fs.writeFileSync('./src/lib/grouped-sources.json', groupedSources)
