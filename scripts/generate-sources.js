@@ -107,8 +107,8 @@ const process = items => {
   }, {})
 
   return {
-    object: JSON.stringify(itemsObject, null, 2),
-    grouped: JSON.stringify(groupedItems, null, 2)
+    object: itemsObject,
+    grouped: groupedItems
   }
 }
 
@@ -1919,8 +1919,14 @@ const errata = [
 
 const {object: sourcesObject, grouped: groupedSources} = process(sources)
 const {object: errataObject, grouped: groupedErrata} = process(errata)
+const toJSON = x => JSON.stringify(x, null, 2)
 
-fs.writeFileSync('./src/lib/sources-object.json', sourcesObject)
-fs.writeFileSync('./src/lib/grouped-sources.json', groupedSources)
-fs.writeFileSync('./src/lib/errata-object.json', errataObject)
-fs.writeFileSync('./src/lib/grouped-errata.json', groupedErrata)
+fs.writeFileSync(
+  './src/lib/sources-errata-object.json',
+  toJSON({
+    ...sourcesObject,
+    ...errataObject
+  })
+)
+fs.writeFileSync('./src/lib/grouped-sources.json', toJSON(groupedSources))
+fs.writeFileSync('./src/lib/grouped-errata.json', toJSON(groupedErrata))

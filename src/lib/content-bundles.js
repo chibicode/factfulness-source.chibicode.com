@@ -1216,6 +1216,10 @@ export default {
       import(/* webpackChunkName: 'data-for-2017' */ '../contents/data-for-2017.js'),
     {loading: () => <DynamicLoading />}
   ),
+  'errata-1': dynamic(
+    () => import(/* webpackChunkName: 'errata-1' */ '../contents/errata-1.js'),
+    {loading: () => <DynamicLoading />}
+  ),
   'final-note': dynamic(
     () =>
       import(/* webpackChunkName: 'final-note' */ '../contents/final-note.js'),
