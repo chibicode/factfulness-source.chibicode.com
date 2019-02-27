@@ -21,7 +21,7 @@ const process = ({jpPage, section, chapter, enTitle, permalink, ...rest}) => ({
     ].join('-')
 })
 
-let pagedSources = [
+let sources = [
   {
     section: '全般・見返し・はじめに',
     chapter: '全般',
@@ -1819,7 +1819,7 @@ let pagedSources = [
   }
 ].map(process)
 
-pagedSources.sort((a, b) => {
+sources.sort((a, b) => {
   if (a.jpPageFirst < b.jpPageFirst) {
     return -1
   }
@@ -1839,24 +1839,24 @@ pagedSources.sort((a, b) => {
   return 0
 })
 
-pagedSources = pagedSources.map((x, index) => ({...x, index}))
+sources = sources.map((x, index) => ({...x, index}))
 
-const groupedPagedSources = []
+const groupedSources = []
 let lastSection
-pagedSources.forEach(item => {
+sources.forEach(item => {
   if (item.section === lastSection) {
-    groupedPagedSources[groupedPagedSources.length - 1].push(item)
+    groupedSources[groupedSources.length - 1].push(item)
   } else {
-    groupedPagedSources.push([item])
+    groupedSources.push([item])
   }
 
   lastSection = item.section
 })
 
 fs.writeFile(
-  './src/lib/paged-sources-object.json',
+  './src/lib/sources-object.json',
   JSON.stringify(
-    pagedSources.reduce((obj, item) => {
+    sources.reduce((obj, item) => {
       obj[item.permalink] = item
       return obj
     }, {}),
@@ -1865,8 +1865,8 @@ fs.writeFile(
   ),
   () => {
     fs.writeFile(
-      './src/lib/grouped-paged-sources.json',
-      JSON.stringify(groupedPagedSources, null, 2),
+      './src/lib/grouped-sources.json',
+      JSON.stringify(groupedSources, null, 2),
       () => {}
     )
   }

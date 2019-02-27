@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import {jsx, css, Global} from '@emotion/core'
-import pagedSourcesObject from '../lib/paged-sources-object'
+import sourcesObject from '../lib/sources-object'
 import Container from './container'
 import Content from './content'
 import Card from './card'
@@ -29,7 +29,7 @@ const Modal = ({permalink}) => (
     />
     <Container hasVerticalPadding>
       <Card isLast>
-        <Content isModal {...pagedSourcesObject[permalink]} />
+        <Content isModal {...sourcesObject[permalink]} />
       </Card>
     </Container>
   </section>

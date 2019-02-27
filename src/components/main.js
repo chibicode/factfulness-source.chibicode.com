@@ -1,5 +1,5 @@
 import React from 'react'
-import groupedPagedSources from '../lib/grouped-paged-sources'
+import groupedSources from '../lib/grouped-sources'
 import Card from './card'
 import IntroHero from './intro-hero'
 import IntroDisclaimer from './intro-disclaimer'
@@ -15,7 +15,7 @@ const Main = ({type}) => (
     <Card>
       <IntroDisclaimer />
     </Card>
-    {groupedPagedSources.map((section, i) => {
+    {groupedSources.map((section, i) => {
       const sectionName = section[0].section
       return (
         <SectionWrapper key={sectionName} index={i}>
@@ -25,7 +25,7 @@ const Main = ({type}) => (
               key={data.permalink}
               data={data}
               isLast={
-                j === section.length - 1 && i === groupedPagedSources.length - 1
+                j === section.length - 1 && i === groupedSources.length - 1
               }
             />
           ))}

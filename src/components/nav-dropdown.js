@@ -2,7 +2,7 @@
 import {jsx, css} from '@emotion/core'
 import {useEffect} from 'react'
 import smoothscroll from 'smoothscroll-polyfill'
-import groupedPagedSources from '../lib/grouped-paged-sources'
+import groupedSources from '../lib/grouped-sources'
 import Container from './container'
 import {ns} from './global-styles'
 
@@ -35,7 +35,7 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
           }
         `}
       >
-        {groupedPagedSources.map((section, index) => (
+        {groupedSources.map((section, index) => (
           <button
             key={section[0].section}
             css={({colors}) => [
