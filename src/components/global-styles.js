@@ -67,7 +67,7 @@ const GlobalStyles = () => (
       a {
         color: inherit;
         &:hover {
-          background-color: ${colors.blue100};
+          background-color: ${colors.accent100};
         }
       }
 

@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-import colors from '../lib/colors'
 
 export default styled.button`
   padding: 0;
@@ -13,8 +12,8 @@ export default styled.button`
   text-decoration: ${({bordered}) => (bordered ? `none` : `underline`)};
   cursor: pointer;
   &:hover {
-    background-color: ${colors.blue100};
-    border-bottom: ${({bordered}) =>
-      bordered ? `1px solid ${colors.grey900}` : `none`};
+    background-color: ${({theme}) => theme.colors.accent100};
+    border-bottom: ${({bordered, theme}) =>
+      bordered ? `1px solid ${theme.colors.grey900}` : `none`};
   }
 `

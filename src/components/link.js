@@ -17,7 +17,7 @@ const Link = ({transparentBackground, LinkComponent, ...props}) => (
                 : `1px solid ${colors.base400}`};
               background-color: ${inAdditionContext || transparentBackground
                 ? 'transparent'
-                : colors.blue50};
+                : colors.accent50};
 
               &:hover {
                 border-bottom: ${inFBContext || transparentBackground

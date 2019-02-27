@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import {createContext} from 'react'
-import colors from '../lib/colors'
 
 export const AdditionContext = createContext({
   inAdditionContext: false
@@ -14,8 +13,8 @@ const Addition = ({children, hideParens, ...props}) => (
     }}
   >
     <span
-      css={css`
-        background: ${colors.brown50};
+      css={({colors}) => css`
+        background: ${colors.secondary50};
       `}
       {...props}
     >

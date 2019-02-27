@@ -2,7 +2,6 @@
 import {jsx, css} from '@emotion/core'
 import {useState} from 'react'
 import contentBundles from '../lib/content-bundles'
-import colors from '../lib/colors'
 import Link from './link'
 import InternalLink from './internal-link'
 import CardTitle from './card-title'
@@ -65,7 +64,7 @@ const Content = ({
               border-radius: 0.25rem;
 
               &:hover {
-                background: ${colors.blue50};
+                background: ${colors.accent50};
               }
             `}
           >
@@ -141,7 +140,7 @@ const Content = ({
       </p>
       {feedbackVisible && (
         <BlockAddition
-          css={css`
+          css={({colors}) => css`
             background: ${colors.green50};
             font-size: 0.85em;
             margin-bottom: -1rem;
@@ -184,7 +183,7 @@ const Content = ({
               border-radius: 0.25rem;
 
               &:hover {
-                background: ${colors.blue50};
+                background: ${colors.accent50};
               }
             `}
           >
