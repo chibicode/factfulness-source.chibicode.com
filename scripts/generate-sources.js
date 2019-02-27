@@ -1,26 +1,69 @@
 const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
+const chapterFromPageNumber = jpPage => {
+  if (Array.isArray(jpPage)) {
+    throw new TypeError('error')
+  }
+
+  if (jpPage < 27) {
+    throw new Error('error')
+  } else if (jpPage < 61) {
+    return 1
+  } else if (jpPage < 96) {
+    return 2
+  } else if (jpPage < 129) {
+    return 3
+  } else if (jpPage < 161) {
+    return 4
+  } else if (jpPage < 187) {
+    return 5
+  } else if (jpPage < 215) {
+    return 6
+  } else if (jpPage < 239) {
+    return 7
+  } else if (jpPage < 261) {
+    return 8
+  } else if (jpPage < 285) {
+    return 9
+  } else if (jpPage < 309) {
+    return 10
+  } else if (jpPage < 325) {
+    return 11
+  } else {
+    throw new Error('error')
+  }
+}
+
+const processChapter = ({chapter, jpPage}) => {
+  const processedChapter =
+    typeof chapter === 'undefined' ? chapterFromPageNumber(jpPage) : chapter
+  return typeof processedChapter === 'number'
+    ? `第${processedChapter}章`
+    : processedChapter
+}
+
 const process = items => {
   let processedItems = items.map(
-    ({jpPage, section, chapter, enTitle, permalink, ...rest}) => ({
+    ({jpPage, section, chapter, enTitle, permalink, listRow, ...rest}) => ({
       jpPage,
       jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
       enTitle,
-      chapter: typeof chapter === 'number' ? `第${chapter}章` : chapter,
-      section:
-        section || (typeof chapter === 'number' ? `第${chapter}章` : chapter),
+      chapter: processChapter({chapter, jpPage}),
+      section: section || processChapter({chapter, jpPage}),
       ...rest,
       permalink:
         permalink ||
-        [
-          Array.isArray(jpPage) ? jpPage[0] : jpPage,
-          enTitle
-            .replace(/\W/g, '-')
-            .replace(/-+/g, '-')
-            .replace(/(^-|-$)/g, '')
-            .toLowerCase()
-        ].join('-')
+        (listRow
+          ? `errata-${listRow}`
+          : [
+              Array.isArray(jpPage) ? jpPage[0] : jpPage,
+              enTitle
+                .replace(/\W/g, '-')
+                .replace(/-+/g, '-')
+                .replace(/(^-|-$)/g, '')
+                .toLowerCase()
+            ].join('-'))
     })
   )
 
@@ -1867,7 +1910,17 @@ const sources = [
   }
 ]
 
+const errata = [
+  {
+    jpPage: 85,
+    listRow: 1
+  }
+]
+
 const {object: sourcesObject, grouped: groupedSources} = process(sources)
+const {object: errataObject, grouped: groupedErrata} = process(errata)
 
 fs.writeFileSync('./src/lib/sources-object.json', sourcesObject)
 fs.writeFileSync('./src/lib/grouped-sources.json', groupedSources)
+fs.writeFileSync('./src/lib/errata-object.json', errataObject)
+fs.writeFileSync('./src/lib/grouped-errata.json', groupedErrata)
