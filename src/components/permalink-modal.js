@@ -28,7 +28,7 @@ const Modal = ({permalink}) => (
       ]}
     />
     <Container hasVerticalPadding>
-      <Card isLast>
+      <Card isLast isModal>
         <Content isModal {...sourcesObject[permalink]} />
       </Card>
     </Container>

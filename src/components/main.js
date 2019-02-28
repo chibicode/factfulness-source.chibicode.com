@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import groupedSources from '../lib/grouped-sources'
 import groupedErrata from '../lib/grouped-errata'
 import sections from '../lib/sections'
@@ -8,14 +8,16 @@ import SectionHeader from './section-header'
 import Card from './card'
 import Content from './content'
 import SectionWrapper from './section-wrapper'
+import {PageContext} from './page'
 
-const Main = ({type}) => {
+const Main = () => {
+  const {type} = useContext(PageContext)
   const isIndex = type === 'index'
   const items = isIndex ? groupedSources : groupedErrata
   return (
     <>
       <Card>
-        <IntroHero type={type} />
+        <IntroHero />
       </Card>
       {isIndex ? (
         <Card>

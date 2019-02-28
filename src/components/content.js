@@ -1,12 +1,13 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import {useState} from 'react'
+import {useState, useContext} from 'react'
 import contentBundles from '../lib/content-bundles'
 import Link from './link'
 import InternalLink from './internal-link'
 import CardTitle from './card-title'
 import LinkButton from './link-button'
 import BlockAddition from './block-addition'
+import {PageContext} from './page'
 
 const Content = ({
   jpPage,
@@ -16,63 +17,11 @@ const Content = ({
   isModal,
   constructionId
 }) => {
+  const {type} = useContext(PageContext)
   const Component = contentBundles[permalink]
   const [feedbackVisible, setFeedbackVisible] = useState(false)
   return (
     <>
-      {isModal && (
-        <div
-          css={css`
-            position: relative;
-          `}
-        >
-          <h1
-            css={({colors}) => css`
-              margin-top: 0;
-              font-size: 1rem;
-              margin-right: 3rem;
-              margin-bottom: 0rem;
-              color: ${colors.base500};
-              flex: 1;
-            `}
-          >
-            『ファクトフルネス』ウェブ脚注
-          </h1>
-          <p
-            css={({colors}) => css`
-              color: ${colors.base400};
-              font-size: 0.85rem;
-            `}
-          >
-            原著の公式サイトで公開されている、本の脚注の増補版です。
-          </p>
-          <InternalLink
-            href="/"
-            css={({colors}) => css`
-              position: absolute;
-              right: -0.5rem;
-              top: -0.5rem;
-              width: 2rem;
-              height: 2rem;
-              color: ${colors.base400};
-              font-size: 1.5rem;
-              line-height: 1;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              text-decoration: none;
-              border-radius: 0.25rem;
-
-              &:hover {
-                background: ${colors.accent50};
-              }
-            `}
-          >
-            {' '}
-            &times;
-          </InternalLink>
-        </div>
-      )}
       <CardTitle smallMarginBottom largeFont={isModal}>
         {jpTitle}
         {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) && (
@@ -113,13 +62,17 @@ const Content = ({
         `}
       >
         <span>
-          <LinkButton
-            type="button"
-            onClick={() => setFeedbackVisible(!feedbackVisible)}
-          >
-            フィードバック
-          </LinkButton>{' '}
-          &middot;{' '}
+          {type === 'index' && (
+            <>
+              <LinkButton
+                type="button"
+                onClick={() => setFeedbackVisible(!feedbackVisible)}
+              >
+                フィードバック
+              </LinkButton>{' '}
+              &middot;{' '}
+            </>
+          )}
           <Link
             transparentBackground
             href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/contents/${permalink}.js`}
@@ -156,7 +109,7 @@ const Content = ({
             </Link>
           </p>
           <p>
-            また、本書の正誤表(日本語版)は
+            また、本書の正誤表は
             <InternalLink href="/errata">こちらからご覧になれます</InternalLink>
             。
           </p>
@@ -170,7 +123,8 @@ const Content = ({
           `}
         >
           <InternalLink
-            href="/"
+            prefetch
+            href={type === 'errata' ? '/errata' : '/'}
             css={({colors}) => css`
               display: inline-block;
               background: ${colors.base50};

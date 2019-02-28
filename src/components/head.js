@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import NextHead from 'next/head'
 import {titleArray, description} from '../lib/meta'
 import {GA_TRACKING_ID} from '../lib/gtag'
+import {PageContext} from './page'
 
-const Head = ({type}) => {
+const Head = () => {
+  const {type} = useContext(PageContext)
   const title = titleArray[type].join('')
   const imageUrl = `https://factfulness-source.chibicode.com/static/images/og-${type}.png`
   return (
@@ -51,8 +53,8 @@ const Head = ({type}) => {
       <meta name="title" content={title} />
       <meta property="og:type" content="website" />
       <meta property="og:image" content={imageUrl} />
-      <meta property="og:description" content={description} />
-      <meta name="description" content={description} />
+      <meta property="og:description" content={description[type]} />
+      <meta name="description" content={description[type]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

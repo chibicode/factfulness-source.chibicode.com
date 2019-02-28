@@ -49,6 +49,7 @@ const process = items => {
       jpPage,
       jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
       enTitle,
+      listRow,
       chapter: processChapter({chapter, jpPage}),
       section: section || processChapter({chapter, jpPage}),
       ...rest,

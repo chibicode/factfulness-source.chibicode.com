@@ -1,8 +1,9 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import {ns} from './global-styles'
+import ModalHeader from './modal-header'
 
-const Card = ({children, isLast, background, foreground}) => (
+const Card = ({children, isLast, background, foreground, isModal}) => (
   <>
     <section
       css={({colors}) => css`
@@ -10,14 +11,35 @@ const Card = ({children, isLast, background, foreground}) => (
         color: ${foreground || 'inherit'};
         border-radius: 0.5rem;
         overflow: hidden;
-        padding: 1.25rem 0.875rem 0.25rem;
+
         word-wrap: break-word;
-        ${ns} {
-          padding: 2rem 2rem 1rem;
-        }
       `}
     >
-      {children}
+      {isModal && (
+        <div
+          css={({colors}) => css`
+            padding: 0.75rem 0.875rem 1px;
+            background: ${colors.base50};
+
+            ${ns} {
+              padding: 1.5rem 2rem 1px;
+            }
+          `}
+        >
+          <ModalHeader />
+        </div>
+      )}
+      <div
+        css={css`
+          padding: ${isModal ? '1rem' : '1.25rem'} 0.875rem 0.25rem;
+
+          ${ns} {
+            padding: ${isModal ? '1.25rem' : '2rem'} 2rem 1rem;
+          }
+        `}
+      >
+        {children}
+      </div>
     </section>
     {!isLast && (
       <div

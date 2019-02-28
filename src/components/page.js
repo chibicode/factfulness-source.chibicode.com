@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {createContext} from 'react'
 import Router, {withRouter} from 'next/router'
 import {pageview} from '../lib/gtag'
 import GlobalStyles from './global-styles'
@@ -12,23 +12,25 @@ import NavCloser from './nav-closer'
 
 Router.events.on('routeChangeComplete', url => pageview(url))
 
+export const PageContext = createContext({})
+
 const Page = ({type, router}) => (
-  <>
+  <PageContext.Provider value={{type}}>
     <GlobalStyles />
-    <Head type={type} />
+    <Head />
     <NavState>
       {router.query.p ? (
         <PermalinkModal permalink={router.query.p} />
       ) : (
-        <Navbar type={type} />
+        <Navbar />
       )}
       <NavCloser>
         <Container hasVerticalPadding>
-          <Main type={type} />
+          <Main />
         </Container>
       </NavCloser>
     </NavState>
-  </>
+  </PageContext.Provider>
 )
 
 export default withRouter(Page)

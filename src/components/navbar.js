@@ -8,6 +8,7 @@ import {NavContext} from './nav-state'
 import {ns} from './global-styles'
 import Container from './container'
 import InternalLink from './internal-link'
+import {PageContext} from './page'
 
 const topRightLinkCss = css`
   text-decoration: none;
@@ -18,7 +19,7 @@ const topRightLinkCss = css`
   }
 `
 
-const Navbar = ({type}) => {
+const Navbar = () => {
   const handler = useNavCloser()
   const onShowClick = e => {
     e.stopPropagation()
@@ -28,6 +29,7 @@ const Navbar = ({type}) => {
   const {maxVisibleIndex, dropdownActive, setDropdownActive} = useContext(
     NavContext
   )
+  const {type} = useContext(PageContext)
   return (
     <nav
       css={css`
@@ -92,11 +94,11 @@ const Navbar = ({type}) => {
           </button>
           <div>
             {type === 'errata' ? (
-              <InternalLink href="/" css={topRightLinkCss}>
+              <InternalLink prefetch href="/" css={topRightLinkCss}>
                 ウェブ脚注
               </InternalLink>
             ) : (
-              <InternalLink href="/errata" css={topRightLinkCss}>
+              <InternalLink prefetch href="/errata" css={topRightLinkCss}>
                 正誤表
               </InternalLink>
             )}
