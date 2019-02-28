@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 
-const InternalLink = ({href, ...props}) => (
-  <Link passHref href={href} scroll={false}>
+const InternalLink = ({href, prefetch, ...props}) => (
+  <Link passHref href={href} scroll={false} prefetch={prefetch}>
     <a {...props} />
   </Link>
 )
