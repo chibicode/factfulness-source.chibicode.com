@@ -4,17 +4,13 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Gapminder polled the public, asking the question with an open-answer field
-      so respondents were not limited by our three predefined alternatives. In
-      the US, 61 percent of respondents entered a value above 50 percent,
-      guessing that a majority of people live in low-income countries. The
-      average guesses were 57 percent in the US and 61 percent in Sweden, see
-      <H.A href="http://gapm.io/pollnov17bnovus-17b">Novus[3]</H.A>. Gapminder
-      also asked the same question but with "low-income countries" replaced by
-      "developing countries". The results were the same, as if the terms were
-      synonyms.
+      ギャップマインダーは、アメリカとスウェーデンの人々を対象に「低所得国に暮らす人の数はどのくらい？」という質問を自由回答形式で行った。解答欄に50%以上の数字を書き込んだ人の割合はアメリカでは61%だった。アメリカの平均回答は57%、スウェーデンの平均回答は61%だった(
+      <H.A href="http://gapm.io/pollnov17bnovus-17b">Novus[3]</H.A>
+      )。
     </p>
-
+    <p>
+      「低所得国」を「途上国」に変えても答えは変わらなかった。「低所得国」と「途上国」は同意義語であるかのようだ。
+    </p>
     <H.InlineCitation>
       <ul>
         <li>
