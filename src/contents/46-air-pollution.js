@@ -4,35 +4,27 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      UNICEF writes that pneumonia remains the leading infectious cause of death
-      among children under-5 years, and primarily for children under age 2.
-      Pneumonia killed 2,500 children per day in 2015, mainly in extreme
-      poverty. In countries like Tanzania, where half of the population live in
-      extreme poverty, roughly 95 percent of household energy come from burning
-      fuel, according to
-      <H.A href="http://gamapserver.who.int/gho/interactive_charts/phe/iap_exposure/atlas.html">
-        WHO's estimates from 2013 on household air pollution around the world
-      </H.A>
-      .
-      <H.A href="http://gamapserver.who.int/gho/interactive_charts/phe/iap_exposure/atlas.html">
-        http://gamapserver.who.int/gho/interactive_charts/phe/iap_exposure/atlas.html
-      </H.A>
+      <H.A href="http://www.gapm.io/xunicef6">ユニセフによると</H.A>
+      、肺炎は子供の感染による死因でも上位に入る。5歳以下の子供、とくに2歳以下の子供に多い。2015年には、1日に2500人の子供が肺炎で亡くなった。
     </p>
     <p>
-      In extreme poverty, almost every home uses coal and biomass (wood, animal
-      dung and crop waste) for cooking and heating. Over 4 million people die
-      every year from household air pollution and over 50 percent of deaths from
-      pneumonia among children under age 5 are caused by the smoke particles in
-      the household; see WHO at
+      これらのほとんどは極度の貧困にある地域で起きた。人口の半分が極度の貧困にあるタンザニアのような国では、家庭の消費エネルギーの95%が燃料を燃やすことでまかなわれている(ソース:
+      <H.A href="http://gamapserver.who.int/gho/interactive_charts/phe/iap_exposure/atlas.html">
+        世界保健機関が2013年に行った室内空気汚染についての調査
+      </H.A>
+      )。極度の貧困においては、ほぼ全ての家庭が石炭またはバイオマス(薪、家畜のふん、農作のゴミなど)を料理や暖房に使っている。
+    </p>
+    <p>
+      毎年400万人以上が室内空気汚染で亡くなっている。肺炎で亡くなる5歳以下の子供のうち、室内空気汚染が原因だったのは50%以上だ。(ソース:
+      世界保健機関。
       <H.A href="http://www.who.int/mediacentre/factsheets/fs292/en/">
-        http://www.who.int/mediacentre/factsheets/fs292/en/
+        こちら
       </H.A>
-      and
+      と
       <H.A href="http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&menu=hide">
-        http://apps.who.int/gho/data/node.wrapper.ENVHEALTHHAP?lang=en&menu=hide
+        こちら
       </H.A>
-      . UNICEF on how pneumonia affects children's health:
-      <H.A href="http://www.gapm.io/xunicef6">www.gapm.io/xunicef6</H.A>.
+      を参考に。)
     </p>
   </>
 )
