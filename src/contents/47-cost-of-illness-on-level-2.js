@@ -4,28 +4,21 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Life is uncertain on Level 1 and 2. Many (maybe half) of those leaving the
-      extreme poverty of Level 1 fall back again within a year or two. In his
-      great book
+      レベル1や2の暮らしでは、一寸先は闇だ。レベル1を脱した人のうち、おそらく半分くらいは1年か2年以内にレベル1に逆戻りするだろう。Anirudh
+      Krishna著
       <H.A href="http://www.amazon.in/One-Illness-Away-People-Poverty/dp/0199693196">
-        One Illness Away: Why People Become Poor and How They Escape Poverty
+        “One Illness Away: Why People Become Poor and How They Escape Poverty”
       </H.A>
-      (2010),
-      <H.A href="https://sanford.duke.edu/people/faculty/krishna-anirudh">
-        Anirudh Krishna
-      </H.A>
-      describes the effect of disease on poor families who are making progress.
-      Illness often forces them back into destitute, since they have no safety
-      nets or health insurances whatsoever. Level 2 roughly corresponds to the
-      World Bank income group called "Lower middle income", where people pay on
-      average 55 percent of their health expenditure with cash, see{' '}
-      <H.A href="http://gapm.io/xwb1711">World Bank[11]</H.A>.
+      (2010)には、極度の貧困を脱しようとしている人々が病気にかかるとどうなるかが描かれている。社会保障や保険がないため、病気にかかったら一巻の終わりだ。レベル2にいる人々は世界銀行による定義の「低中所得層」とほぼ同じだが、
+      <H.A href="http://gapm.io/xwb1711">世界銀行によると</H.A>
+      、この層は医療費の平均55%を現金で全額支払っているという。
     </p>
     <p>
-      <H.A href="http://gapm.io/xwb1712">Voices of the Poor</H.A> is a three
-      volume publication from the World Bank[12] of interviews with poor people
-      across 47 countries. Many describe the unfortunate events of illness that
-      lead them back into extreme poverty again soon after escaping.
+      世界銀行は
+      <H.A href="http://gapm.io/xwb1712">
+        Voices of the Poor (World Bank [12])
+      </H.A>
+      という全3巻からなるインタビュー集を出しており、47カ国の貧しい人々の話が載っている。これによると、極度の貧困に逆戻りした人たちの多くは、不運な病気がその理由だったとしている。
     </p>
   </>
 )
