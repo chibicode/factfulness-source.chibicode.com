@@ -10,7 +10,7 @@ export default () => (
       <H.A href="https://gapm.io/ximfw">IMF[1]</H.A>
       )。ただ、極度の貧困の推定には不確定要素が大きいことを忘れてはいけない。詳しくは
       <H.OtherCardLink permalink="9-fact-question-3-extreme-poverty">
-        こちらの脚注を参照
+        こちらの項目を参照
       </H.OtherCardLink>
       のこと。
     </p>

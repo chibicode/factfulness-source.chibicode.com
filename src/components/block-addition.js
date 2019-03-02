@@ -11,7 +11,7 @@ const BlockAddition = ({children, ...props}) => (
   >
     <div
       css={({colors}) => css`
-        background: ${colors.base50};
+        background: ${colors.secondary50};
         margin: 1.5rem -0.875rem;
         padding: 1.25rem 0.875rem 0.25rem;
         ${ns} {

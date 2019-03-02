@@ -5,7 +5,7 @@ export default () => (
   <p>
     世界の平均寿命については、
     <H.OtherCardLink permalink="10-fact-question-4-life-expectancy">
-      こちらの脚注
+      こちらの項目
     </H.OtherCardLink>
     をご覧いただきたい。
   </p>

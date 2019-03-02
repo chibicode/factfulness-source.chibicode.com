@@ -14,7 +14,7 @@ export default () => (
     <p>
       スペインかぜについては、
       <H.OtherCardLink permalink="174-the-spanish-flu">
-        こちらの脚注を参考に
+        こちらの項目を参考に
       </H.OtherCardLink>
       。
     </p>
