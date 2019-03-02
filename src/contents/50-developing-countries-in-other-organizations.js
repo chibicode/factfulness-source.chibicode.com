@@ -2,27 +2,33 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    Large parts of the UN still use the term "developing countries", but there
-    is no common definition. The UN Statistics Division (2017) uses it for
-    so-called "statistical convenience", finding it convenient to classify as
-    many as 144 countries as developing (including Qatar and Singapore, two of
-    the healthiest and richest countries on the planet). The World Economic
-    Forum re-posted the World Bank announcement of phasing out the division in
-    "developed" and "developing", but continues to use the term. From only a few
-    years back the term appears in several headlines on their website: "84% of
-    refugees live in developing countries" (June 20, 2017), "5 ways to make
-    global trade work for developing countries" (September, 2016), and "Digital
-    can lift the developing world out of poverty" (July 10, 2017). This
-    illustrates one aspect of the problematic definitions. In the first article,
-    the number is taken from a report issued by UNHCR where "developing
-    countries" refers to the outdated list of the UN Statistics Division. In the
-    second and third, "developing countries" and "developing world" actually
-    refer to the
-    <H.A href="https://www.un.org/development/desa/dpad/least-developed-country-category.html">
-      UN list of Least Developed Countries
-    </H.A>
-    , which is updated every third year, taking into account per capita income,
-    human assets and economic vulnerability.
-  </p>
+  <>
+    <p>
+      国連の多くの部署は「途上国」という言葉を使い続けているが、統一された定義はない。
+      国連統計部は、「途上国」という言葉を「統計上都合が良いから」使い続けている(執筆時の2017年)。カタールやシンガポールという、世界で最も豊かで健康な国も含む144カ国をひとまとめにできるのは、確かに「都合が良い」のかもしれない。
+    </p>
+    <p>
+      世界銀行が「途上国」と「先進国」を使うのを止めると発表したとき、ダボス会議の主催団体である世界経済フォーラムはその発表をネットに再掲載した。しかし、世界経済フォーラムはいまだに言葉を使い続けている。最近(執筆時)世界経済フォーラムが掲載した記事の題名と内容は以下の通りだ。
+    </p>
+    <ul>
+      <li>
+        <strong>難民の84%は途上国に暮らしている (2017年6月20日):</strong>{' '}
+        難民の数はUNHCRによるもの。「途上国」とは、時代遅れの国連統計部の定義を指す。{' '}
+      </li>
+      <li>
+        <strong>
+          グローバル貿易を途上国に役立てるための5つの方法 (2016年9月):
+        </strong>{' '}
+        ここでは、「途上国」は
+        <H.A href="https://www.un.org/development/desa/dpad/least-developed-country-category.html">
+          国連が「最も発展が遅れている」としている国
+        </H.A>
+        のことを指す。ひとりあたりの所得、資産、経済の脆弱さを考慮に入れている。
+      </li>
+      <li>
+        <strong>電子化が途上国を救う(2017年7月):</strong>{' '}
+        途上国の定義はすぐ上の記事と同じ。
+      </li>
+    </ul>
+  </>
 )
