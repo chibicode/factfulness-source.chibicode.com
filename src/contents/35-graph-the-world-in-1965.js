@@ -4,29 +4,17 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Each circle, or bubble, represents a country. The area of the circle is
-      proportional to the population of the country, using data from
-      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[1]</H.A>. On the x-axis is
-      the total fertility rate, using data from
-      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[3]</H.A>. The scale is
-      reversed putting large families to the left and small to the right. This
-      is to show progress as a movement from left to right, which is more
-      intuitive. The y-axis shows the child survival rate in percent. These
-      numbers are more commonly expressed as the indicator child mortality rate
-      in deaths before 5 years of age per 1,000 live births. Instead of deaths
-      per thousand we changed the rate to percent (deaths per 100) because it is
-      more broadly understood, and we also show survival instead of mortality so
-      that the positive direction is upward, which intuitively is more positive.
-      Data comes from <H.A href="http://www.childmortality.org/">UN-IGME</H.A>.
+      それぞれの丸は国を表しており、丸の大きさは人口を表している(使用したデータは
+      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[1]</H.A>
+      )。横軸は出生率を表しており、
+      <H.A href="https://esa.un.org/unpd/wpp">UN-POP[3]</H.A>
+      を基にした。グラフの右に行くほど出生率は低い。ふつうのグラフと逆だが、出生率は低いほど国が進歩しているということを表すからだ。
+      縦軸は1000人あたりの乳幼児生存率を表している。乳幼児死亡率のほうがよく使われるが、生存率のほうが死亡率よりも直感的だし、上に行くほど国が進歩していることを表すほうが分かりやすいから。
+      使用したデータは<H.A href="http://www.childmortality.org/">UN-IGME</H.A>。
     </p>
     <p>
-      The two boxes are not showing any official thresholds. They are there to
-      visually emphasize the divided world that existed in 1965, in which 125
-      countries with 68 percent of the world's population were in the
-      "developing" box. Only 44 countries, with 30 percent of the world's
-      population, were in the "developed" box. An interactive version of the
-      chart will soon be freely available at
-      <H.A href="http://www.gapm.io/voutdwv">www.gapm.io/voutdwv</H.A>.
+      ふたつの枠は厳格な「途上国」と「先進国」の基準ではない。単にグラフをわかりやすくするためにつくった枠だ。1965年には、125カ国、世界の全人口の68%が「途上国」の枠の中に入っていた。「先進国」の枠の中に入っていたのはたったの44カ国で、全人口の30%だった。詳しくは
+      <H.A href="http://www.gapm.io/voutdwv">こちら</H.A>を参考のこと。
     </p>
   </>
 )
