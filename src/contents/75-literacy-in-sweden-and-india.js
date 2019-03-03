@@ -12,26 +12,14 @@ export default () => (
       </H.FB>
     </p>
     <p>
-      The most recent census data on literacy in India puts the overall literacy
-      rate at 74 percent of the population aged 7 and above. While literacy
-      differed between states---for example, 64 percent in Bihar and 94 percent
-      in Kerala---the numbers show a 10 percent increase since the last census
-      that was published 10 years earlier. Assuming that the literacy rate
-      continues to increase, it is probable that the majority of India has a
-      literacy rate of at least 80 percent in 2017.
+      インドの最新の国勢調査によると、7歳以上の識字率は74%。ビハール州では64%、ケーララ州では94%と差はあるものの、10年前の国勢調査に比べて全体の識字率は10%増えている。このままいけば、2017年にはインドのほとんどの地域で識字率が80%を超えることになる。
     </p>
     <p>
-      Literacy in Sweden began to slowly increase in 1765, as the church decided
-      to penalize those who didn't participate in the catechetical exams,
-      conducted in households to measure people's ability to read and write (
+      一方スウェーデンでは、1765年頃から識字率がゆっくりと向上しはじめた。教会の関係者が家に押しかけ、教理問答を受けさせ、読み書きができずに答えられなかった人たちを罰しはじめたからだ(
       <H.A href="https://researchingswedishroots.blogspot.se/2014/02/husforhor.html">
-        these paintings
+        その様子の絵はこちら
       </H.A>
-      depict the so called "house interrogations" or "husförhör" in Swedish).
-      Despite increasing rates of literacy, many Swedes still couldn't read and
-      write a century later. Not until 1842, with the Swedish school reform
-      making it obligatory for children to attend school, literacy numbers
-      climbed further. By 1900, the literacy rate was at about 87 percent.
+      )。ただ、多くのスウェーデン人が読み書きができるようになったのはそれから1世紀後だった。1842年にスウェーデンは教育改革を行い、子ども達は強制的に学校に行かされるようになり、識字率はさらに向上した。1900年にはスウェーデンの識字率は87%になった。
     </p>
 
     <H.InlineCitation>
