@@ -4,54 +4,47 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The levels of extreme poverty historically can not be known exactly.
-      Adjusting for changes in prices, currencies, food, employment and
-      technology is very difficult. In Factfulness we use numbers from
-      <H.A href="http://gapm.io/depov">Gapminder[9]</H.A>. The numbers before
-      1980 are based on two sources. First: Bourguignon and Morrisson (2002)
-      estimate that in 1820, the share of people below $2 per day (in constant
-      1985 PPP dollars) was 94.4 percent, and the share of people below $1 per
-      day was 83.9 percent. To express this in 2011 PPP dollar prices is not
-      trivial. The
+      過去の極度の貧困率を正確に知ることは不可能だ。物価、通貨、食べ物、仕事、技術の変遷をすべて考慮するのは難しい。本書で用いている数字は
+      <H.A href="http://gapm.io/depov">Gapminder[9]</H.A>
+      が算出したもの。1980年以前のデータは、以下のふたつの資料に基づいている。第一に、Bourguignon
+      and Morrisson (2002)の推定によると、
       <H.A href="https://ourworldindata.org/grapher/declining-global-poverty-share-1820-2015">
-        two alternative rates from
+        1820年に1日2ドル以下(購買力平価をもとに調整、1985年国際ドル)で暮らしていた人の割合は94.4%、1ドル以下の割合は83.9%だった
       </H.A>
-      Bourguignon and Morrisson, Max Roser at
-      <H.A href="https://ourworldindata.org/extreme-poverty">
-        OurWorldInData[1]
-      </H.A>
-      use the higher estimate when showing a
+      。これを2011年の国際ドルで表すのは容易ではない。
+    </p>
+    <p>
       <H.A href="https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute">
-        single line for the global trend of extreme poverty rate
+        Max RoserはOurWorldInData[1]にて
       </H.A>
-      ; Max Roser uses the higher estimate, while we have decided to go for a
-      lower estimate. This is because the second source,{' '}
+      Bourguignon and
+      Morrissonによる高めの推定を使っているが、わたしたちは低めの推定を使っている。理由は、ふたつめの資料である
       <H.A href="http://www.basvanleeuwen.net/bestanden/WorldIncomeInequality.pdf">
         van Zanden[1]
       </H.A>
-      , indicates a lower rate. The paper World Income Inequality 1820-2000 uses
-      historic GDP per capita from Maddison[1] to estimate what income levels
-      people lived on. For the distribution of incomes within countries they use
-      historic records of the differences in heights of people (such as military
-      data archives). Insufficient food during childhood stops growth and leads
-      to a shorter adult person. By estimating the childhood stunting they can
-      guess the share of people missing food, hence living in extreme poverty.
-      Based on those estimations they assess that 73 percent of people lived
-      below $2 per day, and 39 percent below $1 per day (in constant 1990 PPP
-      dollars). But they couldn't construct height and GDP data for all
-      countries and roughly 25% of humanity are missing from this estimate. The
-      share missing were probably mostly the poorest, who didn't even have
-      organized military archives, hence we can add them to the extremely poor,
-      and get 82 percent of humanity in extreme poverty in 1820. We then pull
-      this number back 20 years and assume even more people were poor in 1800.
-      We land on 85 percent on Level 1 at the start of the trend in 1800. After
-      1980 the data comes from PovcalNet and is described in the note to Fact
-      Question 3. The official World Bank estimate of extreme poverty in year
-      2013 is 10.7 percent which{' '}
+      が、Bourguignon and Morrissonより低い推定を出しているからだ。
+    </p>
+    <p>
+      van
+      Zanden[1]は、Maddison[1]による過去のひとりあたりGDPを用いて、人々の所得を割り出している。所得分布を調べる際には、人々の身長の分布に注目した(これには軍の資料をあたった)。子供の頃に食べ物が足りないと、大人になっても身長が低いままだ。このように身長に注目することによって、食糧不足、すなわち極度の貧困にある人口の割合を編み出した。この調査によると、1820年に1日2ドル以下(購買力平価をもとに調整、1990年国際ドル)で暮らしていた人の割合は73%、1ドル以下の割合は39%だった。
+    </p>
+    <p>
+      しかし、身長とGDPのデータをすべての国で見つけることはできず、人類の約25%はこの推定には含まれていなかった。軍の資料も無いのだから、含まれていなかったのはおそらく世界で最も貧しい人々だろう。この25%を極度の貧困層に加えた場合、1820年に極度の貧困で暮らしていたのは82%になる。
+    </p>
+    <p>
+      1800年はおそらくもっと多くの人が貧しかっただろうから、わたしたちは「1800年には全人口の85%がレベル1にいた」とした。
+    </p>
+    <p>
+      1980年以降のデータはPovcalNetによるもの。詳しくはこちらの項目を参考に:{' '}
+      <H.OtherCardLink
+        permalink="9-fact-question-3-extreme-poverty"
+        useTitleAsChildren
+      />
+      。世界銀行による2013年における極度の貧困率の推定は10.7%。ギャップマインダーはこの数字と、
+      <H.A href="https://gapm.io/ximfw">IMF[1]</H.A>
+      によるひとりあたりGDPの予測を基に2017年の極度の貧困率を推定した(
       <H.A href="http://gapm.io/depov">Gapminder[9]</H.A>
-      has extended to 2017, by assuming income distributions being constant and
-      IMF[1] GDP per capita forecasts are applicable on household incomes form
-      PovcalNet.
+      )。ひとりあたりのGDPが所得と連動していることと、所得分布が現在と変わらないことを前提としている。
     </p>
     <H.InlineCitation>
       <ul>
