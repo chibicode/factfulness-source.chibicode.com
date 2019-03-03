@@ -2,19 +2,22 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    The reason to abolish death penalty is not only the terrible risk of
-    wrongful execution. Death penalty breaches two essential human rights: the
-    right to life and the right to live free from torture. Both rights are
-    protected under the Universal Declaration of Human Rights, adopted by the
-    United Nations in 1948, and should be respected by all 193 members states.
-    Amnesty International keeps track of countries that have abolished the death
-    penalty after 1990; see
-    <H.A href="http://www.gapm.io/xamndp17">www.gapm.io/xamndp17</H.A>. To
-    qualify as a country, it requires that the use of death penalty is
-    prohibited as punishment for all crimes. Abolishment prior to 1990 in this
-    trend comes from Wikipedia[2], see
-    <H.A href="http://www.gapm.io/xwiki2">www.gapm.io/xwiki2</H.A>, and The
-    Better Angels of Our Nature, Pinker (2011).
-  </p>
+  <>
+    <p>
+      死刑を無くすべき理由は、冤罪のリスクがあるからだけではない。死刑はふたつの基本的な人権を侵害している。ひとつは生命権の侵害。もうひとつは拷問禁止の侵害だ。どちらの人権も
+      <H.A href="https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E4%BA%BA%E6%A8%A9%E5%AE%A3%E8%A8%80">
+        1948年に国連が採択した世界人権宣言
+      </H.A>
+      に記されており、193の国連加盟国すべてが守るべきだ。
+    </p>
+    <p>
+      アムネスティーインターナショナルは、
+      <H.A href="http://www.gapm.io/xamndp17">
+        1990年以降に死刑を完全廃止した国のリスト
+      </H.A>
+      を公開している。1990年以前のデータは
+      <H.A href="http://www.gapm.io/xwiki2">Wikipedia[2]</H.A>
+      とピンカー『暴力の人類史』(2015)によるもの。
+    </p>
+  </>
 )
