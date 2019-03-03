@@ -12,7 +12,7 @@ export default () => (
       <H.A href="https://www.eui.eu/Research/Library/ResearchGuides/Economics/Statistics/DataPortal/IHS">
         International Historical Statistics
       </H.A>
-      を参考にし、グラフがひとつの線になるように調整している。
+      を参考にし、最終的にグラフがひとつの線になるように調整している。
     </p>
     <ul>
       <li>
@@ -50,20 +50,14 @@ export default () => (
       </li>
     </ul>
     <p>
-      Our county estimates are based on these sources, and our global trend for
-      child mortality rate is using the UN-IGME data for the period 1970 to
-      2016. All other years is a weighted mean of countries data. The proper way
-      to calculate the global child mortality, would require estimating the
-      total number of child births and child deaths each year. But we don't have
-      good estimates of the number of births, so instead we have used a proxy:
-      the fertility rate multiplied by population. This method gets us very
-      close to the properly calculated UN-IGME numbers. For 1990, UN-IGME has
-      93.4, and our weighted average is 96.6. We have linked our weighted
-      average for the world, to the UN-IGME series, by using the rate of change
-      before 1990, and apply that backwards in time, so the whole series is
-      moved down to meet UN-IGME in 1990. See
-      <H.A href="http://www.gapm.io/du5mr">www.gapm.io/du5mr</H.A> for detailed
-      documentation.
+      1970年から2016年の間は、世界の乳幼児死亡率の推定にUN-IGMEのデータを使っている。他の期間は、上記の資料をもとに国ごとの乳幼児死亡率を算出し、国の人口を加味した平均を求めることで世界の乳幼児死亡率を算出している。
+    </p>
+    <p>
+      世界の乳幼児死亡率を正しく求めるには、世界中で出生数と子供の死亡数を数えないといけない。しかし、世界規模の出生数の統計が無い時期もある。その時は、出生数の代わりに「出生率×人口」を使っている。
+    </p>
+    <p>
+      UN-IGMEのデータがある1970年から2016年の間にも、わたしたちの推定(国ごとの乳幼児死亡率を算出し、国の人口を加味した平均をとる)を当てはめてみた。数値はかなり近かったが、わたしたちの推定のほうがやや高かった。だから、UN-IGMEのグラフとわたしたちの推定のグラフが1990年で交差するように、わたしたちの1990年以前の推定を全体的に少しだけ下げている。この調整については
+      <H.A href="http://www.gapm.io/du5mr">こちら</H.A>に詳しく書いている。
     </p>
   </>
 )
