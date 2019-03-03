@@ -1,7 +1,6 @@
 import React from 'react'
 import * as H from '../components/h'
 
-// マティアス・リンドグレーン
 export default () => (
   <>
     <p>
