@@ -2,23 +2,20 @@ import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
-  <p>
-    In 2016, only two countries had a life expectancy as low as 50 years
-    according to <H.A href="http://gapm.io/xihlex">IHME[1]</H.A>--- The Central
-    African Republic at 50.2 years and Lesotho at 50.3 years. The uncertainties
-    are huge for all health estimates on Level 1. According to the IHME models,
-    the confidence interval for these numbers are ±2.5 years. That is only
-    expressing the uncertainty within the model. When IHME change their model
-    and improve their estimation calculations, the country estimates may change
-    outside these uncertainty intervals. Between the previous two revisions,
-    estimates for 24 percent of all countries changed beyond the confidence
-    interval. In the Global Burden of Disease Study 2013, for example,
-    Botswana's life expectancy for 2013 was estimated between 62.6 and 68.7
-    years. In the Global Burden of Disease 2015 revision, the lower estimate for
-    2013 was adjusted downwards by 5.7 years, down to 56.9. This was mainly due
-    to an improved modelling of the HIV pandemic. This is just one example of
-    the actual size of uncertainty of health estimates on Level 1 and 2. There
-    are no examples of such large adjustments for estimates when it comes to
-    countries on Level 3 and 4, where data is more certain.
-  </p>
+  <>
+    <p>
+      <H.A href="http://gapm.io/xihlex">IHME[1]</H.A>
+      によると、2016年に平均寿命が50歳に近かったのは2カ国だけ。中央アフリカ共和国の50.2歳と、レソトの50.3歳だ。レベル1の国では人々の健康を正確に測るのは難しい。IHMEのモデルの信頼区間は±2.5歳だが、モデルが変わったり計算方法が変わると、平均寿命も大きく変わる。
+    </p>
+    <p>
+      IHMEの以前の推定と、その前の推定を比べてみると、全世界のうち24%の国で信頼区間よりも大きく平均寿命が変わっていた。たとえばIHMEによる
+      <H.A href="http://www.healthdata.org/gbd">
+        Global Burden of Disease Study
+      </H.A>
+      の2013版によると、ボツワナの2013年の平均寿命は62.6歳から68.7歳の間とされていた。しかし2015年版を見ると、2013年の推定の下限は56.9歳と、5.7歳低くなっていた。これはモデルがHIV流行をより正確に測るように改善されたからだ。
+    </p>
+    <p>
+      これはレベル1や2の国における平均寿命の推定誤差の一例にすぎない。データがより正確なレベル3や4の国では、信頼区間が大きく変わることはない。
+    </p>
+  </>
 )
