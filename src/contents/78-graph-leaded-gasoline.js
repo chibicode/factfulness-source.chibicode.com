@@ -4,22 +4,20 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      Tetraethyl lead began to be added in gasoline for increased vehicle
-      performance and fuel economy in the 1920s, see
-      <H.A href="http://www.gapm.io/xwiki11">www.gapm.io/xwiki11</H.A>. That was
-      a stupid idea, since lead is a toxicant that affects multiple body systems
-      and is particularly harmful to young children: See WHO's Fact sheet,
-      Updated August 2017, called "
-      <H.A href="http://www.who.int/mediacentre/factsheets/fs379/en/">
-        Lead poisoning and health
+      テトラエチル鉛は、
+      <H.A href="http://www.gapm.io/xwiki11">
+        1920年代に車のエンジンの性能を上げるためにガソリンに混入されるようになった
       </H.A>
-      ".
+      。今振り返ってみると、これはバカげた案だった。鉛は身体のさまざまな箇所に悪影響を与える毒だし、特に子供に対しては脅威だ。詳しくは世界保健機関の
+      <H.A href="http://www.who.int/mediacentre/factsheets/fs379/en/">
+        鉛中毒と健康
+      </H.A>
+      という記事(2017年更新)を参考のこと。
     </p>
     <p>
-      The first country to ban lead in gasoline was Japan in 1986. Since then
-      192 countries have followed. The only three countries where leaded
-      gasoline is still not completely phased out are Iraq, Yemen and Algeria,
-      according to <H.A href="http://gapm.io/xunepppo">UNEP[3]</H.A>.
+      世界ではじめて有鉛ガソリンを禁止したのは日本だった(1986年)。その後、192カ国が同様に禁止した。現在、有鉛ガソリンが完全に廃止されていないのは、
+      <H.A href="http://gapm.io/xunepppo">UNEP[3]</H.A>
+      によるとイラク、イエメン、アルジェリアのみ。
     </p>
   </>
 )
