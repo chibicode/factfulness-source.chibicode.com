@@ -4,25 +4,18 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      This poll was initially conducted by YouGov. The results were so
-      extraordinary that Gapminder decided to see if they could be replicated
-      with a different polling company. In 2017, the same question was asked
-      with Ipsos-MORI and the results were similar: This barchart mixes the
-      results from the two online polls.
-      <H.A href="http://www.gapm.io/xyougov15">
-        YouGov polled 18,000 people in 17 countries
+      この調査はもともと
+      <H.A href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/z2knhgzguv/GB_Website.pdf">
+        YouGov
       </H.A>
-      . The two countries where most people were
-      <H.A href="http://www.yougov.co.uk/news/2016/01/05/chinese-people-are-most-optimistic-word">
-        optimistic about the world
+      が17カ国1万8000人を対象に行ったものだった。その結果にとても驚いたわたしたちは、他の調査会社でも同じ結果になるか試してみた。2017年に調査会社のIspos-MORIが同じ質問をしてみたところ、かなり近い結果になった。本書のグラフはYouGovとIspos-MORIの結果を合わせたもの。
+    </p>
+    <p>
+      比較的多くの人が「世界は良くなっている」と答えたのは
+      <H.A href="https://today.yougov.com/topics/international/articles-reports/2016/01/05/chinese-optimism">
+        中国(41%)とインドネシア(23%)だった。
       </H.A>
-      were China and Indonesia in which 41% and 23% said the world is getting
-      better. But we have decided to remove these two outliers because the
-      proportion of people with access to the internet is not large enough to
-      represent the whole population. It's quite likely that people with
-      internet access have a different perception of the world than the rest of
-      the population. This is not to discard the plausible and interesting
-      hypothesis that Asians may be more positive than westerners.
+      ただ、この2国ではインターネットを使える人口が国の全人口に比べて少ないので本書からは除外した。インターネットが使える人たちは、そうでない人たちに比べて世界の見方が違うからだ。ここでは中国とインドネシアは除外したが、「アジア人のほうが世界に対して前向きかもしれない」という仮説は検討に値する。
     </p>
 
     <H.InlineCitation>
