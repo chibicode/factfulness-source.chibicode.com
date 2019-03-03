@@ -4,13 +4,15 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The trend shows ten-year averages from
-      <H.A href="http://gapm.io/itfr">Gapminder[6]</H.A> that ends with data
-      from UN-IGME, published in 2017 for the period 1990--2016. Estimates
-      before 1990 come from hundreds of historical sources, primarily
-      <H.A href="http://www.mortality.org/">www.mortality.org</H.A> and
-      Mitchell's books. They have been compiled into one coherent trend line. In
-      summary:
+      グラフは10年間の平均の推移を表している(
+      <H.A href="http://gapm.io/itfr">Gapminder[6]</H.A>
+      )。最後の数字はUN-IGMEが2017年に公開した1990年から2016年の乳幼児死亡率だ。1990年以前の数字は何百もの資料を基にしているが、主に
+      <H.A href="http://www.mortality.org/">mortality.org</H.A>とBrian R.
+      Mitchell著
+      <H.A href="https://www.eui.eu/Research/Library/ResearchGuides/Economics/Statistics/DataPortal/IHS">
+        International Historical Statistics
+      </H.A>
+      を参考にし、グラフがひとつの線になるように調整している。
     </p>
     <ul>
       <li>
