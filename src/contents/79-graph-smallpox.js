@@ -5,32 +5,29 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g13.png" />
     <p>
-      Smallpox had been one of the major killers of humans. In 18th century
-      Europe, for example, it caused
+      天然痘は多くの人の命を奪ってきた。たとえば、18世紀のヨーロッパでは、全死亡者の
       <H.A href="https://www.ourworldindata.org/eradication-of-diseases/#smallpox">
-        about 7% of all deaths
+        7%
       </H.A>
-      , according to Max Roser (2018). Vaccines were
+      が天然痘で亡くなっていた(Max Roser 2018)。ワクチンは
       <H.A href="http://www.who.int/csr/disease/smallpox/vaccines/en/">
-        invented already in 1796
+        1796年にすでに開発されていた
       </H.A>
-      , but not until 1980 was the nasty viruses defeated thanks to massive
-      global vaccination campaigns lead by the World Health Organization. The
-      last known case was recorded in
+      が、1980年になるまで天然痘は撲滅されなかった。撲滅できたのは、世界保健機関が世界的なワクチン活動を行ったおかげだ。最後の感染者が出たのは
       <H.A href="http://www.who.int/csr/disease/smallpox/en/">
-        Somalia in 1977
+        1977年のソマリア
       </H.A>
-      . Smallpox was the first (and so far the only) disease eradicated by
-      global vaccination programs. The graph shows the years when the last case
-      was recorded in each country, based on data that was kindly shared with us
-      by Katie Hampson, at Wellcome Trust Boyd Orr Centre for Population and
-      Ecosystem at University of Glasgow, Medical, Veterinary & Life Sciences.
-      The data was published in the paper
+      だった。現在、天然痘はワクチンのおかげで撲滅できた唯一の病気だ。
+    </p>
+    <p>
+      グラフの数字は、それぞれの国の最後の感染者がいた日付をもとに算出している。このデータは、グラスゴー大学医学・獣医学・生命科学カレッジのWellcome
+      Trust Boyd Orr Centre for Population and EcosystemでKatie
+      Hampsonが行った講義でも使われた。また、論文としても公開されている:{' '}
       <H.A href="http://rstb.royalsocietypublishing.org/content/368/1623/20120137">
         Towards the endgame and beyond: complexities and challenges for the
         elimination of infectious diseases
-      </H.A>
-      by Klepac, et al (2013).
+      </H.A>{' '}
+      by Klepac, et al (2013)を参考のこと。
     </p>
 
     <H.InlineCitation>
