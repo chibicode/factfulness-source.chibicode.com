@@ -9,9 +9,9 @@ const Card = ({children, isLast, background, foreground, isModal}) => (
       css={({colors}) => css`
         background: ${background ? background(colors) : '#fff'};
         color: ${foreground || 'inherit'};
+        border: 1px solid ${colors.base100};
         border-radius: 0.5rem;
         overflow: hidden;
-
         word-wrap: break-word;
       `}
     >
