@@ -4,9 +4,10 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      The current ILO (International Labour Organization) definition of "child
-      labor" excludes light part-time work, and includes only the so called
-      "worst forms of child labour"; see
+      現在、ILO(国際労働機関)による児童労働の定義は、 The current ILO
+      (International Labour Organization) definition of "child labor" excludes
+      light part-time work, and includes only the so called "worst forms of
+      child labour"; see
       <H.A href="http://gapm.io/xilo182">ILO[6]</H.A>.
       <H.A href="about:blank">Gapminder[42]</H.A> combines data from three
       different ILO reports, using three age intervals; ILO[
