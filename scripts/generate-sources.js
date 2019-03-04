@@ -842,7 +842,8 @@ const sources = [
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Literacy`,
-    jpTitle: `32のグラフ: 識字率`
+    jpTitle: `32のグラフ: 識字率`,
+    constructionId: 'dliterae'
   },
   {
     chapter: 2,
