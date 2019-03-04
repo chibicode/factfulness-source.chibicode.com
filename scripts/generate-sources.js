@@ -815,7 +815,8 @@ const sources = [
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Women's right to vote`,
-    jpTitle: `32のグラフ: 女性参政権`
+    jpTitle: `32のグラフ: 女性参政権`,
+    constructionId: 'dwomsuff'
   },
   {
     chapter: 2,
