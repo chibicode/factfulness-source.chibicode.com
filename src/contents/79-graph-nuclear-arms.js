@@ -5,20 +5,16 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g12.png" />
     <p>
-      The number of warheads peaked in the mid 1980s and has steadily decreased
-      since. SIPRI (Stockholm International Peace Research Institute) estimates
-      the total number in 2017 at 14,935---see
-      <H.A href="http://www.gapm.io/xsipri17">www.gapm.io/xsipri17</H.A>. The
-      Nuclear Notebook gives a detailed breakdown: "As of mid-2017, we estimate
-      that there are nearly 15,000 nuclear weapons located at some 107 sites in
-      14 countries. Roughly, 9,400 of these weapons are in military arsenals;
-      the remaining weapons are retired and awaiting dismantlement.
-      Approximately 4,150 are operationally available, and some 1,800 are on
-      high alert and ready for use on short notice. By far, the largest
-      concentrations of nuclear weapons reside in Russia and the United States,
-      which possess 93 percent of the total global inventory." The Nuclear
-      Notebook can be found at
-      <H.A href="http://www.gapm.io/xnuno">www.gapm.io/xnuno</H.A>.
+      核弾頭の数は1980年半ばに最高数を記録したあと、ゆるやかに減っている。
+      <H.A href="http://www.gapm.io/xsipri17">
+        ストックホルム国際平和研究所(SIPRI)
+      </H.A>
+      は2017年の核弾頭の数を1万4935発と推定している。
+    </p>
+    <p>
+      さらに詳しい内訳は
+      <H.A href="http://www.gapm.io/xnuno">The Nuclear Notebook</H.A>
+      に掲載されている。これによると、「2017年半ばには、世界に約1万5000発の核弾頭があり、14カ国の107箇所に配置されている。うち9400発は軍事利用されているが、残りは使われておらず核廃棄される予定だ。4150発は使用可能で、1800発は司令が下され次第すぐにでも使うことができる。アメリカとロシアが圧倒的に多くの核弾頭を保有しており、全世界の核弾頭の93%を占めている。
     </p>
   </>
 )
