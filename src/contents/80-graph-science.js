@@ -5,19 +5,18 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g21.png" />
     <p>
-      The final data-point in this curve, 2.6 million articles, is an estimate
-      from Elsevier Publishing, that published 400,000 peer reviewed articles in
-      2015, with the help of 700,000 peer-reviewers from a scientific community
-      of 7.8 million active researchers worldwide. The first peer-reviewed
-      scientific journal was Philosophical Transactions published by the Royal
-      Society in London. The first issue was published in March 1665 and during
-      its first year in existence 119 scientific articles were printed (only
-      counting articles that are more like modern day scientific articles,
-      excluding book reviews and extracts from letters). Another scientific
-      journal, Journal des Sçavans, was established in France in the same year,
-      but without peer-reviewing. See "Elsevier Publishing---A Look at the
-      Numbers, and More." at
-      <H.A href="http://www.gapm.io/xelsevier">www.gapm.io/xelsevier</H.A>.
+      このグラフの最後の数字(約260万本)は
+      <H.A href="http://www.gapm.io/xelsevier">
+        Elsevier Publishingによる推定
+      </H.A>
+      。Elsevier
+      Publishingは2015年に40万の査読付き論文を出している。これには世界中の780万人の科学者コミュニティーのうち70万人が関わった。
+    </p>
+    <p>
+      世界初の査読付き科学ジャーナルはthe Royal Society in
+      LondonによるPhilosophical
+      Transactions。第一号は1665年3月に公開され、1年間に119の科学記事が掲載された。この数は書評などを除き、現在の科学記事と似たような形式の記事だけを数えたもの。ちなみに同じ年にフランスでJournal
+      des Sçavansという科学雑誌が出たが、査読はなかった。
     </p>
     <H.GraphExplanation />
   </>
