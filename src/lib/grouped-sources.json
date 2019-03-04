@@ -1114,6 +1114,7 @@
       "section": "第2章",
       "enPage": 62,
       "jpTitle": "32のグラフ: 識字率",
+      "constructionId": "dliterae",
       "permalink": "80-graph-literacy",
       "index": 95
     },
@@ -1147,6 +1148,7 @@
       "section": "第2章",
       "enPage": 62,
       "jpTitle": "32のグラフ: 自然保護",
+      "constructionId": "protnat",
       "permalink": "80-graph-protected-nature",
       "index": 98
     },

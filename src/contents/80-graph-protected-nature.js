@@ -5,27 +5,33 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g18.png" />
     <p>
-      This trend is based on{' '}
+      このグラフには国連環境計画(
       <H.A href="https://protectedplanet.net/">UNEP[5]</H.A>
-      which keeps track of protected areas as defined by IUCN[1,2]
-      (International Union for Conservation of Nature). The trend after 1990 is
-      based on the figure on page 30 in
-      <H.A href="http://gapm.io/xprotp16">UNEP[6]</H.A>. Between 1911 and 1990
-      the trend comes from Abouchakra et al (2016), which is based on UNEP[5]
-      data from february 2012. Between 1900 and 1911 the data was aggregated
-      from the historic records in UNEP[5] by
-      <H.A href="http://gapm.io/protnat">Gapminder[31].</H.A> To see The World
-      Database on Protected Areas (WDPA), visit
-      <H.A href="http://www.protectedplanet.net/">www.protectedplanet.net</H.A>.
-      For categories of the IUCN protected areas, see
-      <H.A href="http://www.gapm.io/x-protareacat">
-        www.gapm.io/x-protareacat
-      </H.A>
-      , and the IUCN definition, see
-      <H.A href="http://www.gapm.io/xprarde">www.gapm.io/xprarde</H.A>. For more
-      about the data behind this graph, visit
-      <H.A href="http://www.gapm.io/protnat">www.gapm.io/protnat</H.A>.
+      )のデータを利用しており、国際自然保護連合(IUCN[1,2])が
+      <H.A href="http://www.gapm.io/xprarde">定義</H.A>した
+      <H.A href="http://www.gapm.io/x-protareacat">自然保護区</H.A>
+      の増減を観測している。
     </p>
+    <ul>
+      <li>
+        1990年以降のデータは<H.A href="http://gapm.io/xprotp16">UNEP[6]</H.A>
+        のp30から。
+      </li>
+      <li>
+        1911年から1990年のデータは
+        <H.A href="https://books.google.com/books/about/Looking_Ahead.html?id=N542jwEACAAJ">
+          Abouchakra et al (2016)
+        </H.A>
+        によるもので、UNEP[5]の2012年のデータをまとめたもの。
+      </li>
+      <li>
+        1900年から1911年のデータはUNEP[5]のデータをもとに
+        <H.A href="http://gapm.io/protnat">
+          ギャップマインダーが算出した(Gapminder[31])
+        </H.A>
+        。
+      </li>
+    </ul>
     <H.GraphExplanation />
   </>
 )

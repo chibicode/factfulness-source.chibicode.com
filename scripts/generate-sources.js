@@ -807,7 +807,8 @@ const sources = [
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: Protected nature`,
-    jpTitle: `32のグラフ: 自然保護`
+    jpTitle: `32のグラフ: 自然保護`,
+    constructionId: 'protnat'
   },
   {
     chapter: 2,
