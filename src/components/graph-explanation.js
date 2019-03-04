@@ -8,6 +8,7 @@ const GraphExplanation = () => {
   const [expanded, setExpanded] = useState(false)
   return (
     <H.BlockAddition
+      hideBackground={!expanded}
       css={theme =>
         expanded
           ? null
