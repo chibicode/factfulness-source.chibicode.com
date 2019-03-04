@@ -3,11 +3,10 @@ import * as H from '../components/h'
 
 export default () => (
   <p>
-    Not only has the amount of oil spilled been falling. The number of accidents
-    dropped from an average of 24.5 per year in the 1970s to 1.7 per year
-    between 2010 to 2016. The oil spill statistics comes from ITOPF
-    (International Tanker Owners Pollution Federation); the publication can be
-    downloaded via{' '}
-    <H.A href="http://www.gapm.io/xitopf">www.gapm.io/xitopf</H.A>.
+    タンカーから流出した石油の量だけでなく、石油流出事故の数も減っている.1970年代は1年あたり24.5件だったが、2010年から2016年の間は1年あたり1.7件に減った。
+    <H.A href="http://www.gapm.io/xitopf">
+      データはITOPF (International Tanker Owners Pollution Federation)によるもの
+    </H.A>
+    。
   </p>
 )
