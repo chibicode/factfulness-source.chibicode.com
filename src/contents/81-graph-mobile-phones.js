@@ -5,22 +5,18 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g29.png" />
     <p>
-      Statistics showing the global increase of mobile penetration often uses
-      <H.A href="http://gapm.io/xitumob">data from ITU</H.A> from the
+      世界の携帯電話の数について語られるとき、よく
       <H.A href="https://www.itu.int/en/Pages/default.aspx">
-        International Telecommunication Union
+        国際電気通信連合
       </H.A>
-      , ITU[1], counting the number of subscriptions, not subscribers. In the
-      world in 2015 there were 7.2 billion SIM cards and 7.5 billion people, but
-      the rate is misleading since many people have multiple SIM cards. GSMA
-      publishes estimates of the number of unique subscribers, and their data
-      series start with the 2010 numbers. Gapminder has extended the series,
-      combining these two measures by calculating the rate of subscriptions per
-      subscriber for the overlapping year 2010, and then assume that the same
-      rate is applicable from the beginning of the ITU[1] subscription series in
-      1980 (when ITU reports 23,482 subscriptions worldwide). The ITU series
-      beginning in 1980 is retrieved from
-      <H.A href="http://gapm.io/xwb1718">the World Bank[18]</H.A>.
+      <H.A href="http://gapm.io/xitumob">(ITU)のデータ</H.A>
+      が使われる。だが、ここには契約数は書かれているが、契約「者」数は書かれていない。世界には75億人いるが、SIMカードの数は72億枚もある。多くの人はたくさんのSIMカードを保有しているからだ。
+    </p>
+    <p>
+      <H.A href="https://gapm.io/xgsmame">GSMA</H.A>
+      は2010年以降の契約「者」数の推定を公開している。ギャップマインダーはITUとGSMAのふたつのデータをもとに、過去の契約「者」数データを推定している。まず両方のデータがある2010年の「契約者ひとりあたりの契約数」を算出し、それをもとに1980年の契約者数を算出した。ちなみにITUは1980年には世界中で2万3482の契約数があったとしている。ITUのデータは
+      <H.A href="http://gapm.io/xwb1718">世界銀行のサイト(World Bank[18])</H.A>
+      でも公開されている。
     </p>
     <H.GraphExplanation />
   </>
