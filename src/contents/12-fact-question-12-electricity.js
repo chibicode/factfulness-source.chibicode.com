@@ -27,7 +27,7 @@ export default () => (
         。
       </p>
       <p>
-        GTFは世界銀行の世界電力供給データベース(GED)を使っている。これは、それぞれの国が行なっている調査と、Socio-Economic
+        GTFは世界銀行の世界電力供給データベース(GED)を使っている。これは、それぞれの国が行っている調査と、Socio-Economic
         Database for Latin America and the Caribbean (SEDLAC)やthe Europe and
         Central Asia Poverty Database
         (ECAPOV)などの他のデータをまとめたものだ。1990年から2017年の間の、高所得国を除いた144カ国における950もの調査が含まれている。ちなみに、世界銀行が高所得国としている国では電力供給が100%と仮定している。(

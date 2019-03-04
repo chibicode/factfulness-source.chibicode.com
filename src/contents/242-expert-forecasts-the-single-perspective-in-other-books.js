@@ -9,7 +9,7 @@ export default () => (
     </p>
     <p>
       予測力を育むには、謙虚さ、好奇心、そして間違いから学ぼうとする姿勢が大事だ。テトロックが立ち上げた予測コンサルティング会社のGood
-      Judgementは、Good Judgement Openという予測のトーナメントを行なっており、
+      Judgementは、Good Judgement Openという予測のトーナメントを行っており、
       <H.A href="https://www.gjopen.com/">誰でもこちらから参加できる</H.A>。
     </p>
   </>

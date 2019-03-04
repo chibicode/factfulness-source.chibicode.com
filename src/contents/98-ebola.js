@@ -11,7 +11,7 @@ export default () => (
         エボラの緊急性を伝えるためにギャップマインダーがつくった配布物は
         <H.A href="https://gapm.io/vebol">こちら</H.A>。
       </H.FB>
-      ハンスがエボラについて行なった講演は
+      ハンスがエボラについて行った講演は
       <H.A href="http://gapm.io/fp16">Factpod #6</H.A>と
       <H.A href="http://gapm.io/fp17">#8</H.A>から見れる。
     </p>
