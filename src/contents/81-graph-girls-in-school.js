@@ -5,18 +5,16 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g26.png" />
     <p>
-      This trend is based on
-      <H.A href="http://www.gapm.io/xuisoutsf">UNESCO[3]</H.A>, and shows the
-      number of girls of official primary school age who are enrolled in primary
-      or secondary school, expressed as a percentage of the population of
-      official primary school age girls. The age interval for primary education
-      varies between countries, but it is often between 6 to 11 years of age.
-      Girls of primary school age who are still in pre-primary education are
-      excluded and considered out of school.{' '}
+      グラフのデータはユネスコ(
+      <H.A href="http://www.gapm.io/xuisoutsf">UNESCO[3]</H.A>
+      )によるもの。実際に初等教育を受けている女子の数を、初等教育を受ける典型的な年齢(地域ごとに違うが、だいたい6歳〜11歳)の女子人口で割った数だ。初等教育を受ける年齢になってもそれ以前の段階の教育を受けている子達の数は、学校に通っていないとみなしている。ユネスコ(
       <H.A href="http://www.gapm.io/xoos">UNESCO[4]</H.A>
-      expresses the numbers in "out-of-school" children. We have inverted the
-      numbers to show children not out-of-school: the in-school rate. See also
-      the note to Fact question 1: Girls in school.
+      )は「学校に通ってない子」の割合を出しているが、ここではその逆の「学校に通う子」の割合を出している。また、
+      <H.OtherCardLink
+        useTitleAsChildren
+        permalink="9-fact-question-1-girls-in-school-in-low-income-countries"
+      />
+      も参考のこと。
     </p>
 
     <H.InlineCitation>
