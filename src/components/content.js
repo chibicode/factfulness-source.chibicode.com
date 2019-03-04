@@ -15,6 +15,7 @@ const Content = ({
   chapter,
   jpTitle,
   isModal,
+  hideFooter,
   constructionId
 }) => {
   const {type} = useContext(PageContext)
@@ -53,97 +54,103 @@ const Content = ({
         </p>
       )}
       <Component />
-      <p
-        css={({colors}) => css`
-          color: ${colors.base400};
-          font-size: 0.85rem;
-          display: flex;
-          justify-content: space-between;
-        `}
-      >
-        <span>
-          {type === 'index' && (
-            <>
-              <LinkButton
-                type="button"
-                onClick={() => setFeedbackVisible(!feedbackVisible)}
-              >
-                フィードバック
-              </LinkButton>{' '}
-              &middot;{' '}
-            </>
-          )}
-          <Link
-            transparentBackground
-            href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/contents/${permalink}.js`}
-          >
-            変更履歴
-          </Link>
-        </span>
-        <span>
-          {constructionId && (
-            <Link
-              transparentBackground
-              href={`https://gapm.io/${constructionId}`}
-            >
-              詳細(準備中)
-            </Link>
-          )}
-        </span>
-      </p>
-      {feedbackVisible && (
-        <BlockAddition
-          css={({colors}) => css`
-            background: ${colors.green50};
-            font-size: 0.85em;
-            margin-bottom: -1rem;
-          `}
-        >
-          <p>
-            この脚注、または本書で該当する部分のファクトに間違いがございましたら、
-            共訳者の上杉(
-            <Link href="mailto:shu@chibicode.com">shu@chibicode.com</Link>)
-            までご連絡ください。それぞれ吟味したのち、必要に応じて原著の著者に転送させていただきます。原著の著者に直接英語でフィードバックを送るには、こちらから:{' '}
-            <Link href="mailto:factfulness-book@gapminder.org">
-              factfulness-book@gapminder.org
-            </Link>
-          </p>
-          <p>
-            また、本書の正誤表は
-            <InternalLink href="/errata">こちらからご覧になれます</InternalLink>
-            。
-          </p>
-        </BlockAddition>
-      )}
-      {isModal && (
-        <div
-          css={css`
-            padding: 2rem 0 1rem;
-            text-align: center;
-          `}
-        >
-          <InternalLink
-            prefetch
-            href={type === 'errata' ? '/errata' : '/'}
+      {!hideFooter && (
+        <>
+          <p
             css={({colors}) => css`
-              display: inline-block;
-              background: ${colors.base50};
-              text-decoration: none;
-              border: 2px solid ${colors.base400};
-              color: ${colors.base500};
-              font-weight: bold;
+              color: ${colors.base400};
               font-size: 0.85rem;
-              padding: 0.5rem 1rem;
-              border-radius: 0.25rem;
-
-              &:hover {
-                background: ${colors.accent50};
-              }
+              display: flex;
+              justify-content: space-between;
             `}
           >
-            全ての脚注を見る
-          </InternalLink>
-        </div>
+            <span>
+              {type === 'index' && (
+                <>
+                  <LinkButton
+                    type="button"
+                    onClick={() => setFeedbackVisible(!feedbackVisible)}
+                  >
+                    フィードバック
+                  </LinkButton>{' '}
+                  &middot;{' '}
+                </>
+              )}
+              <Link
+                transparentBackground
+                href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/contents/${permalink}.js`}
+              >
+                変更履歴
+              </Link>
+            </span>
+            <span>
+              {constructionId && (
+                <Link
+                  transparentBackground
+                  href={`https://gapm.io/${constructionId}`}
+                >
+                  詳細(準備中)
+                </Link>
+              )}
+            </span>
+          </p>
+          {feedbackVisible && (
+            <BlockAddition
+              css={({colors}) => css`
+                background: ${colors.green50};
+                font-size: 0.85em;
+                margin-bottom: -1rem;
+              `}
+            >
+              <p>
+                この脚注、または本書で該当する部分のファクトに間違いがございましたら、
+                共訳者の上杉(
+                <Link href="mailto:shu@chibicode.com">shu@chibicode.com</Link>)
+                までご連絡ください。それぞれ吟味したのち、必要に応じて原著の著者に転送させていただきます。原著の著者に直接英語でフィードバックを送るには、こちらから:{' '}
+                <Link href="mailto:factfulness-book@gapminder.org">
+                  factfulness-book@gapminder.org
+                </Link>
+              </p>
+              <p>
+                また、本書の正誤表は
+                <InternalLink href="/errata">
+                  こちらからご覧になれます
+                </InternalLink>
+                。
+              </p>
+            </BlockAddition>
+          )}
+          {isModal && (
+            <div
+              css={css`
+                padding: 2rem 0 1rem;
+                text-align: center;
+              `}
+            >
+              <InternalLink
+                prefetch
+                href={type === 'errata' ? '/errata' : '/'}
+                css={({colors}) => css`
+                  display: inline-block;
+                  background: ${colors.base50};
+                  text-decoration: none;
+                  border: 2px solid ${colors.base400};
+                  color: ${colors.base500};
+                  font-weight: bold;
+                  font-size: 0.85rem;
+                  padding: 0.5rem 1rem;
+                  border-radius: 0.25rem;
+
+                  &:hover {
+                    background: ${colors.accent50};
+                  }
+                `}
+              >
+                全ての脚注を見る
+              </InternalLink>
+            </div>
+          )}
+        </>
       )}
     </>
   )

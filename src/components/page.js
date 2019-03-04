@@ -9,6 +9,7 @@ import Navbar from './navbar'
 import NavState from './nav-state'
 import PermalinkModal from './permalink-modal'
 import NavCloser from './nav-closer'
+import ScreenshotContent from './screenshot-content'
 
 Router.events.on('routeChangeComplete', url => pageview(url))
 
@@ -18,18 +19,22 @@ const Page = ({type, router}) => (
   <PageContext.Provider value={{type}}>
     <GlobalStyles />
     <Head />
-    <NavState>
-      {router.query.p ? (
-        <PermalinkModal permalink={router.query.p} />
-      ) : (
-        <Navbar />
-      )}
-      <NavCloser>
-        <Container hasVerticalPadding>
-          <Main />
-        </Container>
-      </NavCloser>
-    </NavState>
+    {router.query.s ? (
+      <ScreenshotContent permalink={router.query.s} />
+    ) : (
+      <NavState>
+        {router.query.p ? (
+          <PermalinkModal permalink={router.query.p} />
+        ) : (
+          <Navbar />
+        )}
+        <NavCloser>
+          <Container hasVerticalPadding>
+            <Main />
+          </Container>
+        </NavCloser>
+      </NavState>
+    )}
   </PageContext.Provider>
 )
 
