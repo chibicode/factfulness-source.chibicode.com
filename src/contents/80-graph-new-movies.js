@@ -5,18 +5,14 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g17.png" />
     <p>
-      The Internet Movie Database (<H.A href="https://www.imdb.com/">IMBd</H.A>)
-      is maintained by film enthusiasts across the world, and has a nearly
-      complete coverage of all feature films, making 3.5 million movies
-      searchable and filterable by year. Many early cinematic recordings were
-      done in the last years of the 19th century, but they dare often
-      experimental and short we don't consider them feature films. We have
-      chosen 1906 as the year of the first feature, referring to "The Story of
-      the Kelly Gang", a 70 minute long narrative film; see
+      世界中の映画好きたちが情報を更新し続ける
+      <H.A href="https://www.imdb.com/">IMDB</H.A>
+      には、ほぼ全ての映画(約350万)のデータがある。19世紀終盤に多くの映画が撮られたが、ほとんどが短かったため、「長編映画」には数えていない。ここでは70分間の映画"The
+      Story of the Kelly Gang"が公開された1906年を最初の年にしている。詳しくは
       <H.A href="https://en.wikipedia.org/wiki/Feature_film#History">
         Wikipedia[3]
       </H.A>
-      .
+      を参考のこと。
     </p>
     <H.GraphExplanation />
   </>
