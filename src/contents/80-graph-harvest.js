@@ -5,10 +5,8 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g22.png" />
     <p>
-      Today, each acre of cropland produces on average 3.6 times more food
-      compared to 50 years ago. See the crop statistics from FAO[4] (Food and
-      Agriculture Organization of the United Nations) available at
-      <H.A href="http://www.gapm.io/xcer">www.gapm.io/xcer</H.A>.
+      1ヘクタールあたりの穀物生産量は50年前と比べて約2.8倍になった。詳しくは国際連合食糧農業機関のデータ(
+      <H.A href="http://www.gapm.io/xcer">FAO[4]</H.A>)を参考のこと。
     </p>
     <H.GraphExplanation />
   </>
