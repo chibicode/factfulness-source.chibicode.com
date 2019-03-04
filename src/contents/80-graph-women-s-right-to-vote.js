@@ -21,5 +21,6 @@ export default () => (
       </H.A>
       page about the women's suffrage movement.
     </p>
+    <H.GraphExplanation />
   </>
 )

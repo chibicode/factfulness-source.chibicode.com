@@ -10,5 +10,6 @@ export default () => (
       Agriculture Organization of the United Nations) available at
       <H.A href="http://www.gapm.io/xcer">www.gapm.io/xcer</H.A>.
     </p>
+    <H.GraphExplanation />
   </>
 )

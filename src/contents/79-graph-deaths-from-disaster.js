@@ -11,5 +11,6 @@ export default () => (
       />
       を参考のこと。
     </p>
+    <H.GraphExplanation />
   </>
 )

@@ -35,5 +35,6 @@ export default () => (
         </li>
       </ul>
     </H.InlineCitation>
+    <H.GraphExplanation />
   </>
 )

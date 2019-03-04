@@ -7,39 +7,36 @@ export default () => (
     <H.BlockAddition>
       <p>
         <H.BlockAdditionHeader />
-        ここには、
+        原著では、ここには「
+        <strong>
+          民主主義: 世界の全人口のうち、民主主義国に暮らす人の割合
+        </strong>
+        」が掲載されていた(ソースは
+        <H.A href="https://ourworldindata.org/democracy">OurWorldInData[4]</H.A>
+        )。
       </p>
+      <H.GraphThumbnail src="/static/images/32-graphs/g-democracy.png" />
+      <p>
+        しかし、
+        <H.A href="https://www.gapminder.org/factfulness-book/mistakes/">
+          原著の正誤表
+        </H.A>
+        には、「民主主義の質は過去10年で悪くなっていることから、ここには適さない。代わりにオリンピックの参加国・チーム数を掲載するべき」とあったため、日本語版ではオリンピックのグラフに差し替えた。
+      </p>
+      <p>本書のp303には、オリンピックについて以下のように書かれている:</p>
+      <H.BookQuote pageNumber={303}>
+        {_ => (
+          <>
+            <p>
+              人間には暴力で報復したがる愚かな本能がある。なにより邪悪なのは、戦争に訴える本能だ。こうした本能に対抗できるのは、人と人との個人的な関係だ。
+            </p>
+            <p>
+              オリンピックも、国際貿易も、交換留学も、自由なインターネットも、人種や国家の境を越えて人と人が出会う機会だ。そんな機会がたくさんあるといい。個人の関係が、世界平和を維持するためのセーフティネットになる。
+            </p>
+          </>
+        )}
+      </H.BookQuote>
     </H.BlockAddition>
-    <p>
-      Putting countries into two groups as being a "democracy" or not is highly
-      problematic. We use Max Roser's data as compiled at
-      <H.A href="https://ourworldindata.org/democracy">OurWorldInData[4]</H.A>.
-      Roser has adopted the definitions of the
-      <H.A href="http://www.systemicpeace.org/polity/polity4.htm">
-        Polity IV dataset
-      </H.A>
-      but give the numbers in terms of inhabitants, not number of countries. The
-      Polity IV dataset puts countries on a democracy scale, and defines
-      non-democratic regimes as autocracies (e.g. China), closed anocracy (e.g.
-      Morocco), open anocracy (e.g. Russia) or colonial regimes. In this graph,
-      we only show democracies, hence disregarding all types of non-democratic
-      regimes. For an alternate detailed list of development of democracy, see
-      Mathew White's
-      <H.A href="http://www.bookofhorriblethings.com/historyofdemocracy/History-of-Democracy-APX-list.html">
-        "Chronological List of Democracies"
-      </H.A>
-      .
-    </p>
-
-    <H.InlineCitation>
-      <ul>
-        <li>
-          <H.A href="https://www.ourworldindata.org/democracy">
-            OurWorldInData[4] Roser, Max. "Share of World Population Living in
-            Democracies." 2017/11/26閲覧。
-          </H.A>
-        </li>
-      </ul>
-    </H.InlineCitation>
+    <H.GraphExplanation />
   </>
 )

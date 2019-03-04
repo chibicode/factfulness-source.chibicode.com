@@ -20,5 +20,6 @@ export default () => (
       <H.A href="http://gapm.io/xunepppo">UNEP[3]</H.A>
       によるとイラク、イエメン、アルジェリアのみ。
     </p>
+    <H.GraphExplanation />
   </>
 )

@@ -15,5 +15,6 @@ export default () => (
       first record is from August 1981 with 213 hosting servers, why we assume
       that the year before, the number of users was practically zero.
     </p>
+    <H.GraphExplanation />
   </>
 )

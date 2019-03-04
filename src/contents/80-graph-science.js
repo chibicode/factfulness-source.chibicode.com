@@ -19,5 +19,6 @@ export default () => (
       Numbers, and More." at
       <H.A href="http://www.gapm.io/xelsevier">www.gapm.io/xelsevier</H.A>.
     </p>
+    <H.GraphExplanation />
   </>
 )

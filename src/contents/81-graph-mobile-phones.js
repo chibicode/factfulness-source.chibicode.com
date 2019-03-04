@@ -22,5 +22,6 @@ export default () => (
       beginning in 1980 is retrieved from
       <H.A href="http://gapm.io/xwb1718">the World Bank[18]</H.A>.
     </p>
+    <H.GraphExplanation />
   </>
 )

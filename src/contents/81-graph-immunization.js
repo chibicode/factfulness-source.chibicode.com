@@ -13,5 +13,6 @@ export default () => (
       health service and scientific medicine. Read more in the note to Fact
       question 9: Vaccination.
     </p>
+    <H.GraphExplanation />
   </>
 )

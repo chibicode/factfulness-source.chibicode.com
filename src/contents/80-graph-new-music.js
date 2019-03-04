@@ -16,5 +16,6 @@ export default () => (
       available through Spotify, but the shape of the curve shows the mind
       blowing increase in cultural expression and consumption.
     </p>
+    <H.GraphExplanation />
   </>
 )

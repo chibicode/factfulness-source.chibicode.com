@@ -37,5 +37,6 @@ export default () => (
       <H.A href="http://www.gapm.io/xiucnr4">www.gapm.io/xiucnr4</H.A>. See also
       the note to Fact question 11: Endangered species.
     </p>
+    <H.GraphExplanation />
   </>
 )

@@ -17,5 +17,6 @@ export default () => (
       estimate is from NCI[2], see
       <H.A href="http://www.gapm.io/xccs10">www.gapm.io/xccs10</H.A>.
     </p>
+    <H.GraphExplanation />
   </>
 )

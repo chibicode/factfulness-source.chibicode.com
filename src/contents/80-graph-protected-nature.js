@@ -26,5 +26,6 @@ export default () => (
       about the data behind this graph, visit
       <H.A href="http://www.gapm.io/protnat">www.gapm.io/protnat</H.A>.
     </p>
+    <H.GraphExplanation />
   </>
 )

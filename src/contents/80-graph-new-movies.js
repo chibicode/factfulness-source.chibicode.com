@@ -18,5 +18,6 @@ export default () => (
       </H.A>
       .
     </p>
+    <H.GraphExplanation />
   </>
 )

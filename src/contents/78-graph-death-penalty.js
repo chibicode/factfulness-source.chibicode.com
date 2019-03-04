@@ -20,5 +20,6 @@ export default () => (
       <H.A href="http://www.gapm.io/xwiki2">Wikipedia[2]</H.A>
       とピンカー『暴力の人類史』(2015)によるもの。
     </p>
+    <H.GraphExplanation />
   </>
 )

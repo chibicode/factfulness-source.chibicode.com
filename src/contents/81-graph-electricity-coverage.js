@@ -17,5 +17,6 @@ export default () => (
       </H.A>
       . See also the note to Fact question 12: Electricity.
     </p>
+    <H.GraphExplanation />
   </>
 )
