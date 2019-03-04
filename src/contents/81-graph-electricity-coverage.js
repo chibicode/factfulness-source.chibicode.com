@@ -5,17 +5,15 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g28.png" />
     <p>
-      Data comes from GTF, the Global Tracking Framework, a collaboration
-      between the World Bank and the International Energy Agency. The term
-      "access" is defined differently in all their underlying sources. In some
-      extreme cases, households may experience an average of 60 power outages
-      per week and still be listed as "having access to electricity." The graph,
-      accordingly, shows people with "some" access. For the GTF measures of
-      electricity access, see
       <H.A href="http://gtf.esmap.org/results">
-        http://gtf.esmap.org/results
+        データはGTF(the Global Tracking Framework)によるもの
       </H.A>
-      . See also the note to Fact question 12: Electricity.
+      。これは世界銀行と国際エネルギー機関との合同の取り組みだ。「電気を使える」の基準がどれくらいかは、調査によってさまざまだ。極端な例をあげると、1週間に平均60回停電しても「電気を使える家庭」に分類されることもある。だから、グラフは「いくらかでも電気を使うことができる人」とした。詳しくは
+      <H.OtherCardLink
+        permalink="12-fact-question-12-electricity"
+        useTitleAsChildren
+      />
+      を参考のこと。
     </p>
     <H.GraphExplanation />
   </>
