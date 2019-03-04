@@ -5,37 +5,42 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g27.png" />
     <p>
-      The IUCN (International Union for Conservation of Nature) Red List[4] now
-      includes an impressive 87,967 wildlife lkölspecies (animals, fungi and
-      plants), each with an expert assessments of threat-status. Out of these,
-      25,062 (approximately 28%) today fall within one of the the three
-      "threatened" categories: Critically Endangered (CR), Endangered (EN), or
-      Vulnerable (VU). Despite the fact that the status of many of these species
-      is not improving, we consider it a great improvement that they are at
-      least monitored. Data after 2000 come from Red List[4]. The estimates for
-      the following years are handpicked from the following publications and
-      pages: 1986, 1990 and 1996 come from previous paper editions of the list:
+      国際自然保護連合が作成したレッドリストには、8万7967種(動物、植物、菌類)が登録されており、絶滅のおそれの度合いが記されている(
+      <H.A href="https://gapm.io/xiucnr4">IUCN Red List[4]</H.A>
+      )。このうち、2万5062(約285)が「絶滅危惧」とされている(絶滅寸前
+      (CR)、絶滅危惧 (EN)、危急 (VU))。
+    </p>
+    <p>
+      多くの種において状況は改善していないが、少なくとも絶滅の危険度が計測されるようになったというのは良いことだ。2000年以降の数字は
+      <H.A href="https://gapm.io/xiucnr4">最新のレッドリスト</H.A>によるもの(Red
+      List[4])。それ以前のデータは
       <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1986-001.pdf">
-        Page iv, Red List 1986 edition
+        1986年
       </H.A>
-      ;
+      、
       <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1990-001.pdf">
-        Page ix, Red List 1990 edition
+        1990年
       </H.A>
-      ; and
+      、
       <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1996-001.pdf">
-        page 4, Red List 1996 edition
+        1996年
       </H.A>
-      . The first systematic approach to register and monitor threatened species
-      was the 1959 "Threatened Mammals Card Index". It compiled data about 34
-      mammal species and was managed by The Species Survival Commission under
-      Leofric Boyle,
+      のレッドリストを参考にしている。
+    </p>
+    <p>
+      世界ではじめて絶滅危惧種を記録しようとした取り組みは
       <H.A href="http://support.iucnredlist.org/about">
-        according to the about page at Red List
+        1959年の"Threatened Mammals Card Index"だ
       </H.A>
-      . For the IUCN Red List of threatened species (1996--2017), see
-      <H.A href="http://www.gapm.io/xiucnr4">www.gapm.io/xiucnr4</H.A>. See also
-      the note to Fact question 11: Endangered species.
+      。34の哺乳類のデータを集め、Leofric Boyleの指揮のもとThe Species Survival
+      Commissionが記録した。
+    </p>
+    <p>
+      <H.OtherCardLink
+        useTitleAsChildren
+        permalink="12-fact-question-11-endangered-species"
+      />
+      も参考のこと。
     </p>
     <H.GraphExplanation />
   </>
