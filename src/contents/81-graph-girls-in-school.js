@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g26.png" />
     <p>
       This trend is based on
       <H.A href="http://www.gapm.io/xuisoutsf">UNESCO[3]</H.A>, and shows the

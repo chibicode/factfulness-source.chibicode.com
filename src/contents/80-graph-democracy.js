@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g24.png" />
     <p>
       Putting countries into two groups as being a "democracy" or not is highly
       problematic. We use Max Roser's data as compiled at

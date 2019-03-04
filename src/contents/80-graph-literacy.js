@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g23.png" />
     <p>
       This trend from <H.A href="https://gapm.io/dliterae">Gapminder[21]</H.A>{' '}
       for the years 1978--2016, show the latest data from UNESCO[2]. Literacy is

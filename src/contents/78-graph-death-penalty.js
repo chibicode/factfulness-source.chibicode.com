@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g7.png" />
     <p>
       死刑を無くすべき理由は、冤罪のリスクがあるからだけではない。死刑はふたつの基本的な人権を侵害している。ひとつは生命権の侵害。もうひとつは拷問禁止の侵害だ。どちらの人権も
       <H.A href="https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E4%BA%BA%E6%A8%A9%E5%AE%A3%E8%A8%80">

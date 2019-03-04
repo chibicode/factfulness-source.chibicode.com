@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g13.png" />
     <p>
       Smallpox had been one of the major killers of humans. In 18th century
       Europe, for example, it caused

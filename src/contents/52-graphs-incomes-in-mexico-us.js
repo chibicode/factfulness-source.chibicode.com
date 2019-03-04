@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import {jsx, css} from '@emotion/core'
+import React from 'react'
 import * as H from '../components/h'
 
 export default () => (
@@ -21,17 +20,7 @@ export default () => (
       本書ではどの所得のグラフでも対数目盛を利用している。対数目盛を使用しない場合、グラフは以下のような形になる。
       <H.A href="http://gapm.io/fbincmlinlog">詳しくはこちら</H.A>。
     </p>
-    <p>
-      <img
-        src="/static/images/sources/us-mexico-linear-graph.jpg"
-        alt=""
-        css={css`
-          max-width: 400px;
-          margin: 0 auto;
-        `}
-      />
-    </p>
-
+    <H.GraphThumbnail src="/static/images/sources/us-mexico-linear-graph.jpg" />
     <H.InlineCitation>
       <ul>
         <li>

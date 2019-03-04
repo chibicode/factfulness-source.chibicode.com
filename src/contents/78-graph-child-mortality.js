@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g5.png" />
     <p>
       グラフは10年間の平均の推移を表している(
       <H.A href="http://gapm.io/itfr">Gapminder[6]</H.A>

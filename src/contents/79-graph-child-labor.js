@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g10.png" />
     <p>
       現在、
       <H.A href="http://gapm.io/xilo182">

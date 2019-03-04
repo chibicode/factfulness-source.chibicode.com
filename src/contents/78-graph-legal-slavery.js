@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g1.png" />
     <p>
       強制労働が合法である国の数を算出するにあたって、さまざまな指標を参考にした。たとえば、強制労働や農奴制を禁止する法律や憲法が無く、国連の強制労働関連条約に署名していないのであれば、強制労働が合法だといえる。
     </p>

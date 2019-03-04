@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g8.png" />
     <p>
       テトラエチル鉛は、
       <H.A href="http://www.gapm.io/xwiki11">

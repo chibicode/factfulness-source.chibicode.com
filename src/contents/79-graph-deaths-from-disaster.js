@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/32-graphs/g11.png" />
     <p>
       <H.OtherCardLink
         useTitleAsChildren
