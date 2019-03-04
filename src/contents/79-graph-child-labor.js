@@ -4,37 +4,28 @@ import * as H from '../components/h'
 export default () => (
   <>
     <p>
-      現在、ILO(国際労働機関)による児童労働の定義は、 The current ILO
-      (International Labour Organization) definition of "child labor" excludes
-      light part-time work, and includes only the so called "worst forms of
-      child labour"; see
-      <H.A href="http://gapm.io/xilo182">ILO[6]</H.A>.
-      <H.A href="about:blank">Gapminder[42]</H.A> combines data from three
-      different ILO reports, using three age intervals; ILO[
+      現在、
+      <H.A href="http://gapm.io/xilo182">
+        ILO(国際労働機関)による児童労働の定義
+      </H.A>
+      には、軽いパートタイム労働は含まれず、「最も劣悪な労働」だけが含まれる。児童労働の動向について全てが判明しているわけではないが、どの資料を見ても、児童労働が減ってきていることは明らかだ。
+    </p>
+    <p>
+      このグラフには、ILOによる3種類の報告書(ILO[
       <H.A href="http://gapm.io/xiloi">7</H.A>,
       <H.A href="http://gapm.io/xiloipe">8</H.A>,
-      <H.A href="https://ourworldindata.org/child-labor">9</H.A>]. The actual
-      degree of child labor is uncertain, but the trend of decline is evident in
-      all sources measured consistently over time. Data from
-      <H.A href="http://gapm.io/xiloipe">ILO[8] </H.A>covers the years
-      2000--2012. It overlaps in time with{' '}
-      <H.A href="http://gapm.io/xiloi">ILO[7]</H.A> but reports data for a wider
-      age-interval spanning the years 5--17 years. The overlapping years in
-      ILO[8] were used to align with ILO[7]. The ILO[9] data is from the ILO
-      Programme on Estimates and Projections on the Elimination of Child Labour
-      and covers the period 1950--1995. The age interval reported here is 10--14
-      years. For 1950, 27.6 percent is the estimate of children were involved in
-      child labor. This is probably a low estimate, considering that a majority
-      of children didn't go to school in the 1950s--- only one third did in
-      China and India, according to
-      <H.A href="http://gapm.io/xbl17">Barro-Lee</H.A>. We don't know if these
-      children out of school were used for labor under bad conditions, so we
-      decided to use this official ILO estimate, even though it reports on an
-      older age group. While the global decline of child labor is certain, the
-      actual levels at all times are not. Since writing this book, new numbers
-      supporting our general estimates have been published on
+      <H.A href="https://ourworldindata.org/child-labor">9</H.A>
+      ])を参考にしている。ILO[8]は2000年から2012年のデータを掲載している。ILO[8]は、ILO[7]と時期は重なるが、より幅広い年齢層(5〜17歳)をカバーしている。
+    </p>
+    <p>
+      一方ILO[9]は、1950年から1995年における、10〜14歳の児童労働データを掲載している。ここれによると、1950年に児童労働をさせられていた子供の割合は27.6%。しかし、当時は子供の大半が学校に行かなかったことから、27.6%はおそらく実際よりは低い数字だろう。たとえば
+      <H.A href="http://gapm.io/xbl17">Barro-Lee</H.A>
+      によると、当時の中国とインドでは3人に1人の子供しか学校に行けなかった。ただ、学校に行けなかった子どもたちが劣悪な労働をさせられていたとは限らないから、結局ILOの数字を使うことにした。
+    </p>
+    <p>
+      児童労働の割合は減り続けているが、人数で見ると、すべての期間において減り続けていたわけではない。また本書の出版後、
       <H.A href="https://ourworldindata.org/child-labor">OurWorldInData[3]</H.A>
-      .
+      が最新のデータを公開しており、数値はわたしたちの推定とかなり近い。
     </p>
 
     <H.InlineCitation>
