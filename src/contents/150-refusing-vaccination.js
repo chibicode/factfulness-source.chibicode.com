@@ -12,7 +12,7 @@ export default () => (
       </H.FB>
     </p>
     <p>
-      <H.FB>
+      <H.FB pageNumber={364}>
         1990年には、はしかが子供が命を落とす原因の7%だった。しかしワクチンのおかげで、現在は1%になった。また現在、はしかで亡くなる子供の多くはレベル1や2の国の子供だ。予防接種が最近になるまで普及しなかったからだ(
         <H.A href="http://gapm.io/xihels">IHME[7]</H.A>、
         <H.A href="http://gapm.io/xwhoim">WHO[1]</H.A>)。
