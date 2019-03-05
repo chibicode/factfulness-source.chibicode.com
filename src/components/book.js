@@ -9,7 +9,7 @@ const Book = () => (
     `}
   >
     <img
-      src="/static/images/cover-obi.jpg"
+      src="/static/images/cover-no-obi.jpg"
       alt="FACTFULNESS ファクトフルネス"
       css={css`
         display: inline-block;
