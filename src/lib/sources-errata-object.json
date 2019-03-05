@@ -1077,6 +1077,17 @@
     "permalink": "79-graph-smallpox",
     "index": 92
   },
+  "79-graph-smoke-particles": {
+    "jpPage": 79,
+    "jpPageFirst": 79,
+    "enTitle": "Graph: Smoke Particles",
+    "chapter": "第2章",
+    "section": "第2章",
+    "enPage": 61,
+    "jpTitle": "32のグラフ: 大気汚染",
+    "permalink": "79-graph-smoke-particles",
+    "index": 93
+  },
   "80-graph-democracy": {
     "jpPage": 80,
     "jpPageFirst": 80,
@@ -1086,7 +1097,7 @@
     "enPage": 62,
     "jpTitle": "32のグラフ: オリンピック",
     "permalink": "80-graph-democracy",
-    "index": 93
+    "index": 94
   },
   "80-graph-harvest": {
     "jpPage": 80,
@@ -1097,7 +1108,7 @@
     "enPage": 62,
     "jpTitle": "32のグラフ: 農作物の収穫",
     "permalink": "80-graph-harvest",
-    "index": 94
+    "index": 95
   },
   "80-graph-literacy": {
     "jpPage": 80,
@@ -1109,7 +1120,7 @@
     "jpTitle": "32のグラフ: 識字率",
     "constructionId": "dliterae",
     "permalink": "80-graph-literacy",
-    "index": 95
+    "index": 96
   },
   "80-graph-new-movies": {
     "jpPage": 80,
@@ -1120,7 +1131,7 @@
     "enPage": 62,
     "jpTitle": "32のグラフ: 新しい映画",
     "permalink": "80-graph-new-movies",
-    "index": 96
+    "index": 97
   },
   "80-graph-new-music": {
     "jpPage": 80,
@@ -1131,7 +1142,7 @@
     "enPage": 62,
     "jpTitle": "32のグラフ: 新しい音楽",
     "permalink": "80-graph-new-music",
-    "index": 97
+    "index": 98
   },
   "80-graph-protected-nature": {
     "jpPage": 80,
@@ -1143,7 +1154,7 @@
     "jpTitle": "32のグラフ: 自然保護",
     "constructionId": "protnat",
     "permalink": "80-graph-protected-nature",
-    "index": 98
+    "index": 99
   },
   "80-graph-science": {
     "jpPage": 80,
@@ -1154,7 +1165,7 @@
     "enPage": 62,
     "jpTitle": "32のグラフ: 科学の発見",
     "permalink": "80-graph-science",
-    "index": 99
+    "index": 100
   },
   "80-graph-women-s-right-to-vote": {
     "jpPage": 80,
@@ -1166,7 +1177,7 @@
     "jpTitle": "32のグラフ: 女性参政権",
     "constructionId": "dwomsuff",
     "permalink": "80-graph-women-s-right-to-vote",
-    "index": 100
+    "index": 101
   },
   "81-graph-child-cancer-survival": {
     "jpPage": 81,
@@ -1177,7 +1188,7 @@
     "enPage": 63,
     "jpTitle": "32のグラフ: 小児がんの生存率",
     "permalink": "81-graph-child-cancer-survival",
-    "index": 101
+    "index": 102
   },
   "81-graph-electricity-coverage": {
     "jpPage": 81,
@@ -1188,7 +1199,7 @@
     "enPage": 63,
     "jpTitle": "32のグラフ: 電気の利用",
     "permalink": "81-graph-electricity-coverage",
-    "index": 102
+    "index": 103
   },
   "81-graph-girls-in-school": {
     "jpPage": 81,
@@ -1199,7 +1210,7 @@
     "enPage": 63,
     "jpTitle": "32のグラフ: 女子教育",
     "permalink": "81-graph-girls-in-school",
-    "index": 103
+    "index": 104
   },
   "81-graph-immunization": {
     "jpPage": 81,
@@ -1210,7 +1221,7 @@
     "enPage": 63,
     "jpTitle": "32のグラフ: 予防接種",
     "permalink": "81-graph-immunization",
-    "index": 104
+    "index": 105
   },
   "81-graph-internet": {
     "jpPage": 81,
@@ -1221,7 +1232,7 @@
     "enPage": 63,
     "jpTitle": "32のグラフ: インターネット",
     "permalink": "81-graph-internet",
-    "index": 105
+    "index": 106
   },
   "81-graph-mobile-phones": {
     "jpPage": 81,
@@ -1232,7 +1243,7 @@
     "enPage": 63,
     "jpTitle": "32のグラフ: 携帯電話",
     "permalink": "81-graph-mobile-phones",
-    "index": 106
+    "index": 107
   },
   "81-graph-monitored-species": {
     "jpPage": 81,
@@ -1243,7 +1254,7 @@
     "enPage": 63,
     "jpTitle": "32のグラフ: 絶滅危惧種の保全",
     "permalink": "81-graph-monitored-species",
-    "index": 107
+    "index": 108
   },
   "82-graph-guitars-per-capita": {
     "jpPage": 82,
@@ -1255,7 +1266,7 @@
     "jpTitle": "100万人あたりのギターの数",
     "constructionId": "tcminsg",
     "permalink": "82-graph-guitars-per-capita",
-    "index": 108
+    "index": 109
   },
   "84-ancient-graveyards-and-burial-sites": {
     "jpPage": 84,
@@ -1266,7 +1277,7 @@
     "enPage": 66,
     "jpTitle": "古代の墓地",
     "permalink": "84-ancient-graveyards-and-burial-sites",
-    "index": 109
+    "index": 110
   },
   "84-causes-of-death-in-human-history": {
     "jpPage": 84,
@@ -1277,7 +1288,7 @@
     "enPage": 66,
     "jpTitle": "人類史における死因",
     "permalink": "84-causes-of-death-in-human-history",
-    "index": 110
+    "index": 111
   },
   "84-historic-child-murders": {
     "jpPage": 84,
@@ -1288,7 +1299,7 @@
     "enPage": 66,
     "jpTitle": "殺される子供",
     "permalink": "84-historic-child-murders",
-    "index": 111
+    "index": 112
   },
   "88-educating-girls": {
     "jpPage": 88,
@@ -1299,7 +1310,7 @@
     "enPage": 70,
     "jpTitle": "女子教育",
     "permalink": "88-educating-girls",
-    "index": 112
+    "index": 113
   },
   "93-drownings": {
     "jpPage": 93,
@@ -1310,7 +1321,7 @@
     "enPage": 73,
     "jpTitle": "溺れて亡くなる",
     "permalink": "93-drownings",
-    "index": 113
+    "index": 114
   },
   "98-ebola": {
     "jpPage": 98,
@@ -1321,7 +1332,7 @@
     "enPage": 75,
     "jpTitle": "エボラ",
     "permalink": "98-ebola",
-    "index": 114
+    "index": 115
   },
   "98-lord-krishna-s-chessboard": {
     "jpPage": [
@@ -1335,7 +1346,7 @@
     "enPage": 76,
     "jpTitle": "クリシュナ卿のチェス盤",
     "permalink": "98-lord-krishna-s-chessboard",
-    "index": 115
+    "index": 116
   },
   "100-the-world-population-is-not-just-increasing": {
     "jpPage": 100,
@@ -1346,7 +1357,7 @@
     "enPage": 77,
     "jpTitle": "世界の人口はひたすら増え続けない",
     "permalink": "100-the-world-population-is-not-just-increasing",
-    "index": 116
+    "index": 117
   },
   "102-experts-at-the-world-economic-forum": {
     "jpPage": 102,
@@ -1357,7 +1368,7 @@
     "enPage": 79,
     "jpTitle": "ダボス会議に来ていた専門家",
     "permalink": "102-experts-at-the-world-economic-forum",
-    "index": 117
+    "index": 118
   },
   "102-graph-future-number-of-children": {
     "jpPage": 102,
@@ -1368,7 +1379,7 @@
     "enPage": 78,
     "jpTitle": "未来の子供の数のグラフ",
     "permalink": "102-graph-future-number-of-children",
-    "index": 118
+    "index": 119
   },
   "102-teacher-s-conference-in-norway": {
     "jpPage": 102,
@@ -1379,7 +1390,7 @@
     "enPage": 79,
     "jpTitle": "ノルウェーの教師向けのカンファレンス",
     "permalink": "102-teacher-s-conference-in-norway",
-    "index": 119
+    "index": 120
   },
   "103-graph-world-population-from-8000-bc-to-today": {
     "jpPage": 103,
@@ -1391,7 +1402,7 @@
     "jpTitle": "世界の人口のグラフ(紀元前8000年から現在まで)",
     "constructionId": "spop",
     "permalink": "103-graph-world-population-from-8000-bc-to-today",
-    "index": 120
+    "index": 121
   },
   "103-historic-world-population-and-three-big-cities": {
     "jpPage": 103,
@@ -1402,7 +1413,7 @@
     "enPage": 80,
     "jpTitle": "過去の世界人口と3つの大都市",
     "permalink": "103-historic-world-population-and-three-big-cities",
-    "index": 121
+    "index": 122
   },
   "103-the-accuracy-of-un-population-forecasts": {
     "jpPage": 103,
@@ -1413,7 +1424,7 @@
     "enPage": 79,
     "jpTitle": "国連の人口予測の制度",
     "permalink": "103-the-accuracy-of-un-population-forecasts",
-    "index": 122
+    "index": 123
   },
   "108-graph-babies-per-woman-from-1800-to-today": {
     "jpPage": 108,
@@ -1424,7 +1435,7 @@
     "enPage": 84,
     "jpTitle": "女性ひとりあたりの子供の数のグラフ(1800年から現在まで)",
     "permalink": "108-graph-babies-per-woman-from-1800-to-today",
-    "index": 123
+    "index": 124
   },
   "109-fertility-transitions": {
     "jpPage": 109,
@@ -1435,7 +1446,7 @@
     "enPage": 85,
     "jpTitle": "人口転換",
     "permalink": "109-fertility-transitions",
-    "index": 124
+    "index": 125
   },
   "110-the-inevitable-fill-up": {
     "jpPage": 110,
@@ -1447,7 +1458,7 @@
     "jpTitle": "世代ごとの人口の増加",
     "constructionId": "efill",
     "permalink": "110-the-inevitable-fill-up",
-    "index": 125
+    "index": 126
   },
   "112-the-new-balance": {
     "jpPage": 112,
@@ -1459,7 +1470,7 @@
     "jpTitle": "自然との調和(現在)",
     "constructionId": "eonb",
     "permalink": "112-the-new-balance",
-    "index": 126
+    "index": 127
   },
   "112-the-old-balance": {
     "jpPage": 112,
@@ -1473,7 +1484,7 @@
     ],
     "jpTitle": "自然との調和(過去)",
     "permalink": "112-the-old-balance",
-    "index": 127
+    "index": 128
   },
   "115-graph-average-family-size-by-income": {
     "jpPage": 115,
@@ -1484,7 +1495,7 @@
     "enPage": 90,
     "jpTitle": "それぞれの所得レベルにおける1世帯あたりの平均人数のグラフ",
     "permalink": "115-graph-average-family-size-by-income",
-    "index": 128
+    "index": 129
   },
   "116-child-survival": {
     "jpPage": 116,
@@ -1495,7 +1506,7 @@
     "enPage": 92,
     "jpTitle": "子供の死亡率の低下",
     "permalink": "116-child-survival",
-    "index": 129
+    "index": 130
   },
   "117-two-public-health-miracles": {
     "jpPage": 117,
@@ -1506,7 +1517,7 @@
     "enPage": 92,
     "jpTitle": "公衆衛生の2つの奇跡",
     "permalink": "117-two-public-health-miracles",
-    "index": 130
+    "index": 131
   },
   "119-graphs-14-straight-lines-s-bends-slides-and-humps": {
     "jpPage": [
@@ -1524,7 +1535,7 @@
     "jpTitle": "直線、S 字カーブ、すべり台、コブの形のグラフ",
     "constructionId": "flinex",
     "permalink": "119-graphs-14-straight-lines-s-bends-slides-and-humps",
-    "index": 131
+    "index": 132
   },
   "123-e-coli-bacteria": {
     "jpPage": 123,
@@ -1535,7 +1546,7 @@
     "enPage": 97,
     "jpTitle": "大腸菌",
     "permalink": "123-e-coli-bacteria",
-    "index": 132
+    "index": 133
   },
   "124-co2-emissions-from-transportation": {
     "jpPage": 124,
@@ -1549,7 +1560,7 @@
     ],
     "jpTitle": "二酸化炭素の排出量",
     "permalink": "124-co2-emissions-from-transportation",
-    "index": 133
+    "index": 134
   },
   "126-what-part-of-the-line-are-you-seeing": {
     "jpPage": 126,
@@ -1561,7 +1572,7 @@
     "jpTitle": "見えているのは、グラフのどの部分だろう？",
     "constructionId": "fline",
     "permalink": "126-what-part-of-the-line-are-you-seeing",
-    "index": 134
+    "index": 135
   },
   "134-fear-in-polls": {
     "jpPage": 134,
@@ -1572,7 +1583,7 @@
     "enPage": 105,
     "jpTitle": "あなたがいちばん恐れているものは何だろう？",
     "permalink": "134-fear-in-polls",
-    "index": 135
+    "index": 136
   },
   "138-disaster-data": {
     "jpPage": 138,
@@ -1584,7 +1595,7 @@
     "jpTitle": "自然災害",
     "constructionId": "tdis",
     "permalink": "138-disaster-data",
-    "index": 136
+    "index": 137
   },
   "141-reliefweb": {
     "jpPage": 141,
@@ -1595,7 +1606,7 @@
     "enPage": 110,
     "jpTitle": "リリーフウェブ",
     "permalink": "141-reliefweb",
-    "index": 137
+    "index": 138
   },
   "143-child-deaths-from-diarrhea": {
     "jpPage": 143,
@@ -1607,7 +1618,7 @@
     "jpTitle": "下痢で亡くなる子供",
     "constructionId": "tsan",
     "permalink": "143-child-deaths-from-diarrhea",
-    "index": 138
+    "index": 139
   },
   "144-plane-accidents": {
     "jpPage": 144,
@@ -1618,7 +1629,7 @@
     "enPage": 112,
     "jpTitle": "飛行機事故",
     "permalink": "144-plane-accidents",
-    "index": 139
+    "index": 140
   },
   "146-deaths-in-wars": {
     "jpPage": 146,
@@ -1629,7 +1640,7 @@
     "enPage": 113,
     "jpTitle": "戦争の犠牲者数",
     "permalink": "146-deaths-in-wars",
-    "index": 140
+    "index": 141
   },
   "146-graph-battle-deaths": {
     "jpPage": 146,
@@ -1641,7 +1652,7 @@
     "jpTitle": "戦争や紛争による犠牲者数の推移のグラフ",
     "constructionId": "twar",
     "permalink": "146-graph-battle-deaths",
-    "index": 141
+    "index": 142
   },
   "148-chernobyl": {
     "jpPage": [
@@ -1656,7 +1667,7 @@
     "jpTitle": "チェルノブイリの原発事故",
     "constructionId": "tnuc",
     "permalink": "148-chernobyl",
-    "index": 142
+    "index": 143
   },
   "148-fukushima": {
     "jpPage": 148,
@@ -1667,7 +1678,7 @@
     "enPage": 114,
     "jpTitle": "福島の原発事故",
     "permalink": "148-fukushima",
-    "index": 143
+    "index": 144
   },
   "149-ddt": {
     "jpPage": 149,
@@ -1678,7 +1689,7 @@
     "enPage": 115,
     "jpTitle": "DDT",
     "permalink": "149-ddt",
-    "index": 144
+    "index": 145
   },
   "150-chemophobia": {
     "jpPage": 150,
@@ -1690,7 +1701,7 @@
     "jpTitle": "化学物質恐怖症",
     "constructionId": "ffea",
     "permalink": "150-chemophobia",
-    "index": 145
+    "index": 146
   },
   "150-refusing-vaccination": {
     "jpPage": 150,
@@ -1702,7 +1713,7 @@
     "jpTitle": "子供にワクチンを受けさせない親",
     "constructionId": "tvac",
     "permalink": "150-refusing-vaccination",
-    "index": 146
+    "index": 147
   },
   "150-the-environmental-movement": {
     "jpPage": 150,
@@ -1713,7 +1724,7 @@
     "enPage": 116,
     "jpTitle": "環境運動",
     "permalink": "150-the-environmental-movement",
-    "index": 147
+    "index": 148
   },
   "153-terrorism": {
     "jpPage": 153,
@@ -1725,7 +1736,7 @@
     "jpTitle": "テロ",
     "constructionId": "tter",
     "permalink": "153-terrorism",
-    "index": 148
+    "index": 149
   },
   "157-alcohol-deaths": {
     "jpPage": 157,
@@ -1737,7 +1748,7 @@
     "jpTitle": "飲酒による死",
     "constructionId": "alcterex",
     "permalink": "157-alcohol-deaths",
-    "index": 149
+    "index": 150
   },
   "158-how-many-deaths-make-a-natural-disaster-newsworthy": {
     "jpPage": 158,
@@ -1748,7 +1759,7 @@
     "enPage": 122,
     "jpTitle": "災害の比較: 何人亡くなれば、ニュースに取り上げられるのか？",
     "permalink": "158-how-many-deaths-make-a-natural-disaster-newsworthy",
-    "index": 150
+    "index": 151
   },
   "158-risks-of-dying": {
     "jpPage": 158,
@@ -1760,7 +1771,7 @@
     "jpTitle": "死因とリスク",
     "constructionId": "ffear",
     "permalink": "158-risks-of-dying",
-    "index": 151
+    "index": 152
   },
   "162-nacala-child-mortality-calculation": {
     "jpPage": 162,
@@ -1774,7 +1785,7 @@
     ],
     "jpTitle": "ナカラ地区の乳幼児死亡率",
     "permalink": "162-nacala-child-mortality-calculation",
-    "index": 152
+    "index": 153
   },
   "166-saving-lives": {
     "jpPage": 166,
@@ -1785,7 +1796,7 @@
     "enPage": 127,
     "jpTitle": "命を救う効果的な方法",
     "permalink": "166-saving-lives",
-    "index": 153
+    "index": 154
   },
   "167-wrong-proportions-perils-of-perception": {
     "jpPage": [
@@ -1800,7 +1811,7 @@
     "jpTitle": "過大視",
     "constructionId": "fsize",
     "permalink": "167-wrong-proportions-perils-of-perception",
-    "index": 154
+    "index": 155
   },
   "168-educated-mothers-and-child-survival": {
     "jpPage": 168,
@@ -1812,7 +1823,7 @@
     "jpTitle": "教育を受けた母親と、子供の生存率の関係",
     "constructionId": "tcare",
     "permalink": "168-educated-mothers-and-child-survival",
-    "index": 155
+    "index": 156
   },
   "169-4-2-million": {
     "jpPage": 169,
@@ -1823,7 +1834,7 @@
     "enPage": 130,
     "jpTitle": "420万人",
     "permalink": "169-4-2-million",
-    "index": 156
+    "index": 157
   },
   "171-bach-mai-hospital": {
     "jpPage": 171,
@@ -1834,7 +1845,7 @@
     "enPage": 131,
     "jpTitle": "バックマイ病院",
     "permalink": "171-bach-mai-hospital",
-    "index": 157
+    "index": 158
   },
   "172-the-vietnam-war": {
     "jpPage": 172,
@@ -1845,7 +1856,7 @@
     "enPage": 132,
     "jpTitle": "ベトナム戦争",
     "permalink": "172-the-vietnam-war",
-    "index": 158
+    "index": 159
   },
   "173-bears-and-axes": {
     "jpPage": 173,
@@ -1859,7 +1870,7 @@
     ],
     "jpTitle": "クマと斧",
     "permalink": "173-bears-and-axes",
-    "index": 159
+    "index": 160
   },
   "174-the-spanish-flu": {
     "jpPage": 174,
@@ -1870,7 +1881,7 @@
     "enPage": 133,
     "jpTitle": "スペインかぜ",
     "permalink": "174-the-spanish-flu",
-    "index": 160
+    "index": 161
   },
   "174-tuberculosis-tb-and-the-swine-flu": {
     "jpPage": 174,
@@ -1882,7 +1893,7 @@
     "jpTitle": "結核と豚インフルエンザ",
     "constructionId": "bswin",
     "permalink": "174-tuberculosis-tb-and-the-swine-flu",
-    "index": 161
+    "index": 162
   },
   "175-energy-sources": {
     "jpPage": [
@@ -1897,7 +1908,7 @@
     "jpTitle": "エネルギー源",
     "constructionId": "tene",
     "permalink": "175-energy-sources",
-    "index": 162
+    "index": 163
   },
   "178-the-world-s-pin-code": {
     "jpPage": 178,
@@ -1908,7 +1919,7 @@
     "enPage": 136,
     "jpTitle": "世界の暗証番号",
     "permalink": "178-the-world-s-pin-code",
-    "index": 163
+    "index": 164
   },
   "179-future-consumers": {
     "jpPage": 179,
@@ -1919,7 +1930,7 @@
     "enPage": 138,
     "jpTitle": "未来の消費者",
     "permalink": "179-future-consumers",
-    "index": 164
+    "index": 165
   },
   "179-graphs-west-and-rest": {
     "jpPage": 179,
@@ -1930,7 +1941,7 @@
     "enPage": 138,
     "jpTitle": "もうすぐ、レベル4の大半が西洋人以外になる",
     "permalink": "179-graphs-west-and-rest",
-    "index": 165
+    "index": 166
   },
   "180-child-mortality-rate": {
     "jpPage": [
@@ -1944,7 +1955,7 @@
     "enPage": 139,
     "jpTitle": "乳幼児死亡率",
     "permalink": "180-child-mortality-rate",
-    "index": 166
+    "index": 167
   },
   "182-co2-per-capita": {
     "jpPage": 182,
@@ -1956,7 +1967,7 @@
     "jpTitle": "ひとりあたりの二酸化炭素排出量",
     "constructionId": "tco2",
     "permalink": "182-co2-per-capita",
-    "index": 167
+    "index": 168
   },
   "196-the-cost-of-diabetes": {
     "jpPage": 196,
@@ -1967,7 +1978,7 @@
     "enPage": 151,
     "jpTitle": "糖尿病の治療コスト",
     "permalink": "196-the-cost-of-diabetes",
-    "index": 168
+    "index": 169
   },
   "203-comparing-stoves": {
     "jpPage": 203,
@@ -1978,7 +1989,7 @@
     "enPage": 155,
     "jpTitle": "コンロの比較",
     "permalink": "203-comparing-stoves",
-    "index": 169
+    "index": 170
   },
   "205-graph-differences-within-africa": {
     "jpPage": 205,
@@ -1990,7 +2001,7 @@
     "jpTitle": "アフリカにおける健康と富の格差を示したグラフ",
     "constructionId": "edafr",
     "permalink": "205-graph-differences-within-africa",
-    "index": 170
+    "index": 171
   },
   "206-contraceptives-in-sweden": {
     "jpPage": 206,
@@ -2001,7 +2012,7 @@
     "enPage": 160,
     "jpTitle": "スウェーデンにおける避妊具",
     "permalink": "206-contraceptives-in-sweden",
-    "index": 171
+    "index": 172
   },
   "206-family-planning-needs-met-and-unmet-needs": {
     "jpPage": 206,
@@ -2013,7 +2024,7 @@
     "jpTitle": "避妊具が手に入らない人と入る人",
     "constructionId": "twmc",
     "permalink": "206-family-planning-needs-met-and-unmet-needs",
-    "index": 172
+    "index": 173
   },
   "207-everything-is-made-from-chemicals": {
     "jpPage": 207,
@@ -2025,7 +2036,7 @@
     "jpTitle": "ありとあらゆるものは化学物質からできている",
     "constructionId": "tind",
     "permalink": "207-everything-is-made-from-chemicals",
-    "index": 173
+    "index": 174
   },
   "208-the-salhi-family-on-dollar-street": {
     "jpPage": 208,
@@ -2036,7 +2047,7 @@
     "enPage": 161,
     "jpTitle": "ドル・ストリートのサルヒ一家",
     "permalink": "208-the-salhi-family-on-dollar-street",
-    "index": 174
+    "index": 175
   },
   "210-the-recovery-position": {
     "jpPage": 210,
@@ -2047,7 +2058,7 @@
     "enPage": 163,
     "jpTitle": "回復体位",
     "permalink": "210-the-recovery-position",
-    "index": 175
+    "index": 176
   },
   "211-hong-kong-report-on-sids": {
     "jpPage": 211,
@@ -2058,7 +2069,7 @@
     "enPage": 163,
     "jpTitle": "香港のグループによる乳幼児突然死症候群(SIDS)の報告書",
     "permalink": "211-hong-kong-report-on-sids",
-    "index": 176
+    "index": 177
   },
   "219-the-sense-of-superiority": {
     "jpPage": 219,
@@ -2070,7 +2081,7 @@
     "jpTitle": "優越感",
     "constructionId": "fdes",
     "permalink": "219-the-sense-of-superiority",
-    "index": 177
+    "index": 178
   },
   "220-life-expectancy-1970-2016-north-africa-and-western-europe": {
     "jpPage": 220,
@@ -2081,7 +2092,7 @@
     "enPage": 170,
     "jpTitle": "1970年〜2016年の平均寿命: 北アフリカと西ヨーロッパ",
     "permalink": "220-life-expectancy-1970-2016-north-africa-and-western-europe",
-    "index": 178
+    "index": 179
   },
   "220-world-health-chart-over-200-years": {
     "jpPage": 220,
@@ -2092,7 +2103,7 @@
     "enPage": 170,
     "jpTitle": "過去200年間の世界保健チャート",
     "permalink": "220-world-health-chart-over-200-years",
-    "index": 179
+    "index": 180
   },
   "221-80-years-ago-in-sweden-and-us": {
     "jpPage": 221,
@@ -2103,7 +2114,7 @@
     "enPage": 171,
     "jpTitle": "80年前のスウェーデンとアメリカ",
     "permalink": "221-80-years-ago-in-sweden-and-us",
-    "index": 180
+    "index": 181
   },
   "221-child-mortality-rates-for-sub-saharan-africa-and-sweden": {
     "jpPage": 221,
@@ -2114,7 +2125,7 @@
     "enPage": 170,
     "jpTitle": "サハラ以南アフリカとスウェーデンの乳幼児死亡率",
     "permalink": "221-child-mortality-rates-for-sub-saharan-africa-and-sweden",
-    "index": 181
+    "index": 182
   },
   "221-progress-in-china-bangladesh-and-vietnam": {
     "jpPage": 221,
@@ -2126,7 +2137,7 @@
     "jpTitle": "中国、バングラデシュ、ベトナムの進歩",
     "constructionId": "mpoco",
     "permalink": "221-progress-in-china-bangladesh-and-vietnam",
-    "index": 182
+    "index": 183
   },
   "221-speed-of-improvement-over-the-decades": {
     "jpPage": 221,
@@ -2138,7 +2149,7 @@
     "jpTitle": "進歩の速度",
     "constructionId": "edafr2",
     "permalink": "221-speed-of-improvement-over-the-decades",
-    "index": 183
+    "index": 184
   },
   "222-estimates-of-extreme-poverty": {
     "jpPage": 222,
@@ -2149,7 +2160,7 @@
     "enPage": 171,
     "jpTitle": "極度の貧困率の推定",
     "permalink": "222-estimates-of-extreme-poverty",
-    "index": 184
+    "index": 185
   },
   "222-mozambique-and-india": {
     "jpPage": 222,
@@ -2160,7 +2171,7 @@
     "enPage": 171,
     "jpTitle": "モザンビークとインド",
     "permalink": "222-mozambique-and-india",
-    "index": 185
+    "index": 186
   },
   "223-imf-forecasts": {
     "jpPage": 223,
@@ -2172,7 +2183,7 @@
     "jpTitle": "国際通貨基金(IMF)による見通し",
     "constructionId": "eecof",
     "permalink": "223-imf-forecasts",
-    "index": 186
+    "index": 187
   },
   "224-fertility-in-iran": {
     "jpPage": 224,
@@ -2184,7 +2195,7 @@
     "jpTitle": "イランの出生率",
     "constructionId": "vm2",
     "permalink": "224-fertility-in-iran",
-    "index": 187
+    "index": 188
   },
   "226-classifying-major-religions": {
     "jpPage": 226,
@@ -2196,7 +2207,7 @@
     "jpTitle": "宗教別のグループ分け",
     "constructionId": "ereltfr",
     "permalink": "226-classifying-major-religions",
-    "index": 188
+    "index": 189
   },
   "226-high-income-means-low-fertility": {
     "jpPage": 226,
@@ -2207,7 +2218,7 @@
     "enPage": 175,
     "jpTitle": "所得が高いほど子供の数は少ない",
     "permalink": "226-high-income-means-low-fertility",
-    "index": 189
+    "index": 190
   },
   "227-graphs-three-groups-based-on-religion": {
     "jpPage": 227,
@@ -2221,7 +2232,7 @@
     ],
     "jpTitle": "所得・子供の数・宗教のグラフ",
     "permalink": "227-graphs-three-groups-based-on-religion",
-    "index": 190
+    "index": 191
   },
   "227-swedish-values-and-rfsu": {
     "jpPage": [
@@ -2235,7 +2246,7 @@
     "enPage": 176,
     "jpTitle": "スウェーデンの価値観と性教育協会 ",
     "permalink": "227-swedish-values-and-rfsu",
-    "index": 191
+    "index": 192
   },
   "228-asian-values": {
     "jpPage": 228,
@@ -2247,7 +2258,7 @@
     "jpTitle": "アジアの価値観",
     "constructionId": "twmi",
     "permalink": "228-asian-values",
-    "index": 192
+    "index": 193
   },
   "229-asian-university-for-women-in-bangladesh": {
     "jpPage": [
@@ -2261,7 +2272,7 @@
     "enPage": 177,
     "jpTitle": "バングラデシュにあるアジア女子大学",
     "permalink": "229-asian-university-for-women-in-bangladesh",
-    "index": 193
+    "index": 194
   },
   "231-nature-reserves": {
     "jpPage": 231,
@@ -2272,7 +2283,7 @@
     "enPage": 179,
     "jpTitle": "自然保護区域",
     "permalink": "231-nature-reserves",
-    "index": 194
+    "index": 195
   },
   "231-sri-lanka-s-earliest-protected-forest": {
     "jpPage": 231,
@@ -2283,7 +2294,7 @@
     "enPage": 179,
     "jpTitle": "スリランカの世界初の自然保護区域",
     "permalink": "231-sri-lanka-s-earliest-protected-forest",
-    "index": 195
+    "index": 196
   },
   "232-outdated-chimpanzee-questions": {
     "jpPage": 232,
@@ -2294,7 +2305,7 @@
     "enPage": 180,
     "jpTitle": "時代遅れになったチンパンジークイズ",
     "permalink": "232-outdated-chimpanzee-questions",
-    "index": 196
+    "index": 197
   },
   "233-attitudes-toward-same-sex-marriage": {
     "jpPage": 233,
@@ -2305,7 +2316,7 @@
     "enPage": 181,
     "jpTitle": "同性婚に対する価値観",
     "permalink": "233-attitudes-toward-same-sex-marriage",
-    "index": 197
+    "index": 198
   },
   "233-swedish-school-system": {
     "jpPage": 233,
@@ -2316,7 +2327,7 @@
     "enPage": 180,
     "jpTitle": "スウェーデンの教育システム",
     "permalink": "233-swedish-school-system",
-    "index": 198
+    "index": 199
   },
   "242-expert-forecasts-the-single-perspective-in-other-books": {
     "jpPage": 242,
@@ -2327,7 +2338,7 @@
     "enPage": 187,
     "jpTitle": "専門家による予測: 単純化本能についての関連書籍",
     "permalink": "242-expert-forecasts-the-single-perspective-in-other-books",
-    "index": 199
+    "index": 200
   },
   "243-lindau-nobel-laureate-meeting": {
     "jpPage": 243,
@@ -2338,7 +2349,7 @@
     "enPage": 188,
     "jpTitle": "リンダウ・ノーベル賞受賞者会議",
     "permalink": "243-lindau-nobel-laureate-meeting",
-    "index": 200
+    "index": 201
   },
   "243-poll-results-from-groups-of-professionals": {
     "jpPage": 243,
@@ -2349,7 +2360,7 @@
     "enPage": 188,
     "jpTitle": "専門家のクイズ結果",
     "permalink": "243-poll-results-from-groups-of-professionals",
-    "index": 201
+    "index": 202
   },
   "245-plundered-natural-resources": {
     "jpPage": 245,
@@ -2360,7 +2371,7 @@
     "enPage": 189,
     "jpTitle": "天然資源の濫用",
     "permalink": "245-plundered-natural-resources",
-    "index": 202
+    "index": 203
   },
   "248-eradicating-one-disease-at-a-time": {
     "jpPage": 248,
@@ -2371,7 +2382,7 @@
     "enPage": 192,
     "jpTitle": "病気を一網打尽にする",
     "permalink": "248-eradicating-one-disease-at-a-time",
-    "index": 203
+    "index": 204
   },
   "249-education-needs-electricity": {
     "jpPage": 249,
@@ -2382,7 +2393,7 @@
     "enPage": 193,
     "jpTitle": "教育には電気が必要",
     "permalink": "249-education-needs-electricity",
-    "index": 204
+    "index": 205
   },
   "249-falling-profits-of-big-pharma": {
     "jpPage": 249,
@@ -2393,7 +2404,7 @@
     "enPage": 193,
     "jpTitle": "大手製薬会社の利益の減少",
     "permalink": "249-falling-profits-of-big-pharma",
-    "index": 205
+    "index": 206
   },
   "254-chart-cuba": {
     "jpPage": 254,
@@ -2404,7 +2415,7 @@
     "enPage": 197,
     "jpTitle": "キューバのグラフ",
     "permalink": "254-chart-cuba",
-    "index": 206
+    "index": 207
   },
   "256-chart-us-health-spendings": {
     "jpPage": 256,
@@ -2419,7 +2430,7 @@
     "jpTitle": "アメリカの医療費のグラフ",
     "constructionId": "theasp",
     "permalink": "256-chart-us-health-spendings",
-    "index": 207
+    "index": 208
   },
   "258-democracy-and-progress": {
     "jpPage": 258,
@@ -2430,7 +2441,7 @@
     "enPage": 201,
     "jpTitle": "経済成長と民主主義",
     "permalink": "258-democracy-and-progress",
-    "index": 208
+    "index": 209
   },
   "258-democracy-is-not-the-single-solution": {
     "jpPage": 258,
@@ -2442,7 +2453,7 @@
     "jpTitle": "民主主義でさえ、それだけではすべてを解決できない",
     "constructionId": "tgovd",
     "permalink": "258-democracy-is-not-the-single-solution",
-    "index": 209
+    "index": 210
   },
   "262-neglected-diseases": {
     "jpPage": 262,
@@ -2453,7 +2464,7 @@
     "enPage": 204,
     "jpTitle": "製薬会社が見向きもしない病気",
     "permalink": "262-neglected-diseases",
-    "index": 210
+    "index": 211
   },
   "265-systems-thinking": {
     "jpPage": 265,
@@ -2465,7 +2476,7 @@
     "jpTitle": "システム思考",
     "constructionId": "fblame",
     "permalink": "265-systems-thinking",
-    "index": 211
+    "index": 212
   },
   "266-how-unicef-gets-the-lowest-prices": {
     "jpPage": 266,
@@ -2476,7 +2487,7 @@
     "enPage": 208,
     "jpTitle": "ユニセフの低コスト",
     "permalink": "266-how-unicef-gets-the-lowest-prices",
-    "index": 212
+    "index": 213
   },
   "268-gapminder-s-ignorance-project": {
     "jpPage": 268,
@@ -2487,7 +2498,7 @@
     "enPage": 210,
     "jpTitle": "チンパンジークイズの結果(CNNとBBC)",
     "permalink": "268-gapminder-s-ignorance-project",
-    "index": 213
+    "index": 214
   },
   "269-poll-results": {
     "jpPage": 269,
@@ -2498,7 +2509,7 @@
     "enPage": 211,
     "jpTitle": "チンパンジークイズの結果",
     "permalink": "269-poll-results",
-    "index": 214
+    "index": 215
   },
   "271-why-refugees-don-t-fly": {
     "jpPage": [
@@ -2513,7 +2524,7 @@
     "jpTitle": "難民が飛行機を使わない理由",
     "constructionId": "tpref",
     "permalink": "271-why-refugees-don-t-fly",
-    "index": 215
+    "index": 216
   },
   "274-co2-emissions-by-income": {
     "jpPage": 274,
@@ -2525,7 +2536,7 @@
     "jpTitle": "所得ごとの二酸化炭素の排出量",
     "constructionId": "tco2i",
     "permalink": "274-co2-emissions-by-income",
-    "index": 216
+    "index": 217
   },
   "275-syphilis": {
     "jpPage": 275,
@@ -2536,7 +2547,7 @@
     "enPage": 216,
     "jpTitle": "梅毒",
     "permalink": "275-syphilis",
-    "index": 217
+    "index": 218
   },
   "276-1-billion-people-and-mao": {
     "jpPage": 276,
@@ -2547,7 +2558,7 @@
     "enPage": 216,
     "jpTitle": "毛沢東と10億の人々",
     "permalink": "276-1-billion-people-and-mao",
-    "index": 218
+    "index": 219
   },
   "276-falling-birth-rates-and-powerful-leaders": {
     "jpPage": 276,
@@ -2558,7 +2569,7 @@
     "enPage": 216,
     "jpTitle": "出生率の低下と独裁的な政治指導者",
     "permalink": "276-falling-birth-rates-and-powerful-leaders",
-    "index": 219
+    "index": 220
   },
   "276-family-planning-contraceptive-usage-by-catholics": {
     "jpPage": 276,
@@ -2569,7 +2580,7 @@
     "enPage": 217,
     "jpTitle": "カトリック教徒による避妊具の使用",
     "permalink": "276-family-planning-contraceptive-usage-by-catholics",
-    "index": 220
+    "index": 221
   },
   "278-access-to-safe-abortion": {
     "jpPage": 278,
@@ -2580,7 +2591,7 @@
     "enPage": 218,
     "jpTitle": "安全な中絶",
     "permalink": "278-access-to-safe-abortion",
-    "index": 221
+    "index": 222
   },
   "279-institutions": {
     "jpPage": 279,
@@ -2592,7 +2603,7 @@
     "jpTitle": "社会基盤",
     "constructionId": "tgovin",
     "permalink": "279-institutions",
-    "index": 222
+    "index": 223
   },
   "279-the-governmental-employees-who-saved-the-world-from-ebola": {
     "jpPage": 279,
@@ -2603,7 +2614,7 @@
     "enPage": 219,
     "jpTitle": "世界をエボラから救った政府職員",
     "permalink": "279-the-governmental-employees-who-saved-the-world-from-ebola",
-    "index": 223
+    "index": 224
   },
   "280-thank-you-industrial-revolution": {
     "jpPage": 280,
@@ -2614,7 +2625,7 @@
     "enPage": 219,
     "jpTitle": "工業化バンザイ",
     "permalink": "280-thank-you-industrial-revolution",
-    "index": 224
+    "index": 225
   },
   "286-konzo": {
     "jpPage": 286,
@@ -2625,7 +2636,7 @@
     "enPage": 223,
     "jpTitle": "コンゾ",
     "permalink": "286-konzo",
-    "index": 225
+    "index": 226
   },
   "288-roadblocks": {
     "jpPage": 288,
@@ -2636,7 +2647,7 @@
     "enPage": 225,
     "jpTitle": "道路封鎖",
     "permalink": "288-roadblocks",
-    "index": 226
+    "index": 227
   },
   "290-now-or-never": {
     "jpPage": 290,
@@ -2647,7 +2658,7 @@
     "enPage": 227,
     "jpTitle": "いつやるか？いまでしょ！",
     "permalink": "290-now-or-never",
-    "index": 227
+    "index": 228
   },
   "290-the-urgency-instinct-in-other-books": {
     "jpPage": 290,
@@ -2658,7 +2669,7 @@
     "enPage": 227,
     "jpTitle": "焦り本能についての関連書籍",
     "permalink": "290-the-urgency-instinct-in-other-books",
-    "index": 228
+    "index": 229
   },
   "295-the-melting-ice-cap": {
     "jpPage": 295,
@@ -2669,7 +2680,7 @@
     "enPage": 232,
     "jpTitle": "減っている氷河",
     "permalink": "295-the-melting-ice-cap",
-    "index": 229
+    "index": 230
   },
   "296-fresh-numbers-for-gdp-and-co2": {
     "jpPage": 296,
@@ -2680,7 +2691,7 @@
     "enPage": 232,
     "jpTitle": "GDPと二酸化炭素排出量の最新データ",
     "permalink": "296-fresh-numbers-for-gdp-and-co2",
-    "index": 230
+    "index": 231
   },
   "297-climate-reductionism-and-catastrophizing": {
     "jpPage": 297,
@@ -2691,7 +2702,7 @@
     "enPage": 233,
     "jpTitle": "温暖化: 単純化と最悪のシナリオ",
     "permalink": "297-climate-reductionism-and-catastrophizing",
-    "index": 231
+    "index": 232
   },
   "297-climate-refugees": {
     "jpPage": 297,
@@ -2702,7 +2713,7 @@
     "enPage": 233,
     "jpTitle": "温暖化難民",
     "permalink": "297-climate-refugees",
-    "index": 232
+    "index": 233
   },
   "298-ebola": {
     "jpPage": 298,
@@ -2713,7 +2724,7 @@
     "enPage": 234,
     "jpTitle": "エボラ",
     "permalink": "298-ebola",
-    "index": 233
+    "index": 234
   },
   "302-the-risk-of-global-pandemic": {
     "jpPage": 302,
@@ -2725,7 +2736,7 @@
     "jpTitle": "感染症の流行リスク",
     "constructionId": "tgerm",
     "permalink": "302-the-risk-of-global-pandemic",
-    "index": 234
+    "index": 235
   },
   "303-the-risk-of-financial-collapse": {
     "jpPage": 303,
@@ -2737,7 +2748,7 @@
     "jpTitle": "金融危機のリスク",
     "constructionId": "dysec",
     "permalink": "303-the-risk-of-financial-collapse",
-    "index": 235
+    "index": 236
   },
   "303-the-risk-of-world-war-iii": {
     "jpPage": 303,
@@ -2749,7 +2760,7 @@
     "jpTitle": "第三次世界大戦のリスク",
     "constructionId": "dysso",
     "permalink": "303-the-risk-of-world-war-iii",
-    "index": 236
+    "index": 237
   },
   "304-the-risk-of-climate-change-and-plundering-of-natural-resources": {
     "jpPage": 304,
@@ -2761,7 +2772,7 @@
     "jpTitle": "地球温暖化のリスクと天然資源の濫用",
     "constructionId": "dysna",
     "permalink": "304-the-risk-of-climate-change-and-plundering-of-natural-resources",
-    "index": 237
+    "index": 238
   },
   "305-the-risk-of-extreme-poverty": {
     "jpPage": [
@@ -2776,7 +2787,7 @@
     "jpTitle": "極度の貧困のリスク",
     "constructionId": "furgr",
     "permalink": "305-the-risk-of-extreme-poverty",
-    "index": 238
+    "index": 239
   },
   "315-teachers": {
     "jpPage": 315,
@@ -2787,7 +2798,7 @@
     "enPage": 247,
     "jpTitle": "教師たち",
     "permalink": "315-teachers",
-    "index": 239
+    "index": 240
   },
   "318-business": {
     "jpPage": 318,
@@ -2798,7 +2809,7 @@
     "enPage": 250,
     "jpTitle": "ビジネス",
     "permalink": "318-business",
-    "index": 240
+    "index": 241
   },
   "319-diversified-economies": {
     "jpPage": 319,
@@ -2810,7 +2821,7 @@
     "jpTitle": "経済の多様化",
     "constructionId": "x4",
     "permalink": "319-diversified-economies",
-    "index": 241
+    "index": 242
   },
   "320-speling-miskates": {
     "jpPage": 320,
@@ -2821,7 +2832,7 @@
     "enPage": 252,
     "jpTitle": "スペルミス (Speling mistakes)",
     "permalink": "320-speling-miskates",
-    "index": 242
+    "index": 243
   },
   "321-constructive-news": {
     "jpPage": 321,
@@ -2832,7 +2843,7 @@
     "enPage": 252,
     "jpTitle": "前向きなニュース",
     "permalink": "321-constructive-news",
-    "index": 243
+    "index": 244
   },
   "322-local-ignorance-and-data": {
     "jpPage": 322,
@@ -2843,7 +2854,7 @@
     "enPage": 253,
     "jpTitle": "ローカルな知識不足とデータ",
     "permalink": "322-local-ignorance-and-data",
-    "index": 244
+    "index": 245
   },
   "final-note": {
     "jpPage": 1000,
@@ -2853,7 +2864,7 @@
     "section": "最後に",
     "jpTitle": "最後に: グローバルな開発に関する無料データ",
     "permalink": "final-note",
-    "index": 245
+    "index": 246
   },
   "errata-1": {
     "jpPage": 85,

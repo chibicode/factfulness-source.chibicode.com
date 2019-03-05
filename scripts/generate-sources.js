@@ -797,6 +797,13 @@ const sources = [
   },
   {
     chapter: 2,
+    jpPage: 79,
+    enPage: 61,
+    enTitle: `Graph: Smoke Particles`,
+    jpTitle: `32のグラフ: 大気汚染`
+  },
+  {
+    chapter: 2,
     jpPage: 80,
     enPage: 62,
     enTitle: `Graph: New movies`,

@@ -1072,6 +1072,11 @@ export default {
       import(/* webpackChunkName: '79-graph-smallpox' */ '../contents/79-graph-smallpox.js'),
     {loading: () => <DynamicLoading />}
   ),
+  '79-graph-smoke-particles': dynamic(
+    () =>
+      import(/* webpackChunkName: '79-graph-smoke-particles' */ '../contents/79-graph-smoke-particles.js'),
+    {loading: () => <DynamicLoading />}
+  ),
   '8-hans-s-sword-swallowing': dynamic(
     () =>
       import(/* webpackChunkName: '8-hans-s-sword-swallowing' */ '../contents/8-hans-s-sword-swallowing.js'),

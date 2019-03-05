@@ -29,6 +29,7 @@ export default () => (
         <li>肺炎球菌ワクチン: 42%</li>
         <li>ロタウイルスワクチン: 15%</li>
       </ul>
+      <H.Vaccination />
     </H.BlockAddition>
     <H.GraphExplanation />
   </>

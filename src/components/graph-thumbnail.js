@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import * as H from './h'
 
 const GraphThumbnail = ({src}) => (
   <>
@@ -9,7 +8,7 @@ const GraphThumbnail = ({src}) => (
         src={src}
         alt=""
         css={css`
-          max-width: 400px;
+          max-width: 450px;
           margin: 0 auto;
         `}
       />

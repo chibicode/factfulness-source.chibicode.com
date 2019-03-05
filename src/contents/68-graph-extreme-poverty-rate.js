@@ -46,6 +46,7 @@ export default () => (
       <H.A href="http://gapm.io/depov">Gapminder[9]</H.A>
       )。ひとりあたりのGDPが所得と連動していることと、所得分布が現在と変わらないことを前提としている。
     </p>
+    <H.ExtremePoverty />
     <H.InlineCitation>
       <ul>
         <li>

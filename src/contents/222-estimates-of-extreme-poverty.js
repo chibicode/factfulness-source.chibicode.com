@@ -40,5 +40,6 @@ export default () => (
       </li>
     </ul>
     <p>紛争が続く限り、極度の貧困を脱するのは難しい。</p>
+    <H.ExtremePoverty />
   </>
 )

@@ -57,6 +57,7 @@ export default () => (
       </H.A>
       。
     </p>
+    <H.ExtremePoverty />
 
     <H.InlineCitation>
       <ul>

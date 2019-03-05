@@ -36,5 +36,8 @@ export default () => (
       </H.A>
       も参考のこと。
     </p>
+    <H.BlockAddition>
+      <H.Vaccination />
+    </H.BlockAddition>
   </>
 )
