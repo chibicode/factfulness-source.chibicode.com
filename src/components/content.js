@@ -53,7 +53,9 @@ const Content = ({
           </span>
         </p>
       )}
-      <Component />
+      <div className="content">
+        <Component />
+      </div>
       {!hideFooter && (
         <>
           <p

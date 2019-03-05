@@ -21,6 +21,7 @@ const FB = ({pageNumber, ...props}) => (
       placement="top"
     >
       <span
+        className="from-book"
         css={({colors}) => css`
           border-bottom: 1px dashed ${colors.base200};
         `}
