@@ -15,7 +15,8 @@ export default () => (
         るかはわかりづらいかもしれない。アニメーションを使ったり、模型を使って説明するほ
         うがわかりやすいと思うので、
         <H.A href="https://gapm.io/vidfu">こちらをご覧になってほしい</H.A>
-        。専門的な説明はUN-Pop[6, 7]を参考に。
+        。専門的な説明は<H.A href="https://gapm.io/xpopfut">UN-Pop[6]</H.A>、
+        <H.A href="https://gapm.io/xpopfut2">UN-Pop[7]</H.A>を参考に。
       </H.FB>
     </p>
 

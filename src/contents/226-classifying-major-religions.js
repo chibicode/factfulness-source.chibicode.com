@@ -20,8 +20,15 @@ export default () => (
     </p>
     <p>
       <H.FB pageNumber={360}>
-        主要な宗教がはっきりしない81カ国については、それぞれの宗教を3つの丸で表し、ピュー研究所(Pew[2])とアメリカ合衆国国際開発庁による人口保険調査(USAID-DHS[2])のデータに基づいてそれぞれの出生率を推測した。また、各宗教のおよそのひとり当たり所得については、経済協力開発機構
-        およびほかの情報源(GDL[1,2],OECD[3])から推測した。
+        主要な宗教がはっきりしない81カ国については、それぞれの宗教を3つの丸で表し、ピュー研究所(
+        <H.A href="https://gapm.io/xpewrel1">Pew[2]</H.A>
+        )とアメリカ合衆国国際開発庁による人口保険調査(
+        <H.A href="https://gapm.io/xdhsarel">USAID-DHS[2]</H.A>
+        )のデータに基づいてそれぞれの出生率を推測した。また、各宗教のおよそのひとり当たり所得については、経済協力開発機構
+        およびほかの情報源(
+        <H.A href="https://globaldatalab.org/areadata">GDL[1]</H.A>,
+        <H.A href="https://globaldatalab.org/iwi">GDL[2]</H.A>,
+        <H.A href="https://gapm.io/xoecdimintegr">OECD[3]</H.A>)から推測した。
       </H.FB>
     </p>
   </>

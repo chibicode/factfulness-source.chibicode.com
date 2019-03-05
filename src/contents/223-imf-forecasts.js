@@ -15,15 +15,15 @@ export default () => (
       )。
     </p>
     <p>以下のグラフはIMFの予測の制度を表している[IMF2-10]。</p>
-    <p>レベル4の各国</p>
+    <H.SmallHeading>レベル4の各国</H.SmallHeading>
     <p>
       <img src="/static/images/sources/imf-advanced.jpg" alt="" />
     </p>
-    <p>サハラ以南のアフリカ</p>
+    <H.SmallHeading>サハラ以南のアフリカ</H.SmallHeading>
     <p>
       <img src="/static/images/sources/imf-ssa.jpg" alt="" />
     </p>
-    <p>経済成長が特に高かったのは以下の国々だ:</p>
+    <H.SmallHeading>経済成長が特に高かったのは以下の国々だ</H.SmallHeading>
     <p>
       <img src="/static/images/sources/imf-top-growth.jpg" alt="" />
     </p>

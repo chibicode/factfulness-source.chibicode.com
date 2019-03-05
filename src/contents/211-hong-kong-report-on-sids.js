@@ -8,14 +8,21 @@ export default () => (
     </p>
     <p>
       <H.FB pageNumber={362}>
-        スウェーデンで乳幼児突然死症候群(SIDS)が増えた原因がうつぶせ寝だったということは、Gilbert
-        の論文(2005)とHögbergとBergströmによる1997年の論文“Läkarråd ökade risken
-        för plötslig spädbarnsdöd”に書かれている。
+        スウェーデンで乳幼児突然死症候群(SIDS)が増えた原因がうつぶせ寝だったということは、
+        <H.A href="https://academic.oup.com/ije/article/34/4/874/692905">
+          Gilbert の論文(2005)
+        </H.A>
+        とHögbergとBergströmによる1997年の論文“Läkarråd ökade risken för
+        plötslig spädbarnsdöd”に書かれている。
       </H.FB>
     </p>
     <p>
       <H.FB pageNumber={362}>
-        香港のグループによる調査はDavies(1985)のもの。
+        香港のグループによる調査は
+        <H.A href="https://www.ncbi.nlm.nih.gov/pubmed/2866397">
+          Davies(1985)
+        </H.A>
+        のもの。
       </H.FB>
       子供をうつぶせ寝させることが突然死を招くことに言及したはじめての調査だった。
       <H.A href="https://www.ncbi.nlm.nih.gov/pubmed/2866397?dopt=Abstract">
