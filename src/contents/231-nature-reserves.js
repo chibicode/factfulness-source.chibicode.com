@@ -27,6 +27,8 @@ export default () => (
         Protected Area Categories (IUCN[2])
       </H.A>
       を基に自然保護区のデータをまとめている。
+    </p>
+    <p>
       <H.FB pageNumber={360}>
         1911年から1990年までのトレンドについては、Abouchakraらの著したこちらの著書を参考にしている:
         Looking Ahead: The 50 Trends That Matter(2016)。

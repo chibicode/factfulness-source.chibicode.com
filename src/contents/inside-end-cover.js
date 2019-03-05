@@ -8,7 +8,10 @@ export default () => (
       <H.A href="https://esa.un.org/unpd/wpp">UN-POP[1]</H.A>
       )の出生率中位予測を基にしている。人口は10億人単位で記号にした(
       <H.A href="http://gapm.io/elev">Gapminder[3]</H.A>
-      を参考に)。世帯あたりの所得はひとりあたりのGDP(購買力平価ベース、2011年国際ドル)を基にした(
+      を参考に)。
+    </p>
+    <p>
+      世帯あたりの所得はひとりあたりのGDP(購買力平価ベース、2011年国際ドル)を基にした(
       <H.A href="http://www.gapm.io/x-icpp">ICP[1]</H.A>
       )。2013年の所得とジニ係数のデータは、
       <H.A href="http://iresearch.worldbank.org/PovcalNet">PovCal</H.A>
