@@ -8,6 +8,7 @@ import SectionHeader from './section-header'
 import Card from './card'
 import Content from './content'
 import SectionWrapper from './section-wrapper'
+import ErrataEmpty from './errata-empty'
 import {PageContext} from './page'
 
 const Main = () => {
@@ -45,7 +46,7 @@ const Main = () => {
               ))
             ) : (
               <Card isLast={i === sections.length - 1}>
-                <p>empty</p>
+                <ErrataEmpty />
               </Card>
             )}
           </SectionWrapper>
