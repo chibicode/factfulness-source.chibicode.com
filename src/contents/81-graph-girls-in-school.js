@@ -16,7 +16,6 @@ export default () => (
       />
       も参考のこと。
     </p>
-
     <H.InlineCitation>
       <ul>
         <li>
