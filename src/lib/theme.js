@@ -13,6 +13,7 @@ export default ({base, accent, secondary}) => ({
     green50: green[50],
     accent50: accent[50],
     accent100: accent[100],
+    grey50: grey[50],
     grey900: grey[900],
     // eslint-disable-next-line  new-cap
     base900alpha: Color(base[900])

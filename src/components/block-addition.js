@@ -3,7 +3,7 @@ import {jsx, css} from '@emotion/core'
 import {AdditionContext} from './addition'
 import {ns} from './global-styles'
 
-const BlockAddition = ({children, hideBackground, ...props}) => (
+const BlockAddition = ({children, ...props}) => (
   <AdditionContext.Provider
     value={{
       inAdditionContext: true
@@ -11,19 +11,17 @@ const BlockAddition = ({children, hideBackground, ...props}) => (
   >
     <div
       css={({colors}) =>
-        hideBackground
-          ? css``
-          : css`
-              background: ${colors.secondary50};
-              margin: 1.5rem -0.875rem;
-              padding: 1.25rem 0.875rem 0.25rem;
-              ${ns} {
-                margin-left: -2rem;
-                margin-right: -2rem;
-                padding-left: 2rem;
-                padding-right: 2rem;
-              }
-            `
+        css`
+          background: ${colors.secondary50};
+          margin: 1.5rem -0.875rem;
+          padding: 1.25rem 0.875rem 0.25rem;
+          ${ns} {
+            margin-left: -2rem;
+            margin-right: -2rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+          }
+        `
       }
       {...props}
     >
