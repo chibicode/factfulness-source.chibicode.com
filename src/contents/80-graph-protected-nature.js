@@ -32,6 +32,19 @@ export default () => (
         。
       </li>
     </ul>
+    <H.BlockAddition>
+      <p>
+        <H.BlockAdditionHeader />
+        <H.A href="https://www.nasa.gov/feature/ames/human-activity-in-china-and-india-dominates-the-greening-of-earth-nasa-study-shows">
+          2019年2月13日にNASAが公開した記事
+        </H.A>
+        によると、世界の緑地は20年前に比べて増えている。主な原因は中国とインドで緑化が進んだからだ。
+        <H.A href="https://www.nasa.gov/sites/default/files/thumbnails/image/global_tamo_2017_full.png">
+          こちらの画像を見れば一目瞭然だ
+        </H.A>
+        。
+      </p>
+    </H.BlockAddition>
     <H.GraphExplanation />
   </>
 )

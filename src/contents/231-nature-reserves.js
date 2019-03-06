@@ -39,5 +39,12 @@ export default () => (
       </H.A>
       を参考にした。
     </p>
+    <p>
+      <H.OtherCardLink
+        useTitleAsChildren
+        permalink="80-graph-protected-nature"
+      />
+      も参考のこと。
+    </p>
   </>
 )
