@@ -9,6 +9,8 @@ import Card from './card'
 import Content from './content'
 import SectionWrapper from './section-wrapper'
 import ErrataEmpty from './errata-empty'
+import IntroC2a from './intro-c2a'
+import IntroDocumentation from './intro-documentation'
 import {PageContext} from './page'
 
 const Main = () => {
@@ -21,9 +23,17 @@ const Main = () => {
         <IntroHero />
       </Card>
       {isIndex ? (
-        <Card>
-          <IntroDisclaimer />
-        </Card>
+        <>
+          <Card>
+            <IntroDisclaimer />
+          </Card>
+          <Card>
+            <IntroDocumentation />
+          </Card>
+          <Card>
+            <IntroC2a />
+          </Card>
+        </>
       ) : (
         <Card>
           <p>...</p>
