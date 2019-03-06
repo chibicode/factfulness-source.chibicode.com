@@ -10,6 +10,7 @@ import Content from './content'
 import SectionWrapper from './section-wrapper'
 import ErrataEmpty from './errata-empty'
 import IntroC2a from './intro-c2a'
+import IntroErrata from './intro-errata'
 import IntroDocumentation from './intro-documentation'
 import {PageContext} from './page'
 
@@ -29,6 +30,9 @@ const Main = () => {
           </Card>
           <Card>
             <IntroDocumentation />
+          </Card>
+          <Card>
+            <IntroErrata />
           </Card>
           <Card>
             <IntroC2a />
