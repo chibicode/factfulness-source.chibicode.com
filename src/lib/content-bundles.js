@@ -4,9 +4,144 @@ import dynamic from 'next/dynamic'
 const DynamicLoading = () => '…'
 
 export default {
-  'errata-1': dynamic(
+  'errata-11': dynamic(
     () =>
-      import(/* webpackChunkName: 'errata/errata-1' */ '../errata/errata-1.js'),
+      import(/* webpackChunkName: 'errata/errata-11' */ '../errata/errata-11.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-12': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-12' */ '../errata/errata-12.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-14': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-14' */ '../errata/errata-14.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-17': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-17' */ '../errata/errata-17.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-2': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-2' */ '../errata/errata-2.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-20': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-20' */ '../errata/errata-20.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-21': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-21' */ '../errata/errata-21.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-22': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-22' */ '../errata/errata-22.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-23': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-23' */ '../errata/errata-23.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-24': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-24' */ '../errata/errata-24.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-27': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-27' */ '../errata/errata-27.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-28': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-28' */ '../errata/errata-28.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-29': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-29' */ '../errata/errata-29.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-30': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-30' */ '../errata/errata-30.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-31': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-31' */ '../errata/errata-31.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-33': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-33' */ '../errata/errata-33.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-34': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-34' */ '../errata/errata-34.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-35': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-35' */ '../errata/errata-35.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-36': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-36' */ '../errata/errata-36.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-37': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-37' */ '../errata/errata-37.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-38': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-38' */ '../errata/errata-38.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-42': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-42' */ '../errata/errata-42.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-43': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-43' */ '../errata/errata-43.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-44': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-44' */ '../errata/errata-44.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-5': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-5' */ '../errata/errata-5.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-6': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-6' */ '../errata/errata-6.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-7': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-7' */ '../errata/errata-7.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-9': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-9' */ '../errata/errata-9.js'),
     {loading: () => <DynamicLoading />}
   ),
   '10-fact-question-4-life-expectancy': dynamic(

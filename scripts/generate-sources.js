@@ -2,34 +2,34 @@ const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
 const chapterFromPageNumber = jpPage => {
-  if (Array.isArray(jpPage)) {
-    throw new TypeError('error')
-  }
+  const jpPageToCheck = Array.isArray(jpPage) ? jpPage[0] : jpPage
 
-  if (jpPage < 27) {
+  if (jpPageToCheck < 27) {
     throw new Error('error')
-  } else if (jpPage < 61) {
+  } else if (jpPageToCheck < 61) {
     return 1
-  } else if (jpPage < 96) {
+  } else if (jpPageToCheck < 96) {
     return 2
-  } else if (jpPage < 129) {
+  } else if (jpPageToCheck < 129) {
     return 3
-  } else if (jpPage < 161) {
+  } else if (jpPageToCheck < 161) {
     return 4
-  } else if (jpPage < 187) {
+  } else if (jpPageToCheck < 187) {
     return 5
-  } else if (jpPage < 215) {
+  } else if (jpPageToCheck < 215) {
     return 6
-  } else if (jpPage < 239) {
+  } else if (jpPageToCheck < 239) {
     return 7
-  } else if (jpPage < 261) {
+  } else if (jpPageToCheck < 261) {
     return 8
-  } else if (jpPage < 285) {
+  } else if (jpPageToCheck < 285) {
     return 9
-  } else if (jpPage < 309) {
+  } else if (jpPageToCheck < 309) {
     return 10
-  } else if (jpPage < 325) {
+  } else if (jpPageToCheck < 325) {
     return 11
+  } else if (jpPageToCheck >= 353) {
+    return '脚注'
   } else {
     throw new Error('error')
   }
@@ -1924,7 +1924,171 @@ const sources = [
 const errata = [
   {
     jpPage: 85,
-    listRow: 1
+    listRow: 2,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 321,
+    listRow: 5,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 274,
+    listRow: 6,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 357,
+    listRow: 7,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 225,
+    listRow: 9,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 81,
+    listRow: 11,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: [78],
+    listRow: 12,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: [146, 147],
+    listRow: 14,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: [365],
+    listRow: 17,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 302,
+    listRow: 20,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 294,
+    listRow: 21,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 204,
+    listRow: 22,
+    fixedEdition: 2,
+    fixedInKindle: true
+  },
+  {
+    jpPage: 206,
+    listRow: 23,
+    fixedEdition: 2,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 171,
+    listRow: 24,
+    fixedEdition: 3,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 63,
+    listRow: 27,
+    fixedEdition: 3,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 54,
+    listRow: 28,
+    fixedEdition: 4,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 228,
+    listRow: 29,
+    fixedEdition: 6,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 152,
+    listRow: 30,
+    fixedEdition: 6,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 193,
+    listRow: 31,
+    fixedEdition: 8,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 372,
+    listRow: 33,
+    fixedEdition: 8,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 133,
+    listRow: 34,
+    fixedEdition: 8,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 371,
+    listRow: 35,
+    fixedEdition: 8,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 110,
+    listRow: 36,
+    fixedEdition: 9,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 367,
+    listRow: 37,
+    fixedEdition: 9,
+    fixedInKindle: false
+  },
+  {
+    jpPage: [363, 368],
+    listRow: 38,
+    fixedEdition: 9,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 302,
+    listRow: 42,
+    fixedEdition: 9,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 43,
+    listRow: 43,
+    fixedEdition: 9,
+    fixedInKindle: false
+  },
+  {
+    jpPage: 243,
+    listRow: 44,
+    fixedEdition: 9,
+    fixedInKindle: false
   }
 ]
 
