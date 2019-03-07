@@ -10,7 +10,7 @@ import Content from './content'
 import SectionWrapper from './section-wrapper'
 import ErrataEmpty from './errata-empty'
 import IntroC2a from './intro-c2a'
-import IntroErrata from './intro-errata'
+import IntroSourceErrata from './intro-source-errata'
 import IntroDocumentation from './intro-documentation'
 import {PageContext} from './page'
 
@@ -23,7 +23,7 @@ const Main = () => {
       <Card>
         <IntroHero />
       </Card>
-      {isIndex ? (
+      {isIndex && (
         <>
           <Card>
             <IntroDisclaimer />
@@ -32,16 +32,12 @@ const Main = () => {
             <IntroDocumentation />
           </Card>
           <Card>
-            <IntroErrata />
+            <IntroSourceErrata />
           </Card>
           <Card>
             <IntroC2a />
           </Card>
         </>
-      ) : (
-        <Card>
-          <p>...</p>
-        </Card>
       )}
       {sections.map((section, i) => {
         return (
