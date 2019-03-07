@@ -6,33 +6,57 @@ const chapterFromPageNumber = jpPage => {
 
   if (jpPageToCheck < 27) {
     return '全般'
-  } if (jpPageToCheck < 61) {
-    return 1
-  } if (jpPageToCheck < 96) {
-    return 2
-  } else if (jpPageToCheck < 129) {
-    return 3
-  } else if (jpPageToCheck < 161) {
-    return 4
-  } else if (jpPageToCheck < 187) {
-    return 5
-  } else if (jpPageToCheck < 215) {
-    return 6
-  } else if (jpPageToCheck < 239) {
-    return 7
-  } else if (jpPageToCheck < 261) {
-    return 8
-  } else if (jpPageToCheck < 285) {
-    return 9
-  } else if (jpPageToCheck < 309) {
-    return 10
-  } else if (jpPageToCheck < 325) {
-    return 11
-  } else if (jpPageToCheck >= 353) {
-    return '脚注'
-  } else {
-    throw new Error('error')
   }
+
+  if (jpPageToCheck < 61) {
+    return 1
+  }
+
+  if (jpPageToCheck < 96) {
+    return 2
+  }
+
+  if (jpPageToCheck < 129) {
+    return 3
+  }
+
+  if (jpPageToCheck < 161) {
+    return 4
+  }
+
+  if (jpPageToCheck < 187) {
+    return 5
+  }
+
+  if (jpPageToCheck < 215) {
+    return 6
+  }
+
+  if (jpPageToCheck < 239) {
+    return 7
+  }
+
+  if (jpPageToCheck < 261) {
+    return 8
+  }
+
+  if (jpPageToCheck < 285) {
+    return 9
+  }
+
+  if (jpPageToCheck < 309) {
+    return 10
+  }
+
+  if (jpPageToCheck < 325) {
+    return 11
+  }
+
+  if (jpPageToCheck >= 353) {
+    return '脚注'
+  }
+
+  throw new Error('error')
 }
 
 const processChapter = ({chapter, jpPage}) => {
