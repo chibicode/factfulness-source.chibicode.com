@@ -18,7 +18,7 @@ const IntroErrata = () => (
       </li>
       <li>
         このページの変更履歴は
-        <Link href="https://github.com/chibicode/factfulness-source.chibicode.com/commits/dev/src/errata">
+        <Link href="https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/errata">
           こちらのGitHubリンク
         </Link>
         からご覧になれます。
