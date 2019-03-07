@@ -7,7 +7,7 @@ export default () => (
     <p>
       世界保健機関(<H.A href="http://gapm.io/xwhoim">WHO[1]</H.A>
       )は主なワクチンの接種率を公開している。ここでは、少なくとも1種類のワクチンを接種した1歳児の割合をグラフにしている
-      （<H.A href="https://gapm.io/dsvacc">Gapminder[23]</H.A>
+      (<H.A href="https://gapm.io/dsvacc">Gapminder[23]</H.A>
       )。こうすることで、近代的な薬や保険サービスにアクセスできる人々の割合がわかる。
     </p>
     <H.BlockAddition>

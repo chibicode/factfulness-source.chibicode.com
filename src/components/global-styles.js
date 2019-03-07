@@ -84,6 +84,15 @@ const GlobalStyles = () => (
       li > p + ul {
         margin-top: -1rem;
       }
+
+      hr {
+        width: 25%;
+        margin: 2em auto;
+        border-top: 0;
+        border-bottom: 1px solid ${colors.base200};
+        border-left: 0;
+        border-right: 0;
+      }
     `}
   />
 )
