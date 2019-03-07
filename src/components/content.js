@@ -4,17 +4,20 @@ import {useState, useContext} from 'react'
 import contentBundles from '../lib/content-bundles'
 import Link from './link'
 import InternalLink from './internal-link'
-import CardTitle from './card-title'
+import ContentTitle from './content-title'
 import LinkButton from './link-button'
 import BlockAddition from './block-addition'
 import FeedbackText from './feedback-text'
 import {PageContext} from './page'
+import ErrataFixed from './errata-fixed'
 
 const Content = ({
   jpPage,
   permalink,
   chapter,
   jpTitle,
+  fixedEdition,
+  fixedInKindle,
   isModal,
   hideFooter,
   constructionId
@@ -24,19 +27,7 @@ const Content = ({
   const [feedbackVisible, setFeedbackVisible] = useState(false)
   return (
     <>
-      <CardTitle smallMarginBottom largeFont={isModal}>
-        {jpTitle}
-        {(Array.isArray(jpPage) || (jpPage > 0 && jpPage < 400)) && (
-          <span
-            css={({colors}) => css`
-              color: ${colors.base400};
-            `}
-          >
-            {' '}
-            (P{Array.isArray(jpPage) ? jpPage.join('-') : jpPage})
-          </span>
-        )}
-      </CardTitle>
+      <ContentTitle {...{type, isModal, jpTitle, jpPage}} />
       {jpPage && chapter && (
         <p
           css={({colors}) => css`
@@ -57,6 +48,7 @@ const Content = ({
       <div className="content">
         <Component />
       </div>
+      {type === 'errata' && <ErrataFixed {...{fixedEdition, fixedInKindle}} />}
       {!hideFooter && (
         <>
           <p
