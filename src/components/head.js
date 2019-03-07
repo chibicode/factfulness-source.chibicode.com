@@ -7,6 +7,9 @@ import {PageContext} from './page'
 const Head = () => {
   const {type} = useContext(PageContext)
   const title = titleArray[type].join('')
+  const ogUrl = `https://factfulness-source.chibicode.com/${
+    type === 'errata' ? 'errata/' : ''
+  }`
   const imageUrl = `https://factfulness-source.chibicode.com/static/images/og-${type}.png`
   return (
     <NextHead>
@@ -39,11 +42,8 @@ const Head = () => {
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
       <meta property="og:locale" content="ja_JP" />
-      <link rel="canonical" href="https://factfulness-source.chibicode.com/" />
-      <meta
-        property="og:url"
-        content="https://factfulness-source.chibicode.com/"
-      />
+      <link rel="canonical" href={ogUrl} />
+      <meta property="og:url" content={ogUrl} />
       <meta property="og:site_name" content={title} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@chibicode" />
@@ -58,7 +58,7 @@ const Head = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: `{"name":"${title}","@type":"WebSite","url":"https://factfulness-source.chibicode.com/","image":"${imageUrl}","headline":"${title}","@context":"http://schema.org"}`
+          __html: `{"name":"${title}","@type":"WebSite","url":"${ogUrl}","image":"${imageUrl}","headline":"${title}","@context":"http://schema.org"}`
         }}
       />
       <script
