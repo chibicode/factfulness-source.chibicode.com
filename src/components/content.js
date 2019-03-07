@@ -76,7 +76,9 @@ const Content = ({
               )}
               <Link
                 transparentBackground
-                href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/contents/${permalink}.js`}
+                href={`https://github.com/chibicode/factfulness-source.chibicode.com/commits/master/src/${
+                  type === 'errata' ? 'errata' : 'sources'
+                }/${permalink}.js`}
               >
                 変更履歴
               </Link>
