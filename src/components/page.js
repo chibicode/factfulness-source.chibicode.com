@@ -1,5 +1,6 @@
 import React, {createContext} from 'react'
-import Router, {withRouter} from 'next/router'
+import Router from 'next/router'
+import withPageRouter from '../lib/with-page-router'
 import {pageview} from '../lib/gtag'
 import GlobalStyles from './global-styles'
 import Head from './head'
@@ -38,4 +39,4 @@ const Page = ({type, router}) => (
   </PageContext.Provider>
 )
 
-export default withRouter(Page)
+export default withPageRouter(Page)
