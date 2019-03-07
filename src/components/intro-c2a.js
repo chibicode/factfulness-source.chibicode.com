@@ -1,4 +1,5 @@
-import React from 'react'
+/** @jsx jsx */
+import {jsx, css} from '@emotion/core'
 import * as H from './h'
 
 const IntroC2a = () => (
@@ -14,7 +15,10 @@ const IntroC2a = () => (
     <p>
       <H.A href="https://jp.chibicode.com/factfulness-notes/">
         <img
-          src="/static/images/og.jpg"
+          css={css`
+            border-radius: 0.5rem;
+          `}
+          src="/static/images/og@0.5x.jpg"
           alt="7万字の○○が、たくさん読まれることはないけれど"
         />
       </H.A>
