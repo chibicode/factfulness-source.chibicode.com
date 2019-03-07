@@ -24,8 +24,8 @@ const IntroDisclaimer = () => (
       </li>
       <li>
         訳者(上杉周作)による訳註や補足も一部追加しています。その際は
-        <H.Addition>「訳註」</H.Addition>または
-        <H.Addition>訳者による補足</H.Addition>と明記しています。
+        <H.Addition hideParens>「訳註」</H.Addition>または
+        <H.Addition hideParens>「訳者による補足」</H.Addition>と明記しています。
       </li>
       <li>
         出典は、本書の「出典」部分に掲載している略称を用いています(
@@ -33,6 +33,11 @@ const IntroDisclaimer = () => (
       </li>
       <li>
         <FeedbackText />
+      </li>
+      <li>
+        右上の「固定リンク」をクリックすると、ひとつの脚注だけを表示することができます。また固定リンクのURLの
+        <code>?p=</code>を<code>?s=</code>
+        に変えると、<code>iframe</code>で使える埋め込み用URLになります。
       </li>
       <li>
         このページのソースコードは

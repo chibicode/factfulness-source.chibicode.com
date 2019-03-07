@@ -71,6 +71,10 @@ const GlobalStyles = () => (
         }
       }
 
+      code {
+        background-color: ${colors.secondary50};
+      }
+
       ul,
       ol {
         padding-left: 1.5rem;
