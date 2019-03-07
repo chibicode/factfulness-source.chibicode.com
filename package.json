@@ -1,0 +1,58 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "contents": "node ./scripts/generate-sources.js && node ./scripts/generate-content-bundles.js && xo --fix ./src/lib/content-bundles.js",
+    "xo": "xo"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.5",
+    "@emotion/styled": "^10.0.5",
+    "@material-ui/core": "^3.9.1",
+    "@zeit/next-css": "^1.0.1",
+    "color": "^3.1.0",
+    "emotion-theming": "^10.0.7",
+    "intersection-observer": "^0.5.1",
+    "modern-normalize": "^0.5.0",
+    "next": "^8.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-intersection-observer": "^8.0.5",
+    "smoothscroll-polyfill": "^0.4.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-emotion": "^10.0.5",
+    "eslint-config-xo-react": "^0.18.0",
+    "eslint-plugin-react": "^7.12.0",
+    "eslint-plugin-react-hooks": "^1.2.0",
+    "glob": "^7.1.3",
+    "prettier": "^1.15.3",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "prettier": true,
+    "semicolon": false,
+    "space": true,
+    "plugins": [
+      "react-hooks"
+    ],
+    "extends": [
+      "xo-react"
+    ],
+    "parser": "babel-eslint",
+    "globals": [
+      "window"
+    ],
+    "rules": {
+      "react/prop-types": false,
+      "react/no-danger": false,
+      "import/no-unassigned-import": false,
+      "react/no-unescaped-entities": false,
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warning"
+    }
+  }
+}

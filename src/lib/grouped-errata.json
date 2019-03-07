@@ -1,0 +1,381 @@
+{
+  "全般・見返し・はじめに": [
+    {
+      "jpPage": -100,
+      "jpPageFirst": -100,
+      "listRow": 45,
+      "chapter": "全般",
+      "section": "全般・見返し・はじめに",
+      "jpTitle": "世界保健機関",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-45",
+      "index": 0
+    }
+  ],
+  "第1章": [
+    {
+      "jpPage": 54,
+      "jpPageFirst": 54,
+      "listRow": 28,
+      "chapter": "第1章",
+      "section": "第1章",
+      "fixedEdition": 4,
+      "fixedInKindle": false,
+      "permalink": "errata-28",
+      "index": 1
+    }
+  ],
+  "第2章": [
+    {
+      "jpPage": 63,
+      "jpPageFirst": 63,
+      "listRow": 27,
+      "chapter": "第2章",
+      "section": "第2章",
+      "fixedEdition": 3,
+      "fixedInKindle": false,
+      "permalink": "errata-27",
+      "index": 2
+    },
+    {
+      "jpPage": [
+        78
+      ],
+      "jpPageFirst": 78,
+      "listRow": 12,
+      "chapter": "第2章",
+      "section": "第2章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-12",
+      "index": 3
+    },
+    {
+      "jpPage": 81,
+      "jpPageFirst": 81,
+      "listRow": 11,
+      "chapter": "第2章",
+      "section": "第2章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-11",
+      "index": 4
+    },
+    {
+      "jpPage": 85,
+      "jpPageFirst": 85,
+      "listRow": 2,
+      "chapter": "第2章",
+      "section": "第2章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-2",
+      "index": 5
+    }
+  ],
+  "第3章": [
+    {
+      "jpPage": 110,
+      "jpPageFirst": 110,
+      "listRow": 36,
+      "chapter": "第3章",
+      "section": "第3章",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-36",
+      "index": 6
+    }
+  ],
+  "第4章": [
+    {
+      "jpPage": 133,
+      "jpPageFirst": 133,
+      "listRow": 34,
+      "chapter": "第4章",
+      "section": "第4章",
+      "fixedEdition": 8,
+      "fixedInKindle": false,
+      "permalink": "errata-34",
+      "index": 7
+    },
+    {
+      "jpPage": [
+        146,
+        147
+      ],
+      "jpPageFirst": 146,
+      "listRow": 14,
+      "chapter": "第4章",
+      "section": "第4章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-14",
+      "index": 8
+    },
+    {
+      "jpPage": 152,
+      "jpPageFirst": 152,
+      "listRow": 30,
+      "chapter": "第4章",
+      "section": "第4章",
+      "fixedEdition": 6,
+      "fixedInKindle": false,
+      "permalink": "errata-30",
+      "index": 9
+    },
+    {
+      "jpPage": 154,
+      "jpPageFirst": 154,
+      "listRow": 43,
+      "chapter": "第4章",
+      "section": "第4章",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-43",
+      "index": 10
+    }
+  ],
+  "第5章": [
+    {
+      "jpPage": 171,
+      "jpPageFirst": 171,
+      "listRow": 24,
+      "chapter": "第5章",
+      "section": "第5章",
+      "fixedEdition": 3,
+      "fixedInKindle": false,
+      "permalink": "errata-24",
+      "index": 11
+    }
+  ],
+  "第6章": [
+    {
+      "jpPage": 193,
+      "jpPageFirst": 193,
+      "listRow": 31,
+      "chapter": "第6章",
+      "section": "第6章",
+      "fixedEdition": 8,
+      "fixedInKindle": false,
+      "permalink": "errata-31",
+      "index": 12
+    },
+    {
+      "jpPage": 204,
+      "jpPageFirst": 204,
+      "listRow": 22,
+      "chapter": "第6章",
+      "section": "第6章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-22",
+      "index": 13
+    },
+    {
+      "jpPage": 206,
+      "jpPageFirst": 206,
+      "listRow": 23,
+      "chapter": "第6章",
+      "section": "第6章",
+      "fixedEdition": 2,
+      "fixedInKindle": false,
+      "permalink": "errata-23",
+      "index": 14
+    }
+  ],
+  "第7章": [
+    {
+      "jpPage": 225,
+      "jpPageFirst": 225,
+      "listRow": 9,
+      "chapter": "第7章",
+      "section": "第7章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-9",
+      "index": 15
+    },
+    {
+      "jpPage": 228,
+      "jpPageFirst": 228,
+      "listRow": 29,
+      "chapter": "第7章",
+      "section": "第7章",
+      "fixedEdition": 6,
+      "fixedInKindle": false,
+      "permalink": "errata-29",
+      "index": 16
+    },
+    {
+      "jpPage": 228,
+      "jpPageFirst": 228,
+      "listRow": "temp-1",
+      "chapter": "第7章",
+      "section": "第7章",
+      "askingGapminder": true,
+      "permalink": "errata-temp-1",
+      "index": 17
+    }
+  ],
+  "第8章": [
+    {
+      "jpPage": 243,
+      "jpPageFirst": 243,
+      "listRow": 44,
+      "chapter": "第8章",
+      "section": "第8章",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-44",
+      "index": 18
+    }
+  ],
+  "第9章": [
+    {
+      "jpPage": 274,
+      "jpPageFirst": 274,
+      "listRow": 6,
+      "chapter": "第9章",
+      "section": "第9章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-6",
+      "index": 19
+    }
+  ],
+  "第10章": [
+    {
+      "jpPage": [
+        288
+      ],
+      "jpPageFirst": 288,
+      "listRow": 40,
+      "chapter": "第10章",
+      "section": "第10章",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-40",
+      "index": 20
+    },
+    {
+      "jpPage": 294,
+      "jpPageFirst": 294,
+      "listRow": 21,
+      "chapter": "第10章",
+      "section": "第10章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-21",
+      "index": 21
+    },
+    {
+      "jpPage": 302,
+      "jpPageFirst": 302,
+      "listRow": 20,
+      "chapter": "第10章",
+      "section": "第10章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-20",
+      "index": 22
+    },
+    {
+      "jpPage": 302,
+      "jpPageFirst": 302,
+      "listRow": 42,
+      "chapter": "第10章",
+      "section": "第10章",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-42",
+      "index": 23
+    }
+  ],
+  "第11章": [
+    {
+      "jpPage": 321,
+      "jpPageFirst": 321,
+      "listRow": 5,
+      "chapter": "第11章",
+      "section": "第11章",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-5",
+      "index": 24
+    }
+  ],
+  "脚注": [
+    {
+      "jpPage": 357,
+      "jpPageFirst": 357,
+      "listRow": 7,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-7",
+      "index": 25
+    },
+    {
+      "jpPage": [
+        363,
+        368
+      ],
+      "jpPageFirst": 363,
+      "listRow": 38,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-38",
+      "index": 26
+    },
+    {
+      "jpPage": [
+        365
+      ],
+      "jpPageFirst": 365,
+      "listRow": 17,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 2,
+      "fixedInKindle": true,
+      "permalink": "errata-17",
+      "index": 27
+    },
+    {
+      "jpPage": 367,
+      "jpPageFirst": 367,
+      "listRow": 37,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 9,
+      "fixedInKindle": false,
+      "permalink": "errata-37",
+      "index": 28
+    },
+    {
+      "jpPage": 371,
+      "jpPageFirst": 371,
+      "listRow": 35,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 8,
+      "fixedInKindle": false,
+      "permalink": "errata-35",
+      "index": 29
+    },
+    {
+      "jpPage": 372,
+      "jpPageFirst": 372,
+      "listRow": 33,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 8,
+      "fixedInKindle": false,
+      "permalink": "errata-33",
+      "index": 30
+    }
+  ]
+}
