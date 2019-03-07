@@ -16,7 +16,13 @@ const IntroErrata = () => (
         <Link href="mailto:shu@chibicode.com">shu@chibicode.com</Link>
         )までご連絡ください。
       </li>
-      <li />
+      <li>
+        このページの変更履歴は
+        <Link href="https://github.com/chibicode/factfulness-source.chibicode.com/commits/dev/src/errata">
+          こちらのGitHubリンク
+        </Link>
+        からご覧になれます。
+      </li>
       <li>
         また、
         <Link LinkComponent={InternalLink} href="/">
