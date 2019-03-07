@@ -2097,13 +2097,19 @@ const errata = [
     fixedInKindle: false
   },
   {
+    jpPage: [288],
+    listRow: 40,
+    fixedEdition: 9,
+    fixedInKindle: false
+  },
+  {
     jpPage: 302,
     listRow: 42,
     fixedEdition: 9,
     fixedInKindle: false
   },
   {
-    jpPage: 43,
+    jpPage: 154,
     listRow: 43,
     fixedEdition: 9,
     fixedInKindle: false

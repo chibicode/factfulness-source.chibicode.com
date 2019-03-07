@@ -4,10 +4,10 @@ import * as H from '../components/h'
 export default () => (
   <p>
     <H.ErrataHighlightCombined
-      before={<>十羽ひとからげ</>}
+      before={<>キクウィット</>}
       after={
         <>
-          十<strong>把</strong>ひとからげ
+          <strong>キクウィト</strong>
         </>
       }
     />

@@ -15,10 +15,11 @@ export default () => (
       />
     </p>
     <p>
+      (
       <H.A href="https://en.wikipedia.org/wiki/Human_rights_in_the_Islamic_Republic_of_Iran#Freedom_of_expression">
         イランでは表現の自由が制限されている
       </H.A>
-      ことを知らない人のために分かりやすくしました。
+      ことを知らない人のために分かりやすくしました)
     </p>
   </>
 )

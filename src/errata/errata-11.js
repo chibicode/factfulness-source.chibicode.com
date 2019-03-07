@@ -14,11 +14,11 @@ export default () => (
       />
     </p>
     <p>
-      絶滅危惧種のリストの種が増える、というと悪いことに思えますが、実際は「絶滅しないように計測している＝いいこと」なので。
+      (絶滅危惧種のリストの種が増える、というと悪いことに思えますが、実際は「絶滅しないように計測している＝いいこと」なので。
       <H.OtherCardLink toSource permalink="81-graph-monitored-species">
         こちらの脚注
       </H.OtherCardLink>
-      も参考に。
+      も参考に)
     </p>
   </>
 )
