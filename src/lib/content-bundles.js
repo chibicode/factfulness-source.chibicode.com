@@ -144,6 +144,11 @@ export default {
       import(/* webpackChunkName: 'errata/errata-9' */ '../errata/errata-9.js'),
     {loading: () => <DynamicLoading />}
   ),
+  'errata-temp-1': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-temp-1' */ '../errata/errata-temp-1.js'),
+    {loading: () => <DynamicLoading />}
+  ),
   '10-fact-question-4-life-expectancy': dynamic(
     () =>
       import(/* webpackChunkName: 'sources/10-fact-question-4-life-expectancy' */ '../sources/10-fact-question-4-life-expectancy.js'),

@@ -2089,6 +2089,11 @@ const errata = [
     listRow: 44,
     fixedEdition: 9,
     fixedInKindle: false
+  },
+  {
+    jpPage: 228,
+    listRow: 'temp-1',
+    askingGapminder: true
   }
 ]
 

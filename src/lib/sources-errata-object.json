@@ -3047,6 +3047,16 @@
     "permalink": "errata-29",
     "index": 15
   },
+  "errata-temp-1": {
+    "jpPage": 228,
+    "jpPageFirst": 228,
+    "listRow": "temp-1",
+    "chapter": "第7章",
+    "section": "第7章",
+    "askingGapminder": true,
+    "permalink": "errata-temp-1",
+    "index": 16
+  },
   "errata-44": {
     "jpPage": 243,
     "jpPageFirst": 243,
@@ -3056,7 +3066,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-44",
-    "index": 16
+    "index": 17
   },
   "errata-6": {
     "jpPage": 274,
@@ -3067,7 +3077,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-6",
-    "index": 17
+    "index": 18
   },
   "errata-21": {
     "jpPage": 294,
@@ -3078,7 +3088,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-21",
-    "index": 18
+    "index": 19
   },
   "errata-20": {
     "jpPage": 302,
@@ -3089,7 +3099,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-20",
-    "index": 19
+    "index": 20
   },
   "errata-42": {
     "jpPage": 302,
@@ -3100,7 +3110,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-42",
-    "index": 20
+    "index": 21
   },
   "errata-5": {
     "jpPage": 321,
@@ -3111,7 +3121,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-5",
-    "index": 21
+    "index": 22
   },
   "errata-7": {
     "jpPage": 357,
@@ -3122,7 +3132,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-7",
-    "index": 22
+    "index": 23
   },
   "errata-38": {
     "jpPage": [
@@ -3136,7 +3146,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-38",
-    "index": 23
+    "index": 24
   },
   "errata-17": {
     "jpPage": [
@@ -3149,7 +3159,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-17",
-    "index": 24
+    "index": 25
   },
   "errata-37": {
     "jpPage": 367,
@@ -3160,7 +3170,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-37",
-    "index": 25
+    "index": 26
   },
   "errata-35": {
     "jpPage": 371,
@@ -3171,7 +3181,7 @@
     "fixedEdition": 8,
     "fixedInKindle": false,
     "permalink": "errata-35",
-    "index": 26
+    "index": 27
   },
   "errata-33": {
     "jpPage": 372,
@@ -3182,6 +3192,6 @@
     "fixedEdition": 8,
     "fixedInKindle": false,
     "permalink": "errata-33",
-    "index": 27
+    "index": 28
   }
 }

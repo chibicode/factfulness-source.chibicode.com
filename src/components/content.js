@@ -20,7 +20,8 @@ const Content = ({
   fixedInKindle,
   isModal,
   hideFooter,
-  constructionId
+  constructionId,
+  askingGapminder
 }) => {
   const {type} = useContext(PageContext)
   const Component = contentBundles[permalink]
@@ -48,7 +49,9 @@ const Content = ({
       <div className="content">
         <Component />
       </div>
-      {type === 'errata' && <ErrataFixed {...{fixedEdition, fixedInKindle}} />}
+      {type === 'errata' && (
+        <ErrataFixed {...{askingGapminder, fixedEdition, fixedInKindle}} />
+      )}
       {!hideFooter && (
         <>
           <p
