@@ -3,8 +3,18 @@ import sourcesErrataObject from '../lib/sources-errata-object'
 import InternalLink from './internal-link'
 import Link from './link'
 
-const OtherCardLink = ({permalink, children, useTitleAsChildren, ...props}) => (
-  <Link LinkComponent={InternalLink} href={`?p=${permalink}`} {...props}>
+const OtherCardLink = ({
+  permalink,
+  children,
+  useTitleAsChildren,
+  toSource,
+  ...props
+}) => (
+  <Link
+    LinkComponent={InternalLink}
+    href={`${toSource ? '/' : ''}?p=${permalink}`}
+    {...props}
+  >
     {useTitleAsChildren ? sourcesErrataObject[permalink].jpTitle : children}
   </Link>
 )
