@@ -5,10 +5,10 @@ const chapterFromPageNumber = jpPage => {
   const jpPageToCheck = Array.isArray(jpPage) ? jpPage[0] : jpPage
 
   if (jpPageToCheck < 27) {
-    throw new Error('error')
-  } else if (jpPageToCheck < 61) {
+    return '全般'
+  } if (jpPageToCheck < 61) {
     return 1
-  } else if (jpPageToCheck < 96) {
+  } if (jpPageToCheck < 96) {
     return 2
   } else if (jpPageToCheck < 129) {
     return 3
@@ -2094,6 +2094,15 @@ const errata = [
     jpPage: 228,
     listRow: 'temp-1',
     askingGapminder: true
+  },
+  {
+    section: '全般・見返し・はじめに',
+    chapter: '全般',
+    jpTitle: '世界保健機関',
+    jpPage: -100,
+    listRow: 45,
+    fixedEdition: 9,
+    fixedInKindle: false
   }
 ]
 

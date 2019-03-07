@@ -2866,6 +2866,18 @@
     "permalink": "final-note",
     "index": 246
   },
+  "errata-45": {
+    "jpPage": -100,
+    "jpPageFirst": -100,
+    "listRow": 45,
+    "chapter": "全般",
+    "section": "全般・見返し・はじめに",
+    "jpTitle": "世界保健機関",
+    "fixedEdition": 9,
+    "fixedInKindle": false,
+    "permalink": "errata-45",
+    "index": 0
+  },
   "errata-43": {
     "jpPage": 43,
     "jpPageFirst": 43,
@@ -2875,7 +2887,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-43",
-    "index": 0
+    "index": 1
   },
   "errata-28": {
     "jpPage": 54,
@@ -2886,7 +2898,7 @@
     "fixedEdition": 4,
     "fixedInKindle": false,
     "permalink": "errata-28",
-    "index": 1
+    "index": 2
   },
   "errata-27": {
     "jpPage": 63,
@@ -2897,7 +2909,7 @@
     "fixedEdition": 3,
     "fixedInKindle": false,
     "permalink": "errata-27",
-    "index": 2
+    "index": 3
   },
   "errata-12": {
     "jpPage": [
@@ -2910,7 +2922,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-12",
-    "index": 3
+    "index": 4
   },
   "errata-11": {
     "jpPage": 81,
@@ -2921,7 +2933,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-11",
-    "index": 4
+    "index": 5
   },
   "errata-2": {
     "jpPage": 85,
@@ -2932,7 +2944,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-2",
-    "index": 5
+    "index": 6
   },
   "errata-36": {
     "jpPage": 110,
@@ -2943,7 +2955,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-36",
-    "index": 6
+    "index": 7
   },
   "errata-34": {
     "jpPage": 133,
@@ -2954,7 +2966,7 @@
     "fixedEdition": 8,
     "fixedInKindle": false,
     "permalink": "errata-34",
-    "index": 7
+    "index": 8
   },
   "errata-14": {
     "jpPage": [
@@ -2968,7 +2980,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-14",
-    "index": 8
+    "index": 9
   },
   "errata-30": {
     "jpPage": 152,
@@ -2979,7 +2991,7 @@
     "fixedEdition": 6,
     "fixedInKindle": false,
     "permalink": "errata-30",
-    "index": 9
+    "index": 10
   },
   "errata-24": {
     "jpPage": 171,
@@ -2990,7 +3002,7 @@
     "fixedEdition": 3,
     "fixedInKindle": false,
     "permalink": "errata-24",
-    "index": 10
+    "index": 11
   },
   "errata-31": {
     "jpPage": 193,
@@ -3001,7 +3013,7 @@
     "fixedEdition": 8,
     "fixedInKindle": false,
     "permalink": "errata-31",
-    "index": 11
+    "index": 12
   },
   "errata-22": {
     "jpPage": 204,
@@ -3012,7 +3024,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-22",
-    "index": 12
+    "index": 13
   },
   "errata-23": {
     "jpPage": 206,
@@ -3023,7 +3035,7 @@
     "fixedEdition": 2,
     "fixedInKindle": false,
     "permalink": "errata-23",
-    "index": 13
+    "index": 14
   },
   "errata-9": {
     "jpPage": 225,
@@ -3034,7 +3046,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-9",
-    "index": 14
+    "index": 15
   },
   "errata-29": {
     "jpPage": 228,
@@ -3045,7 +3057,7 @@
     "fixedEdition": 6,
     "fixedInKindle": false,
     "permalink": "errata-29",
-    "index": 15
+    "index": 16
   },
   "errata-temp-1": {
     "jpPage": 228,
@@ -3055,7 +3067,7 @@
     "section": "第7章",
     "askingGapminder": true,
     "permalink": "errata-temp-1",
-    "index": 16
+    "index": 17
   },
   "errata-44": {
     "jpPage": 243,
@@ -3066,7 +3078,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-44",
-    "index": 17
+    "index": 18
   },
   "errata-6": {
     "jpPage": 274,
@@ -3077,7 +3089,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-6",
-    "index": 18
+    "index": 19
   },
   "errata-21": {
     "jpPage": 294,
@@ -3088,7 +3100,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-21",
-    "index": 19
+    "index": 20
   },
   "errata-20": {
     "jpPage": 302,
@@ -3099,7 +3111,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-20",
-    "index": 20
+    "index": 21
   },
   "errata-42": {
     "jpPage": 302,
@@ -3110,7 +3122,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-42",
-    "index": 21
+    "index": 22
   },
   "errata-5": {
     "jpPage": 321,
@@ -3121,7 +3133,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-5",
-    "index": 22
+    "index": 23
   },
   "errata-7": {
     "jpPage": 357,
@@ -3132,7 +3144,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-7",
-    "index": 23
+    "index": 24
   },
   "errata-38": {
     "jpPage": [
@@ -3146,7 +3158,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-38",
-    "index": 24
+    "index": 25
   },
   "errata-17": {
     "jpPage": [
@@ -3159,7 +3171,7 @@
     "fixedEdition": 2,
     "fixedInKindle": true,
     "permalink": "errata-17",
-    "index": 25
+    "index": 26
   },
   "errata-37": {
     "jpPage": 367,
@@ -3170,7 +3182,7 @@
     "fixedEdition": 9,
     "fixedInKindle": false,
     "permalink": "errata-37",
-    "index": 26
+    "index": 27
   },
   "errata-35": {
     "jpPage": 371,
@@ -3181,7 +3193,7 @@
     "fixedEdition": 8,
     "fixedInKindle": false,
     "permalink": "errata-35",
-    "index": 27
+    "index": 28
   },
   "errata-33": {
     "jpPage": 372,
@@ -3192,6 +3204,6 @@
     "fixedEdition": 8,
     "fixedInKindle": false,
     "permalink": "errata-33",
-    "index": 28
+    "index": 29
   }
 }
