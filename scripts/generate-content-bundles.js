@@ -1,15 +1,16 @@
 const fs = require('fs')
 const glob = require('glob')
 
-glob('./src/contents/*.js', (_, files) => {
-  const permalinks = files.map(x =>
-    x.replace('./src/contents/', '').replace('.js', '')
-  )
+glob('./src/{sources,errata}/*.js', (_, files) => {
+  const permalinks = files.map(x => x.replace('./src/', '').replace('.js', ''))
 
   const objectKeyValues = permalinks
     .map(
       permalink =>
-        `  '${permalink}': dynamic(() => import(/* webpackChunkName: '${permalink}' */ '../contents/${permalink}.js'), { loading: () => <DynamicLoading /> })`
+        `  '${permalink.replace(
+          /(sources|errata)\//g,
+          ''
+        )}': dynamic(() => import(/* webpackChunkName: '${permalink}' */ '../${permalink}.js'), { loading: () => <DynamicLoading /> })`
     )
     .join(',\n')
 
