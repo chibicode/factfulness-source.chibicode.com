@@ -90,13 +90,13 @@ const process = items => {
 
   processedItems = processedItems.map((x, index) => ({...x, index}))
 
-  const groupedItems = []
+  const groupedItems = {}
   let lastSection
   processedItems.forEach(item => {
     if (item.section === lastSection) {
-      groupedItems[groupedItems.length - 1].push(item)
+      groupedItems[item.section].push(item)
     } else {
-      groupedItems.push([item])
+      groupedItems[item.section] = [item]
     }
 
     lastSection = item.section

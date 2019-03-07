@@ -1,9 +1,10 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
-import {useEffect} from 'react'
+import {useEffect, useContext} from 'react'
 import smoothscroll from 'smoothscroll-polyfill'
-import groupedSources from '../lib/grouped-sources'
+import sections from '../lib/sections'
 import Container from './container'
+import {PageContext} from './page'
 import {ns} from './global-styles'
 
 const onClick = ({index, setDropdownActive}) => () => {
@@ -19,6 +20,7 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
   useEffect(() => {
     smoothscroll.polyfill()
   }, [])
+  const {type} = useContext(PageContext)
   return (
     <Container hasHorizontalPadding={false}>
       <div
@@ -35,9 +37,9 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
           }
         `}
       >
-        {groupedSources.map((section, index) => (
+        {sections(type).map((section, index) => (
           <button
-            key={section[0].section}
+            key={section}
             css={({colors}) => [
               css`
                 cursor: pointer;
@@ -73,7 +75,7 @@ const NavDropdown = ({setDropdownActive, activeIndex}) => {
             type="button"
             onClick={onClick({index, setDropdownActive})}
           >
-            {section[0].section}
+            {section}
           </button>
         ))}
       </div>

@@ -39,23 +39,24 @@ const Main = () => {
           </Card>
         </>
       )}
-      {sections.map((section, i) => {
+      {sections(type).map((section, i) => {
         return (
           <SectionWrapper key={section} index={i}>
             <SectionHeader>{section}</SectionHeader>
-            {items[i] ? (
-              items[i].map((data, j) => (
+            {items[section] ? (
+              items[section].map((data, j) => (
                 <Card
                   key={data.permalink}
                   isLast={
-                    j === items[i].length - 1 && i === sections.length - 1
+                    j === items[section].length - 1 &&
+                    i === sections(type).length - 1
                   }
                 >
                   <Content {...data} />
                 </Card>
               ))
             ) : (
-              <Card isLast={i === sections.length - 1}>
+              <Card isLast={i === sections(type).length - 1}>
                 <ErrataEmpty />
               </Card>
             )}

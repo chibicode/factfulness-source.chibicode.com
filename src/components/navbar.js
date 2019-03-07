@@ -2,7 +2,7 @@
 import {jsx, css} from '@emotion/core'
 import {useContext} from 'react'
 import useNavCloser from '../hooks/use-nav-closer'
-import groupedSources from '../lib/grouped-sources'
+import sections from '../lib/sections'
 import NavDropdown from './nav-dropdown'
 import {NavContext} from './nav-state'
 import {ns} from './global-styles'
@@ -77,8 +77,8 @@ const Navbar = () => {
             onClick={onShowClick}
           >
             {maxVisibleIndex >= 0
-              ? groupedSources[maxVisibleIndex][0].section
-              : groupedSources[0][0].section}{' '}
+              ? sections(type)[maxVisibleIndex]
+              : sections(type)[0]}{' '}
             <span
               css={css`
                 width: 0;

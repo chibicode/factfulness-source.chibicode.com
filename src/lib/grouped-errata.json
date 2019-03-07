@@ -1,5 +1,5 @@
-[
-  [
+{
+  "第1章": [
     {
       "jpPage": 43,
       "jpPageFirst": 43,
@@ -23,7 +23,7 @@
       "index": 1
     }
   ],
-  [
+  "第2章": [
     {
       "jpPage": 63,
       "jpPageFirst": 63,
@@ -71,7 +71,7 @@
       "index": 5
     }
   ],
-  [
+  "第3章": [
     {
       "jpPage": 110,
       "jpPageFirst": 110,
@@ -84,7 +84,7 @@
       "index": 6
     }
   ],
-  [
+  "第4章": [
     {
       "jpPage": 133,
       "jpPageFirst": 133,
@@ -122,7 +122,7 @@
       "index": 9
     }
   ],
-  [
+  "第5章": [
     {
       "jpPage": 171,
       "jpPageFirst": 171,
@@ -135,7 +135,7 @@
       "index": 10
     }
   ],
-  [
+  "第6章": [
     {
       "jpPage": 193,
       "jpPageFirst": 193,
@@ -170,7 +170,7 @@
       "index": 13
     }
   ],
-  [
+  "第7章": [
     {
       "jpPage": 225,
       "jpPageFirst": 225,
@@ -194,7 +194,7 @@
       "index": 15
     }
   ],
-  [
+  "第8章": [
     {
       "jpPage": 243,
       "jpPageFirst": 243,
@@ -207,7 +207,7 @@
       "index": 16
     }
   ],
-  [
+  "第9章": [
     {
       "jpPage": 274,
       "jpPageFirst": 274,
@@ -220,7 +220,7 @@
       "index": 17
     }
   ],
-  [
+  "第10章": [
     {
       "jpPage": 294,
       "jpPageFirst": 294,
@@ -255,7 +255,7 @@
       "index": 20
     }
   ],
-  [
+  "第11章": [
     {
       "jpPage": 321,
       "jpPageFirst": 321,
@@ -268,7 +268,7 @@
       "index": 21
     }
   ],
-  [
+  "脚注": [
     {
       "jpPage": 357,
       "jpPageFirst": 357,
@@ -341,4 +341,4 @@
       "index": 27
     }
   ]
-]
+}
