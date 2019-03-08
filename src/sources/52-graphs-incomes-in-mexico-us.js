@@ -17,7 +17,7 @@ export default () => (
       )に沿うように分布の形に調整を加えている。
     </p>
     <p>
-      本書ではどの所得のグラフでも対数目盛を利用している。対数目盛を使用しない場合、グラフは以下のような形になる。
+      本書ではどの所得のグラフでも対数目盛を利用している。対数目盛を使用しない場合、グラフは下(2番目)のような形になる。
       <H.A href="http://gapm.io/fbincmlinlog">詳しくはこちら</H.A>。
     </p>
     <H.GraphThumbnail src="/static/images/sources/us-mexico-linear-graph.jpg" />

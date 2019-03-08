@@ -1,5 +1,6 @@
 import React from 'react'
 import * as H from '../components/h'
+import P40 from './40-primary-school-completion-rate'
 
 export default () => (
   <>
@@ -40,6 +41,16 @@ export default () => (
     </p>
 
     <p>2017年にこの質問を14カ国1万2000人に行ったところ、正解率は7%だった。</p>
+    <H.BlockAddition>
+      <p>
+        <H.BlockAdditionHeader />
+        <H.OtherCardLink permalink="40-primary-school-completion-rate.js">
+          P40の脚注
+        </H.OtherCardLink>
+        には、以下のように書かれている:
+      </p>
+      <P40 />
+    </H.BlockAddition>
 
     <H.InlineCitation>
       <ul>

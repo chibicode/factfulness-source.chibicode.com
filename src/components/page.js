@@ -22,6 +22,8 @@ const Page = ({type, router}) => (
     <Head />
     {router.query.s ? (
       <ScreenshotContent permalink={router.query.s} />
+    ) : router.query.ss ? (
+      <ScreenshotContent permalinks={router.query.ss.split(',')} />
     ) : (
       <NavState>
         {router.query.p ? (

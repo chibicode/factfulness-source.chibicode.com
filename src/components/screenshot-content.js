@@ -4,7 +4,7 @@ import sourcesObject from '../lib/sources-errata-object'
 import Content from './content'
 import Card from './card'
 
-const ScreenshotContent = ({permalink}) => (
+const ScreenshotContent = ({permalink, permalinks}) => (
   <>
     <Global
       styles={css`
@@ -13,9 +13,17 @@ const ScreenshotContent = ({permalink}) => (
         }
       `}
     />
-    <Card isLast>
-      <Content hideFooter {...sourcesObject[permalink]} />
-    </Card>
+    {permalinks ? (
+      permalinks.map((permalink, i) => (
+        <Card key={permalink} isLast={i === permalinks.length - 1}>
+          <Content hideFooter {...sourcesObject[permalink]} />
+        </Card>
+      ))
+    ) : (
+      <Card isLast>
+        <Content hideFooter {...sourcesObject[permalink]} />
+      </Card>
+    )}
   </>
 )
 
