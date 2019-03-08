@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
 import {ns} from './global-styles'
+import CardConnector from './card-connector'
 import ModalHeader from './modal-header'
 
 const Card = ({children, isLast, background, foreground, isModal}) => (
@@ -41,19 +42,7 @@ const Card = ({children, isLast, background, foreground, isModal}) => (
         {children}
       </div>
     </section>
-    {!isLast && (
-      <div
-        css={({colors}) => css`
-          width: 1.25rem;
-          height: 1rem;
-          ${ns} {
-            height: 1.75rem;
-          }
-          margin: 0 auto;
-          background: ${colors.base100};
-        `}
-      />
-    )}
+    {!isLast && <CardConnector />}
   </>
 )
 
