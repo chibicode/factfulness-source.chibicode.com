@@ -8,7 +8,7 @@ export default () => (
       <H.A href="https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/z2knhgzguv/GB_Website.pdf">
         YouGov
       </H.A>
-      が17カ国1万8000人を対象に行ったものだった。その結果にとても驚いたわたしたちは、他の調査会社でも同じ結果になるか試してみた。2017年に調査会社のIspos-MORIが同じ質問をしてみたところ、かなり近い結果になった。本書のグラフはYouGovとIspos-MORIの結果を合わせたもの。
+      が17カ国1万8000人を対象に行ったものだった。その結果にとても驚いたわたしたちは、他の調査会社でも同じ結果になるか試してみた。2017年に調査会社のIpsos-MORIが同じ質問をしてみたところ、かなり近い結果になった。本書のグラフはYouGovとIpsos-MORIの結果を合わせたもの。
     </p>
     <p>
       比較的多くの人が「世界は良くなっている」と答えたのは

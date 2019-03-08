@@ -5,7 +5,7 @@ export default () => (
   <>
     <p>
       <H.FB pageNumber={363}>
-        人々が過大視しやすい物事の例は、33カ国を対象に調査を行ったIspos
+        人々が過大視しやすい物事の例は、33カ国を対象に調査を行ったIpsos
         MORI[2,3]によるもの。
       </H.FB>
       (<H.A href="http://www.gapm.io/xip15">Perils of Perception</H.A>
