@@ -9,7 +9,7 @@ export default () => (
     <p>
       所得ごとの人口は世界銀行の
       <H.A href="http://iresearch.worldbank.org/PovcalNet">Povcal[1]</H.A>
-      を基にしている。家庭あたりの所得を、購買力の違い(PPP)を考慮し2011年国際ドルに変換した。こうすることで国ごとの所得を正しく比較できる。横軸は対数目盛を利用している。さらに、各国の所得調査のデータ(
+      を基にしている。家庭あたりの所得を、購買力の違い(<H.OtherCardLink permalink="ppp-extreme-poverty">購買力平価</H.OtherCardLink>)を考慮し2011年国際ドルに変換した。こうすることで国ごとの所得を正しく比較できる。横軸は対数目盛を利用している。さらに、各国の所得調査のデータ(
       <H.A href="http://www.beta.inegi.org.mx/proyectos/enchogares/regulares/enigh/nc/2016">
         ENIGH
       </H.A>

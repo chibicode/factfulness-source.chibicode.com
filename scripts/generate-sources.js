@@ -157,8 +157,16 @@ const sources = [
   },
   {
     section: '全般・見返し・はじめに',
+    chapter: '全般',
+    jpPage: -100,
+    enTitle: 'PPP and Extreme Poverty',
+    jpTitle: '「購買力平価」と「極度の貧困」',
+    permalink: 'ppp-extreme-poverty'
+  },
+  {
+    section: '全般・見返し・はじめに',
     chapter: '見返し',
-    jpPage: -101,
+    jpPage: -100,
     enTitle: 'Inside front cover: World Health Chart 2017',
     jpTitle: '世界保健チャート(2017年版)',
     permalink: 'inside-front-cover'
@@ -166,7 +174,7 @@ const sources = [
   {
     section: '全般・見返し・はじめに',
     chapter: '見返し',
-    jpPage: -100,
+    jpPage: -99,
     enTitle: 'Inside cover at the end: People by region and income',
     jpTitle: '地域ごと・所得ごとの暮らしと人口',
     permalink: 'inside-end-cover'

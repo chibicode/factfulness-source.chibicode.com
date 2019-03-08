@@ -1393,5 +1393,10 @@ export default {
     () =>
       import(/* webpackChunkName: 'sources/inside-front-cover' */ '../sources/inside-front-cover.js'),
     {loading: () => <DynamicLoading />}
+  ),
+  'ppp-extreme-poverty': dynamic(
+    () =>
+      import(/* webpackChunkName: 'sources/ppp-extreme-poverty' */ '../sources/ppp-extreme-poverty.js'),
+    {loading: () => <DynamicLoading />}
   )
 }

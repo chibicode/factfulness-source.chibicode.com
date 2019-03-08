@@ -18,7 +18,7 @@ export default () => (
     </p>
     <p>
       <H.FB pageNumber={373}>
-        横軸はひとりあたりのGDP(購買力平価ベース、2011年国際ドル)を表している。
+        横軸はひとりあたりのGDP(<H.OtherCardLink permalink="ppp-extreme-poverty">購買力平価</H.OtherCardLink>ベース、2011年国際ドル)を表している。
       </H.FB>
       ギャップマインダーが定義した
       <H.A href="http://gapm.io/elev">4つの所得レベル</H.A>

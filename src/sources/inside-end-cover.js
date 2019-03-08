@@ -11,7 +11,7 @@ export default () => (
       を参考に)。
     </p>
     <p>
-      世帯あたりの所得はひとりあたりのGDP(購買力平価ベース、2011年国際ドル)を基にした(
+      世帯あたりの所得はひとりあたりのGDP(<H.OtherCardLink permalink="ppp-extreme-poverty">購買力平価</H.OtherCardLink>ベース、2011年国際ドル)を基にした(
       <H.A href="http://www.gapm.io/x-icpp">ICP[1]</H.A>
       )。2013年の所得とジニ係数のデータは、
       <H.A href="http://iresearch.worldbank.org/PovcalNet">PovCal</H.A>
