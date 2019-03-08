@@ -3,7 +3,7 @@ import {jsx, css} from '@emotion/core'
 import {ns} from './global-styles'
 
 const CardConnector = () => (
-  <div
+  <section
     css={({colors}) => css`
       width: 1.25rem;
       height: 1rem;
