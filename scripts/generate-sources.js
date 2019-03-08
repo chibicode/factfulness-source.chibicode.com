@@ -448,21 +448,21 @@ const sources = [
     jpPage: 46,
     enPage: 34,
     enTitle: `Average family size on Level 1`,
-    jpTitle: `レベル1の家庭の平均人数`
+    jpTitle: `レベル1における家庭の平均人数`
   },
   {
     chapter: 1,
     jpPage: 46,
     enPage: 34,
     enTitle: `Children working in the household`,
-    jpTitle: `暮らしを支える子供たち`
+    jpTitle: `レベル1の暮らしを支える子供たち`
   },
   {
     chapter: 1,
     jpPage: 46,
     enPage: 34,
     enTitle: `Air pollution`,
-    jpTitle: `室内空気汚染`
+    jpTitle: `レベル1における室内空気汚染`
   },
   {
     chapter: 1,
@@ -476,7 +476,7 @@ const sources = [
     jpPage: 47,
     enPage: 35,
     enTitle: `Work in a garment factory`,
-    jpTitle: `繊維工場で働くこと`
+    jpTitle: `レベル2における繊維工場の仕事`
   },
   {
     chapter: 1,
