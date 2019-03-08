@@ -14,8 +14,8 @@ export default () => (
     </p>
 
     <p>
-      2016年の世界中の1歳児のワクチン接種率は以下の通り(
-      <H.A href="http://gapm.io/xwhoim">ソース</H.A>)。
+      <H.A href="http://gapm.io/xwhoim">世界保健機関によると</H.A>
+      、2016年の世界中の1歳児のワクチン接種率は以下の通り。
     </p>
     <ul>
       <li>BCGワクチン(結核): 88%</li>
