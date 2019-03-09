@@ -5,7 +5,7 @@ export default () => (
   <>
     <H.GraphThumbnail src="/static/images/32-graphs/g27.png" />
     <p>
-      国際自然保護連合が作成したレッドリストには、8万7967種(動物、植物、菌類)が登録されており、絶滅のおそれの度合いが記されている(
+      国際自然保護連合(IUCN)が作成したレッドリストには、8万7967種(動物、植物、菌類)が登録されており、絶滅のおそれの度合いが記されている(
       <H.A href="https://gapm.io/xiucnr4">IUCN Red List[4]</H.A>
       )。このうち、2万5062(約285)が「絶滅危惧」とされている(絶滅寸前
       (CR)、絶滅危惧 (EN)、危急 (VU))。
@@ -42,6 +42,37 @@ export default () => (
       />
       も参考のこと。
     </p>
+    <H.BlockAddition>
+      <p>
+        <H.BlockAdditionHeader />
+        勘違いしてはいけないポイントだが、国際自然保護連合のレッドリストには、絶滅とはまったく縁がない種も記録されている。だから、「レッドリストに載る数が増える＝悪いこと」ではない。むしろ良いことでしかない。
+      </p>
+      <p>
+        <img src="/static/images/sources/redlist-definitions.png" />
+      </p>
+      <p>
+        上記の画像は「
+        <H.A href="https://www.iucnredlist.org/resources/categories-and-criteria">
+          IUCNレッドリストカテゴリーと基準 3.1版 改訂2版
+        </H.A>
+        」からの引用。この図にもあるように、絶滅とはまったく縁がない種は「低懸念」に分類される。
+      </p>
+      <p>
+        たとえばレッドリストには、日本で最もよく見るカラスである「
+        <H.A href="https://www.iucnredlist.org/species/103727590/94046488">
+          ハシブトガラス
+        </H.A>
+        」や「
+        <H.A href="https://www.iucnredlist.org/species/22706016/118784397">
+          ハシボソガラス
+        </H.A>
+        」も登録されている。もちろん両方とも「低懸念」だ。レッドリストにはなんと「
+        <H.A href="https://www.iucnredlist.org/species/136584/4313662">
+          人類
+        </H.A>
+        」も登録されており、もちろん分類は「低懸念」だ。
+      </p>
+    </H.BlockAddition>
     <H.GraphExplanation />
   </>
 )
