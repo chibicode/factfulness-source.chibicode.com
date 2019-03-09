@@ -20,7 +20,7 @@ const GraphExplanation = () => {
       }
     >
       <p>
-        <strong>32のグラフの横軸・縦軸について:</strong>{' '}
+        <strong>32のグラフの横軸・縦軸についての訳者による補足:</strong>{' '}
         32のグラフの横軸の一番左には、それぞれの題材で信頼できるデータがある最も古い年号が使われている。だから、グラフごとに横軸は違う。このため、ふたつのグラフの形を比較することはできないし、本書でもそのような比較はしていない。
         {!expanded && (
           <LinkButton onClick={() => setExpanded(true)}>続きを読む</LinkButton>
