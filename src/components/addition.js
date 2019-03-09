@@ -18,7 +18,11 @@ const Addition = ({children, hideParens, ...props}) => (
       `}
       {...props}
     >
-      {!hideParens && '(訳註: '}
+      {!hideParens && (
+        <>
+          (<strong>訳註:</strong>{' '}
+        </>
+      )}
       {children}
       {!hideParens && ')'}
     </span>
