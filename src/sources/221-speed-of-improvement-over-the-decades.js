@@ -15,11 +15,6 @@ export default () => (
               サハラ以南アフリカ: 1991 → 2014: 19 → 37%
             </H.A>
           </li>
-          <li>
-            <H.A href="https://ourworldindata.org/grapher/primary-enrollment-selected-countries">
-              ヨーロッパやイギリス: 1865 → 1880: 24.4 → 77%
-            </H.A>
-          </li>
         </ul>
       </li>
       <li>
@@ -28,6 +23,11 @@ export default () => (
           <li>
             <H.A href="https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=ZG">
               サハラ以南アフリカ: 1971 → 2014: 46 → 68%
+            </H.A>
+          </li>
+          <li>
+            <H.A href="https://ourworldindata.org/grapher/primary-enrollment-selected-countries">
+              イギリス: 1865 → 1880: 24.4 → 77%
             </H.A>
           </li>
         </ul>
