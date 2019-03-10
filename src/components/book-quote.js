@@ -1,16 +1,9 @@
 /** @jsx jsx */
 import {jsx, css} from '@emotion/core'
+import Blockquote from './blockquote'
 
 const BookQuote = ({children, pageNumber, pageNumbers, ...props}) => (
-  <blockquote
-    {...props}
-    css={({colors}) => css`
-      padding-left: 1em;
-      margin-left: 0;
-      margin-right: 0;
-      border-left: 0.5em solid ${colors.base100};
-    `}
-  >
+  <Blockquote {...props}>
     {children(
       <span
         css={({colors}) => css`
@@ -21,7 +14,7 @@ const BookQuote = ({children, pageNumber, pageNumbers, ...props}) => (
         {pageNumbers && pageNumbers.join('〜')}より)
       </span>
     )}
-  </blockquote>
+  </Blockquote>
 )
 
 export default BookQuote
