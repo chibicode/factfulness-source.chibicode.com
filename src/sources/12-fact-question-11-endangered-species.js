@@ -23,7 +23,7 @@ export default () => (
     </p>
     <p>
       <strong>トラ</strong> (Panthera tigris): レッドリストによると、
-      <H.A href="http://www.gapm.io/xiucnr1">
+      <H.A href="https://www.iucnredlist.org/species/15955/50659951">
         1996年にEN(絶滅危惧)と指定された
       </H.A>
       。現在もそのままだ。
@@ -37,14 +37,16 @@ export default () => (
     </p>
     <p>
       <strong>ジャイアントパンダ:</strong> レッドリストによると、
-      <H.A href="http://www.gapm.io/xiucn2">
+      <H.A href="https://www.iucnredlist.org/species/712/121745669">
         1996年にEN(絶滅危惧)と指定された
       </H.A>
       。だが、以来野生の数は増え、2015年には保全状況がVU(危急)に改善した。
     </p>
     <p>
       <strong>クロサイ:</strong> レッドリストによると、
-      <H.A href="http://www.gapm.io/xiucn3">1996年にCR(絶滅寸前)</H.A>
+      <H.A href="https://www.iucnredlist.org/species/6557/16980917">
+        1996年にCR(絶滅寸前)
+      </H.A>
       とされていて、現在も変わらない。ただ、国際サイ財団によれば、野生のクロサイの数は
       <H.A href="https://rhinos.org/newsroom/annual-report-financials/">
         2016年には5042〜5455頭だった
@@ -55,6 +57,80 @@ export default () => (
       </H.A>
       。
     </p>
+    <H.BlockAddition>
+      <p>
+        <H.BlockAdditionHeader />
+        ここでは論拠にレッドリストの保全状況が使われているが、保全状況の分類は1996年を境に変わっている。
+        これについては、
+        <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1996-001.pdf">
+          1996年のレッドリストのIntro p17を参照のこと
+        </H.A>
+        。1996年より前のレッドリストの分類については、
+        <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1990-001.pdf">
+          1990年のレッドリストのxxuiページ
+        </H.A>
+        を参考のこと。
+      </p>
+      <p>
+        たとえば、
+        <H.A href="https://www.iucnredlist.org/species/15955/50659951">
+          トラの分類は以下のように変化している
+        </H.A>
+        :
+      </p>
+      <ul>
+        <li>2015 - Endangered (EN)</li>
+        <li>2011 — Endangered (EN)</li>
+        <li>2010 — Endangered (EN)</li>
+        <li>2008 — Endangered (EN)</li>
+        <li>2002 — Endangered (EN)</li>
+        <li>1996 — Endangered (EN)</li>
+        <li>1994 — Endangered (E)</li>
+        <li>1990 — Endangered (E)</li>
+        <li>1988 — Endangered (E)</li>
+        <li>1986 — Endangered (E)</li>
+      </ul>
+      <p>
+        このように、1996年を境に、Endangeredが"E"から"EN"に変化している。分類方法が変わると比較ができないため、現在と分類方法が同じ1996年を起点に質問を考えたのだと思われる。
+      </p>
+      <p>
+        ちなみに、
+        <H.A href="https://www.iucnredlist.org/species/712/121745669">
+          ジャイアントパンダの分類は以下のように変化している
+        </H.A>
+        。1988年に使われていた「Rare」という分類はもう存在しない。
+      </p>
+      <ul>
+        <li>2016 - Vulnerable (VU)</li>
+        <li>2008 — Endangered (EN)</li>
+        <li>1996 — Endangered (EN)</li>
+        <li>1994 — Endangered (E)</li>
+        <li>1990 — Endangered (E)</li>
+        <li>1988 — Rare (R)</li>
+        <li>1986 — Rare (R)</li>
+        <li>1965 — Unknown ( NA)</li>
+      </ul>
+      <p>
+        <H.A href="https://www.iucnredlist.org/species/6557/16980917">
+          クロサイの分類は以下のように変化している
+        </H.A>
+        。1994年以前は、絶滅(Extinct(Ex))のひとつ直前の分類はEndangered(E)しかなく、現在のようなCritically
+        Endangered(CR)とEndangered(EN)の違いはなかったため、比較ができない。
+      </p>
+      <ul>
+        <li>2012 - Critically Endangered (CR)</li>
+        <li>2011 — Critically Endangered (CR)</li>
+        <li>2008 — Critically Endangered (CR)</li>
+        <li>2003 — Critically Endangered (CR)</li>
+        <li>2002 — Critically Endangered (CR)</li>
+        <li>1996 — Critically Endangered (CR)</li>
+        <li>1994 — Endangered (E)</li>
+        <li>1990 — Endangered (E)</li>
+        <li>1988 — Endangered (E)</li>
+        <li>1986 — Endangered (E)</li>
+        <li>1965 — Unknown (N/A)</li>
+      </ul>
+    </H.BlockAddition>
     <H.InlineCitation>
       <ul>
         <li>
