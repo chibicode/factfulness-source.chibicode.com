@@ -67,7 +67,7 @@ export default () => (
         </H.A>
         。1996年より前のレッドリストの分類については、
         <H.A href="https://portals.iucn.org/library/sites/library/files/documents/RL-1990-001.pdf">
-          1990年のレッドリストのxxuiページ
+          1990年のレッドリストのxxiiページ
         </H.A>
         を参考のこと。
       </p>
