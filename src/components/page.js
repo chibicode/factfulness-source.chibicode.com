@@ -16,14 +16,18 @@ Router.events.on('routeChangeComplete', url => pageview(url))
 
 export const PageContext = createContext({})
 
-const Page = ({type, router}) => (
+const Page = ({type, router, embedSingle, embedMultiple}) => (
   <PageContext.Provider value={{type}}>
     <GlobalStyles />
     <Head />
-    {router.query.s ? (
-      <ScreenshotContent permalink={router.query.s} />
-    ) : router.query.ss ? (
-      <ScreenshotContent permalinks={router.query.ss.split(',')} />
+    {router.query.s || embedSingle ? (
+      <ScreenshotContent permalink={router.query.s || embedSingle} />
+    ) : router.query.ss || embedMultiple ? (
+      <ScreenshotContent
+        permalinks={
+          embedMultiple ? embedMultiple.split(',') : router.query.ss.split(',')
+        }
+      />
     ) : (
       <NavState>
         {router.query.p ? (
