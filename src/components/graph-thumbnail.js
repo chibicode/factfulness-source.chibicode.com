@@ -9,6 +9,7 @@ const GraphThumbnail = ({src}) => (
         alt=""
         css={css`
           max-width: 450px;
+          width: 100%;
           margin: 0 auto;
         `}
       />
