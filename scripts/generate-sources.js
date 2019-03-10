@@ -2141,6 +2141,12 @@ const errata = [
     listRow: 45,
     fixedEdition: 9,
     fixedInKindle: false
+  },
+  {
+    jpPage: 357,
+    listRow: 54,
+    fixedEdition: 9,
+    fixedInKindle: false
   }
 ]
 
