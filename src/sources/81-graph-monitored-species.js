@@ -29,7 +29,7 @@ export default () => (
     </p>
     <p>
       世界ではじめて絶滅危惧種を記録しようとした取り組みは
-      <H.A href="http://support.iucnredlist.org/about">
+      <H.A href="https://portals.iucn.org/library/sites/library/files/documents/2015-024.pdf">
         1959年の"Threatened Mammals Card Index"だ
       </H.A>
       。34の哺乳類のデータを集め、Leofric Boyleの指揮のもとThe Species Survival
