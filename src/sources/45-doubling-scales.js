@@ -3,6 +3,7 @@ import * as H from '../components/h'
 
 export default () => (
   <>
+    <H.GraphThumbnail src="/static/images/sources/doubling-graph.png" />
     <p>
       <H.FB pageNumber={369}>
         本書では、人々の所得レベルや国の平均所得を比べるときは、グラフの軸に倍増する目盛を利用している。
