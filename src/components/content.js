@@ -42,7 +42,11 @@ const Content = ({
         >
           {chapter}
           <span>
-            <InternalLink href={`?p=${permalink}`}>固定リンク</InternalLink>
+            <InternalLink
+              href={`${type === 'errata' ? '' : '/'}?p=${permalink}`}
+            >
+              固定リンク
+            </InternalLink>
           </span>
         </p>
       )}
