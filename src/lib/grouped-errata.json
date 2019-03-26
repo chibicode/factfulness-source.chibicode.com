@@ -8,7 +8,7 @@
       "section": "全般・見返し・はじめに",
       "jpTitle": "世界保健機関",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-45",
       "index": 0
     }
@@ -21,7 +21,7 @@
       "chapter": "第1章",
       "section": "第1章",
       "fixedEdition": 4,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-28",
       "index": 1
     }
@@ -34,7 +34,7 @@
       "chapter": "第2章",
       "section": "第2章",
       "fixedEdition": 3,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-27",
       "index": 2
     },
@@ -82,7 +82,7 @@
       "chapter": "第3章",
       "section": "第3章",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-36",
       "index": 6
     }
@@ -95,7 +95,7 @@
       "chapter": "第4章",
       "section": "第4章",
       "fixedEdition": 8,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-34",
       "index": 7
     },
@@ -120,7 +120,7 @@
       "chapter": "第4章",
       "section": "第4章",
       "fixedEdition": 6,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-30",
       "index": 9
     },
@@ -131,7 +131,7 @@
       "chapter": "第4章",
       "section": "第4章",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-43",
       "index": 10
     }
@@ -144,7 +144,7 @@
       "chapter": "第5章",
       "section": "第5章",
       "fixedEdition": 3,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-24",
       "index": 11
     }
@@ -157,7 +157,7 @@
       "chapter": "第6章",
       "section": "第6章",
       "fixedEdition": 8,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-31",
       "index": 12
     },
@@ -179,7 +179,7 @@
       "chapter": "第6章",
       "section": "第6章",
       "fixedEdition": 2,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-23",
       "index": 14
     }
@@ -203,7 +203,7 @@
       "chapter": "第7章",
       "section": "第7章",
       "fixedEdition": 6,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-29",
       "index": 16
     },
@@ -226,7 +226,7 @@
       "chapter": "第8章",
       "section": "第8章",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-44",
       "index": 18
     }
@@ -254,7 +254,7 @@
       "chapter": "第10章",
       "section": "第10章",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-40",
       "index": 20
     },
@@ -287,7 +287,7 @@
       "chapter": "第10章",
       "section": "第10章",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-42",
       "index": 23
     }
@@ -313,7 +313,7 @@
       "chapter": "脚注",
       "section": "脚注",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-54",
       "index": 25
     },
@@ -338,7 +338,7 @@
       "chapter": "脚注",
       "section": "脚注",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-38",
       "index": 27
     },
@@ -362,7 +362,7 @@
       "chapter": "脚注",
       "section": "脚注",
       "fixedEdition": 9,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-37",
       "index": 29
     },
@@ -373,7 +373,7 @@
       "chapter": "脚注",
       "section": "脚注",
       "fixedEdition": 8,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-35",
       "index": 30
     },
@@ -384,7 +384,7 @@
       "chapter": "脚注",
       "section": "脚注",
       "fixedEdition": 8,
-      "fixedInKindle": false,
+      "fixedInKindle": true,
       "permalink": "errata-33",
       "index": 31
     }
