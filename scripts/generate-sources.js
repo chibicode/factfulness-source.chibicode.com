@@ -2030,103 +2030,103 @@ const errata = [
     jpPage: 206,
     listRow: 23,
     fixedEdition: 2,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 171,
     listRow: 24,
     fixedEdition: 3,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 63,
     listRow: 27,
     fixedEdition: 3,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 54,
     listRow: 28,
     fixedEdition: 4,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 228,
     listRow: 29,
     fixedEdition: 6,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 152,
     listRow: 30,
     fixedEdition: 6,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 193,
     listRow: 31,
     fixedEdition: 8,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 372,
     listRow: 33,
     fixedEdition: 8,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 133,
     listRow: 34,
     fixedEdition: 8,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 371,
     listRow: 35,
     fixedEdition: 8,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 110,
     listRow: 36,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 367,
     listRow: 37,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: [363, 368],
     listRow: 38,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: [288],
     listRow: 40,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 302,
     listRow: 42,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 154,
     listRow: 43,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 243,
     listRow: 44,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 228,
@@ -2140,13 +2140,13 @@ const errata = [
     jpPage: -100,
     listRow: 45,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   },
   {
     jpPage: 357,
     listRow: 54,
     fixedEdition: 9,
-    fixedInKindle: false
+    fixedInKindle: true
   }
 ]
 
