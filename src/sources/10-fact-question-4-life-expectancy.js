@@ -11,7 +11,7 @@ export default () => (
         <H.A href="http://gapm.io/xihlex">IHME[1]</H.A>
         )。国連の予測はそれより少し低く、71.9歳だった(
         <H.A href="https://esa.un.org/unpd/wpp">UN-Pop[3]</H.A>
-        )。誇張を避けるため70%に切り捨てた。
+        )。誇張を避けるため70歳に切り捨てた。
       </H.FB>
     </p>
 
