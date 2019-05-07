@@ -7,10 +7,10 @@ export default () => (
       <H.FB pageNumber={364}>
         東日本大震災のデータは
         <H.A href="https://gapm.io/xjapan">
-          警視庁(National Police Agency of Japan)
+          警察庁(National Police Agency of Japan)
         </H.A>
         と<H.A href="https://gapm.io/xjap">Ichiseki(2013)</H.A>
-        によるもの。警視庁によれば、2017年12月時点での東日本大震災の死亡者数は1万5894人で、行方不明者数は2546人。
+        によるもの。警察庁によれば、2017年12月時点での東日本大震災の死亡者数は1万5894人で、行方不明者数は2546人。
         <H.A href="https://gapm.io/xfuk">Tanigawa et al.(2012)</H.A>
         によると、特に病状が重かった61人の後期高齢者は避難中か避難直後に亡くなった。さらにIchisekiによると、高齢者を多く含む約1600人が避難生活中に亡くなった。
       </H.FB>
@@ -18,7 +18,7 @@ export default () => (
     <H.BlockAddition>
       <p>
         <H.BlockAdditionHeader />
-        上記のIchisekiの論文はこちらの警視庁の資料を引用している:「
+        上記のIchisekiの論文はこちらの警察庁の資料を引用している:「
         <H.A href="http://www.reconstruction.go.jp/topics/4.siryou3.pdf">
           東日本大震災における震災関連死の死者数
         </H.A>
