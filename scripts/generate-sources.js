@@ -2152,6 +2152,16 @@ const errata = [
     jpPage: 372,
     listRow: 55,
     fixedEdition: 10
+  },
+  {
+    jpPage: 372,
+    listRow: 56,
+    fixedEdition: 10
+  },
+  {
+    jpPage: 365,
+    listRow: 57,
+    fixedEdition: 11
   }
 ]
 

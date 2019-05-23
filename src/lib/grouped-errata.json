@@ -356,6 +356,16 @@
       "index": 28
     },
     {
+      "jpPage": 365,
+      "jpPageFirst": 365,
+      "listRow": 57,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 11,
+      "permalink": "errata-57",
+      "index": 29
+    },
+    {
       "jpPage": 367,
       "jpPageFirst": 367,
       "listRow": 37,
@@ -364,7 +374,7 @@
       "fixedEdition": 9,
       "fixedInKindle": true,
       "permalink": "errata-37",
-      "index": 29
+      "index": 30
     },
     {
       "jpPage": 371,
@@ -375,7 +385,7 @@
       "fixedEdition": 8,
       "fixedInKindle": true,
       "permalink": "errata-35",
-      "index": 30
+      "index": 31
     },
     {
       "jpPage": 372,
@@ -386,7 +396,7 @@
       "fixedEdition": 8,
       "fixedInKindle": true,
       "permalink": "errata-33",
-      "index": 31
+      "index": 32
     },
     {
       "jpPage": 372,
@@ -396,7 +406,17 @@
       "section": "脚注",
       "fixedEdition": 10,
       "permalink": "errata-55",
-      "index": 32
+      "index": 33
+    },
+    {
+      "jpPage": 372,
+      "jpPageFirst": 372,
+      "listRow": 56,
+      "chapter": "脚注",
+      "section": "脚注",
+      "fixedEdition": 10,
+      "permalink": "errata-56",
+      "index": 34
     }
   ]
 }

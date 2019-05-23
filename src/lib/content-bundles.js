@@ -149,6 +149,16 @@ export default {
       import(/* webpackChunkName: 'errata/errata-55' */ '../errata/errata-55.js'),
     {loading: () => <DynamicLoading />}
   ),
+  'errata-56': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-56' */ '../errata/errata-56.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-57': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-57' */ '../errata/errata-57.js'),
+    {loading: () => <DynamicLoading />}
+  ),
   'errata-6': dynamic(
     () =>
       import(/* webpackChunkName: 'errata/errata-6' */ '../errata/errata-6.js'),
