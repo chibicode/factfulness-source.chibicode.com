@@ -12,7 +12,7 @@ import PermalinkModal from './permalink-modal'
 import NavCloser from './nav-closer'
 import ScreenshotContent from './screenshot-content'
 
-Router.events.on('routeChangeComplete', url => pageview(url))
+Router.events.on('routeChangeComplete', path => pageview(path))
 
 export const PageContext = createContext({})
 

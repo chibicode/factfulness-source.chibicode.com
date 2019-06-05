@@ -3,8 +3,9 @@
 export const GA_TRACKING_ID = 'UA-32987822-22'
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
-export const pageview = url => {
+// https://github.com/zeit/next.js/pull/6787
+export const pageview = path => {
   window.gtag('config', GA_TRACKING_ID, {
-    page_location: url
+    page_path: path
   })
 }
