@@ -6,6 +6,7 @@ export const GA_TRACKING_ID = 'UA-32987822-22'
 // https://github.com/zeit/next.js/pull/6787
 export const pageview = path => {
   window.gtag('config', GA_TRACKING_ID, {
-    page_path: path
+    page_path: path,
+    anonymize_ip: true
   })
 }
