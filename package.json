@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
+    "now-build": "next build",
     "contents": "node ./scripts/generate-sources.js && node ./scripts/generate-content-bundles.js && xo --fix ./src/lib/content-bundles.js",
     "xo": "xo"
   },
