@@ -1,11 +1,15 @@
 const fs = require('fs')
 const problems = require('../src/lib/problems.json')
 
-const chapterFromPageNumber = jpPage => {
+const chapterFromPageNumber = (jpPage) => {
   const jpPageToCheck = Array.isArray(jpPage) ? jpPage[0] : jpPage
 
-  if (jpPageToCheck < 27) {
+  if (jpPageToCheck < 0) {
     return '全般'
+  }
+
+  if (jpPageToCheck < 27) {
+    return 'イントロダクション'
   }
 
   if (jpPageToCheck < 61) {
@@ -59,7 +63,7 @@ const chapterFromPageNumber = jpPage => {
   throw new Error('error')
 }
 
-const processChapter = ({chapter, jpPage}) => {
+const processChapter = ({ chapter, jpPage }) => {
   const processedChapter =
     typeof chapter === 'undefined' ? chapterFromPageNumber(jpPage) : chapter
   return typeof processedChapter === 'number'
@@ -67,15 +71,15 @@ const processChapter = ({chapter, jpPage}) => {
     : processedChapter
 }
 
-const process = items => {
+const process = (items) => {
   let processedItems = items.map(
-    ({jpPage, section, chapter, enTitle, permalink, listRow, ...rest}) => ({
+    ({ jpPage, section, chapter, enTitle, permalink, listRow, ...rest }) => ({
       jpPage,
       jpPageFirst: Array.isArray(jpPage) ? jpPage[0] : jpPage,
       enTitle,
       listRow,
-      chapter: processChapter({chapter, jpPage}),
-      section: section || processChapter({chapter, jpPage}),
+      chapter: processChapter({ chapter, jpPage }),
+      section: section || processChapter({ chapter, jpPage }),
       ...rest,
       permalink:
         permalink ||
@@ -112,11 +116,11 @@ const process = items => {
     return 0
   })
 
-  processedItems = processedItems.map((x, index) => ({...x, index}))
+  processedItems = processedItems.map((x, index) => ({ ...x, index }))
 
   const groupedItems = {}
   let lastSection
-  processedItems.forEach(item => {
+  processedItems.forEach((item) => {
     if (item.section === lastSection) {
       groupedItems[item.section].push(item)
     } else {
@@ -2003,7 +2007,7 @@ const errata = [
     fixedInKindle: true
   },
   {
-    jpPage: [365],
+    jpPage: 365,
     listRow: 17,
     fixedEdition: 2,
     fixedInKindle: true
@@ -2105,7 +2109,7 @@ const errata = [
     fixedInKindle: true
   },
   {
-    jpPage: [288],
+    jpPage: 288,
     listRow: 40,
     fixedEdition: 9,
     fixedInKindle: true
@@ -2162,12 +2166,72 @@ const errata = [
     jpPage: 365,
     listRow: 57,
     fixedEdition: 11
+  },
+  {
+    jpPage: 93,
+    listRow: 58,
+    fixedEdition: 16
+  },
+  {
+    jpPage: 7,
+    listRow: 59,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 8,
+    listRow: 60,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 14,
+    listRow: 61,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 21,
+    listRow: 62,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 24,
+    listRow: 63,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 28,
+    listRow: 64,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 33,
+    listRow: 65,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 34,
+    listRow: 66,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 34,
+    listRow: 67,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 320,
+    listRow: 68,
+    fixedEdition: 32
+  },
+  {
+    jpPage: 361,
+    listRow: 69,
+    fixedEdition: 32
   }
 ]
 
-const {object: sourcesObject, grouped: groupedSources} = process(sources)
-const {object: errataObject, grouped: groupedErrata} = process(errata)
-const toJSON = x => JSON.stringify(x, null, 2)
+const { object: sourcesObject, grouped: groupedSources } = process(sources)
+const { object: errataObject, grouped: groupedErrata } = process(errata)
+const toJSON = (x) => JSON.stringify(x, null, 2)
 
 fs.writeFileSync(
   './src/lib/sources-errata-object.json',

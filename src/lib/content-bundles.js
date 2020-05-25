@@ -159,9 +159,69 @@ export default {
       import(/* webpackChunkName: 'errata/errata-57' */ '../errata/errata-57.js'),
     {loading: () => <DynamicLoading />}
   ),
+  'errata-58': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-58' */ '../errata/errata-58.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-59': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-59' */ '../errata/errata-59.js'),
+    {loading: () => <DynamicLoading />}
+  ),
   'errata-6': dynamic(
     () =>
       import(/* webpackChunkName: 'errata/errata-6' */ '../errata/errata-6.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-60': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-60' */ '../errata/errata-60.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-61': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-61' */ '../errata/errata-61.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-62': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-62' */ '../errata/errata-62.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-63': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-63' */ '../errata/errata-63.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-64': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-64' */ '../errata/errata-64.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-65': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-65' */ '../errata/errata-65.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-66': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-66' */ '../errata/errata-66.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-67': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-67' */ '../errata/errata-67.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-68': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-68' */ '../errata/errata-68.js'),
+    {loading: () => <DynamicLoading />}
+  ),
+  'errata-69': dynamic(
+    () =>
+      import(/* webpackChunkName: 'errata/errata-69' */ '../errata/errata-69.js'),
     {loading: () => <DynamicLoading />}
   ),
   'errata-7': dynamic(
